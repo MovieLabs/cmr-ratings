@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T10:13:54" lastSave="2014-09-05T19:55:26">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MTRCB</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>PH</md:country>
+    <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="MOVIE AND TELEVISION REVIEW AND CLASSIFICATION BOARD">
+    <md:DisplayName>MOVIE AND TELEVISION REVIEW AND CLASSIFICATION BOARD</md:DisplayName>
+    <mdcr:URL>http://www.mtrcb.gov.ph/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G-TV</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/G-TV</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_g_TV.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Broadcast</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>GENERAL PATRONAGE</mdcr:Label>
+      <mdcr:Definition>Suitable for all ages. Material for television, which in the judgment of the BOARD does not contain anything unsuitable for children.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>GENERAL PATRONAGE</mdcr:Label>
+      <mdcr:Definition>ANG SUSUNOD NA PROGRAMA AY RATED “G”. ITO AY PUWEDE SA LAHAT NG MANONOOD.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_g.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Theater</mdcr:Environment>
+        <mdcr:Environment>Retail</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>GENERAL AUDIENCE</mdcr:Label>
+      <mdcr:Definition>Viewers of all ages are admitted.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A “G” classification advises parents or supervising adults that the film, in the judgment of the BOARD, is suitable for all audiences. 
+1. THEME – The film must contain themes that are appropriate for all audiences. It should not contain violence, threat, abuse, horror, or other themes that may cause fear or disturbance to a young child’s mind. It should promote positive values. 2. LANGUAGE – The film may contain dialogue or other word representations beyond polite language, but swear words or gestures shall not be allowed. Profane, offensive, and sexually-suggestive language or gestures shall not be allowed. Language shall include both verbal and non-verbal expressions. 3. NUDITY – The film may contain occasional, as well as natural nudity; provided there is no sexual or demeaning context to it. 4. SEX – The film cannot contain and depict sexual activity, and such other scenes with a sexual context. 5. VIOLENCE – The depiction of any violence must be mild, brief, infrequent, and unlikely to cause undue anxiety or fear to young children. 6. HORROR – The depiction of horror and frightening scenes should be mild, brief, infrequent, and unlikely to cause undue anxiety or fear to young children. 7. DRUGS – There shall be no depiction of, or reference to, prohibited drugs or their use.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>GENERAL AUDIENCE</mdcr:Label>
+      <mdcr:Definition>Ang pelikulang ito ay rated “G.” Ito ay puwede salahat ng manonood</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG-TV</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/PG-TV</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_pg_TV.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Broadcast</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PARENTAL GUIDANCE</mdcr:Label>
+      <mdcr:Definition>Parental guidance suggested. Material for television, which, in the judgment of the BOARD, may contain some adult material that may be permissible for children to watch but only under the guidance and supervision of a parent or adult.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The “PG” classification advises parents to exercise parental responsibility in their children’s viewing of the program.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>PARENTAL GUIDANCE</mdcr:Label>
+      <mdcr:Definition>ANG SUSUNOD NA PROGRAMA AY RATED “PG”. ITO AY NANGANGAILANGAN NANG PATNUBAY AT GABAY NG MAGULANG PARA SA MGA BATANG MANONOOD.”</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_pg.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Theater</mdcr:Environment>
+        <mdcr:Environment>Retail</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PARENTAL GUIDANCE</mdcr:Label>
+      <mdcr:Definition>– Viewers below thirteen (13) years old must be accompanied by a parent or supervising adult when admitted into a “PG” film.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A “PG” classification advises parents or supervising adults that the film may contain any of the following: themes, language, violence, nudity, sex, and horror, whose treatment is suitable for children below thirteen (13) years of age. A film classified as “PG” shall, in the judgment of the Board, meet the following criteria: 1. THEME – The film may contain themes that require parental supervision and guidance, but the treatment shall nonetheless be appropriate for children below thirteen (13) years of age. The film should not promote any dangerous, violent, discriminatory, or otherwise offensive behavior or attitude. The film should contain redeeming social values. 2. LANGUAGE – The film may contain mild and infrequent swear words and menacing language. The use of strong swear words or sexually-derived expletives, as well as the successive or frequent use of swear words and expletives shall not be allowed. Offensive, menacing, threatening language and references to sex shall always be suitable for viewers who are below thirteen (13) years of age. Sexually-suggestive language may be allowed; provided that it is neither frequent nor prolonged, and always justified by the context of the scene where such is heard. 3. NUDITY – The film may contain occasional, as well as natural nudity; provided that there is no sexual or demeaning context to it. 4. SEX – The depiction of sexual activity may be allowed, but it should be discreet, infrequent, and not prolonged; provided no graphic depiction of sexual activity shall be allowed. 5. VIOLENCE – The depiction of violence and suffering should be minimal, and without graphic detail; provided that gratuitous violence shall not be allowed in any case. 6. HORROR – The depiction of horror and frightening scenes shall be allowed; provided that they are brief and infrequent. 7. DRUGS – There shall be no depiction of, or reference to, prohibited drugs or substances and their use.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>PARENTAL GUIDANCE</mdcr:Label>
+      <mdcr:Definition>ANG PELIKULANG ITO AY RATED “PG.” ITO AY NANGANGAILANGAN NG PATNUBAY AT GABAY NG MAGULANG PARA SA MGA BATANG MANONOOD.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">SPG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/SPG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_spg_TV.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Broadcast</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>STRONG PARENTAL GUIDANCE</mdcr:Label>
+      <mdcr:Definition>Stronger and more vigilant parental guidance is suggested. Programs classified as “SPG” may contain more serious topic and theme, which may not be advisable for children to watch except under the very vigilant guidance and presence of a parent or an adult.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The “SPG” classification warns parents to exercise greater parental responsibility in their children’s viewing of the program. The television program classified as “SPG” must still fall within the parameters of existing Parental Guidance classification rating. However, to merit the issuance of an “SPG” rating, the gravity of the material must, in the judgment of the BOARD, be leaning towards the maximum allowable for Parental Guidance rating. In determining the proper classification rating, the Board shall consider the purpose, genre, and time slot of the program as well as the treatment and depiction of attendant factors such as, but not limited to: Theme (Tema), Violence (Karahasan), Drugs (Droga), Language (Lenggwahe), Sex (Sekswal) and Horror (Katatakutan).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>STRONG PARENTAL GUIDANCE</mdcr:Label>
+      <mdcr:Definition>STRIKTONG‟ PATNUBAY AT GABAY NG MAGULANG ANG KAILANGAN. MAY MASESELANG TEMA, EKSENANG KARAHASAN, DROGA, LENGGAWAHE, SEKSWAL AT KATATAKUTANG MAAARING HINDI ANGKOP SA MGA BATANG MANONOOD.”</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">R13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/R13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_r13.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Theater</mdcr:Environment>
+        <mdcr:Environment>Retail</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>RESTRICTED–13</mdcr:Label>
+      <mdcr:Definition>Only viewers who are thirteen (13) years old and above can be admitted into an “R-13” film.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">An “R-13” classification advises parents or supervising adults, as well as the would-be viewers themselves, that the film may contain any of the following: themes, language, violence, nudity, sex, horror, and drugs whose treatment may not be suitable for children below thirteen (13) years of age. A film classified as “R-13” must, in the judgment of the Board, meet the following criteria: 1. THEME – The film may contain mature themes; provided that the treatment of any of these themes is suitable for teenagers above thirteen (13) years of age. The film shall not gratuitously promote or encourage any dangerous, violent, discriminatory, or otherwise offensive behavior or attitude. The film must contain social redeeming values. 2. LANGUAGE – The film may contain moderate swear words and menacing language consistent with the context of the scene in which they are employed. The use of strong swear words or sexually-derived or suggestive expletives and expressions as well as the use of swear words and expletives shall be allowed; provided that its use is infrequent and not vulgar. Offensive, menacing, threatening or other equally negative language, as well as references to sex shall be suitable for viewers who are at least thirteen (13) years of age. The use of sexually-oriented or suggestive language and other references to sex shall always be suitable for viewers who are at least thirteen (13) years of age. 3. NUDITY – The film may contain occasional, natural and sexually-oriented nudity; provided that this is brief and discreet, and its use is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least thirteen (13) years of age. 4. SEX – Sexual activity may be depicted, but it should be discreet, infrequent, brief, and without graphic detail; provided that its depiction is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least thirteen (13) years of age. 5. VIOLENCE – Violence may be allowed; provided that it is infrequent, not gratuitous, and without graphic detail, and its use is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least thirteen (13) years of age. 6. HORROR – The depiction of horror, frightening scenes, and occasional gore are allowed; provided that such depiction is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least thirteen (13) years of age. 7. DRUGS – The depiction of drugs or their use may be allowed; provided that such depiction is brief and infrequent, and the same is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least thirteen (13) years of age. The movie shall not in any case promote, condone, justify and/or encourage drug use.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>RESTRICTED -13</mdcr:Label>
+      <mdcr:Definition>ANG PELIKULANG ITO AY RATED “R-13.” MAAARING MAY TEMA, LENGGWAHE, KARAHASAN, NUDITY, SEKSWAL, KATATAKUTAN, AT DROGA, NA HINDI ANGKOP SA MAY EDAD NA MABABA SA LABINTATLONG (13) TAONG GULANG.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">R16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/R16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_r16.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Theater</mdcr:Environment>
+        <mdcr:Environment>Retail</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>RESTRICTED–16</mdcr:Label>
+      <mdcr:Definition>A film classified as “R-16” must, in the judgment of the Board, meet the following criteria: 1.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">THEME – There are no restrictions on themes; provided that the treatment is appropriate for viewers who are at least sixteen (16) years of age. 2. LANGUAGE – The film may use any kind of language; provided that such use is justified by context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least sixteen (16) years of age. 3. NUDITY – The film may contain natural and sexually-oriented nudity; provided that it is discreet and its depiction is not gratuitous and is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least sixteen (16) years of age. 4. SEX – Sexual activity may be depicted; provided any depiction does not contain graphic detail, and such depiction is not gratuitous and is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least sixteen (16) years of age. 5. VIOLENCE – Violence and gore may be allowed; provided that their depiction is not gratuitous and is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least sixteen (16) years of age. 6. HORROR – The non-gratuitous depiction of horror, frightening scenes, and gore are allowed; provided that their use is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least sixteen (16) years of age. 7. DRUGS – The non-gratuitous depiction of drugs or their use may be allowed; provided that its depiction is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least sixteen (16) years of age. The movie shall not in any case promote, condone, and encourage drug use.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>RESTRICTED–16</mdcr:Label>
+      <mdcr:Definition>ANG PELIKULANG ITO AY RATED “R-16.” MAAARING MAY TEMA, LENGGWAHE, KARAHASAN, NUDITY, SEKSWAL, KATATAKUTAN, AT DROGA, NA HINDI ANGKOP SA MGA MAY EDAD NA MABABA SA LABING-ANIM NA (16) NA TAONG GULANG.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/R18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/PH_r18.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>PH</md:country>
+      <mdcr:RegionName>PHILIPPINES</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Theater</mdcr:Environment>
+        <mdcr:Environment>Retail</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>RESTRICTED–18</mdcr:Label>
+      <mdcr:Definition>Only viewers who are eighteen (18) years old and above can be admitted into an “R-18” film.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">An “R-18” classification advises viewers, parents, and supervising adults that the film may contain any of the following: themes, language, violence, nudity, sex, horror, and drugs that may not be suitable for children below eighteen (18) years of age. An “R-18” rating does not mean that the film is “obscene”, “offensive”, or “pornographic,” as these terms are defined by law. A film classified as “R-18” must, in the judgment of the Board, meet the following criteria: 1. THEME – There are no restrictions on themes and their treatment. 2. LANGUAGE – The film may use any kind of language; provided that such use is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least eighteen (18) years of age. 3. NUDITY – The film may contain sexually-oriented nudity; provided that it is non-gratuitous, and is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least eighteen (18) years of age. An “R-18” rating does not mean that the film is “obscene” or “pornographic,” as these terms are defined by law. 4. SEX – The realistic depiction of sexual activity may be allowed; provided that such depiction is not gratuitous, and is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least eighteen (18) years of age. An “R-18” rating does not mean that the film is “obscene” or “pornographic,” as these terms are defined by law. 5. VIOLENCE – There are no restrictions on the depiction of violence except that it should not be gratuitous and that it is justified by the context, narrative, or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least eighteen (18) years of age. 6. HORROR – The depiction of horror, frightening scenes, and gore are allowed; provided that such depiction is justified by the context, narrative, or character development, and taking into account the contemporary values and understanding of a Filipino viewer who is at least eighteen (18) years of age. 7. DRUGS – The depiction of drugs or their use may be allowed; provided that such depiction is justified by the context, narrative or character development; and taking into account the contemporary values and understanding of a Filipino viewer who is at least eighteen (18) years of age. In no case, however, should the use of drugs be promoted, condoned, justified and/or encouraged.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TL">
+      <mdcr:Label>RESTRICTED–18</mdcr:Label>
+      <mdcr:Definition>ANG PELIKULANG ITO AY RATED “R-18.” MAAARING MAY TEMA, LENGGWAHE, KARAHASAN, NUDITY, SEKSWAL, KATATAKUTAN, AT DROGA NA HINDI ANGKOP SA MAY GULANG NA MABABA SA EDAD LABINWALONG (18) TAONG GULANG.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">X</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PH/MTRCB/1/X</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>X: NOT FOR PUBLIC EXHIBITION</mdcr:Label>
+      <mdcr:Definition>NOT FOR PUBLIC EXHIBITION “X-rated” films are not suitable for public exhibition.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A film shall be disapproved for public viewing if, in the judgment of the BOARD: a. The average person, applying contemporary community standards and values, would find that the dominant theme of the work, taken as a whole appeals solely to the prurient interest and satisfies only the craving for gratuitous sex and/or violence. b. The film depicts in a patently lewd, offensive, or demeaning manner, excretory functions and sexual conduct such as sexual intercourse, masturbation and exhibition of the genitals. c. The film clearly constitutes an attack against any race, creed, or religion. d. The film condones or encourages the use of illegal drugs and substances. e. The film tends to undermine the faith and confidence of the people in their government and/or duly-constituted authorities. f. The film glorifies criminals or condones crimes. g. The film is libelous or defamatory to the good name and reputation of any person, whether living or dead. h. The film may constitute contempt of court or of a quasi-judicial tribunal, or may pertain to matters which are subjudicial in nature.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="THEME">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="LANG">
+    <mdcr:Label />
+  </mdcr:Reason>
+</mdcr:RatingSystem>

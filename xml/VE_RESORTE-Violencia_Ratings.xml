@@ -1,0 +1,103 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T14:32:15" lastSave="2013-12-30T14:53:58">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>VE</md:country>
+      <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>RESORTE-Violencia</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>VE</md:country>
+    <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Music</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Violencia/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="SiBCI">
+    <md:DisplayName>SiBCI</md:DisplayName>
+    <mdcr:URL>http://www.leyresorte.gob.ve/ley-resorte/</mdcr:URL>
+    <mdcr:OrgType>not_specified</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Violencia/1/A</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Violencia Type-A</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos utilizados para la prevenci?n o erradicaci?n de la violencia, que pueden ser presenciados por ni?os, ni?as y adolescentes sin que se requiera la orientaci?n de madres, padres, representantes o responsables, siempre que no se presente el hecho violento o sus consecuencias en forma detallada o expl?cita.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Violence Type-A</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds used for the prevention or eradication of violence, which can be seen by children and adolescents without requiring guidance from mothers, fathers, representatives or guardians, provided they do not present the violent act or its consequences in detail or explicitly.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">B</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Violencia/1/B</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Violencia Type-B</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos que presenten violencia dramatizada o sus consecuencias de forma no expl?cita.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Violence Type-B</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds that present dramatized violence or its consequences not explicitly.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Violencia/1/C</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Violencia Type-C</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o descripciones gr?ficas utilizadas para la prevenci?n o erradicaci?n de la violencia, que de ser recibidas por ni?os, ni?as o adolescentes, requieren la orientaci?n de sus madres, padres, representantes o responsables, siempre que no presenten im?genes o descripciones gr?ficas detalladas o expl?citas del hecho violento o sus consecuencias.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Violence Type-C</mdcr:Label>
+      <mdcr:Definition>Texts, graphic images or descriptions used for the prevention or eradication of violence, which if received by children or teenagers, need the guidance of their mothers, fathers, representatives or guardians, provided that they present images or detailed or explicit graphic descriptions of violent act or its consequences.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">D</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Violencia/1/D</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Violencia Type-D</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o descripciones gr?ficas que presenten violencia real o sus consecuencias, de forma no expl?cita; o violencia dramatizada o sus consecuencias de forma expl?cita y no detallada.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Violence Type-D</mdcr:Label>
+      <mdcr:Definition>texts, images or graphic descriptions or actual violence presenting their consequences, not explicitly, or dramatized violence or its consequences and not explicitly detailed.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">E</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Violencia/1/E</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Violencia Type-E</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o descripciones gr?ficas que presenten violencia real o dramatizada, o sus consecuencias de forma expl?cita y detallada; violencia f?sica, psicol?gica o verbal entre las personas que integran una familia contra ni?os, ni?as y adolescentes o contra la mujer; violencia sexual, la violencia como tema central o un recurso de impacto reiterado; o que presenten, promuevan, hagan apolog?a o inciten al suicidio o a lesionar su propia integridad personal o salud personal.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Violence Type-E</mdcr:Label>
+      <mdcr:Definition>texts, images or graphic descriptions that present real or dramatized violence or its consequences in an explicit and detailed, physical, psychological or verbal between people within a family with children and adolescents or against women; sexual violence, violence as a central theme or resource repeated impact, or to present, promote, justify or incite suicide or hurt your own personal integrity or personal health.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T06:13:44" lastSave="2017-01-02T22:10:43">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>ZA</md:country>
+      <mdcr:RegionName>SOUTH AFRICA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>FPB</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>ZA</md:country>
+    <mdcr:RegionName>SOUTH AFRICA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Film &amp; Publication Board">
+    <md:DisplayName>Film &amp; Publication Board</md:DisplayName>
+    <mdcr:ContactString>Postal address:
+Private Bag X31
+Highveld Park
+0169
+
+Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
+    <mdcr:URL>http://www.fpb.org.za/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/A</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-A.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Definition>all ages category and means it is suitable for all.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-PG.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Definition>all ages category but cautious sensitive viewers and indicates that parents and caregivers are in the best position to decide whether or not a child in their care may view film or DVD for home entertainment purposes.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">7-9-PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/7-9-PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-7_9.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>9</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>7</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>7-9-PG</mdcr:Label>
+      <mdcr:Definition>material in not suitable for children under the age of 7.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A parent or caregiver may decide if the material is appropriate for children their care from ages 7-9, if it is of particular entertainment or educational value for such children. Children from the ages of 7-9 years may not be allowed to watch a film classified 7-9 unless accompanied by an adult.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="10">10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/10</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-10.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>10</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>10</mdcr:Label>
+      <mdcr:Definition>prohibited from distribution, exhibition, sale or hire to children under the age of 10 years</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="11">10-12-PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/10-12-PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-10_12.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>10-12-PG</mdcr:Label>
+      <mdcr:Definition>material in not suitable for children under the age of 10.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A parent or caregiver may decide if the material is appropriate for children to decide whether or not a child in their care from ages 10-12, if it is of particular entertainment or educational value for such children. Children from the ages of 10-12 years may not be allowed to watch a film classified 10-12 unless accompanied by an adult.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-13.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>13</mdcr:Label>
+      <mdcr:Definition>material is not suitable for children under the age of 13.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-16.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>material is not suitable for children under the age of 16.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>material is not suitable for children under the age of 18.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="P" />
+    <mdcr:ApplicableReason id="CT" />
+    <mdcr:ApplicableReason id="B" />
+    <mdcr:ApplicableReason id="S" />
+    <mdcr:ApplicableReason id="SV" />
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="H" />
+    <mdcr:ApplicableReason id="Photo" />
+    <mdcr:ApplicableReason id="L" />
+    <mdcr:ApplicableReason id="IAT" />
+    <mdcr:ApplicableReason id="N" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">X18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/X18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-X18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>X18</mdcr:Label>
+      <mdcr:Definition>Only a holder of a licence to conduct the business of adult premises, set out in section 24 of the Act, may distribute the film to persons older than eighteen or exhibit such content to such person within such premises.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">XX</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/XX</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA-XX.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>XX</mdcr:Label>
+      <mdcr:Definition>the material may not be distributed or exhibited in public by anyone and also not in the adult premises set out in the section 24 of the act.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In the case of child pornography it may also not be possessed anywhere.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain strong impact instances of substance
+abuse if justified by context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="H">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">any scenes of very strong horror must be justified by context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="CT">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain instances of moderate to strong
+impact criminal techniques.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="IAT">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain instances of very strong
+imitative acts and techniques.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="L">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain instances of very strong language justified by
+the context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="N">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain instances of strong impact nudity if justified by
+context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="P">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain scenes or language of prejudice of strong
+impact, if clearly disapproved of, and if justified within context, or if used in an
+educational or historical context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="S">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>
+        <div class="userHtml">material may not contain any scenes of actual or implied sexual
+conduct or sexual activity, but may contain scenes of affection.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="7-9-PG">
+      <mdcr:Explanation>
+        <div class="userHtml">material may not contain any scenes of actual or implied
+sexual activity, but may contain scenes of affection.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="10-12-PG">
+      <mdcr:Explanation>
+        <div class="userHtml">material may not contain any scenes of actual or implied
+sexual activity, but may contain scenes of affection.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="13">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain occurrences of mild to moderate actual or implied sexual activity.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain occurrences of moderate and possibly strong impact sexual activity.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain occurrences of strong or even very strong implied sexual activity.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="SV">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain occurrences of actual moderate to
+strong sexual violence, if justified by context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="B">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">material may contain instances of blasphemy that do not
+amount to prejudice. Instances of blasphemy should be indicated as a matter of
+appropriate consumer information.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Photo">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18" />
+  </mdcr:Reason>
+</mdcr:RatingSystem>

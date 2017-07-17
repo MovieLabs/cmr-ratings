@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2016-12-22T15:24:28">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>CA</md:country>
+      <mdcr:RegionName>CANADA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>AFC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>CA-AB</md:countryRegion>
+    <mdcr:SubRegion>Alberta</mdcr:SubRegion>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Consumer Protection BC">
+    <md:DisplayName>Consumer Protection BC</md:DisplayName>
+    <mdcr:ContactString>Alberta Film Classification
+140, 4211 - 106 Street
+Edmonton, Alberta, Canada
+T6J 6L7
+Tel: (780) 427-2006
+Fax: (780) 427-0195</mdcr:ContactString>
+    <mdcr:URL>http://www.albertafilmratings.ca</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/G.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by all ages.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This category includes films that are unlikely to disturb most viewers. Some films that are considered appropriate for young children and family audiences due to their relative absence of coarse language or other elements of concern appear in this category, such as Despicable Me (2010), the Toy Story Films, and the High School Musical films. Some documentaries also receive this classification, providing that there is little or no coarse language or disturbing subject matter contained in the film. This includes titles such as Oceans (2010), Justin Bieber Never Say Never (2011), and Cave Of Forgotten Dreams (2011). This category provides no guarantee that a film will be of interest to children, but it does indicate that most audience members would not object to a child seeing the film.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/PG.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance</mdcr:Label>
+      <mdcr:Definition>Parental guidance is advised.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Theme or content may not be suitable for all children. This category includes a wide range of films that may be attended by viewers of any age without adult accompaniment. While taking into account the subject matter of these films, there may be elements of violence, sexual innuendo, or coarse language that adults should assess before determining the film's suitability for minors in their care. Profanity, scatological slang, cursing, and vulgar expressions may appear in this category. Sometimes these films will include isolated use of the most common sexual expletive, though more frequent use usually results in the placement of the film in a higher category. Examples include films such as The King’s Speech (2010) and Eat Pray Love (2010). Many adventure films, comic book adaptations, and science fiction films fall into this category, such as the Harry Potter films, the Twilight Saga, the Iron Man films and The A-Team (2010). In this category, violence is usually not bloody or vicious, and frightening elements are more thrilling than terrifying. Many romantic comedies, such as Date Night (2010), The Proposal (2009) and Crazy, Stupid, Love. (2011) also receive this classification. This does not mean that the film is necessarily intended as children's entertainment, but that the sexual references and language are generally accepted as part of the genre, and lack detail. Other PG comedies feature elements such as slapstick violence, crude humour, or sexual references, such as in Jack And Jill (2011), Zookeeper (2011) and The Other Guys (2010). These elements are evaluated by both detail and frequency. Some dramas fall into the PG classification because the elements such as mature subject matter or violence are not so prolonged or detailed that they warrant placement in a higher category. Consider Extremely Loud and; Incredibly Close (2011) , The Vow (2012), and The Social Network (2010). Some documentaries also appear in this category, such as Chasing Madoff (2011), Waiting for "Superman" (2010) and many of the Warren Miller ski films. The use of coarse language, non-sexual nudity, or violence in this category is comparable to what is found on the television news.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">14A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/14A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/14A.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>14 Accompaniment</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons 14 years of age or older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 14 must be accompanied by an adult. May contain violence, coarse language, and/or sexually suggestive scenes. This category is designed to include films that are appropriate for audiences 14 years of age or older, but which may be considered by some adults to be appropriate for viewing by the minors in their care in the company of an adult. At this classification level there are often elements of frequent coarse language, particularly use of the sexual expletive, such as in Bridesmaids (2011), The Ides Of March (2011), or 21 Jump Street (2012). There may be elements of nudity or implied sexual activity, such as in A Dangerous Method (2011), Friends With Benefits (2011) or Going The Distance (2010). Sexual situations are evaluated according to the level of detail and the context of each individual scene, rather than by the specific body part or activity represented in the scene. Elements of crude humour and crude sexual language may also appear at the this level, such as in Horrible Bosses (2011), Bad Teacher (2011), Joan Rivers: A Piece Of Work (2010) and Easy A (2010). These elements are evaluated by both detail and frequency. Violence that is frequent but does not involve gory wounds or serious threat often warrants inclusion in this category, such as in the Bourne films, recent James Bond films and Fast Five (2011). Violence that includes bloody wounds or serious threat, but which is mitigated by historical context, such as in Passchendaele (2008) and Saving Private Ryan (1998), can also appear in this category. Some horror films, such as the Paranormal Activity films, Don’t Be Afraid Of The Dark (2011), Devil (2010), or Insidious (2011), can also be found in this category as the film may be frightening but the depictions tend to lack graphic detail and gore.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="70">18A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/18A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/18A.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 Accompaniment</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons 18 years of age or older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 18 must be accompanied by an adult. May contain explicit violence, frequent coarse language, sexual activity and/or horror. This category is 
+designed to include films that are appropriate for audiences who have reached adulthood, but which may be considered by some adults to be appropriate for 
+viewing by the minors in their care in the company of an adult. 
+Many comedies that include detailed or crude sexual material or drug references appear in this category, such as A Very Harold and Kumar 3D Christmas (2011), 
+The Hangover Part II (2011), and Project X (2012). Most horror movies that include gory violence and nudity are placed in this category, such as Drive Angry (2011),
+ Piranha (2010), and Underworld: Awakening (2012). Many adult dramas, with elements ranging from sexual themes to disturbing violence, also appear in this category. Consider The Kids Are All Right (2010), Love and Other Drugs (2010), The Girl With The Dragon Tattoo (2011), and Drive (2011). Alberta</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/R</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/R.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Restricted</mdcr:Label>
+      <mdcr:Definition>Admittance restricted to persons 18 years of age and older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Content not suitable for minors. Contains frequent sexual activity, brutal/graphic violence, intense horror and/or other disturbing content. This is the most heavily restricted category in use by Alberta Film Classification; no one under the age of 18 may be in the theatre under any circumstances. These films contain the most graphic violence, sexual violence, or other disturbing content that is available to moviegoers. Films such as Saw 3D (2010), I Spit On Your Grave (2010), Les 7 Jours Du Talion (7 Days) (2010) and Hobo With A Shotgun (2011) represent the range of graphically violent or sexually violent material in this category. Disturbing content, combined with sexual activity and violence can be found in this category in films such as Antichrist (2009), 3D Sex And Zen: Extreme Ecstasy (2011) and Baise Moi (2001). Films depicting unsimulated sexual activity, whether in live action, such as Shortbus (2006) and Enter The Void (2011), or animation, such as Waltz With Bashir (2008), receive the R classification. Extreme crude content that can include detailed depictions of bodily functions or crude activities, such as those found in the Jackass films, also receive the R classification.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

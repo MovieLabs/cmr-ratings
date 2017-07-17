@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2016-12-22T15:56:36">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>CA</md:country>
+      <mdcr:RegionName>CANADA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CBSC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>CA</md:country>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>other</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      <p>This system is for use by English-language broadcasters only.</p>
+    </div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Canadian Broadcast Standards Council">
+    <md:DisplayName>Canadian Broadcast Standards Council</md:DisplayName>
+    <mdcr:ContactString>Canadian Broadcast Standards Council
+P.O. Box 3265, Station D
+Ottawa, Ontario
+K1P 6H8</mdcr:ContactString>
+    <mdcr:URL>http://www.cbsc.ca/</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/C</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-c.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Children</mdcr:Label>
+      <mdcr:Definition />
+      <mdcr:Explanation>
+        <div class="userHtml">As this programming is intended for younger children under the age of 8 years, it will pay careful attention to themes which could threaten their sense of 
+security and well-being.  As programming for children requires particular caution in the depiction of violence, there will be no realistic scenes of violence.  
+Depictions of aggressive behaviour will be infrequent and limited to portrayals that are clearly imaginary and unrealistic in nature.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex-Nudity" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">E</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/E</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition>does not require an on-screen classification icon and broadcasters are not required to encode a rating into the broadcast signal.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Exempt programming includes  news, sports, documentaries and other information programming; talk shows, music videos, and variety programming</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="2">C8</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/C8</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-c8.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>C8</mdcr:Label>
+      <mdcr:Definition>Children Over 8 Years</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">his classification is applied to children’s programming that is generally considered acceptable for youngsters 8 years and over to view on their own.  It is suggested that a parent/guardian co-view programming assigned this classification with younger children under the age of 8.
+
+Programming with this designation adheres to the provisions of the Children’s section of the Canadian Association of Broadcasters’ (CAB) Violence Code.  These include not portraying violence as the preferred, acceptable, or only way to resolve conflict; or encouraging children to imitate dangerous acts which they may see on the screen.
+
+Programming within this classification might deal with themes which could be unsuitable for younger children.  References to any such controversial themes shall be discreet and sensitive to the 8-12 year age range of this viewing group.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex-Nudity" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="4">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-g.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>8</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>acceptable for all age groups.  Appropriate viewing for the entire family.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This programming intended for a broad, general audience.  While not designed specifically for children, it is understood that younger viewers may
+ be part of the audience.  Therefore programming within this classification shall contain very little violence, either physical, verbal or emotional.
+
+It will be sensitive to themes which could threaten a younger child’s sense of security, and will depict no realistic scenes of violence which 
+minimize or gloss over the effects of violent acts.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-pg.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance</mdcr:Label>
+      <mdcr:Definition>while intended for a general audience, may not be suitable for younger children (under the age of 8)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This programming, while intended for a general audience, may not be suitable for younger children (under the age of 8).  Parents/guardians 
+should be aware that there might be content elements which some could consider inappropriate for unsupervised viewing by children in the
+ 8-13 age range.
+
+Programming within this classification might address controversial themes or issues.  Cognizant that pre-teens and early teens could be part 
+of this viewing group, particular care must be taken not to encourage imitational behaviour, and consequences of violent actions shall not be 
+minimized.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex-Nudity" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="14">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/14</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-14plus.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Over 14 Years</mdcr:Label>
+      <mdcr:Definition>might not be suitable for viewers under the age of 14.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Parents are strongly cautioned to exercise discretion in permitting viewing by pre-teens and early teens without parent/guardian supervision, as programming with this classification 
+could deal with mature themes and societal issues in a realistic fashion.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex-Nudity" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/18</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-18plus.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 years and older.</mdcr:Label>
+      <mdcr:Definition>Intended for viewers 18 years and older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This classification applies to programming which could contain any or 
+all of the following content elements which would make the program unsuitable for viewers under the age of 18.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex-Nudity" />
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="Violence">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="C">
+      <mdcr:Definition>might contain occasional comedic, unrealistic depictions</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">As programming for children requires particular caution in the depiction of violence, there will be no realistic scenes of violence.  Depictions of aggressive behaviour will be infrequent and limited to portrayals that are clearly imaginary and unrealistic in nature.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="C8">
+      <mdcr:Definition>infrequent, discreet, of low intensity, and shall portray the consequences of violence.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">any realistic depictions will be infrequent, discreet, of low intensity, and shall portray the consequences of violence.
+violence portrayed must be within the context of the storyline or character development.
+might include mild physical violence, comedic violence, comic horror, special effects; fantasy, supernatural, or animated violence</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Definition>minimal, infrequent</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">may contain comedic, unrealistic depictions. Contains no frightening special effects not required by storyline</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>consequences of violent actions shall not be minimized.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Any depiction of conflict and/or aggression will be limited and moderate; it might include physical, fantasy, or supernatural violence
+Any such depictions should not be pervasive, and must be justified within the context of theme, storyline or character development</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="14">
+      <mdcr:Definition>might contain intense scenes of violence</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">while violence could be one of the dominant elements of the storyline, it must be integral to the development of plot or character</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Explanation>
+        <div class="userHtml">might contain depictions of violence, which while integral to the development of plot, character or themes, are intended for 
+adult viewing, and thus are not suitable for audiences under 18 years of age.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Sex-Nudity">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="C">
+      <mdcr:Definition>None</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="C8">
+      <mdcr:Definition>None</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>could possibly contain brief scenes of nudity; might have limited and discreet sexual references or content when appropriate to the storyline or theme</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="14">
+      <mdcr:Definition>might include scenes of nudity and/or sexual activity within the context of narrative or theme</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>might contain explicit portrayals of sex and/or nudity</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Language">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="C">
+      <mdcr:Definition>no offensive language</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="C8">
+      <mdcr:Explanation>
+        <div class="userHtml">no profanity; might have infrequent use of language which may be considered by some to be socially offensive or discriminatory, and then only if employed within the context of storyline or character development.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Definition>may contain offensive slang; no profanity</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>might contain infrequent and mild profanity; might contain mildly suggestive language</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="14">
+      <mdcr:Definition>could possibly include strong or frequent use of profanity</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>might contain graphic language</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+</mdcr:RatingSystem>

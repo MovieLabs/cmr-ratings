@@ -1,0 +1,323 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T21:30:03" lastSave="2013-12-29T17:47:30">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>AT</md:country>
+      <mdcr:RegionName>AUSTRIA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>BMUKK</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>AT</md:country>
+    <mdcr:RegionName>AUSTRIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Bundesministeriums für Unterricht, Kunst und Kultur!">
+    <md:DisplayName>Bundesministeriums für Unterricht, Kunst und Kultur!</md:DisplayName>
+    <mdcr:ContactString>Postanschrift:Bundesministerium für Unterricht, Kunst und Kultur
+Minoritenplatz 51014 Wien, 
+T +43 (0)1 53 120-0 F +43 (0)1 53 120-3099 
+ministerium@bmukk.gv.at</mdcr:ContactString>
+    <mdcr:URL>http://www.bmukk.gv.at/index.xml</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">AA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/AA</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigaben für alle Altersstufen</mdcr:Label>
+      <mdcr:Definition>Für eine Freigabe für alle Altersstufen sollten die Filme in der Regel nicht länger als 90 Minuten sein.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Der Film sollte dramaturgisch so aufgebaut sein, dass Kinder unter 6 Jahren die Möglichkeit haben, sich jeweils aus der Handlung aus- und auch wieder einzuklinken. Weiters sollte der Film eine Schnittfolge aufweisen, die immer wieder längere Einstellungen beinhaltet. Kinder erfreuen sich an schönen, herausgehobenen Bildern und werden irritiert, wenn diese plötzlich unterbrochen werden. Besonderes Augenmerk – gerade auch bei Zeichentrickfilmen – ist auf die Bild-Einstellung bzw. den Kamera-Standpunkt zu richten. Die Sprache sollte verständlich sein und nicht durch zu viele und schnelle Passagen beherrscht werden. Ein weiteres zu beachtendes Merkmal ist die Musik. Laute aggressive Musik wirkt belastend. Dunkelsequenzen im Film, untermalt mit einer bedrohlichen Musik, verstärken negative Emotionen. Schließlich sind die Inhalte zu beachten. Kinder unter 6 Jahren sollten sich, wenigstens ansatzweise, positiv mit dem Filmgeschehen auseinandersetzen können, d.h. sie sollten die Möglichkeit haben zu lachen, sich zu freuen, Spaß am Leinwandgeschehen zu empfinden. Tiere spielen hierbei eine ganz wesentliche Rolle. Gerade mit ihnen identifizieren sich kleine Kinder verstärkt. Bei Kindergarten- und Vorschulkindern besteht noch keine Unterscheidungsfähigkeit bzw. Trennung von Fantasie und Realität, beide Ebenen werden als „wirklich” erlebt. Grundsätzlich gilt, je jünger ein Kind ist, desto schneller ist es überfordert oder auch verängstigt. Eine nicht altersgerecht-zumutbare psychische Belastung spricht gegen den Einsatz eines Films. Hierzu gehören die Verlassenheit von Personen, Kinder in fremder Umgebung, angstauslösende und traurige Situationen sowie plötzlich auftretende erschreckende Ereignisse.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>All Ages</mdcr:Label>
+      <mdcr:Definition>Released for all age groups</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>In order to be released for all age groups, movies should, as a rule, be not longer than 90 minutes. Their dramaturgical structure should allow children below the age of six 
+to mentally absent themselves from the story temporarily.</p>
+          <p>The movie should be edited so as to have longer scenes inbetween short cuts. Children like beautiful, drawn-out images and are irritated when these are suddenly interrupted. 
+Special attention needs to be given to camera angles and settings, especially for animated cartoons.</p>
+          <p>The language used should be clear and distinct, without too much rapid-fire dialogue. Another important feature is the score: loud and aggressive music is distressing. 
+Dark sequences, accompanied by a threatening score, will enhance negative emotions. Another criterion is the content. Children under six should, at least to some extent, 
+be able to respond to the content – they should be given an opportunity to laugh, be glad, have fun about what happens on the screen. Animals are very important because 
+small children tend to identify with them.</p>
+          <p>Pre-schoolers cannot distinguish between imagination and reality – they experience both as “real”. As a rule, the younger the children, the more easily they are out of their 
+depth and frightened.</p>
+          <p>A movie showing a mental stress situation inappropriate for a given age group affects its rating. This would include scenes of people being left alone, children in a 
+strange surrounding, situations that trigger fear or sadness or sudden frightening events.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/6</mdcr:URI>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigaben ab 6 Jahren</mdcr:Label>
+      <mdcr:Definition>Für Freigaben ab dieser Altersstufe kann man davon ausgehen, dass Grundschulkinder Realität und Fantasie schon besser auseinanderhalten können.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Sie verfügen meistens bereits über genügend Medienerfahrung, um sich durch so genannte „Distanzierungsstrategien“ (z.B. Schutzmechanismen, wie Augen- oder Ohren-Zuhalten, Nebentätigkeiten, vorübergehend aus dem Raum gehen, mit der Fernbedienung auf einen anderen Kanal schalten) vor emotional überfordernden Situationen in den Bildmedien zu schützen. Zum Unterschied zu der vorhergegangenen Altersstufe müssen Einzelszenen bzw. -sequenzen nicht immer eine positive Auflösung erfahren, sie müssen allerdings verkraftbar sein. Zeichentrickfilme werden am Übergang zum Schulalter bereits als fiktiv – „ist ja nur ein Film”– erkannt. Ebenso wird die oft in Zeichentrickfilmen gezeigte Slapstick-Gewalt als unrealistisch und harmloser als in Realfilmen empfunden. Wesentlich ist das positive Ende des Films. Auch ist immer noch eine starke Orientierung an Tieren im Film vorhanden, wobei auch schon realistischere Darstellungsweisen, wie z.B. der Tod eines Tieres, verstanden werden. In dieser Altersstufe wird – als Gegenpol zur Schule – die Familie bewusst als Schutzraum empfunden und sehr sensibel hierauf reagiert. Scheidung von Filmeltern, Weglaufen von Filmkindern von Zuhause sind inhaltliche Punkte, die von den Kindern registriert werden. Gerade so genannte „Familienfilme“ sind hierauf zu beobachten. Die meisten Schulkinder sind schon voll mit den Angeboten des Medienverbunds vertraut. In allen Lebensbereichen werden sie von Medien-Helden und -Inhalten begleitet: T-Shirts, Spielsachen und viele andere Merchandising-Produkte bereiten sie auf mediales Erleben im Kino und TV vor bzw. lassen sie es nochmals nacherleben. Die für diese MedienverbundFilme typischen Merkmale der Spannungssteigerung (Action, Dramaturgie) können als Fiktion durchschaut werden. Es ist aber die Art der Darstellung zu beachten, in der deutlich werden muss, dass mögliche Turbulenzen rein dramaturgischen Charakter haben. Problematisch sind solche Filme, die keine eindeutigen moralischen Zuordnungen zulassen, weil das Weltbild von 6- bis 8-Jährigen noch sehr stark von einem simplen Gegensatzdenken in Kategorien wie „Gut” und „Böse” beherrscht wird. Je ferner diese Szenarien vom realen Kinderalltag sind, desto weniger angsterregend werden solche erlebt. Nachrichtensendungen, Dokumentationen und realistische Spielfilmhandlungen, in denen Gewalt und bedrohliche Situationen vorkommen, können dagegen die kindlichen Zuschauer massiv verunsichern und ängstigen.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>from Age 6</mdcr:Label>
+      <mdcr:Definition>Released for children from age 6</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>This rating assumes that elementary school children are better able to distinguish between imagination and reality. They usually have sufficient media 
+experience to protect themselves from harrowing film situations by using “distancing strategies” (e.g. putting their hands over their eyes, holding their 
+ears, doing something else, leaving the room temporarily, switching to another channel with the remote control). Other than their younger peers, they do 
+not absolutely require happy endings for individual shots or scenes but still want stories they can cope with.</p>
+          <p>First-graders realise that animated cartoons are fictitious – “just a movie”. Slapstick violence is felt to be unrealistic and thus more harmless than 
+violence in real-world movies.</p>
+          <p>A key element is the happy ending. Children of that age are still strongly focused on animals, but can already handle more realistic scenes, 
+such as the death of an animal. This age group consciously perceives the family as a sheltered zone (in contrast to the school) and is highly 
+sensitive to family subjects: movie parents divorcing, movie children running away from home are contents that are registered by children. 
+“Family movies” in particular need to be watched for this aspect.</p>
+          <p>Most school children are familiar with media merchandising. They are surrounded by media heroes/heroines and media contents: T-shirts, t
+oys and many other merchandising products prepare them for a cinema and TV experience and let them re-live that experience. The children 
+are aware of and see through the methods used by such merchandised movies to raise the excitement level (action, story structure). 
+Nevertheless, attention needs to be given to the presentation which must clarify that turbulences are purely part of the story.</p>
+          <p>Problems are posed by movies that allow no clear-cut moral attributes, because children aged six to eight still think mostly along simple black and white, 
+good and bad guy lines. The more removed such scenarios are from the children’s everyday life, the less frightening they are. News reports, documentaries 
+and realistic movies that show violence and threatening situations can seriously distress and frighten children.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">8</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/8</mdcr:URI>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigaben ab 8 Jahren</mdcr:Label>
+      <mdcr:Definition>Kindern von 8 bis 10 Jahren ist es bereits möglich, längere und komplexere Filmhandlungen zu verstehen.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Motive und Handlungsintentionen von Filmfiguren werden klar erkannt, da 8- Jährige in ihrer affektiv-emotionalen Entwicklung bereits vorangeschritten sind und schon Fähigkeiten zur Planung und damit zum Durchschauen von Handlungsabläufen entwickelt haben. Ab diesem Alter sind Kinder zunehmend in der Lage verschiedene Perspektiven einzunehmen und auch Reaktionen von Mediencharakteren zu antizipieren. Voraussetzung dafür ist allerdings, dass die Inhalte einen Bezug zu ihrer Lebenswelt haben. Interessant sind daher Alltagsgeschichten aller Art, in denen Empathie mit den Figuren möglich oder sogar erforderlich ist. Aber auch Fantasy- und Science Fiction-Filme, die die Entwicklung einer gewissen Selbständigkeit und des eigenen Rollenbildes (Mädchen/Bub) sowie Freundschaften mit Gleichaltrigen zeigen, schaffen wichtige Identifikationsmomente. Da sich die kognitiven Leistungen und das logische Denken von 8-jährigen Kindern in Vergleich zu den 6-jährigen schon deutlich gesteigert haben, können in formaler Hinsicht schon höhere Ansprüche an die Filme gestellt werden. Darüber hinaus entwickeln Kinder in diesem Alter bereits Interesse für filmische Gestaltungsmittel und erste Genrekenntnisse entstehen. Haupt- und Nebenhandlungen oder einfache zeitliche und räumliche Sprünge können häufig schon richtig eingeordnet werden. Der Umgang mit Auslassungen (so genannten Ellipsen) bzw. deren gedankliche Ergänzung fällt 8-Jährigen Kindern schon relativ leicht. Auch anspruchsvolle Handlungsabläufe mit mehreren Figuren werden meist verstanden. Hingegen können rasche Szenenwechsel, Rückblenden, Zeitraffer und andere Stilmittel des Films manchmal verwirrend sein und sind daher genauer zu betrachten. Spannungselemente bzw. Elemente der so genannten Angst-Lust werden ebenfalls immer besser verarbeitet, dürfen allerdings nach wie vor nicht zu lange andauern oder zu nachhaltig wirken. Ab dem Alter von 8, 9 Jahren können Kinder größtenteils zwischen Fiktion und Realität unterscheiden. Eine Ausnahme bilden Reality-Geschichten und Nachrichten-ähnliche Darstellungen, bei denen Kinder aufgrund des dokumentarischen Charakters Wirkliches und Erfundenes nur schwer auseinander halten können. Es gelingt Kindern dieser Altersgruppe zumindest in Ansätzen, sich vom Filmgeschehen zu distanzieren. Bestimmte Genres wie Märchen-, Science-Fiction- oder Animations-Filme werden klar als solche erkannt. Dennoch gilt zu beachten: Bestimmte Filminhalte können beim einzelnen Kind starke Betroffenheit auslösen, z.B. weil ein Kind im wirklichen Leben mit ähnlichen Problemen zu kämpfen hat wie die Filmfigur. Je mehr dies der Fall ist, desto stärker ist das Involvement, also die Teilhabe und die emotionale Beteiligung am Geschehen. Eine positive Auflösung von Konfliktsituationen oder ängstigenden Sequenzen und ein eindeutiges gutes Ende sind daher auch noch für diese Altersgruppe von großer Bedeutung. Ein offenes Ende können Kinder von 8 bis 10 Jahren nach wie vor nicht ausreichend verkraften.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>From Age 8</mdcr:Label>
+      <mdcr:Definition>Released for children from age 8</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Children aged 8-10 years are generally already able to understand longer and more complex film plots. Motives and intentions of film 
+characters are clearly identified by 8-year-olds, since they have already advanced in their affective-emotional development and have
+ thus developed the ability to see through and foresee the plots. At this age children are increasingly able to take different perspectives 
+and even anticipate the reactions of media characters, assuming, that is, that the contents are related to their own environment.</p>
+          <p>Everyday stories of all kinds in which empathy with the characters is possible, or even required, are therefore of great interest.
+ In addition, fantasy and science fiction films that show the development of a certain independence, their own role model (girl / boy) 
+and friendships with peers, can also create important moments of identification.</p>
+          <p>The level of cognitive performance and reasoning of 8-year-old children is significantly higher than that of 6-year-olds, and therefore 
+the films may be, in a formal sense, a little more demanding. Furthermore, children at this age often develop an interest in 
+cinematic design media and their first concept of genre.</p>
+          <p>The main and sub-plots, or indeed simple temporal and spatial jumps, are usually followed properly. The use of ellipses and their 
+mental supplementation can come with relative ease to 8-year-old children. Even more complicated plots with multiple figures are 
+usually understood. In contrast, rapid scene changes, flashbacks, time lapses and other stylistic aspects of the film can sometimes 
+be confusing, and are therefore considered more carefully. Tension elements or elements of the so-called anxiety-like processes can
+ also be better processed, though they should not be too long or have a lasting effect.</p>
+          <p>Children from the age of 8 or 9 years can largely distinguish between fiction and reality. An exception would be reality stories and 
+news-like representations, where children find it difficult to distinguish between reality and fiction because of the documentary 
+nature of the material.</p>
+          <p>It is possible for children of this age group to distance themselves from the film scene, at least to a certain 
+extent. Certain genres such as fairy tales, science fiction or animation films are clearly identified as such. Nevertheless, it should be 
+noted: certain movie content can trigger strong concerns with the individual child, e.g. if the child has faced problems in the real world 
+similar to those of the film character. The more this happens, the greater the participation and thus the emotional involvement in the 
+events. A positive resolution of conflict situations or frightening sequences and a clear happy ending are therefore of great importance 
+even for this age group. Children from 8 to 10 years are not yet in a position to sufficiently deal with open ends.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/10</mdcr:URI>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigaben ab 10 Jahren</mdcr:Label>
+      <mdcr:Definition>10- bis 12-Jährige verfügen bereits über das nötige Maß an Medienerfahrung, um im Film gesehene Szenarien verarbeiten zu können oder aber als realistische Bedrohung zu empfinden.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Es werden Parallelen hergestellt zwischen der eigenen Welterfahrung und der filmischen Weltdarstellung.</p>
+          <p>Kinder dieser Altersstufe erfassen nun schon die Komplexität einer Handlung. Es beginnen sich bei vielen spezielle Vorlieben und damit 
+auch Medienkompetenz zu entwickeln, d.h. ein Bescheidwissen über Formate, Dramaturgien, Genres. Sie bilden individuelle Ansprüche 
+aus und es beginnt – ausgenommen von Vielsehern – ein bewusstes Auswählen von Programmen, Sendungen, Filmen. Charakteristisch
+ für diese Altersstufe ist weiters, dass Kinder sich bewusst auf ein Mitfühlen und Mitgehen mit der Handlung einlassen und – ein intaktes 
+soziales Umfeld vorausgesetzt – auch gefährliche und gruselige fiktive Situationen genießen. Wie Erwachsene den ”Thrill” eines 
+Hitchcock-Krimis schätzen, lieben Kinder den „Geisterbahneffekt” von spannenden Geschichten aller Art, was schon bei der 
+Faszination der Märchen, in denen es nicht selten grausam und gruselig zugeht, beginnt.</p>
+          <p>Unter den Bedingungen, dass sich das Kind freiwillig und auf Grund seines Wissens um ein sicheres Happyend dem spannenden 
+Medienerlebnis aussetzt, und die Gefahren als äußere objektive Bedrohung erkennbar sind (Bösewichter, Monster, Ungeheuer, Aliens etc.), 
+kann es dem Mediengeschehen mit der Verarbeitungsform der Angst-Lust begegnen.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>From Age 10</mdcr:Label>
+      <mdcr:Definition>Released for children from age 10</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Between age 10 and 12, children have acquired sufficient media experience to understand movie scenes and assess their potential threat.
+ They draw parallels between their own experience and what they see in the movie.</p>
+          <p>Children of this age group perceive the complexity of a story line. They begin to develop special preferences and thus media
+ competence, i.e. they know about formats, story lines, genres. They develop individual partialities and – with the exception of 
+TV and cinema gluttons – become choosy about programmes, shows and movies. Another characteristic feature of this age 
+group is that children begin to show empathy and even enjoy dangerous and spooky scenes (always providing an intact 
+social environment). Just like adults like to be thrilled by a Hitchcock movie, children love the “tunnel of horror” effect of exciting 
+stories, as evidenced by the fascination exerted by fairy tales which are typically gruesome and scary.</p>
+          <p>Provided that the children voluntarily and in the secure knowledge of an inevitable happy ending expose themselves to an 
+electrifying media event and recognise the threats as being an external and objective danger (villains, monsters, ogres, aliens, 
+etc.), they can face the story by drawing on ways to still their “lust for fear”.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigaben ab 12 Jahren</mdcr:Label>
+      <mdcr:Definition>12-Jährige sind schon in der Lage, die Gesamthandlung nachzuvollziehen und Spannungssequenzen auszuhalten.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Sie können recht genau zwischen realer und fiktionaler Atmosphäre unterscheiden. Das Verstehen der Filmhandlung ist nicht mehr an einen 
+chronologischen Raster gebunden. Wesentliches und Unwesentliches im Film werden erkannt, kompliziertere Gestaltungsmittel, z.B. 
+Rückblenden, stellen kein Verstehenshindernis mehr dar. In dieser Altersgruppe macht sich eine ausgeprägte Mediensozialisation 
+bemerkbar. Botschaften der audiovisuellen Medien werden mühelos dechiffriert. Deshalb wächst in dieser Altersgruppe das Interesse 
+an Fantasy- und Science- Fiction-Filmen sowie Parodien filmischer Genres.</p>
+          <p>
+            Diesem Verstehen der bildsprachlichen Mittel steht allerdings 
+eine schwierige persönliche Entwicklungsphase gegenüber:
+            <ul>
+              <li>Beginnende Loslösung vom Elternhaus,</li>
+              <li>Kritik gegenüber der Erwachsenenwelt,</li>
+              <li>Zunehmende Hinwendung zu „Peergroups”,</li>
+              <li>Orientierung an außerfamiliären Vorbildern,</li>
+              <li>Auseinandersetzung mit religiösen Fragenstellungen,</li>
+              <li>Identitätsprobleme in Bezug auf die sexuelle Reifung,</li>
+              <li>Anfälligkeit für geschlechtsspezifische Rollenklischees,</li>
+              <li>Ausgeprägtes Gerechtigkeitsempfinden, das oftmals wenig Platz für kompliziertere rechtsstaatliche Verfahrensweisen lässt.</li>
+            </ul>
+          </p>
+          <p>Berücksichtigt man diese Punkte, kann nicht mehr allein die bildhafte Aussage im Vordergrund stehen, sondern es muss die dahinter 
+stehende Ideologie befragt werden. Dies bedeutet keine inhaltliche Zensur, sondern schlichtweg ein Hinterfragen der im Film vermittelten 
+Botschaften und deren Wirkung auf diese Altersgruppe. Von der emotionalen bildlichen Verstehensebene des Filmes hin zu der 
+rationalen Fähigkeit, Ideologien, Weltbilder, Vorurteile zu durchschauen, ist noch ein weiter Weg.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>From Age 12</mdcr:Label>
+      <mdcr:Definition>Released for children from age 12</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Twelve-year-olds are capable of following the overall story and cope with fraught-filled scenes. They are well able to distinguish between 
+reality and fiction. Their understanding of the story is no longer tied to a chronological pattern. They can separate the essential from the
+ non-essential and are able to understand complex stylistic artifices such as flashbacks.</p>
+          <p>This age group shows a marked media socialisation. Messages transmitted by the audiovisual media are easily deciphered. As a r
+esult, this age group is increasingly interested in fantasy and SF movies, and in spoofs of movie genres.</p>
+          <p>This understanding of movie tools, however, comes at a time when they pass through a difficult phase in their own development:</p>
+          <p>
+            <ul>
+              <li>loosening of parental ties,</li>
+              <li>criticism of the adult world,</li>
+              <li>increasing attachment to peer groups,</li>
+              <li>emulation of extra-family role models,</li>
+              <li>wrangling with religious issues,</li>
+              <li>identity problems arising from sexual maturity,</li>
+              <li>susceptibility to gender clichés,</li>
+              <li>strong sense of fairness, which frequently leaves little room for more complex approaches prescribed by the established order.</li>
+            </ul>
+          </p>
+          <p>When these factors are considered, the rating process needs to account not just for the image projected, but has to look into 
+the ideology behind the image. This does not mean censorship, but simply the questioning of the film’s message and its effect 
+on the age group. For youths, there is still a long way to go from emotional understanding of the image to a rational capacity to 
+see through ideologies, conceptions of the world and biases.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigaben ab 14 Jahren</mdcr:Label>
+      <mdcr:Definition>Diese Altersgruppe zeigt kaum mehr Unterschiede in den Sehgewohnheiten zu den Erwachsenen und sie will – was übrigens auch empirische Studien belegen – für voll genommen werden.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">An die Stelle des Elternhauses tritt nun verstärkt die „Peergroup”. 14-Jährige verfügen über viel Medienerfahrung, weniger über Lebenserfahrung. Gerade bei schlechten Filmen durchschauen sie unerbittlich jeden handwerklichen Fehltritt. Anders ist es bei gutgemachten Filmen. Wenn es diesen gelingt, die Gefühle dieser Altersgruppe anzusprechen, so entwickeln auch 14-Jährige erstaunlich wenig Distanzierungsstrategien. Wenn dazu noch ihre eigene Lebensumwelt ungesichert ist, fallen bestimmte Genres auf ganz besonders fruchtbaren Boden. Filme, in denen Action-Helden eine hochgerüstete Welt von Feinden bekämpfen und diese besiegen, erfreuen sich großer Beliebtheit. Zwar werden Filme dieser Art von einem Großteil jugendlicher Zuschauer durchschaut und als spektakuläres Amüsement angesehen, doch muss damit gerechnet werden, dass derartige Filme auch negative Dispositionen verstärken bzw. rechtfertigen. Als problematisch wird angesehen, wenn Filme lediglich einfache Lösungen aufzeigen, die Gewalt verharmlosen und Gewalt zur Unterhaltung inszenieren.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>From age 14</mdcr:Label>
+      <mdcr:Definition>Released from age 14</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>This age group to all intents and purposes has viewing habits similar to those of adults. Its members wish to be seen as adults – as is confirmed
+ by empirical studies. In their behaviour they are increasingly guided by the peer group rather than the parental home.</p>
+          <p>Fourteen-year-olds have much media experience, although they are still lacking in life experience. When watching bad movies they mercilessly
+ see through every faux pas and blunder committed by the makers. But when they meet up with well-made movies, they develop astonishingly
+ little detachment.</p>
+          <p>When their own world is perceived as insecure, certain genres are ecstatically received. Movies whose action heroes fight and vanquish an 
+array of high-tech fiends are extremely popular. Although most of the youths see through such movies and judge them as being just spectacular 
+entertainment, consideration still needs to be given to the fact that such movies strengthen and justify negative dispositions. They are 
+problematic when they restrict themselves to simple solutions, make light of violence and exploit brute force for entertainment purposes.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigaben ab 16 Jahren</mdcr:Label>
+      <mdcr:Definition>Bei Jugendlichen dieser Altersgruppe muss man bei der Alterskennzeichnung von einer relativ hohen Medienkompetenz ausgehen.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Die Vermittlung sozial schädigender Botschaften durch den Medienkonsum bleibt aber problematisch. Filme, die einzelne Gruppen diskriminieren, Sexualität in einem menschenverachtenden Kontext darstellen (oder auf ein reines Instrumentarium der Triebbefriedigung reduzieren), einem partnerschaftlichen Rollenverhältnis der Geschlechter entgegenstehen, vor allem aber Gewalt tendenziell verherrlichen, dürfen in Österreich auf Grund der bestehenden Rechtslage erst ab dieser Altersstufe freigegeben werden. Für eine Zulässigkeitsbeschränkung bis zum vollendeten 16. Lebensjahr sind Aufrufe zu religiöser Intoleranz, Verletzung gesellschaftlicher Tabus, politischer Extremismus, Ausländerfeindlichkeit und Rassismus sowie die positive Darstellung von Drogen- und Alkoholkonsum maßgebend.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>From Age 16</mdcr:Label>
+      <mdcr:Definition>Released from age 16</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Youths of that age generally have considerable media competence. Nevertheless, movies that send socially damaging messages are still problematic. Under Austrian law, movies that discriminate against particular groups, show sexual scenes in an abusive context (or reduce sex to an urge-gratifying tool), run counter to partnership-based gender relations or – worst of all – glorify violence, may be released only for viewers from age 16. Grounds for restrictions up to age 16 are appeals to religious intolerance, violation of accepted taboos, political extremism, xenophobia, racism and the positive depiction of drugs and alcohol.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

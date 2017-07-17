@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T08:48:40" lastSave="2016-12-22T15:56:11">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>CA</md:country>
+      <mdcr:RegionName>CANADA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MFCB</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>CA-PE</md:countryRegion>
+    <mdcr:SubRegion>Prince Edward Island</mdcr:SubRegion>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>CA-NB</md:countryRegion>
+    <mdcr:SubRegion>New Brunswick</mdcr:SubRegion>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>CA-NS</md:countryRegion>
+    <mdcr:SubRegion>Nova Scotia</mdcr:SubRegion>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Maritime Film Classification Board">
+    <md:DisplayName>Maritime Film Classification Board</md:DisplayName>
+    <mdcr:ContactString>Nova Scotia Film Classification Division,
+2nd Floor, 780 Windmill Road,
+Dartmouth, N.S.</mdcr:ContactString>
+    <mdcr:URL>http://www.gov.ns.ca/snsmr/access/alcohol-gaming/theatres-amusements/rating-guidelines.asp</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/g.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons of all ages.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/pg.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance</mdcr:Label>
+      <mdcr:Definition>Parental guidance advised.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Theme or content may not be suitable for all children</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">14A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/14A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/14a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>14 Accompaniment</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons 14 years of age and older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 14 must be accompanied by an adult. May contain: violence, coarse language and/or sexually suggestive scenes.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="75">18A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/18A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/18a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 Accompaniment</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons 18 years of age and older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 18 must be accompanied by an adult. Persons under 14 years of age are strictly prohibited from viewing the film. May contain: 
+explicit violence, frequent coarse language, sexual activity and/or horror.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/R</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/r.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Restricted</mdcr:Label>
+      <mdcr:Definition>Admittance restricted to persons 18 years of age and over.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Content not suitable for minors. Contains frequent use of sexual activity, brutal/graphic violence, intense horror and/or other disturbing content.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adult</mdcr:Label>
+      <mdcr:Definition>Film is not suitable for viewers under 18 years of age because the sole or primary premise for the film is the depiction of explicit sexual activity, graphic nudity, or graphic violence.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

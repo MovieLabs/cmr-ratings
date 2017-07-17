@@ -1,0 +1,126 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-12-29T15:59:19">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>US</md:country>
+      <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>ESRB</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>US</md:country>
+    <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>CA</md:country>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Entertainment Software Rating Board">
+    <md:DisplayName>Entertainment Software Rating Board</md:DisplayName>
+    <mdcr:ContactString>Entertainment Software Rating Board
+317 Madison Avenue, 22nd Floor 
+New York, NY 10017</mdcr:ContactString>
+    <mdcr:URL>https://www.esrb.org/</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">E</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/E</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_e.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Everyone</mdcr:Label>
+      <mdcr:Definition>Content is generally suitable for all ages. May contain minimal cartoon, fantasy or mild violence and/or infrequent use of mild language.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">RP</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/RP</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_rp.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Pending</mdcr:Label>
+      <mdcr:Definition>Not yet assigned a final ESRB rating.</mdcr:Definition>
+      <mdcr:Explanation>Appears only in advertising, marketing and promotional materials related to a game that is expected to carry an ESRB rating, and should be replaced by a game's rating once it has been assigned.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/C</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_ec.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Early Childhood</mdcr:Label>
+      <mdcr:Definition>Content is intended for young children.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="60">10-plus</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/10-plus</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_e10.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Everyone 10+</mdcr:Label>
+      <mdcr:Definition>Content is generally suitable for ages 10 and up. May contain more cartoon, fantasy or mild violence, mild language and/or minimal suggestive themes.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="70">T</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/T</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_t.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>17</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Teen</mdcr:Label>
+      <mdcr:Definition>Content is generally suitable for ages 13 and up. May contain violence, suggestive themes, crude humor, minimal blood, simulated gambling and/or infrequent use of strong language.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">M</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/M</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_m.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>17</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Mature</mdcr:Label>
+      <mdcr:Definition>Content is generally suitable for ages 17 and up. May contain intense violence, blood and gore, sexual content and/or strong language</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_ao.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adults Only</mdcr:Label>
+      <mdcr:Definition>Content suitable only for adults ages 18 and up. May include prolonged scenes of intense violence, graphic sexual content and/or gambling with real currency.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

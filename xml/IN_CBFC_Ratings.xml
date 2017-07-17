@@ -1,0 +1,75 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T16:18:26" lastSave="2013-12-29T19:13:42">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>IN</md:country>
+      <mdcr:RegionName>INDIA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CBFC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>IN</md:country>
+    <mdcr:RegionName>INDIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IN/CBFC/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Central Board of Film Certification">
+    <md:DisplayName>Central Board of Film Certification</md:DisplayName>
+    <mdcr:URL>http://cbfcindia.gov.in/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">U</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IN/CBFC/1/U</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unrestricted</mdcr:Label>
+      <mdcr:Definition>Unrestricted public exhibition</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">UA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IN/CBFC/0/UA</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unrestricted - Parental Discretion</mdcr:Label>
+      <mdcr:Definition>Unrestricted public exhibition but with a word of caution that Prental Discretion required for children below 12 years.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IN/CBFC/1/A</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adults</mdcr:Label>
+      <mdcr:Definition>Restricted to adults</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="95">S</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IN/CBFC/1/S</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>S</mdcr:Label>
+      <mdcr:Definition>Restricted to any special class of person.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

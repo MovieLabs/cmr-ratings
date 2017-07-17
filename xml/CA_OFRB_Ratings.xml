@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-21T14:02:57" lastSave="2016-12-22T15:55:23">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>CA</md:country>
+      <mdcr:RegionName>CANADA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>OFRB</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>CA-ON</md:countryRegion>
+    <mdcr:SubRegion>Ontario</mdcr:SubRegion>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Ontario Film Review Board,">
+    <md:DisplayName>Ontario Film Review Board,</md:DisplayName>
+    <mdcr:ContactString>Ontario Film Review Board
+4950 Yonge Street, Suite 101B
+Toronto ON  M2N 6K1
+Phone: (416) 314-3626   
+Fax: (416) 314-3632   
+Toll-free: 1-800-268-6024</mdcr:ContactString>
+    <mdcr:URL>http://www.ofrb.gov.on.ca/english/default.htm</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/G_high.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>All</mdcr:Label>
+      <mdcr:Definition>Suitable for viewers of all ages.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/PG_high.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance</mdcr:Label>
+      <mdcr:Definition>Parental guidance is advised.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Theme or content may not be suitable for all children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">14A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/14A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/14a_high.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>14 Accompanied</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons 14 years of age and older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 14 must be accompanied by an adult. May contain: violence, coarse language and/or sexually suggestive scenes.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="75">18A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/18A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/18a_high.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>14 Accompanied</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons 18 years of age and older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 18 may attend but must be accompanied by an adult. May contain: explicit violence, frequent coarse language, sexual activity and/or horror.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/R</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/R_high.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>RESTRICTED</mdcr:Label>
+      <mdcr:Definition>Admittance restricted to persons 18 years of age and over.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Content not suitable for minors. May contain: frequent use of sexual activity, brutal/graphic violence, intense horror and/or other disturbing content.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

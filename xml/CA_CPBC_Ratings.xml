@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-21T16:48:40" lastSave="2016-12-22T16:03:53">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>CA</md:country>
+      <mdcr:RegionName>CANADA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CPBC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>CA-BC</md:countryRegion>
+    <mdcr:SubRegion>British Columbia</mdcr:SubRegion>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Consumer Protection BC">
+    <md:DisplayName>Consumer Protection BC</md:DisplayName>
+    <mdcr:ContactString>Consumer Protection BC Compliance &amp; Enforcement and Motion Picture Classification
+PO Box 9244 Victoria BC V8W 9J2</mdcr:ContactString>
+    <mdcr:URL>http://www.consumerprotectionbc.ca/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/g.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons of all ages.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Occasional violence, swearing and coarse language, and the most innocent of sexually suggestive scenes and nudity, are permitted in this category.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/pg.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance</mdcr:Label>
+      <mdcr:Definition>Parental guidance advised.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Theme or content may not be suitable for all children although there is no age restriction. Motion pictures in this category may contain less subtle sexually suggestive scenes and nudity and a more realistic portrayal of violence than in the General category; coarse language may occur more often than in the General category.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">14A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC/2/14A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/14a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>14 Accompaniment</mdcr:Label>
+      <mdcr:Definition>Suitable for persons 14 years of age or older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 14 years of age must view these motion pictures accompanied by an adult. Motion pictures in this category may contain violence, coarse language or sexually suggestive scenes, or any combination of them.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="70">18A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC/2/18A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/18a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 Accompaniment</mdcr:Label>
+      <mdcr:Definition>Persons under 18 years of age must view these motion pictures accompanied by an adult.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Motion pictures in this category will contain horror, explicit violence, frequent coarse language or scenes that are more sexually suggestive than in the 
+14A category, or any combination of them.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="75">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC/2/R</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/r.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Restricted</mdcr:Label>
+      <mdcr:Definition>Restricted to persons 18 years of age and over.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 18 years of age are not permitted to attend under any circumstances. These motion pictures are “adult motion pictures”, as defined in the
+ Act, and may contain explicit sexual scenes, violence or scenes referred to in Section 5(3) of the Act, or any combination of them. The director will assign
+ this classification to motion pictures if the director considers that the theme, subject matter or plot of the adult motion picture is artistic, historical, political, 
+educational or scientific.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC/2/A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adult</mdcr:Label>
+      <mdcr:Definition>Restricted to persons 18 years of age and over.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 18 years of age are not permitted to attend under any circumstances. These motion pictures are “adult motion pictures”, as defined in the 
+Act, and may contain explicit sexual scenes or scenes of brutality or torture to persons or animals, or any combination of them, that are portrayed in a 
+realistic and explicit manner; however, the scenes would, in the director’s opinion, be tolerable to the community.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

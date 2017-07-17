@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T06:31:23" lastSave="2016-12-20T21:45:13">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>SE</md:country>
+      <mdcr:RegionName>SWEDEN</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>SM-SA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>SE</md:country>
+    <mdcr:RegionName>SWEDEN</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2016-12-20</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/SE/SM-SA/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Statens medieråd (National Media Council)">
+    <md:DisplayName>Statens medieråd (National Media Council)</md:DisplayName>
+    <mdcr:ContactString>Statens medieråd
+PO Box 27204, 102 53 Stockholm
+Address: Castle Road 1, 5th floor, Stockholm
+Phone: 08 665 14 60</mdcr:ContactString>
+    <mdcr:URL>http://www.statensmedierad.se/Aldersgranser/Aldersgranser-for-film/Aldersgranserna/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">Barntillåten</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SE/SM-SA/1/Barntill_ten</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="SV">
+      <mdcr:Label>Barntillåten</mdcr:Label>
+      <mdcr:Definition>En barntillåten film ska kunna ses på biograf av ett barn under 7 år utan vuxens sällskap.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Filmen får därför inte innehålla några skrämmande inslag, hot eller våld. En skrämmande ljudbild med kuslig musik och starka, skrämmande ljudeffekter eller en klippning med högt tempo kan räcka för att en film inte ska bli barntillåten. Även de minsta ska dock kunna ta del av filmer som är spännande, varför mildare inslag av jakter, action eller komiskt framställda lättare slagsmål kan förekomma. Samtidigt är det viktigt att komma ihåg att en barntillåten film kanske inte är intressant för barn att titta på eftersom även filmer tänkta för en vuxen publik kan bli barntillåtna under förutsättning att de inte bedöms kunna skada välbefinnandet hos barn.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Allowed</mdcr:Label>
+      <mdcr:Definition>A film suitable for children to be seen in the cinema of a child under 7 years without an adult.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The film must not contain some scary elements, threats or violence. A scary sound with eerie music and strong, scary sound effects, or cutting with high speed may be enough that a film will not be suitable for children. Even the smallest will be able to access movies that are exciting, why milder elements of chases, action or comic made ​​easier fights can occur. Meanwhile, it is important to remember that a suitable for children movie might not be interesting for the children to watch because even movies intended for an adult audience may be children allowed provided they are not deemed to be harmful to the welfare of children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SE/SM-SA/1/7</mdcr:URI>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>7</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="SV">
+      <mdcr:Label>7-årsgränsen</mdcr:Label>
+      <mdcr:Definition>En film med 7-årsgräns ska kunna ses på biograf av en ensam 7-åring.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Barn över 7 år har börjat utveckla en större kompetens för att skapa distans till film, varför de inte längre skräms lika lätt av t.ex. hotfull musik och snabb klippning. Filmer som får 7-årsgräns kan t.ex. innehålla scener med lättare hot, ofta mot barn eller djur. Typiska exempel på scener som medför 7-årsgräns är de i många tecknade filmer vanligt förekommande sekvenserna där man zoomar in på ett hotfullt djurs vassa tänder, eller lättare scener med slagsmål eller skottlossning, dock inte med blodsutgjutelse som följd.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>7</mdcr:Label>
+      <mdcr:Definition>a film with a 7-year limit may be viewed at the cinema by an unacompanied 7-year-old.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Children over 7 years are starting to develop more skills to create distance to the film, which is why they are no longer as easily intimidated by such menacing music and fast cutting. Movies that gets 7-year limit, for example, contain scenes with minor threat, often against children or animals. Typical examples of scenes involving 7-year limit, they are in many cartoons frequent sequences where zooming in on a threatening animal's sharp teeth, or lighter scenes with fights or shootings, but not with bloodshed as a result.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">11</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SE/SM-SA/1/11</mdcr:URI>
+    <mdcr:MinRecAge>11</mdcr:MinRecAge>
+    <mdcr:MinAge>11</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>7</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="SV">
+      <mdcr:Label>11-årsgränsen</mdcr:Label>
+      <mdcr:Definition>En film med 11-årsgräns ska kunna ses på biograf av en ensam 11-åring.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Barn i 11 till 14-årsåldern är generellt duktiga på att skilja film och verklighet åt. Därför kan filmer med 11-årsgräns innehålla spännande och hotande sekvenser - det gäller dock inte våldssekvenser med fokus på lidande eller omfattande blodsutgjutelse. 11-årsgränsen är en vid åldersgräns som kan ges till såväl barnfilmer med ångestladdning som actionfilmer avsedda för en i huvudsak vuxen publik. Vid bedömningen är ofta graden av realism och identifikationsmöjlighet avgörande: en film med tydlig sagokaraktär och få beröringspunkter med publikens vardag kan få en lägre åldersgräns än motsatsen.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>11</mdcr:Label>
+      <mdcr:Definition>a film with 11-year limit may be seen in the cinema by unacompanied 11-year-old.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Children 11-14 years of age are generally very good at separating film and reality ate. Therefore, films with 11-year limit include exciting and threatening scenes - it does not apply to violent scenes with a focus on suffering and extensive bloodshed. 11-year limit is the age limit that can be given to both children's films with anxiety charge that action films intended for a primarily adult audience. The assessment is often the level of realism and identification possibility ruling: a film with clear fairytale character and few points of contact with the audience's everyday lives can have a lower age l imit than the opposite.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SE/SM-SA/1/15</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="SV">
+      <mdcr:Label>15-årsgränsen</mdcr:Label>
+      <mdcr:Definition>Formellt sätter Statens medieråd inte 15-årsgräns på filmer.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Istället handlar det om att man inte godkänner en film för visning för barn under 15 år vilket innebär att det är förbjudet att visa filmen för yngre. En film får på detta sätt 15-årsgräns om den innehåller detaljerade våldsskildringar med omfattande blodsutgjutelse och/eller fokusering på lidande. Det kan alltså å ena sidan handla om överdrivna splattereffekter, å andra sidan om mer psykologiskt realistiska scener. Starka hot- och skräckscener samt starka skildringar av ångest eller förvirring hör också till denna kategori liksom våldtäkter eller skildringar av starkt ångestladdad sexualitet. Sedan den 1 januari 2011 är granskningsplikten av biograffilm borttagen. Filmdistributörer behöver alltså inte lämna in filmer för granskning innan de visas på biograf. Sådana filmer får dock inte visas för barn under 15 år, vilket innebär att filmen får en 15-årsgräns för offentlig visning oavsett innehåll.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>National Media Council has not approved a movie for viewing by children under 15 years, which means that it is forbidden to show the film to younger children.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Since 1 January 2011, Film Distributors do not need to submit films for review before appearing on cinema. Such films may not be shown to children under 15 years, which means that the film gets a 15 year limit for public viewing regardless of content. If a film that has been reviewd a 15-year limit indicates detailed depictions of violence with extensive bloodshed and / or focus on suffering. Thus, it may on the one hand about excessive splatter effects, on the other hand, if more psychologically realistic scenes. Strong threat and horror scenes and powerful depictions of anxiety or confusion also belongs to this category as rape or depictions of strong anxiety-charged sexuality.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

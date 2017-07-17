@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2014-08-01T15:14:44">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>ZZ</md:country>
+      <mdcr:RegionName>Global</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>UNRATED</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>ZZ</md:country>
+    <mdcr:RegionName>Global</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>Music</mdcr:Media>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Media>other</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+      <mdcr:Environment>App</mdcr:Environment>
+      <mdcr:Environment>other</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/ZZ/UNRATED/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">This special system and rating indicates that a title is designated “Unrated” in that region.</div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Motion Picture Laboratories, Inc.">
+    <md:DisplayName>Motion Picture Laboratories, Inc.</md:DisplayName>
+    <mdcr:URL>http://www.movielabs.com/index.html</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">ALL</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZZ/UNRATED/0/ALL</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>All Audiences</mdcr:Label>
+      <mdcr:Definition>The ‘ALL’ special rating indicates that material is appropriate for all audiences.  This should only be applied to child-friendly material.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">UNRATED</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZZ/UNRATED/0/UNRATED</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>UNRATED</mdcr:Label>
+      <mdcr:Definition>unrated content that does not fall into the ‘ALL’, ‘ADULT’ or ‘PROSCRIBED’ categories</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Content is assumed to be unrated if no rating is provided.  For example, if there is no MPAA rating included in a ratings set, the content is assumed to be unrated by the MPAA.  However, if the author wishes to explicitly state it is unrated or provide nuance on its unrated states, the “UNRATED” rating should be used with the appropriate scope.</p>
+          <p>In this content, unrated means that this particular media instance has not been rated through a ratings process.  This frequently means that a work has never been self-rated or submitted to a ratings body, for example, because of the nature of the work (e.g., a sporting event) or for budgetary reasons.  ‘Unrated’ is also used as a marketing term to reflect a work that contains additional material, generally implied as material that would change the rating, often represented something like, “The Unrated Edition”.</p>
+          <p>If no Reason is provided, nothing should be inferred about why the content is not rated.  Reasons can be used to provide additional explanation</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="HIGHER" />
+    <mdcr:ApplicableReason id="LOWER" />
+    <mdcr:ApplicableReason id="NEUTRAL" />
+    <mdcr:ApplicableReason id="NOT YET RATED" />
+    <mdcr:ApplicableReason id="NOT RATED" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">ADULT</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZZ/UNRATED/0/ADULT</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adults</mdcr:Label>
+      <mdcr:Definition>Intended for adult-only audiences; material is primarily sexual in nature.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>
+            The ‘ADULT’ Rating is best categorized by US Supreme Court Justice Potter Stewart’s statement, “
+            <i>I shall not today attempt 
+further to define the kinds of material I understand to be embraced within that shorthand description; and perhaps I could never 
+succeed in intelligibly doing so. But I know it when I see it, and the motion picture involved in this case is not that.</i>
+            ”
+          </p>
+          <p>Pornography, as determined by the norms within the scope of the rating, should almost always classified as ‘ADULT’.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">PROSCRIBED</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZZ/UNRATED/0/PROSCRIBED</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PROSCRIBED</mdcr:Label>
+      <mdcr:Definition>Should not be distributed within the scope of this rating</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>The ‘PROSCRIBED’ special rating covers content that should not be distributed within the scope of this rating. The
+ proscribed category covers banned and illegal content.  Conditions such as Australia’s (NCS) Refused Classification 
+category are included in this category.</p>
+          <p>Note that what is forbidden in one region may be acceptable within another.</p>
+          <p>As content with this marking is extremely sensitive, it is preferable to encode using rating-system scope rather than just 
+region scope.  This increases the likelihood that parental control systems will notice the status.  Conversely, parental 
+control systems should look for ratings and the system, region and global scopes to ensure they do not miss proscribed 
+content.</p>
+          <p>A ‘PROSCRIBED’ special rating should not be used with worldwide scope because such content should not be distributed at all.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="LOWER">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="UNRATED" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="NEUTRAL">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="UNRATED" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="HIGHER">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="UNRATED" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="NOT YET RATED">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="UNRATED" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="NOT RATED">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="UNRATED" />
+  </mdcr:Reason>
+</mdcr:RatingSystem>

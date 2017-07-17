@@ -1,0 +1,130 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T00:06:28" lastSave="2013-10-28T19:19:32">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>MT</md:country>
+      <mdcr:RegionName>MALTA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MCCAA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>MT</md:country>
+    <mdcr:RegionName>MALTA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Film Age-Classification Board">
+    <md:DisplayName>Film Age-Classification Board</md:DisplayName>
+    <mdcr:ContactString>n.a.</mdcr:ContactString>
+    <mdcr:URL>http://justiceservices.gov.mt/DownloadDocument.aspx?app=lp&amp;itemid=24242&amp;l=1</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">U</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/U</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Universal</mdcr:Label>
+      <mdcr:Definition>suitable for all.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/PG</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Definition>parental guidance - general viewing, but some scenes may be unsuitable for young children.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/12A</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12A</mdcr:Label>
+      <mdcr:Definition>suitable for persons of 12 years and over provided that persons younger than 12 may attend only when accompanied by an adult.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Persons of 12 years and over admitted</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>14</mdcr:Label>
+      <mdcr:Definition>suitable only for persons aged 14 years and over.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/0/15</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>suitable only for persons aged 15 years and over.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/0/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>suitable only for persons aged 16 years and over.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>suitable only for persons aged 18 years and over.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

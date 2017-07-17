@@ -1,0 +1,73 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T09:31:02" lastSave="2013-12-30T14:52:59">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>VE</md:country>
+      <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>RESORTE-Language</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>VE</md:country>
+    <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Music</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Language/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="SiBCI">
+    <md:DisplayName>SiBCI</md:DisplayName>
+    <mdcr:URL>http://www.leyresorte.gob.ve/ley-resorte/</mdcr:URL>
+    <mdcr:OrgType>not_specified</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Language/1/A</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Language Type-A</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds commonly used, which can be seen by children and adolescents without requiring guidance from mothers, fathers, representatives or guardians, and not classified in types "B" and " C ".</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Lenguaje Type-A</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos de uso com?n, que pueden ser presenciados por ni?os, ni?as y adolescentes sin que se requiera la orientaci?n de madres, padres, representantes o responsables, y que no clasifiquen en los tipos ?B? y ?C?.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">B</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Language/1/B</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Language Type-B</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds, in common usage, have a vile character.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Lenguaje Type-B</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos que, en su uso com?n, tengan un car?cter soez.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Language/1/C</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Lenguaje Type-C</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos que, en su uso com?n, tengan car?cter obsceno, que constituyan imprecaciones, que describan, representen o aludan, sin finalidad educativa expl?cita, a ?rganos o pr?cticas sexuales o a manifestaciones escatol?gicas.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Language Type-C</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds, in common usage, is obscene, constituting imprecations, to describe, depict or allude without explicit educational purpose, to bodies or sexual practices or eschatological events.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

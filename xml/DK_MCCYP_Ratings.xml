@@ -1,0 +1,100 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T10:29:33" lastSave="2013-12-16T16:00:44">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>DK</md:country>
+      <mdcr:RegionName>DENMARK</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MCCYP</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>DK</md:country>
+    <mdcr:RegionName>DENMARK</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="The Media Council for Children and Young People">
+    <md:DisplayName>The Media Council for Children and Young People</md:DisplayName>
+    <mdcr:ContactString>censur@medieraadet.dk</mdcr:ContactString>
+    <mdcr:URL>http://www.medieraadet.dk/html/gb/classification_gb.htm</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>4</mdcr:MinRecAge>
+    <mdcr:MinAge>4</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>4</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Approval of the film for general admittance</mdcr:Label>
+      <mdcr:Definition>A film under this classification must not contain any frightening elements nor scenes or themes, which children do not understand and thereby might be frightened by.</mdcr:Definition>
+      <mdcr:Explanation>Frightening elements could for instance be films in foreign languages or films containing scenes where grown ups or children are speaking very loudly or fighting.</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>Tilladt for alle</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/7</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/7.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Approval of the film for general admittance, but not recommended for children under the age of 7</mdcr:Label>
+      <mdcr:Definition>Children in this age group begin to be able to distance themselves from films and are therefore not as easily frightened by special effects and loud noises.</mdcr:Definition>
+      <mdcr:Explanation>Films under this classification may as a principal rule only contain few elements, which could frighten the youngest children. Frightening elements could for instance be scenes where children or animals are molested or deserted. Children of 7 or 8 might find such elements frightening because they have difficulties watching a film as one story. Violent scenes will often be experienced as a finished sequence and if a child is already frightened he or she will not notice that the story might have a happy ending. In spite of violent scenes a film could receive the classification of 7 depending on the context of the violence used. For instance violence used in humorous unrealistic contexts may cushion the frightening and harmful effects as it creates a distance to reality.</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>Tilladt for alle, men frarådes børn under 7 år</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">11</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/11</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/11.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>11</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Approval of the film for admittance of children from the age of 11</mdcr:Label>
+      <mdcr:Definition>Films containing frightening scenes or a touch of horror but without real violent scenes or films, which do not describe violence in detail, will often be placed in this category.</mdcr:Definition>
+      <mdcr:Explanation>Children of 11 to 14 are in general good at distinguishing between fiction and reality and are thus able to distinguish between films with imitated, exaggerated or unrealistic scenes of violence and their own reality and life. Furthermore, they are able to deal with sustained suspense. Films such as science fiction, action comedy and catastrophe often receive this classification.</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>Tilladt for børn over 11 år</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/15</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/15.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Approval of the film for admittance of children from the age of 15</mdcr:Label>
+      <mdcr:Definition>Young people and adults aged over 15 are expected to possess an understanding of genre and to be able to deal with frightening films.</mdcr:Definition>
+      <mdcr:Explanation>Films containing a lot of violence or violence described in detail or violence, which is glorified or legitimated are placed in this category along with other strong films such as pornography. Whether a film is placed in the category of 15 or 11 depends on how realistically the violent scenes are described. If the violent scenes are taking place in a make-believe world the film might be placed in the category of 11 years instead of 15</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>Tilladt for børn over 15 år</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

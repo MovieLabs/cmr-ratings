@@ -1,0 +1,119 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T06:57:04" lastSave="2013-12-16T16:21:07">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>PL</md:country>
+      <mdcr:RegionName>POLAND</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>NBC-PL</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>PL</md:country>
+    <mdcr:RegionName>POLAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2016-12-20</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="National Broadcasting Council">
+    <md:DisplayName>National Broadcasting Council</md:DisplayName>
+    <mdcr:ContactString>The National Broadcasting Council's Office
+01-015 Warszawa, Skwer Ks. Kard. S. Wyszyńskiego 9
+tel: +48 22 597 3000, fax: +48 22 597 3180
+Children’s Ombudsman http://www.brpd.gov.pl
+ Ombudsman for Citizens’ Rights http://www.rpo.gov.pl</mdcr:ContactString>
+    <mdcr:URL>http://www.krrit.gov.pl/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">I</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1/I</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/usmiech_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PL">
+      <mdcr:Label>Emisja bez ograniczeń wiekowych i czasowych</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Broadcasting with no age or time restrictions</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">II</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/II</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/7_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PL">
+      <mdcr:Label>Dla małoletnich od lat 7; emisja bez ograniczeń czasowych</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>For juveniles from the age of 7; broadcasting without time restrictions</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">III</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/III</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/12_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PL">
+      <mdcr:Label>Dla małoletnich od lat 12; emisja bez ograniczeń czasowych</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>For juveniles from the age of 12; broadcasting without time restrictions</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">IV</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/IV</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/16_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PL">
+      <mdcr:Label>Dla małoletnich od lat 16 emisja po godzinie 20.00.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>For juveniles from the age of 16 broadcasting after 20:00.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1/18+</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/klucz_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PL">
+      <mdcr:Label>inne przekazy dozwolone od lat 18</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>allowed for viewers over 18 years of age</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

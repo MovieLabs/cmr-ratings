@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T17:29:33" lastSave="2016-12-06T16:14:58">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>NZ</md:country>
+      <mdcr:RegionName>NEW ZEALAND</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>OFLC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>NZ</md:country>
+    <mdcr:RegionName>NEW ZEALAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>other</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Office of FIlm and Literature Classification">
+    <md:DisplayName>Office of FIlm and Literature Classification</md:DisplayName>
+    <mdcr:ContactString>PO Box 1999, Wellington 6140, New Zealand</mdcr:ContactString>
+    <mdcr:URL>http://www.censorship.govt.nz/home.html</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/g-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Suitable for general audiences</mdcr:Label>
+      <mdcr:Definition>Anyone can be shown or sold this.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">G films should have very low levels of things like frightening scenes. However, not all G level films are intended for family audiences and it is always a good idea to look at reviews and plot information before taking children to any film</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/pg-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Parental guidance recommended for younger viewers</mdcr:Label>
+      <mdcr:Definition>Films and games with a PG label can be sold, hired, or shown to anyone.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The PG label means guidance from a parent or guardian is recommended for younger viewers. It is important to remember that PG films can be aimed at an adult audience and to be aware of the content of a film if you are taking children to it</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">RP13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/RP13</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/rp13-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to persons 13 years of age and over unless accompanied by parent/guardian</mdcr:Label>
+      <mdcr:Definition>The RP label means that the film or DVD can only be watched by someone under the age on the label if they are with a parent or guardian (an adult over 18).</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">You will see these labels on films and DVDs. A parent, shop or cinema is breaking the law if they allow unaccompanied children to access these films.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">R13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R13</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r13-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to persons 13 years of age and over</mdcr:Label>
+      <mdcr:Definition>It is illegal to sell, hire, show or give a film or game with an age restricted label to anyone under the age specified.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">If something has one of these labels it can only be supplied to people of and over the age shown on the label. A parent, shop or cinema is breaking the law if they supply an age-restricted item to someone who is not legally allowed to access it. You will see these labels on films, games, DVDs and a few music recordings, magazines and books.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">R15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R15</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r15-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to persons 15 years of age and over</mdcr:Label>
+      <mdcr:Definition>It is illegal to sell, hire, show or give a film or game with an age restricted label to anyone under the age specified.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">If something has one of these labels it can only be supplied to people of and over the age shown on the label. A parent, shop or cinema is breaking the law if they supply an age-restricted item to someone who is not legally allowed to access it. You will see these labels on films, games, DVDs and a few music recordings, magazines and books.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">M</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/M</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/m-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Suitable for (but not restricted to) mature audiences 16 years and up</mdcr:Label>
+      <mdcr:Definition>Films and games with an M label can be sold, hired, or shown to anyone.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films with an M label are more suitable for mature audiences. When considering whether to let a child see an M-rated film, it?s a good idea to find out what the film is about ? and to always remember to check the descriptive note.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">RP16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/RP16</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/rp16-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to persons 16 years of age and over unless accomp[anied by Parent/Guardian</mdcr:Label>
+      <mdcr:Definition>The RP label means that the film or DVD can only be watched by someone under the age on the label if they are with a parent or guardian (an adult over 18).</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">You will see these labels on films and DVDs. A parent, shop or cinema is breaking the law if they allow unaccompanied children to access these films.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="21">R16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R16</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r16-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to persons 16 years of age and over</mdcr:Label>
+      <mdcr:Definition>It is illegal to sell, hire, show or give a film or game with an age restricted label to anyone under the age specified.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">If something has one of these labels it can only be supplied to people of and over the age shown on the label. A parent, shop or cinema is breaking the law if they supply an age-restricted item to someone who is not legally allowed to access it. You will see these labels on films, games, DVDs and a few music recordings, magazines and books.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R18</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r18-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to persons 18 years of age and over</mdcr:Label>
+      <mdcr:Definition>It is illegal to sell, hire, show or give a film or game with an age restricted label to anyone under the age specified.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">If something has one of these labels it can only be supplied to people of and over the age shown on the label. A parent, shop or cinema is breaking the law if they supply an age-restricted item to someone who is not legally allowed to access it. You will see these labels on films, games, DVDs and a few music recordings, magazines and books.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="95">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to a particular class of persons, or for particular purposes, or both, specified by the Office of Film and Literature Classification</mdcr:Label>
+      <mdcr:Definition>R means that there is a special restriction.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Refer to the words on the right of the label for the full conditions.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

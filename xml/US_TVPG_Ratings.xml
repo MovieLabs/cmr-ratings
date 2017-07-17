@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-26T23:04:47" lastSave="2014-08-01T15:13:17">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>US</md:country>
+      <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>TVPG</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>US</md:country>
+    <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Rating and Reason definitions are defined in [CEA-766]. Only  Rating/Reason combinations specified in [CEA766], Table 3 under dimension 0-6 are allowed.</div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="TV Parental Guidelines Monitoring Board">
+    <md:DisplayName>TV Parental Guidelines Monitoring Board</md:DisplayName>
+    <mdcr:ContactString>TV Parental Guidelines
+Post Office Box 14097
+Washington, DC 20004
+202-879-9364</mdcr:ContactString>
+    <mdcr:URL>http://tvguidelines.org/ratings.htm</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">TV-Y</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y</mdcr:URI>
+    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvy.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>All Children</mdcr:Label>
+      <mdcr:Definition>This program is designed to be appropriate for all children.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Whether animated or live-action, the themes and elements in this program are specifically designed for a very young audience, including children from ages 2-6. This program is not expected to frighten younger children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="2">TV-G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-G</mdcr:URI>
+    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvg.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General Audience</mdcr:Label>
+      <mdcr:Definition>Most parents would find this program suitable for all ages.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Although this rating does not signify a program designed specifically for children, most parents may let younger children watch this program unattended. It contains little or no violence, no strong language and little or no sexual dialogue or situations.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">TV-Y7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y7</mdcr:URI>
+    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvy7.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Directed to Older Children</mdcr:Label>
+      <mdcr:Definition>This program is designed for children age 7 and above.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">It may be more appropriate for children who have acquired the developmental skills needed to distinguish between make-believe and reality. Themes and elements in this program may include mild fantasy violence or comedic violence, or may frighten children under the age of 7. Therefore, parents may wish to consider the suitability of this program for their very young children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="V" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="7">TV-Y7-FV</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y7-FV</mdcr:URI>
+    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvy7fv.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Directed to Older Children- Fantasy Violence</mdcr:Label>
+      <mdcr:Definition>For those programs where fantasy violence may be more intense or more combative than other programs in this category, such programs will be designated TV-Y7-FV.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="FV" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="10">TV-PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvpg.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance Suggested</mdcr:Label>
+      <mdcr:Definition>This program contains material that parents may find unsuitable for younger children.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Many parents may want to watch it with their younger children. The theme itself may call for parental guidance and/or the program may contain one or more of the following: some suggestive dialogue (D), infrequent coarse language (L), some sexual situations (S), or moderate violence (V).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="S" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="14">TV-14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-14</mdcr:URI>
+    <mdcr:LinkToLogo>http://tvguidelines.org/images/tv14.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parents Strongly Cautioned</mdcr:Label>
+      <mdcr:Definition>This program contains some material that many parents would find unsuitable for children under 14 years of age.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Parents are strongly urged to exercise greater care in monitoring this program and are cautioned against letting children under the age of 14 watch unattended. This program may contain one or more of the following: intensely suggestive dialogue (D), strong coarse language (L), intense sexual situations (S), or intense violence (V).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="S" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">TV-MA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-MA</mdcr:URI>
+    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvma.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>17</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Mature Audience Only</mdcr:Label>
+      <mdcr:Definition>This program is specifically designed to be viewed by adults and therefore may be unsuitable for children under 17.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This program may contain one or more of the following: crude indecent language (L), explicit sexual activity (S), or graphic violence (V).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="S" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="TV-PG">
+      <mdcr:Explanation>
+        <div class="userHtml">some suggestive dialogue</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-14">
+      <mdcr:Explanation>
+        <div class="userHtml">intensely suggestive dialogue</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="L">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="TV-PG">
+      <mdcr:Explanation>
+        <div class="userHtml">infrequent coarse language</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-14">
+      <mdcr:Explanation>
+        <div class="userHtml">strong coarse language</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-MA" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="S">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="TV-G">
+      <mdcr:Explanation>
+        <div class="userHtml">little or no sexual dialogue or situations.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-PG">
+      <mdcr:Explanation>
+        <div class="userHtml">some sexual situations</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-14">
+      <mdcr:Explanation>
+        <div class="userHtml">intense sexual situations</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-MA">
+      <mdcr:Explanation>
+        <div class="userHtml">explicit sexual activity</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="TV-Y7">
+      <mdcr:Explanation>
+        <div class="userHtml">Themes and elements in this program may include mild fantasy violence or comedic violence, or may frighten children under the age of 7. Therefore, parents may wish to consider the suitability of this program for their very young children.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-PG">
+      <mdcr:Explanation>
+        <div class="userHtml">moderate violence</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-14">
+      <mdcr:Explanation>
+        <div class="userHtml">intense violence</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="TV-MA">
+      <mdcr:Explanation>
+        <div class="userHtml">graphic violence</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="FV">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="TV-Y7-FV">
+      <mdcr:Explanation>
+        <div class="userHtml">For those programs where fantasy violence may be more intense or more combative than other programs in this category, such programs will be designated TV-Y7-FV.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+</mdcr:RatingSystem>

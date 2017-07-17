@@ -1,0 +1,103 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T14:31:38" lastSave="2013-12-30T14:53:38">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>VE</md:country>
+      <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>RESORTE-Sexo</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>VE</md:country>
+    <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Music</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Sexo/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="SiBCI">
+    <md:DisplayName>SiBCI</md:DisplayName>
+    <mdcr:URL>http://www.leyresorte.gob.ve/ley-resorte/</mdcr:URL>
+    <mdcr:OrgType>not_specified</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Sexo/1/A</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>&gt;Sexo Type-A</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos utilizados para la difusi?n de informaci?n, opini?n y conocimiento sobre salud sexual y reproductiva, maternidad, paternidad, promoci?n de la lactancia materna y de expresiones art?sticas con fines educativos, que pueden ser recibidos por ni?os, ni?as y adolescentes sin que se requiera la orientaci?n de madres, padres, representantes o responsables.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Sex Type-A</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds used for the dissemination of information, opinion and knowledge about sexual and reproductive health, motherhood, parenting, breastfeeding promotion and artistic expressions for educational purposes, which can be received by children and adolescents without requiring guidance from mothers, fathers, representatives or guardians.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">B</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Sexo/1/B</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>&gt;Sexo Type-B</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos utilizados para la difusi?n de informaci?n, opini?n y conocimientos sobre sexualidad y reproducci?n humana y de expresiones art?sticas con fines educativos, que de ser recibidas por ni?os, ni?as y adolescentes, requieran la orientaci?n de sus madres, padres, representantes o responsables.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Sex Type-B</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds used for the dissemination of information, opinion and knowledge on human sexuality and reproduction and artistic expressions for educational purposes, to be received by children and adolescents, require the guidance of their mothers, parents, representatives or guardians.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Sexo/1/C</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>&gt;Sexo Type-C</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos sexuales impl?citos sin finalidad educativa; o manifestaciones o aproximaciones de car?cter er?tico que no incluyan actos o pr?cticas sexuales expl?citas.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Sex Type-C</mdcr:Label>
+      <mdcr:Definition>Texts, implied sexual images or sounds without educational purpose, or manifestations of an erotic or approaches that do not include explicit sexual acts or practices.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">D</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Sexo/1/D</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>&gt;Sexo Type-D</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos, sobre desnudez sin finalidad educativa, en las cuales no se aludan o muestren los ?rganos genitales; actos o pr?cticas sexuales dramatizados, en los cuales no se muestren los ?rganos genitales; mensajes sexuales expl?citos; o dramatizaci?n de actos o conductas sexuales que constituyan hechos punibles, de conformidad con la Ley.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Sex Type-D</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds on nudity without educational purpose, in which not allude or genitals showing; dramatized sex acts or practices, in which do not show the genitals, sexually explicit messages, or dramatization of acts or behaviors that constitute sexual offenses, in accordance with the law</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">E</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Sexo/1/E</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>&gt;Sexo Type-E</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos sobre actos o pr?cticas sexuales reales; desnudez sin finalidad educativa en las cuales se muestren los ?rganos genitales; actos o pr?cticas sexuales dramatizados en los cuales se aludan o muestren los ?rganos genitales; actos o pr?cticas sexuales reales o dramatizados en los cuales se amenace o viole el derecho a la vida, la salud y la integridad personal o se menoscabe la dignidad humana; o actos o conductas sexuales reales que constituyan hechos punibles de conformidad con la Ley.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Sex Type-E</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds on actual sexual acts or practices; nudity without educational purpose which show the genitals, sexual acts or practices which are dramatized in the show allude or genitals; actual sexual acts or practices or dramas in which threatens or violates the rights to life, health and personal integrity or undermine human dignity or actual sexual acts or conduct constituting offenses under the Act</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

@@ -1,0 +1,224 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T18:34:06" lastSave="2013-12-09T20:41:54">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>IE</md:country>
+      <mdcr:RegionName>IRELAND</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>IFCO</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>IE</md:country>
+    <mdcr:RegionName>IRELAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Irish Film Classification Office">
+    <md:DisplayName>Irish Film Classification Office</md:DisplayName>
+    <mdcr:ContactString>Blackhall Walk, Smithfield, Dublin 7, Ireland
++353 (01) 799 6100, 828 7420</mdcr:ContactString>
+    <mdcr:URL>http://www.ifco.ie/ifco/ifcoweb.nsf/web/classcatintro</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/general_40_web.gif/$File/general_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>Fit for viewing by persons generally.</mdcr:Definition>
+      <mdcr:Explanation>A video work classified as ‘General’ should be suitable for children of a school going age. However, as not every child will 
+respond in the same way to particular themes, scenes and images, it is strongly recommended that parents/guardians - 
+who know their own children best - consult the consumer advice available on this website before deciding what is appropria</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="GD">
+      <mdcr:Label>Oiriúnach lena bhreathnú ag daoine i gcoitinne.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/pg_40_web.gif/$File/pg_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PARENTAL GUIDANCE</mdcr:Label>
+      <mdcr:Definition>Fit for viewing generally, but in the case of a child under 12 years, under PARENTAL GUIDANCE.</mdcr:Definition>
+      <mdcr:Explanation>Generally, video works classified as ‘PG’ will be suitable for children aged eight and over. However, as some elements within the work might be unsettling for some viewers, it is strongly
+ recommended that parents/guardians - who know their own children best - consult the consumer advice available on this website before deciding on what is appropriate.</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="GD">
+      <mdcr:Label>Threoir Tuismitheora</mdcr:Label>
+      <mdcr:Definition>Oiriúnach lena bhreathnú ag daoine i gcoitinne ach, i gcás linbh faoi bhun 12 bhliain d'aois, faoi Threoir Tuismitheora.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/12</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/12_40_web.gif/$File/12_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>appropriate for viewers of twelve and over</mdcr:Definition>
+      <mdcr:Explanation>Video works classified 12 have been deemed appropriate for viewers of twelve and over. It is offence for a retailer to sell or rent material classified 12 to anyone below that age.</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="GD">
+      <mdcr:Label>12 bhliain d'aois nó os a chionn.</mdcr:Label>
+      <mdcr:Definition>Oiriúnach lena bhreathnú ag daoine atá 12 bhliain d'aois nó os a chionn.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/15</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/15_40_web.gif/$File/15_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>Fit for viewing by persons aged 15 YEARS OR MORE.</mdcr:Definition>
+      <mdcr:Explanation>Video works classified 15 have been deemed appropriate for viewers of fifteen and over. It is offence for a retailer to sell or rent material classified 15 to anyone below that age. 
+
+Generally, films classified 16 on cinema release will be classified 15 on video release (e.g., ‘Cabin In The Woods’, ‘A Dangerous Method’, ‘Headhunters’).</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="GD">
+      <mdcr:Label>15 bliana d'aois nó os a chionn</mdcr:Label>
+      <mdcr:Definition>Oiriúnach lena bhreathnú ag daoine atá 15 bliana d'aois nó os a chionn</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/18_40_web.gif/$File/18_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Fit for viewing by persons aged 18 YEARS OR MORE.</mdcr:Definition>
+      <mdcr:Explanation>Video works classified in this category are suitable for persons of eighteen or over. It is an offence for a retailer to sell or rent a film classified 18 to any person below that age.
+ 
+One of IFCO’s guiding principles is that adults (i.e., persons over 18) should be free, within the law, to choose what they wish to view.
+
+The IFCO website provides consumer advice on films rated in this category as practical information regarding film content is appreciated by the cinema-going public.</mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="GD">
+      <mdcr:Label>t.b.d</mdcr:Label>
+      <mdcr:Definition>18 mbliana d'aois nó os a chionn.</mdcr:Definition>
+      <mdcr:Explanation>Oiriúnach lena bhreathnú ag daoine atá 18 mbliana d'aois nó os a chionn.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>Children can cope with and enjoy some frightening content in the films they view (e.g., fairytale villains). A General certificate film may include such content but these sequences will be mild and unsustained, there will be an absence of blood or injury detail and any outcome will be reassuring.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>Any frightening sequences should not be sustained or graphic. However, some stronger violence may be permissible in what is clearly a fantasy or comic context.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Explanation>Moderate violence and more prolonged threat/horror are acceptable at 12. This is particularly the case when depicted in a fantasy context (common at this category). Stronger images of injury detail may be acceptable if justified by the context in which they are presented (i.e., in an accurate depiction of warfare).</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15">
+      <mdcr:Explanation>Violence may be realistic but not gratuitous or focus on bloody injury. Strong gory images will only be permitted if justified by the context in which they are presented. We take particular account of the way in which sexual violence is portrayed. Any such content in this category should be discreetly presented and contextually justified. 
+
+Strong horror and threat are acceptable but will not include the strongest images of sadism and torture.</mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="SC">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>If present, such content will be very mild (e.g., kissing, dating, references to ‘making love’). In certain circumstances, non-sexual nudity may be acceptable.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>Sex references will be mild and any sexual activity will be implied rather than depicted. Subtle innuendo may be accepted.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Explanation>Sexual content (situations and dialogue) presented without explicit detail may be acceptable at 12. Brief sexual nudity may also be acceptable.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15">
+      <mdcr:Explanation>Strong sex references may be acceptable at 15. Scenes of a sexual nature may also be acceptable but will not gratuitous or prolonged.</mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="L">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>General certificate films may include infrequent use of mild bad language and slang.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>The language will be mild. However, in rare instances, a PG film may contain infrequent strong language provided it is used discreetly and is contextually justified. Discriminatory or racist terms will only be acceptable if used in a clearly educational context.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Explanation>Some infrequent strong language may be acceptable, but should be used in a non-aggressive manner. Use of discriminatory language should be justified by the overall context of the film.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15">
+      <mdcr:Explanation>Strong language is allowed at 15.</mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>There will be no drug use or drug references unless clearly set within an educational context.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>Any references to drug use should be mild and will relate to soft drug use only. Where stronger references are made they will be set within a clearly educational context.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Explanation>Images of or references to soft drugs may be permitted in an appropriate context. Generally, content relating to hard drugs is not acceptable unless there is a clear anti-drug message and the misuse
+of drugs is not glamorized.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15">
+      <mdcr:Explanation>Scenes or dialogue relating to drugs may be acceptable in an appropriate context, but not if there is glamorization, instruction or encouragement as to use.</mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Theme">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>While a General certificate does not necessarily signify a ‘children’s picture’, such films will not include themes or content that will upset younger children.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>A Parental Guidance certificate does not necessarily signify a ‘children’s picture’, but while more mature issues might be addressed (e.g., war, family issues) there will generally be a positive or redemptive resolution.</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Explanation>Mature themes are acceptable (crime, bereavement, relationships, etc.) provided they are depicted in a fashion suitable for young teenagers (i.e., in such a way that they will already have been familiar with in their everyday lives). Themes of suicide or self-harm or other imitable behaviour will only be acceptable if depicted without detail and in a clearly educational context</mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15">
+      <mdcr:Explanation>Most themes/content will be acceptable with classification decided by the way the subject is treated.</mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+</mdcr:RatingSystem>

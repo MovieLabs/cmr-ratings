@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-13T19:34:06" lastSave="2014-08-01T15:10:36">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>IE</md:country>
+      <mdcr:RegionName>IRELAND</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>IFCOF</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>IE</md:country>
+    <mdcr:RegionName>IRELAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      <p>Note this system is IFCOF (“F” is for film) to differentiate from the DVD/Video ratings.</p>
+    </div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Irish Film Classification Office">
+    <md:DisplayName>Irish Film Classification Office</md:DisplayName>
+    <mdcr:ContactString>Blackhall Walk, Smithfield, Dublin 7, Ireland
++353 (01) 799 6100, 828 7420</mdcr:ContactString>
+    <mdcr:URL>http://www.ifco.ie/ifco/ifcoweb.nsf/web/classcatintro</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/g_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>suitable for children of a school going age</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A film classified as ‘General’ should be suitable for children of a school going age. However, as not every child will respond in the same way to particular themes, scenes and images, it is strongly recommended that parents/guardians - who know their own children best - consult the consumer advice available on this website before deciding what is appropriate.
+
+While a General certificate does not necessarily signify a ‘children’s picture’, such films will not include themes or content that will upset younger children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/pg_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Definition>suitable for children aged eight and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Generally, a film classified as ‘PG’ will be suitable for children aged eight and over. However, as some elements within the film might be unsettling for some viewers, it is strongly recommended that parents/guardians - who know their own children best - consult the consumer advice available on this website before deciding on what is appropriate.
+
+A Parental Guidance certificate does not necessarily signify a ‘children’s picture’, but while more mature issues might be addressed (e.g., war, family issues) there will generally be a positive or redemptive resolution.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/12A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/12pg_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12A</mdcr:Label>
+      <mdcr:Definition>appropriate for viewers of twelve and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films classified 12A have been deemed appropriate for viewers of twelve and over. However, they can also be seen by younger children - provided they are accompanied by an adult who has deemed the film appropriate viewing for that child. In such cases, IFCO strongly recommends that parents/guardians make informed decisions by accessing the consumer advice available on this website.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">15A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/15A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/15pg_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15A</mdcr:Label>
+      <mdcr:Definition>appropriate for viewers of fifteen and over. However, they can also be seen by younger children - provided they are accompanied by an adult who has deemed the film appropriate viewing for that child.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films classified 15A have been deemed appropriate for viewers of fifteen and over. However, they can also be seen by younger children - provided they are accompanied by an adult who has deemed the film appropriate viewing for that child. In such cases, IFCO strongly recommends that parents/guardians make informed decisions by accessing the consumer advice available on this website.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/16</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/16_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>suitable for persons of sixteen or over. Those under sixteen will not be admitted</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The 16 certificate recognizes the ability of today’s teenagers to digest and understand mature themes and complex material. Many films that would previously have been classified 18 are now classified in this category.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="D" />
+    <mdcr:ApplicableReason id="SC" />
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="L" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/18_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>suitable for persons of eighteen or over. Those under eighteen will not be admitted</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">One of IFCO’s guiding principles is that adults (i.e., persons over 18) should be free, within the law, to choose what they wish to view.
+
+The IFCO website provides consumer advice on films rated in this category as practical information regarding film content is appreciated by the cinema-going public.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>
+        <div class="userHtml">Children can cope with and enjoy some frightening content in the films they view (e.g., fairytale villains). A General certificate film may include such content but these sequences will be mild and unsustained, there will be an absence of blood or injury detail and any outcome will be reassuring.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>
+        <div class="userHtml">Any frightening sequences should not be sustained or graphic. However, some stronger violence may be permissible in what is clearly a fantasy or comic context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12A">
+      <mdcr:Explanation>
+        <div class="userHtml">Moderate violence and more prolonged threat/horror are acceptable at 12A. This is particularly the case when depicted in a fantasy context (common at this category). Stronger images of injury detail may be acceptable if justified by the context in which they are presented (i.e., in an accurate depiction of warfare).</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15A">
+      <mdcr:Explanation>
+        <div class="userHtml">Violence may be realistic but not gratuitous or focus on bloody injury. Strong gory images will only be permitted if justified by the context in which they are presented. We take particular account of the way in which sexual violence is portrayed. Any such content in this category should be discreetly presented and contextually justified. Generally, horror in this category will be psychological in nature. Acts of sadism common to the genre are not permissible.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Explanation>
+        <div class="userHtml">Violence might be intensely depicted and may include some gory imagery. We take particular account of the way in which sexual violence is portrayed. The portrayal of such content in this category should not be explicit and must have clear contextual justification. 
+
+Strong horror and sustained threat may be acceptable but will not include the strongest images of sadism and torture.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="SC">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>
+        <div class="userHtml">If present, such content will be very mild (e.g., kissing, dating, references to ‘making love’). In certain circumstances, non-sexual nudity may be acceptable.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>
+        <div class="userHtml">Sex references will be mild and any sexual activity will be implied rather than depicted. Subtle innuendo may be accepted.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12A">
+      <mdcr:Explanation>
+        <div class="userHtml">Sexual content (situations and dialogue) presented without explicit detail may be acceptable at 12A. Brief sexual nudity may also be acceptable.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15A">
+      <mdcr:Explanation>
+        <div class="userHtml">Strong sex references may be acceptable at 15A. Scenes of a sexual nature may also be acceptable but will not be explicit or prolonged.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Explanation>
+        <div class="userHtml">Strong sexual themes and content may be permissible provided it is not gratuitous.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="L">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>
+        <div class="userHtml">General certificate films may include infrequent use of mild bad language and slang.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>
+        <div class="userHtml">The language will be mild. However, in rare instances, a PG film may contain infrequent strong language provided it is used discreetly and is contextually justified. Discriminatory or racist terms will only be acceptable if used in a clearly educational context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12A" />
+    <mdcr:Criteria ratingID="15A">
+      <mdcr:Explanation>
+        <div class="userHtml">Strong language is allowed at 15A. Frequent or aggressive use of these terms will have to be justified within the context of the piece.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Explanation>
+        <div class="userHtml">Strong language is acceptable within this category.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>
+        <div class="userHtml">There will be no drug use or drug references unless clearly set within an educational context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>
+        <div class="userHtml">Any references to drug use should be mild and will relate to soft 
+drug use only. Where stronger references are made they will be 
+set within a clearly educational context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12A">
+      <mdcr:Explanation>
+        <div class="userHtml">Images of or references to soft drugs may be permitted in an 
+appropriate context. Generally, content relating to hard drugs is not 
+acceptable unless there is a clear anti-drug message and the misuse
+of drugs is not glamorized.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15A">
+      <mdcr:Explanation>
+        <div class="userHtml">Scenes or dialogue relating to drugs may be acceptable in an appropriate context, but not if there is glamorization, instruction or 
+encouragement as to use.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Explanation>
+        <div class="userHtml">Films at this category might feature themes and scenes relating to hard drug use. However, any instructional or glamorised drug use, particularly involving teen protagonists, is unlikely to be acceptable.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Theme">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="G">
+      <mdcr:Explanation>
+        <div class="userHtml">While a General certificate does not necessarily signify a ‘children’s picture’, such films will not include themes or content that will upset younger children.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Explanation>
+        <div class="userHtml">A Parental Guidance certificate does not necessarily signify a ‘children’s picture’, but while more mature issues might be addressed (e.g., war, family issues) there will generally be a positive or redemptive resolution.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12A">
+      <mdcr:Explanation>
+        <div class="userHtml">Mature themes are acceptable (crime, bereavement, relationships, etc.) provided they are depicted in a fashion suitable for young teenagers (i.e., in such a way that they will already have been familiar with in their everyday lives). Themes of suicide or self-harm or other imitable behaviour will only be acceptable if depicted without detail and in a clearly educational context.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="15A">
+      <mdcr:Explanation>
+        <div class="userHtml">Most themes/content will be acceptable with classification decided by the way the subject is treated.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Explanation>
+        <div class="userHtml">Most themes/content will be acceptable with classification decided by the way the subject is treated.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+</mdcr:RatingSystem>

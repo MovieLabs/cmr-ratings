@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-11T10:47:34" lastSave="2014-12-12T16:01:03">
+  <mdcr:RatingSystemID version="3">
+    <mdcr:Region>
+      <md:country>FR</md:country>
+      <mdcr:RegionName>FRANCE</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CSA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>FR</md:country>
+    <mdcr:RegionName>FRANCE</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">This system is used on an unofficial basis in Luxembourg.</div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Conseil supérieur de l’audiovisuel">
+    <md:DisplayName>Conseil supérieur de l’audiovisuel</md:DisplayName>
+    <mdcr:ContactString>Conseil supérieur de l’audiovisuel 
+Tour Mirabeau
+39-43, quai André-Citroën
+75739 Paris cedex 15</mdcr:ContactString>
+    <mdcr:URL>http://www.csa.fr/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="1">10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/10</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/protection-des-mineurs-10/330309-1-fre-FR/Protection-des-mineurs-10.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 10 ans</mdcr:Label>
+      <mdcr:Definition>n.a.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/12</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/logos/protection-des-mineurs-12/330313-1-fre-FR/Protection-des-mineurs-12.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 12 ans</mdcr:Label>
+      <mdcr:Definition>.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/16</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/logos/protection-des-mineurs-16/330317-1-fre-FR/Protection-des-mineurs-16.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 16 ans</mdcr:Label>
+      <mdcr:Definition>n.a.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/18</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/logos/protection-des-mineurs-18/330321-1-fre-FR/Protection-des-mineurs-18.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 18 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">interdiction</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/interdiction</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>interdits</mdcr:Label>
+      <mdcr:Definition>Les programmes portant atteinte à la dignité humaine ou incitant à des comportements délinquants ou inciviques sont interdits de toute diffusion.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

@@ -1,0 +1,103 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T09:41:19" lastSave="2013-12-12T21:07:35">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>MX</md:country>
+      <mdcr:RegionName>MEXICO</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>RTC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>MX</md:country>
+    <mdcr:RegionName>MEXICO</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="DIRECCIÓN GENERAL DE RADIO, TELEVISIÓN Y CINEMATOGRAFÍA">
+    <md:DisplayName>DIRECCIÓN GENERAL DE RADIO, TELEVISIÓN Y CINEMATOGRAFÍA</md:DisplayName>
+    <mdcr:ContactString>Roma #41 Col. Juárez Delegación Cuauhtémoc C.P. 06600, México, D.F. 
+Teléfono: 51-40-80-00</mdcr:ContactString>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">AA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/AA</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>AA</mdcr:Label>
+      <mdcr:Definition>Comprensible para menores de 7 años.</mdcr:Definition>
+      <mdcr:Explanation>Informativa. Presenta una narrativa de fácil comprensión. No contiene escenas eróticas ni sexuales. Tampoco hace uso de lenguaje altisonante ni consumo de estupefacientes o psicotrópicos. No hay horror. La violencia puede ser mínima, mientras no se aliente ni sea traumática. Besos, abrazos o caricias se presentan en tono cariñoso, familiar o amistoso. No afecta el desarrollo integral de un menor de 7 años.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/A</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Definition>Para todo público.</mdcr:Definition>
+      <mdcr:Explanation>Informativa. La narrativa puede presentar cierto grado de complejidad. La violencia puede ser mínima si no se alienta. También pueden incluirse desnudos siempre que sean breves, no frecuentes y no detallados; sin embargo no puede presentar escenas sexuales ni eróticas. No hay consumo de drogas aunque el lenguaje puede contener un cierto número de expresiones procaces.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">B</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/B</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Definition>Para adolescentes de 12 años en adelante.</mdcr:Definition>
+      <mdcr:Explanation>Informativa. La narrativa puede ser compleja. Presenta cierto grado de violencia, no extrema, por motivos específicos y no vinculada con lo sexual, poniendo en claro sus consecuencias. Los desnudos son breves y no detallados y las escenas sexuales sólo sugeridas. Se puede tratar el tema de las adicciones y las drogas pero sin exhibir su consumo. La violencia verbal no puede ser extrema.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">B15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/0/B15</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>B15</mdcr:Label>
+      <mdcr:Definition>No recomendada para menores de 15 años.</mdcr:Definition>
+      <mdcr:Explanation>Informativa. La narrativa puede ser muy compleja y el contenido, al ser más explícito que el de la clasificación B, requiere cierto nivel de discernimiento y juicio. Puede contener mayor grado de horror y la violencia se puede vincular con conductas sexuales siempre que no se lleve al extremo. El erotismo y las escenas sexuales son implícitas y en un contexto no degradante o humillante. El consumo de drogas es mínimo y no se alienta. Puede contener expresiones y palabras procaces.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">D</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/D</mdcr:URI>
+    <mdcr:MinRecAge>19</mdcr:MinRecAge>
+    <mdcr:MinAge>19</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>19</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>D</mdcr:Label>
+      <mdcr:Definition>Películas para adultos.</mdcr:Definition>
+      <mdcr:Explanation>Restrictiva. Tiene como contenido dominante o único, sexo explícito, lenguaje procaz o alto grado de violencia.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/C</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>C</mdcr:Label>
+      <mdcr:Definition>Para adultos de 18 años en adelante.</mdcr:Definition>
+      <mdcr:Explanation>Restrictiva. La narración de los hechos o situaciones es detallada. Puede contener horror detallado, alto grado de violencia, escenas sexuales explícitas, adicciones y consumo de drogas así como violencia verbal extrema.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

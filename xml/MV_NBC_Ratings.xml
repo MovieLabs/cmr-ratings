@@ -1,0 +1,143 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T09:17:08" lastSave="2013-12-16T16:14:18">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>MV</md:country>
+      <mdcr:RegionName>MALDIVES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>NBC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>MV</md:country>
+    <mdcr:RegionName>MALDIVES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="National Bureau of Classification">
+    <md:DisplayName>National Bureau of Classification</md:DisplayName>
+    <mdcr:ContactString>National Bureau of Classification 
+Male’ Republic of Maldives 
+PABX:    +960 331 2900, +960 331 2901 
+FAX:      +960 331 5351 
+DIRECT: +960 330 5043</mdcr:ContactString>
+    <mdcr:URL>http://nbc.gov.mv/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MV_G.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>Suitable for all ages Story or message; would not include any material that might evoke fear or concern Acts of violence; would not contain any amount of violence.</mdcr:Definition>
+      <mdcr:Explanation>Would also not contain anything that is likely to frighten or worry children under 12 years of age Sexual acts; would not contain anything sexual Harshness of language; would not contain harsh language or language that is unsuitable for children under 12 years of age Drug abuse; would not contain any scenes that depict drug abuse Nudity; would not contain any nudity g) Religion; would not include information about Islam that is unsuitable for children under 12 years of age</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MV_PG.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance</mdcr:Label>
+      <mdcr:Definition>Parental Guidance Story or message; would not include any material that might evoke fear or concern.</mdcr:Definition>
+      <mdcr:Explanation>Acts of violence; would not contain any amount of violence. Would also not contain anything that is likely to frighten or worry children under 12 years of age. Sexual acts; would not contain anything sexual. Harshness of language; would not contain harsh language or language that is unsuitable for children under 12 years of age. Drug abuse; would not contain any scenes that depict drug abuse. Nudity; would not contain any nudity. Religion; would not include information about Islam that is unsuitable for children under 12 years of age. Parent Responsibility; All the production with this age group should be shown to children under 12 with parental Guidance.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/0/12+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MV_12+.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12+</mdcr:Label>
+      <mdcr:Definition>Ages 12 and above Story or message; would not include any material that might evoke fear or concern in children between 12 and 15 years old.</mdcr:Definition>
+      <mdcr:Explanation>Acts of violence; would include slightly violent instances that would not evoke fear or concern in children between 12 and 15 years old Sexual acts; would not contain anything sexual Harshness of language; harsh language would not be frequent, and would not contain words that are inappropriate for children between 12 and 15 years of age Drug abuse; would only contain drug abuse in productions specifically targeting the age group Nudity; would not include nudity g) Religion; would not include information about Islam that is unsuitable for children under 15 years of age</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">15+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/1/15+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MV_15+.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15+</mdcr:Label>
+      <mdcr:Definition>Suitable for ages 15 and above Story or message; would not contain any material that might frighten or worry viewers between the ages of 15 and 18 years.</mdcr:Definition>
+      <mdcr:Explanation>Acts of violence; would include some violent instances that would not evoke fear or concern in viewers between 15 and 18 years old Sexual acts; would not include anything sexual Harshness of language; would contain some harsh language, but not words that are inappropriate for viewers between 15 and 18 years of age Drug abuse; would only contain scenes depicting drug abuse in those productions intended to warn 15 to 18 year olds about the dangers and perils of drug abuse Nudity; would not include nudity Religion; would not include information about Islam that is unsuitable for children under 18 years of age</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/1/18+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MV_18+.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18+</mdcr:Label>
+      <mdcr:Definition>Suitable for ages 18 and above Story or message; would include some instances that might evoke fear or concern Acts of violence; would include violence that is deemed appropriate for people over 18 years of age.</mdcr:Definition>
+      <mdcr:Explanation>These scenes might evoke fear. Sexual acts; would include sexual scenes that are appropriate for people over 18 years of age, 
+but would not include any graphic scenes of sexual activity Harshness of language; would contain harsh language and any sexual 
+activity might be referred to with sexual connotations Drug abuse; would include scenes depicting drug abuse, but would not 
+include any material that encourages drug abuse or portrays it in a positive light Nudity; would include scenes where the naked
+ person is not in full view, for instance veiled by a shower curtain. No scenes of nudity would be included. Religion; information 
+regarding Islam would be included to the extent that is permissible in the Maldives.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18+R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/1/18+R</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MV_18+R.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18+R</mdcr:Label>
+      <mdcr:Definition>Suitable for ages 18+R (Restricted) and above Story or message; would include some instances that might evoke fear or concern Acts of violence; would include violence that is deemed appropriate for people over 18 years of age.</mdcr:Definition>
+      <mdcr:Explanation>These scenes might evoke fear. Sexual acts; would include sexual scenes that are appropriate for people over 18 years of age, 
+but would not include any graphic scenes of sexual activity Harshness of language; would contain harsh language and any sexual
+ activity might be referred to with sexual connotations Drug abuse; would include scenes depicting drug abuse, but would not include 
+any material that encourages drug abuse or portrays it in a positive light Nudity; would include scenes where the naked person is
+ not in full view, for instance veiled by a shower curtain. No scenes of nudity would be included. Religion; information regarding 
+Islam would be included to the extent that is permissible in the Maldives Warning; some materials classified to this age group
+ may be offensive to some section of the adult community.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="95">PU</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MV/NBC/1/PU</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MV_PU.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PU</mdcr:Label>
+      <mdcr:Definition>For Professional Use Only</mdcr:Definition>
+      <mdcr:Explanation>Story or message; would include scenes that might evoke fear or concern Acts of violence;  would include violence c) Sexual acts; 
+would include sexual scenes but not graphic scenes showing sexual activity Harshness of language; would include
+ harsh language and some offensive words Drug abuse; would include scenes depicting drug abuse, but would not include
+ any material that encourages drug abuse or portrays it in a positive light Nudity; would include nudity and show sexual organs
+ for educational, intellectual, historical and artistic purposes Religion; information regarding Islam would be included to the 
+extent that is permissible in the Maldives</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

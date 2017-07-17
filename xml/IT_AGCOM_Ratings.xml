@@ -1,0 +1,63 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T09:14:59" lastSave="2013-12-09T21:33:54">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>IT</md:country>
+      <mdcr:RegionName>ITALY</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>AGCOM</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>IT</md:country>
+    <mdcr:RegionName>ITALY</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IT/AGCOM/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Autorità per le Garanzie nelle Comunicazioni">
+    <md:DisplayName>Autorità per le Garanzie nelle Comunicazioni</md:DisplayName>
+    <mdcr:ContactString>Centro Direzionale, Isola B5 - 80143 Napoli
+Tel. 081/7507111
+Fax 081/7507616</mdcr:ContactString>
+    <mdcr:URL>http://www.agcom.it/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">T</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/AGCOM/1/T</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IT">
+      <mdcr:Label>Pellicola per tutti</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">VM14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/AGCOM/1/VM14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IT">
+      <mdcr:Label>14 anni</mdcr:Label>
+      <mdcr:Definition>FILM VIETATI AI MINORI DI 14 ANNI</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">VM18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/AGCOM/1/VM18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IT">
+      <mdcr:Label>18 anni</mdcr:Label>
+      <mdcr:Definition>FILM VIETATI AI MINORI DI 18 ANNI.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-09T08:01:40" lastSave="2014-12-12T16:00:12">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>NL</md:country>
+      <mdcr:RegionName>NETHERLANDS</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>Kijkwijzer</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>NL</md:country>
+    <mdcr:RegionName>NETHERLANDS</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>IS</md:country>
+    <mdcr:RegionName>ICELAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">This rating system is used on an unofficial basis in Belgium.</div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Nederlands Instituut voor de Classificatie van Audiovisuele Media">
+    <md:DisplayName>Nederlands Instituut voor de Classificatie van Audiovisuele Media</md:DisplayName>
+    <mdcr:ContactString>NICAM
+Nederlands Instituut voor de Classificatie van Audiovisuele Media
+Postbus 322
+1200 AH Hilversum
+tel: 085 4011690</mdcr:ContactString>
+    <mdcr:URL>http://www.kijkwijzer.nl/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">AL</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/AL</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/upload/pic/50_groen_al.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>AL</mdcr:Label>
+      <mdcr:Definition>Niet schadelijk/Alle Leeftijden</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/6</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/upload/pic/51_groen_6.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>6</mdcr:Label>
+      <mdcr:Definition>Mogelijk schadelijk tot 6 jaar</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">9</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/9</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/images/icons/groen_9.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>9</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>9</mdcr:Label>
+      <mdcr:Definition>Mogelijk schadelijk tot 9 jaar</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/12</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/images/icons/groen_12.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Mogelijk schadelijk tot 12 jaar</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/16</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/images/icons/groen_16.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Mogelijk schadelijk tot 16 jaar</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="G">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="A">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="S">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="T">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="H">
+    <mdcr:Label />
+  </mdcr:Reason>
+</mdcr:RatingSystem>

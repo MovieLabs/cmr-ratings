@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-21T11:48:40" lastSave="2016-12-22T15:55:55">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>CA</md:country>
+      <mdcr:RegionName>CANADA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CPBC-T</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>CA-BC</md:countryRegion>
+    <mdcr:SubRegion>British Columbia</mdcr:SubRegion>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Consumer Protection BC">
+    <md:DisplayName>Consumer Protection BC</md:DisplayName>
+    <mdcr:ContactString>Consumer Protection BC Compliance &amp; Enforcement and Motion Picture Classification
+PO Box 9244 Victoria BC V8W 9J2</mdcr:ContactString>
+    <mdcr:URL>http://www.consumerprotectionbc.ca/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">AP</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2/AP</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/approved.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>AP</mdcr:Label>
+      <mdcr:Definition>Approved for exhibition with all films.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">SP</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2/SP</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/special%20permission.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>SP</mdcr:Label>
+      <mdcr:Definition>Approved for exhibition with films classified as 14A or 18A.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2/A</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/a.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adult</mdcr:Label>
+      <mdcr:Definition>Approved for exhibition with films classified as Restricted or Adult.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

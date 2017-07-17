@@ -1,0 +1,55 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-24T02:01:14" lastSave="2013-10-28T19:44:10">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>US</md:country>
+      <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MPAAT</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>US</md:country>
+    <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAAT/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Motion Picture Association of America, Inc.">
+    <md:DisplayName>Motion Picture Association of America, Inc.</md:DisplayName>
+    <mdcr:ContactString>1600 Eye St., 
+NW Washington, D.C. 20006 
+(202) 293-1966 (main) 
+(202) 296-7410 (fax)</mdcr:ContactString>
+    <mdcr:URL>http://www.mpaa.org/</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">GB</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAAT/1/GB</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MPAA-G-band.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Green Band</mdcr:Label>
+      <mdcr:Definition>approved for all or appropriate audiences</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">RB</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAAT/1/RB</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MPAA-R-band.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>17</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Red Band</mdcr:Label>
+      <mdcr:Definition>approved for restricted audiences only</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

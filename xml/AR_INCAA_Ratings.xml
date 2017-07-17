@@ -1,0 +1,94 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 ../mdcr-v1.0.xsd" lastSave="2013-12-29T16:17:09">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>AR</md:country>
+      <mdcr:RegionName>ARGENTINA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>INCAA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>AR</md:country>
+    <mdcr:RegionName>ARGENTINA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/AR/INCAA/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Instituto Nacional de Cine y Artes Audiovisuales">
+    <md:DisplayName>Instituto Nacional de Cine y Artes Audiovisuales</md:DisplayName>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">ATP</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AR/INCAA/0/ATP</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/INCA_ATP.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>Todo público</mdcr:Label>
+      <mdcr:Definition>Apta para todo público</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="13">SAM13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AR/INCAA/0/SAM13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/INCA_13.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>mayores de 13</mdcr:Label>
+      <mdcr:Definition>Sólo apta para mayores de 13 años</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">SAM16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AR/INCAA/0/SAM16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/INCA_16.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>mayores de 16</mdcr:Label>
+      <mdcr:Definition>Sólo apta para mayores de 16 años</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">SAM18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AR/INCAA/0/SAM18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/INCA_18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>mayores de 18</mdcr:Label>
+      <mdcr:Definition>Sólo apta para mayores de 18años</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="81">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AR/INCAA/0/C</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/INCA_C.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>condicionada</mdcr:Label>
+      <mdcr:Definition>Sólo apta para mayores de 18 años de exhibición condicionada</mdcr:Definition>
+      <mdcr:Explanation>Las referidas salas cinematográficas
+no podrán tampoco exhibir otro
+material que el calificado como "Sólo
+apto para mayores de 18 años de
+exhibición condicionada."</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

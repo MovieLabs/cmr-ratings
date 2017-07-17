@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2015-02-24T15:10:25">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>UA</md:country>
+      <mdcr:RegionName>UKRAINE</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>Ukraine</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>UA</md:country>
+    <mdcr:RegionName>UKRAINE</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2015-08-19</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Ukrainian State Film Agency">
+    <md:DisplayName>Ukrainian State Film Agency</md:DisplayName>
+    <mdcr:ContactString>Поштова адреса:
+01010
+м.Київ,
+вул. Лаврська, 10
+телефон: (044) 280-27-18
+
+Mailing address: 
+01010 
+Kyiv, 
+vul. Lavrska 10
+Phone: (044) 280-27-18</mdcr:ContactString>
+    <mdcr:URL>http://dergkino.gov.ua/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">Yes</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0/Yes</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>ДА</mdcr:Label>
+      <mdcr:Definition>Дитяча аудиторія.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Фільми з індексом "ДА" спеціально створені для дітей і доступні за сюжетом для дитячого сприйняття. Повна відсутність у цих фільмах у 
+будьякій
+ формі грубості, насильства, жорстокості, непристойних виразів.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">For</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0/For</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>ЗА</mdcr:Label>
+      <mdcr:Definition>Загальна аудиторія.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Фільми з індексом "ЗА" категорія загальнодоступних фільмів, для глядачів будьякого віку. Фільми цієї категорії розраховані на сімейний перегляд. Тобто такі, що порушують теми, які однаково
+цікаві та зрозумілі більшості глядачів незалежно від їх віку, інтелектуального рівня, соціального стану. Як правило, вони вирішені в доступній розважальній формі. Пропагують сімейні
+цінності. Реалії складної дійсності (смерть, страждання, горе, насильство тощо) подаються з максимальною умовністю.
+  Виключаються будьякі сцени, які можуть негативно впливати на психіку людей, а особливо дітей: натуралістичний показ жорстокості
+і насильства, фізіології сексу; допускається тільки естетизована демонстрація оголеного тіла, орієнтована на зразки високого мистецтва.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="1">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0/14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>14</mdcr:Label>
+      <mdcr:Definition>Фільм, перегляд якого дозволяється дітям до 14 років тільки у супроводі батьків. Самостійний перегляд дітям до 14 років забороняється.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Фільми цієї категорії порушують теми і проблеми, характерні для навколишньої дійсності в усій її
+складності. Як правило, їх утілення здійснюється в таких жанрах, як трагедія, драма, трагікомедія, які передбачають більш жорсткий
+показ дійсності, ніж фільми категорії "ЗА". Самостійний перегляд дітям до 14 років забороняється. 
+  Батьки попереджаються про те, що тема і зміст фільму
+розраховані на більш зрілих глядачів і не підходить дітям до 14 років. Фільми цієї категорії можуть мати обмежене зображення
+оголеного тіла без сцен сексуальної поведінки. 
+  Можливі сексуальні натяки і асоціації. Фільм може включати сцени з незначним ступенем насильства та жорстокості, без надмірного натуралістично вираженого кровопролиття.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="2">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Фільм, перегляд якого забороняється особам віком до 16 років.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Глядачі попереджаються, що тема або зміст фільмів призначено для більш зрілої аудиторії, ніж фільми категорії "ЗА" та "14". Передбачається, що цю категорію складають глядачі, що
+мають певний життєвий досвід і здатні сприймати ускладнену мову художнього твору.
+  Фільми цієї категорії можуть мати сцени з обмеженим ступенем насильства та жорстокості, такі як бійки, застосування зброї без
+надмірного кровопролиття, обмежене зображення нещасного випадку або катастрофи. Вони також можуть мати сцени, що включають короткі
+й епізодичні зображення оголеності, сцени кохання без сексуальної поведінки, епізодичне використання грубих слів, ненормативної лексики, якщо вона підкреслює належність персонажів до певних
+прошарків суспільства, присутня в оригіналі за задумом режисера і необхідна для розвитку сюжету. Такі сцени повинні бути короткими
+за хронометражем (до 3 хвилин), зняті з використанням засобів художньої виразності, їх необхідність обумовлена логікою сюжету.
+Можуть бути присутні проблеми нетрадиційних сексуальних відносин за умови, якщо вони вирішені коректно і тільки на вербальному
+рівні.
+  До цієї категорії можуть бути віднесені фільми, які мають художню цінність, створені в руслі сучасних течій та напрямків кіно або молодіжної субкультури, мають деякі сцени, що виходять за
+межі загальноприйнятої моралі, важливі для сприйняття сюжету.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Фільм, перегляд якого забороняється особам віком до 18 років.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Фільми, перегляд яких дозволений тільки для дорослого глядача. Ця категорія включає фільми таких жанрів, як бойовики,
+трилери, містика, специфічними атрибутами яких є сцени насильства, жорстокості, показ жахливого, патологічного натуралізму. Їх наявність має бути 
+виправдана логікою сюжету та втілена на екрані з максимальним ступенем умовності (тобто використання спецефектів, що виключають шокуючий натуралізм). 
+У фільмах цієї категорії можуть мати місце художньо виправдане насильство, у тому числі сексуальне, наочне зображення катастроф, жахів, відвертої
+оголеності (включаючи статеві органи), імітація сексуальних актів, доречне вживання непристойностей. Крім цього, до цієї категорії
+можуть відноситись фільми, що мають художньо виправдані сцени антисоціальної поведінки у відверто переконливій формі.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">X21</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0/X21</mdcr:URI>
+    <mdcr:MinRecAge>21</mdcr:MinRecAge>
+    <mdcr:MinAge>21</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>21</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>Х21</mdcr:Label>
+      <mdcr:Definition>Фільм, перегляд якого забороняється особам віком до 21 років.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Фільми, перегляд яких забороняється особам до 21 року і демонстрування їх дозволяється за обмеженою умовою. Це всі типи
+еротичної продукції (для телебачення становить виняток так звана еротична версія порнографії, яка у світовій практиці має індекс " ХХ"). А також фільми, які мають цінність як твори мистецтва, з
+включенням сцен статевих актів, що окремо від твору можуть виглядати як порнографія, але не вульгарні за своєю суттю. Фільми
+цієї категорії можуть мати художньо виправдані сцени насильства, жорстокості, надзвичайно наочне зображення катастроф, жахів,
+відвертої оголеності. 
+  Установлена класифікація фільму має обов'язковий характер для юридичних і фізичних осіб, які займаються розповсюдженням і
+демонструванням фільмів.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">Denied</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/0/Denied</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>Відмовлено</mdcr:Label>
+      <mdcr:Definition>Фільми які Держкіно України відмовляє в державній реєстрації та видачі прокатного посвідчення у разі.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Фільми які пропагують війну, насильство, жорстокість, фашизм і неофашизм, спрямовані на ліквідацію незалежності України, розпалювання
+міжетнічної, расової, релігійної ворожнечі, приниження нації, неповагу до національних і релігійних святинь, приниження
+особистості, що пропагують невігластво, неповагу до батьків, а також наркоманію, токсикоманію, алкоголізм та інші шкідливі
+звички, i фільми порнографічного характеру відмовлени в державній реєстрації.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

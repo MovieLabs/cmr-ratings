@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-13T16:27:45" lastSave="2014-12-12T16:04:19">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>AU</md:country>
+      <mdcr:RegionName>AUSTRALIA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>NCS</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>AU</md:country>
+    <mdcr:RegionName>AUSTRALIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+      <mdcr:Environment>App</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Classification Board">
+    <md:DisplayName>Classification Board</md:DisplayName>
+    <md:SortName>Australian Classification Board</md:SortName>
+    <mdcr:ContactString>Locked Bag 3 Haymarket, New South Wales, 1240
+Tel:  (02) 9289 7100
+Fax  (02) 9289 7101</mdcr:ContactString>
+    <mdcr:URL>http://www.classification.gov.au/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image1.jpeg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>General (G)</mdcr:Label>
+      <mdcr:Definition>The content is very mild in impact.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The G classification is suitable for everyone. G products may contain classifiable elements such as language and themes that are very mild in impact. However, some G-classified films or computer games may contain content that is not of interest to children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image2.jpeg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Parental Guidance (PG)</mdcr:Label>
+      <mdcr:Definition>The content is mild in impact.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The impact of PG (Parental Guidance) classified films and computer games should be no higher than mild, but they may contain content that children find confusing or upsetting and may require the guidance or parents and guardians. They may, for example, contain classifiable elements such as language and themes that are mild in impact. It is not recommended for viewing or playing by persons under 15 without guidance from parents or guardians.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">M</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/M</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image3.jpeg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Mature (M)</mdcr:Label>
+      <mdcr:Definition>The content is moderate in impact.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films and computer games classified M (Mature) contain content of a moderate impact and are recommended for teenagers aged 15 years and over. Children under 15 may legally access this material because it is an advisory category. However, M classified films and computer games may include classifiable elements such as violence and nudity of moderate impact that are not recommended for children under 15 years. Parents and guardians may need to find out more about the film or computer game's specific content, before deciding whether the material is suitable for their child.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">MA15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/MA15</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image4.jpeg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Mature Accompanied (MA 15+)</mdcr:Label>
+      <mdcr:Definition>The content is strong in impact.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">MA 15+ classified material contains strong content and is legally restricted to persons 15 years and over. It may contain classifiable elements such as sex scenes and drug use that are strong in impact. A person may be asked to show proof of their age before hiring or purchasing an MA 15+ film or computer game. Cinema staff may also request that the person show proof of their age before allowing them to watch an MA 15+ film. Children under the age of 15 may not legally watch, buy or hire MA 15+ classified material unless they are in the company of a parent or adult guardian. Children under 15 who go to the cinema to see an MA 15+ film must be accompanied by a parent or adult guardian for the duration of the film. The parent or adult guardian must also purchase the movie ticket for the child. The guardian must be an adult exercising parental control over the person under 15 years of age. The guardian needs to be 18 years or older.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/R18+</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image5.jpeg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted (R 18+)</mdcr:Label>
+      <mdcr:Definition>The content is high in impact R 18+ material is restricted to adults.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Such material may contain classifiable elements such as sex scenes and drug use that are high in impact. Some material classified R18+ may be offensive to sections of the adult community. A person may be asked for proof of their age before purchasing, hiring or viewing R18+ films and computer games at a retail store or cinema.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">CTC</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/CTC</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/Check-the-Classification.jpg</mdcr:LinkToLogo>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Check the Classification (CTC)</mdcr:Label>
+      <mdcr:Definition>The content has been assessed and approved for advertising unclassified films and computer games.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Any advertising of unclassified films and games must display the CTC message on posters, trailers, on the internet, and any other types of advertising. Once the content is classified, the classification marking should replace the CTC marking on all advertising material.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">X18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/X18+</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image6.jpeg</mdcr:LinkToLogo>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted (X 18+)</mdcr:Label>
+      <mdcr:Definition>X 18+ films are restricted to adults.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This classification is a special and legally restricted category which contains only sexually explicit content. That is, material which shows actual 
+sexual intercourse and other sexual activity between consenting adults. X18+ films are only available for sale or hire in the ACT and the NT.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">RC</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/RC</mdcr:URI>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Refused Classification (RC)</mdcr:Label>
+      <mdcr:Definition>Refused Classification (RC) is a classification category.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Material that is Refused Classification is commonly referred to as being 'banned'. Films, computer games and 
+publications that are classified RC cannot be sold, hired, advertised or legally imported in Australia. Material that is 
+classified RC contains content that is very high in impact and falls outside generally accepted community standards.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

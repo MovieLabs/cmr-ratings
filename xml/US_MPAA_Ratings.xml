@@ -1,0 +1,160 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T08:18:19" lastSave="2014-01-20T17:34:32">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>US</md:country>
+      <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MPAA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>US</md:country>
+    <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Motion Picture Association of America, Inc.">
+    <md:DisplayName>Motion Picture Association of America, Inc.</md:DisplayName>
+    <mdcr:ContactString>1600 Eye St., NW
+Washington, D.C. 20006
+(202) 293-1966 (main)
+(202) 296-7410 (fax)</mdcr:ContactString>
+    <mdcr:URL>http://www.mpaa.org/</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MPAA_color_G.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA-g-rating.gif</mdcr:LinkToLogo>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>General Audiences</mdcr:Label>
+      <mdcr:Definition>All Ages Admitted</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A G-rated motion picture contains nothing in theme, language, nudity, sex, violence or other matters that, in the view of the Rating Board, would offend parents whose younger children view the motion picture.
+The G rating is not a "certificate of approval," nor does it signify a "children?s" motion picture. Some snippets of language may go beyond polite conversation but they are common everyday expressions. No stronger words are present in G-rated motion pictures. Depictions of violence are minimal. No nudity, sex scenes or drug use are present in the motion picture.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MPAA_color_PG.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA-pg-rating.gif</mdcr:LinkToLogo>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Parental Guidance Suggested</mdcr:Label>
+      <mdcr:Definition>Some Material May Not Be Suitable For Children</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A PG-rated motion picture should be investigated by parents before they let their younger children attend.
+The PG rating indicates, in the view of the Rating Board, that parents may consider some material unsuitable for their children, and parents should make that decision. The more mature themes in some PG-rated motion pictures may call for parental guidance. There may be some profanity and some depictions of violence or brief nudity. But these elements are not deemed so intense as to require that parents be strongly cautioned beyond the suggestion of parental guidance. There is no drug use content in a PG-rated motion picture.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">M</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/M</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Mature Audiences</mdcr:Label>
+      <mdcr:Definition>Suggested for Mature Audiences (Parental Discretion Advised)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Equivalent to PG. This rating was used between 1968 and 1969, when it was replaced with the 'GP' rating.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">GP</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/GP</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Parental Guidance Suggested</mdcr:Label>
+      <mdcr:Definition>All Ages Admitted - Parental Guidance Suggested.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Equivalent to PG. This rating was used between 1970 and 1972, when it was replaced with the 'PG' rating.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">PG-13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/PG-13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MPAA_color_PG13.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA-pg13-rating.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Parents Strongly Cautioned</mdcr:Label>
+      <mdcr:Definition>Some Material May Be Inappropriate For Children Under 13</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A PG-13 rating is a sterner warning by the Rating Board to parents to determine whether their children under age 13 should view the motion picture, as some material might not be suited for them.
+A PG-13 motion picture may go beyond the PG rating in theme, violence, nudity, sensuality, language, adult activities or other elements, but does not reach the restricted R category. The theme of the motion picture by itself will not result in a rating greater than PG-13, although depictions of activities related to a mature theme may result in a restricted rating for the motion picture. Any drug use will initially require at least a PG-13 rating. More than brief nudity will require at least a PG-13 rating, but such nudity in a PG-13 rated motion picture generally will not be sexually oriented. There may be depictions of violence in a PG-13 movie, but generally not both realistic and extreme or persistent violence. A motion picture's single use of one of the harsher sexually-derived words, though only as an expletive, initially requires at least a PG-13 rating. More than one such expletive requires an R rating, as must even one of those words used in a sexual context. The Rating Board nevertheless may rate such a motion picture PG-13 if, based on a special vote by a two-thirds majority, the Raters feel that most American parents would believe that a PG-13 rating is appropriate because of the context or manner in which the words are used or because the use of those words in the motion picture is inconspicuous.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/R</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MPAA_color_R.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA-r-rating.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>17</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted</mdcr:Label>
+      <mdcr:Definition>Children Under 17 Require Accompanying Parent or Adult Guardian.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">An R-rated motion picture, in the view of the Rating Board, contains some adult material.
+An R-rated motion picture may include adult themes, adult activity, hard language, intense or persistent violence, sexually-oriented nudity, drug abuse or other elements, so that parents are counseled to take this rating very seriously. Children under 17 are not allowed to attend R-rated motion pictures unaccompanied by a parent or adult guardian. Parents are strongly urged to find out more about R-rated motion pictures in determining their suitability for their children. Generally, it is not appropriate for parents to bring their young children with them to R-rated motion pictures.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">NC-17</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/NC-17</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MPAA_color_NC17.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA-nc17-rating.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>No One 17 and Under Admitted</mdcr:Label>
+      <mdcr:Definition>Clearly adult. Children are not admitted.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">An NC-17 rated motion picture is one that, in the view of the Rating Board, most parents would consider patently too adult for their children 17 and under.. No children will be admitted. NC-17 does not mean "obscene" or "pornographic" in the common or legal meaning of those words, and should not be construed as a negative judgment in any sense. The rating simply signals that the content is appropriate only for an adult audience. An NC-17 rating can be based on violence, sex, aberrational behavior, drug abuse or any other element that most parents would consider too strong and therefore off-limits for viewing by their children</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">X</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2/X</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/X_rating.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>No One 17 and Under Admitted</mdcr:Label>
+      <mdcr:Definition>No One 17 and Under Admitted</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Equivalent to NC-17. This rating was in use from 1968 to 1990. Mainstream films rated "X"  are routinely re-rated as "NC-17" (or occasionally "R").</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

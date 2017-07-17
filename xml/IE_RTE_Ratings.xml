@@ -1,0 +1,72 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-12-29T19:41:01">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>IE</md:country>
+      <mdcr:RegionName>IRELAND</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>RTE</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>IE</md:country>
+    <mdcr:RegionName>IRELAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IE/RTE/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Raidió Teilifís Éireann">
+    <md:DisplayName>Raidió Teilifís Éireann</md:DisplayName>
+    <mdcr:ContactString>RTÉ Commercial Enterprises Ltd, Registration No: 155076, Donnybrook, Dublin 4, Ireland.</mdcr:ContactString>
+    <mdcr:URL>https://www.rte.ie/tv/homepage/onscreen_classification.html</mdcr:URL>
+    <mdcr:OrgType>other</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">GA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/RTE/0/GA</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General Audience</mdcr:Label>
+      <mdcr:Definition>a programme that would be acceptable to all ages and tastes.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">Ch</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/RTE/0/Ch</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Children</mdcr:Label>
+      <mdcr:Definition>a programme aimed specifically at children, i.e. the pre-teenage or very young teenage audience</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">PS</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/RTE/0/PS</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental supervision</mdcr:Label>
+      <mdcr:Definition>a programme aimed at a mature audience, i.e. It might deal with adult themes, be moderately violent, frightening or contain an occasional swear word.) and the classification label invites parents or guardians to consider restricting children's access.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">MA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/RTE/0/MA</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Suggested for mature audience</mdcr:Label>
+      <mdcr:Definition>might contain scenes of sexual activity or violence, or the dialogue might be profane.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

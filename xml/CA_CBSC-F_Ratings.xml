@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T14:19:22" lastSave="2014-08-01T14:24:44">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>CA</md:country>
+      <mdcr:SubRegion>Quebec</mdcr:SubRegion>
+      <mdcr:RegionName>CANADA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CBSC-F</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>CA</md:country>
+    <mdcr:RegionName>CANADA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      <p>Canadian French-language broadcasters use the classification system of the 
+Regie du cinema du Quebec (RCU), but they added one additional  category (8+).
+Broadcaster must still  evaluate the programs themselves and cannot necessarily use the RCU 
+classification of a particular film  or program. Even if a Canadian channel is airing a foreign-produced 
+ program, it must put a Canadian rating on it.</p>
+    </div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Canadian Broadcast Standards Council">
+    <md:DisplayName>Canadian Broadcast Standards Council</md:DisplayName>
+    <mdcr:ContactString>Canadian Broadcast Standards Council
+P.O. Box 3265, Station D
+Ottawa, Ontario
+K1P 6H8</mdcr:ContactString>
+    <mdcr:URL>http://www.cbsc.ca/english/agvot/frenchsystem.php</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/G</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/general.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>A classification of Visa général does not necessarily mean that the film is of interest to children.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">It only means that its content is not likely to be disturbing to young viewers. However, when a film with a "G" rating might offend the sensibilities of children under eight years of age, the Régie du cinéma adds "Not suitable for young children" to the Visa général classification. Films classified as Visa général have only occasional scenes of violence. These are not overly intense and are not condoned. The tone and genre of the film are important elements in the decision-making process: scenes of violence in a comedy or adventure film centring on a hero who is larger than life do not have the same impact on children as those in a more realistic film. Although there may be some nudity, love scenes remain rather discreet. Depending on the context, some expletives are tolerated.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Visa Général</mdcr:Label>
+      <mdcr:Definition>La mention « Visa général » ne veut pas dire que le film présente nécessairement un intérêt pour les enfants.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Elle signifie plutôt que son contenu n’est pas susceptible de les perturber. Si toutefois le film classé « G » est de nature à heurter la sensibilité des enfants de moins de huit ans, la Régie du cinéma ajoute au visa général l’indication « Déconseillé aux jeunes enfants ». Une œuvre classée « Visa général » peut tout de même comporter certaines scènes de violence. Ces dernières seront toutefois peu nombreuses, peu intenses ou présentées sans complaisance. Le ton et le genre du film sont des éléments de décision importants: ainsi, les scènes de violence contenues dans une comédie ou un film d’aventures centré sur un héros plus grand que nature n’ont pas le même impact sur les enfants que celles d’un film plus réaliste dans sa mise en scène. Si la nudité peut être présente, les scènes d’amour demeurent cependant assez discrètes. Selon le contexte, certains écarts de langage sont acceptés.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="2">8+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/8+</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/clip_image003.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>8</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>8 years and over</mdcr:Label>
+      <mdcr:Definition>General – Not Suitable for Young Children</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">These programs are suitable for the general public but could contain mild or occasional violence that may disturb young children.  Viewing with adult supervision is therefore recommended for young children (age 8 and under) who are less able to distinguish between real and make-believe programming.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">13+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/13+</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c13.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>13 years and over</mdcr:Label>
+      <mdcr:Definition>The Régie classifies in this category films that require a certain level of judgement.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">These films contain passages or sequences that may offend the sensibilities of younger viewers. Teenage viewers are more aware of the fact that a movie is not reality and are therefore better psychologically prepared to follow more complex or dramatic films. Violence, eroticism, coarse language or horror may be more developed and may constitute a dominant characteristic of the film. However, it is important that the film allow viewers to discern the meaning that should be attributed to the varions characters and their actions, because teenagers are not necessarily prepared to face everything. This is why certain themes (drugs, suicide, troubling situations, etc.) and their treatment are carefully examined. The Régie believes that films with this classification require an incipient maturite and invites parents to take the rating into account.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>13 ans et plus</mdcr:Label>
+      <mdcr:Definition>La Régie classe dans cette catégorie les films qui nécessitent du discernement.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Ces films comportent des passages ou des séquences qui peuvent heurter la sensibilité d’un public plus jeune. Le public adolescent est davantage conscient des artifices du cinéma et il est psychologiquement mieux armé pour suivre des films plus complexes ou impressionnants. Aussi, la violence, l’érotisme, le langage vulgaire ou l’horreur peuvent y être plus développés et constituer une caractéristique dominante du film. Il importe toutefois que le film permette de dégager le sens à donner aux divers personnages et à leurs actions car, à l’adolescence, les jeunes ne sont pas nécessairement outillés pour faire face à tout. C’est pourquoi certaines thématiques (drogue, suicide, situations troubles, etc.) et le traitement dont elles font l’objet sont examinés avec beaucoup d’attention. ...La Régie estime que les films ainsi classés exigent un début de maturité et invite les parents à tenir compte de l’avis formulé.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">16+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/16+</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c16.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16 years and over</mdcr:Label>
+      <mdcr:Definition>At the age of 16, young people enter a transition period between the end of adolescence and the beginning adulthood.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">They are more independent, and have usually attained a certain level of psychological maturity. Films with this rating present troubling themes, situations or behaviours and adopt a more direct point of view about things. They may therefore contain scenes where violence, horror and sexuality are more graphic.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>16 ans et plus</mdcr:Label>
+      <mdcr:Definition>De façon générale, vers l’âge de 16 ans, les jeunes traversent une période charnière, entre la fin de l’adolescence et l’entrée dans l’âge adulte.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Plus autonomes, ils ont acquis une certaine maturité psychologique. Les films classés dans cette catégorie exposent des thématiques, des situations ou des comportements troublants et adoptent un point de vue plus direct sur les choses. Ils peuvent donc contenir des scènes où la violence, l’horreur et la sexualité sont plus détaillées.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/18+</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c18.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 years and over</mdcr:Label>
+      <mdcr:Definition>The film may be viewed, puchased or rented only by persons 18 years of age and over.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films reserved for adults most often deal primarily with the representation of explicit sexual encounters. They may also be extremely violent, showing 
+scenes of hyperrealistic cruelty, torture and horror.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>18 ans et plus</mdcr:Label>
+      <mdcr:Definition>Le film ne peut être vu, acheté ou loué que par des personnes de 18 ans et plus.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Le plus souvent, les films réservés aux adultes reposent essentiellement sur l’exploitation de rapports sexuels explicites. Il peut également s’agir de films d’une grande violence, contenant des scènes de cruauté, de torture et d’horreur hyperréalistes.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">RC</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/RC</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Refusal of classification</mdcr:Label>
+      <mdcr:Definition>The showing, sale or rental of the film is prohibited.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The Régie du cinéma may refuse to classify certain films. These cases, which are quite rare, involve films deemed to interfere with public order. They are usually based on an undue exploitation of sexuality, presented in a context of non-fictional violence, cruelty and dehumanization of the protagonists. It is considered that such exploitation is beyond the threshold of tolerance of contemporary Québec society, and that the film cannot be made public in this form.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Le refus de classement</mdcr:Label>
+      <mdcr:Definition>Certains films examinés par la Régie du cinéma peuvent faire l’objet d’un refus de classement.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Ces cas, assez rares, concernent des films jugés contraires à l’ordre public. Ils reposent généralement sur l’exploitation indue de la sexualité, s’inscrivant dans un contexte non fictif de violence, de cruauté et de déshumanisation des protagonistes. On considère alors que cette exploitation dépasse le seuil de tolérance de la société québécoise contemporaine et que le film ne peut être diffusé sous cette forme.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

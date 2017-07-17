@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T07:52:06" lastSave="2014-12-22T20:10:43">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>MY</md:country>
+      <mdcr:RegionName>MALAYSIA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>FCBM</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>MY</md:country>
+    <mdcr:RegionName>MALAYSIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Film Censorship Board of Malaysia">
+    <md:DisplayName>Film Censorship Board of Malaysia</md:DisplayName>
+    <mdcr:URL>http://www.moha.gov.my/index.php/en/lpf-klasifikasi-filem</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">U</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/U</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MY_U.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>U</mdcr:Label>
+      <mdcr:Definition>This category is for viewing by all walks of life without  age limit</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The film potrays  good values, decency and  positive lessons as well as entertaining.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="MS">
+      <mdcr:Label>U</mdcr:Label>
+      <mdcr:Definition>Kategori ini untuk tontonan semua lapisan masyarakat tanpa had umur.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Filem memaparkan nilai-nilai murni, kesopanan dan memberi pengajaran positif serta menghiburkan.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">P13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/P13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MY_P13.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>P13</mdcr:Label>
+      <mdcr:Definition>Viewers under 13 years of age need parental/guardian supervision while viewing.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Scenes in the film  consists elements of horror; scary; negative acts; suspense and frantic  elements, but not excessive; elusive storyline; and  elements that can disturb a child’s emotion.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="MS">
+      <mdcr:Label>P13</mdcr:Label>
+      <mdcr:Definition>Penonton berumur di bawah 13 tahun memerlukan pengawasan dan bimbingan ibu bapa atau penjaga ketika menonton.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Filem mengandungi unsur seram, menakutkan, adegan atau aksi negatif, unsur suspen dan mengejutkan tetapi tidak berlebihan; jalan cerita yang sukar difahami dan unsur yang boleh mengganggu emosi kanak-kanak.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/MY_18.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>aged 18 and above</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This category is for viewers aged 18 and above. The film contains elements of horror, gory, and violent, but not excessive; adult scene that is not excessive; social, sensitive political and religious elements which require a high level understanding.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="MS">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Kategori ini untuk penonton yang berumur 18 tahun dan ke atas.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Filem mengandungi unsur seram, ngeri serta ganas tetapi tidak keterlaluan; adegan kedewasaan yang tidak keterlaluan dan aspek sosial politik serta agama yang sensitif yang memerlukan tahap kematangan tinggi untuk memahaminya.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18SX</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18SX</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18SX</mdcr:Label>
+      <mdcr:Definition>Sexual Content – Film contains sex scenes, nudity and/or sexual dialogues/references that people may find objectionable.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18PA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18PA</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18PA</mdcr:Label>
+      <mdcr:Definition>Strong Religious or Political Elements – Film contains elements which include religious, social or political aspects that people may find objectionable.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18SG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18SG</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18SG</mdcr:Label>
+      <mdcr:Definition>Graphic Violence and Horror/Terror – Film contains strong violence, gore or horror/terror that people may find objectionable.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18PL</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18PL</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18PL</mdcr:Label>
+      <mdcr:Definition>Film may contain a mixture of objectionable content from two or more categories.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

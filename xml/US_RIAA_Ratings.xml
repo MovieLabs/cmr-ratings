@@ -1,0 +1,45 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-12-16T16:36:41">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>US</md:country>
+      <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>RIAA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>US</md:country>
+    <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Music</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/US/RIAA/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Recording Industry Association of America">
+    <md:DisplayName>Recording Industry Association of America</md:DisplayName>
+    <mdcr:ContactString>RIAA 
+1025 F ST NW, 10th Floor 
+Washington, DC 20004</mdcr:ContactString>
+    <mdcr:URL>http://riaa.com/</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">PAL</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/RIAA/0/PAL</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.riaa.com/images/parentaladvisory.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Advisory</mdcr:Label>
+      <mdcr:Definition>Recordings identified by this logo may contain strong language or depictions of violence, sex or substance abuse. Parental discretion is advised.</mdcr:Definition>
+      <mdcr:Explanation>A PAL Notice is a notice to parents and guardians that recordings identified with the Logo or another PAL Notice contain strong
+ language and/or depictions of violence, sex or substance abuse to such an extent that parental discretion is advised. The PAL 
+Notice is an indicator that record companies, artists, advertisers, and online and mobile merchants voluntarily place on products, 
+advertisements and services to better inform consumers and retailers, while also protecting the interests of artists in free 
+expression and artistic creativity.</mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

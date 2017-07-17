@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T11:57:33" lastSave="2016-12-20T21:08:59">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>KR</md:country>
+      <mdcr:RegionName>KOREA, REP</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>KMRB</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>KR</md:country>
+    <mdcr:RegionName>KOREA, REP</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2016-12-20</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Korea Media Rating Board">
+    <md:DisplayName>Korea Media Rating Board</md:DisplayName>
+    <mdcr:ContactString>Korea Media Ratting Board(121-904) 400,
+ World Cup buk-ro, Mapo, 
+Seoul, Korea 
+Tel +82-2-3153-4300</mdcr:ContactString>
+    <mdcr:URL>http://kmros.kmrb.or.kr/html/data/classstandards.do</mdcr:URL>
+    <mdcr:OrgType>other</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/G</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="KO">
+      <mdcr:Label>전체 관람가</mdcr:Label>
+      <mdcr:Definition>모든 연령의 자가 시청할 수 있는 비디오물</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">전체관람가 기준은 다음과 같다.
+1. 주제: 모든 연령에 해당하는 사람이 수용 가능한 것으로 정서적 안정과 건전한 가치관 형성을 저해하지 않는 것
+가. 긍정적인 사회적 가치를 알려주는 내용인 것
+나. 아동에게 위협이나 위험을 느끼게 하는 유해한 내용이 없는 것
+2. 선정성: 성적 내용이나 신체 노출에 있어 선정성의 요소가 없거나 매우 약하게 표현된 것
+가. 성적 내용과 무관한 자연스러운 신체 노출만이 표현된 것
+나. 성적 접촉은 일상생활에서 흔히 접할 수 있는 자연스러운 애정 표현의 수위를 넘지 않은 것
+다. 성적 내용의 언급이 표현되지 않은 것
+3. 폭력성: 폭력성의 요소가 없거나 매우 약하게 표현된 것
+가. 물리적 폭력 및 학대행위가 없거나 거의 표현되지 않은 것
+나. 상해, 선혈 등 신체 손괴의 묘사가 없는 것
+다. 성적 폭력이 표현되지 않은 것
+라. 폭력적인 느낌을 주는 음향 효과가 거의 없는 것
+4. 대사: 저속한 언어, 비속어 등이 없거나 매우 약하게 표현된 것
+가. 욕설.은어.비속어(성적인 언어 포함)등이 없거나 매우 약하게 표현되어 언어 폭력적 요소가 없는 것
+나. 아동의 바른 언어 습관에 부정적인 영향을 미치지 않는 것
+5. 공포:　공포의 요소가 없거나 매우 약하게 표현된 것
+가. 심리적 불안과 긴장감을 주는 장면이 사실적으로 표현되지 않거나 약하게 표현된 것
+나. 공포 분위기의 음향 효과가 거의 없는 것
+6. 약물: 약물 사용이 없거나 매우 약하게 표현된 것
+가. 음주.흡연 등의 장면이 없거나 전체 맥락상 매우 낮은 빈도로 표현된 것
+나. 약물, 향정신성 의약품, 기타 유해물질 등의 오남용, 마약 등 불법약물의 제조.이용방법이 표현되지 않은 것
+7. 모방위험: 모방 위험의 요소가 없거나 매우 약하게 표현된 것
+가. 아동이 모방할 수 있는 위험한 행위가 없는 것
+나. 무기류.흉기류의 이용 방법이 단순히 표현되거나 암시적으로 묘사된 것
+다. 아동.청소년 대상 학교 내 폭력, 따돌림, 비행 등이 거의 표현되지 않은 것
+8. 그 밖에 특정한 사상ㆍ종교ㆍ풍속ㆍ인종ㆍ민족 등과 관련하여 모든 연령에 해당하는 사람이 시청하기에 부정적 영향을 미치는 표현이 없는 것</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">12+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/12+</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="KO">
+      <mdcr:Label>12세 이상 관람가</mdcr:Label>
+      <mdcr:Definition>12세 이상의 자가 시청할 수 있는 비디오물</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">12세 이상 관람가 기준은 다음과 같다.
+1. 주제: 부적절한 부분이 약하게 표현되어 있으나 건전한 인격 형성과 교육적 근간을 저해하지 않는 것
+가. 범죄, 폭력, 청소년 비행, 성적 문란 등을 미화하거나 권장하지 않는 것
+나. 12세 미만에 해당하는 사람에게 위협이나 위험을 느끼게 하는 유해한 내용이 있는 것(단, 부모 등 보호자 동반/지도 시 12세 미만에 해당하는 사람도 수용할 수 있는 것)
+2. 선정성: 성적 내용이나 신체 노출에 있어 선정성의 요소가 경미하고 간결하게 표현된 것
+가. 성적 내용과 관련된 신체 노출은 가벼운 수준에서 간결하게 표현된 것
+나. 성적 접촉은 자극적이지 않고 간결하게 표현된 것
+다. 성적 내용의 언급은 내용 전개상 필요한 경우 경미하고 간결하게 표현된 것
+3. 폭력성: 폭력성의 요소가 경미하고 간결하게 표현된 것
+가. 물리적 폭력 및 학대행위가 경미하고 낮은 빈도로 표현된 것
+나. 상해, 선혈 등 신체 손괴가 간접적.암시적으로 묘사된 것
+다. 성적 폭력이 표현되지 않은 것
+라. 폭력적인 느낌을 주는 음향효과가 경미하고 간결한 것
+4. 대사: 저속한 언어, 비속어, 욕설 등이 경미하고 가족, 대인관계 및 교육과정 등을 통하여 접할 수 있는 수준에서 사용된 것
+가. 가벼운 욕설.은어.비속어(성적인 언어 포함)등이 낮은 빈도로 표현되어 언어 폭력적 요소가 경미한 것
+나. 청소년의 바른 언어 습관에 부정적인 영향을 미치지 않는 것
+5. 공포: 공포의 요소가 경미하고 간결하게 표현된 것
+가. 심리적 불안과 긴장감을 주는 장면이 경미하고 간결하게 표현된 것
+나. 공포 분위기의 음향 효과가 경미하고 간결한 것
+6. 약물: 약물 사용이 경미하고 간결하게 표현된 것
+가. 음주.흡연 장면이 전체 맥락상 간결하게 표현된 것(청소년의 음주.흡연은 표현되지 않은 것)
+나. 약물, 향정신성 의약품, 기타 유해물질 등의 오남용, 마약 등 불법약물의 제조.이용방법이 표현되지 않은 것
+7. 모방위험: 모방 위험의 요소가 경미하고 간결하게 표현된 것
+가. 자살이나 자해 행위 등의 장면이 암시적이거나 간결하게 묘사된 것
+나. 무기류.흉기류의 이용 방법이 구체적.사실적으로 묘사되지 않은 것
+다. 청소년 대상 학교 내 폭력, 따돌림, 비행 등이 미화되거나 구체적이지 않고 경미하게 표현된 것
+라. 불법.범죄행위가 간결하게 표현된 것
+8. 그 밖에 특정한 사상ㆍ종교ㆍ풍속ㆍ인종ㆍ민족 등과 관련하여 12세미만에 해당하는 사람에게 부정적 영향을 미치는 표현이 있는 것</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">15+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/15+</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="KO">
+      <mdcr:Label>15세 이상 관람가</mdcr:Label>
+      <mdcr:Definition>15세 이상의 자가 시청할 수 있는 비디오물</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">15세 이상 관람가 기준은 다음과 같다.
+1. 주제: 부적절한 부분이 일부 표현되어 있으나 사회, 가족, 학교 등에서 습득한 지식과 경험을 통하여 충분히 소화할 수 있는 것
+가. 범죄, 폭력, 청소년 비행, 성적 문란 등을 미화하거나 권장하지 않는 것
+나. 15세 미만에 해당하는 사람에게 위협이나 위험을 느끼게 하는 유해한 내용이 있는 것(단, 부모 등 보호자 동반/지도 시 15세 미만에 해당하는 사람도 수용할 수 있는 것)
+2. 선정성: 성적 내용이나 신체 노출에 있어 선정성의 요소가 있으나 지속적이고 구체적이지 않은 것
+가. 성적 내용과 관련된 신체 노출이 있으나 특정 부위가 선정적으로 강조되지 않은 것
+나. 성적 행위가 구체적.지속적.직접적으로 표현되지 않은 것
+다. 일반적인 사회윤리에 어긋나는 성관련 행위(예, 성매매, 근친상간, 혼음 등)이 없으며, 청소년으로 하여금 잘못된 성적 관념을 갖게 하지 않는 것
+3. 폭력성: 폭력성의 요소가 있으나 구체적.지속적이지 않은 것
+가. 물리적 폭력 및 학대행위가 구체적.지속적으로 표현되지 않은 것
+나. 흉기나 폭력으로 인한 상해, 선혈 등 경미한 신체손괴가 있으나 지속적.직접적으로 묘사되지 않은 것
+다. 성적 폭력이 전체 맥락상 암시적으로 표현된 것
+라. 폭력적인 느낌을 주는 음향효과가 사실적. 자극적.지속적이지 않은 것
+4. 대사: 저속한 언어, 비속어, 욕설 등의 표현이 있으나 사회 통념상 용인되는 수준에서 사용된 것
+가. 거친 욕설.은어.비속어(성적인 언어 포함)등이 있으나 반복적.지속적으로 표현되지 않아 언어 폭력적 요소가 과도하지 않은 것
+나. 청소년의 바른 언어 습관에 부정적인 영향을 미치지 않는 것
+5. 공포: 공포의 요소가 있으나 지속적이고 구체적이지 않은 것
+가. 심리적 불안과 긴장감을 주는 장면이 구체적.지속적으로 표현되지 않은 것
+나. 공포 분위기의 음향 효과가 사실적.자극적.지속적이지 않은 것
+6. 약물: 약물 사용을 조장하거나 정당화하는 내용이 아닌 것
+가. 음주.흡연 등의 장면이 반복적.지속적으로 표현되지 않은 것(청소년의 음주.흡연은 전체 맥락상 불가피한 경우 간결하게 표현된 것)
+나. 약물, 향정신성 의약품, 기타 유해물질 등의 오남용, 마약 등 불법약물의 제조.이용방법이 구체적.사실적으로 표현되지 않은 것
+7. 모방위험: 모방을 조장하거나 정당화하는 내용이 아닌 것
+가. 자살이나 자해 행위 등의 장면이 구체적.지속적으로 묘사되지 않은 것
+나. 무기류.흉기류의 이용 방법이 구체적.사실적으로 묘사되지 않은 것
+다. 청소년 대상 학교 내 폭력, 따돌림, 비행 등이 미화되거나 구체적.지속적으로 표현되지 않은 것
+라. 불법.범죄행위의 수단과 방법이 상세히 묘사되지 않은 것
+8. 그 밖에 특정한 사상ㆍ종교ㆍ풍속ㆍ인종ㆍ민족 등과 관련하여 15세미만에 해당하는 사람에게 부정적 영향을 미치는 표현이 있는 것</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/18+</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="KO">
+      <mdcr:Label>청소년 관람불가</mdcr:Label>
+      <mdcr:Definition>청소년은 시청할 수 없는 비디오물</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">청소년 관람불가 기준은 다음과 같다.
+1. 주제: 청소년의 일반적인 지식과 경험으로는 수용하기 어려워 건전한 인격체로 성장하는 것을 저해하는 것
+가. 청소년에게 유해한 영향을 끼칠 수 있는 자극적인 주제와 내용을 다룬 것
+나. 일반적인 성인이 이해하고 수용할 수 있는 수준으로 사회적 질서를 지나치게 문란하게 하지 않는 것
+2. 선정성: 성적 내용이나 신체 노출에 있어 선정성의 요소가 지나치게 구체적이고 직접적이며 노골적인 것
+가. 성적 내용과 관련된 신체 노출이 직접적으로 표현되어 있으나 성기 등을 강조하여 지속적으로 노출하지 않은 것
+나. 성적 행위가 구체적.지속적.직접적으로 표현되고 있으나 일반 성인의 성적 수치심을 유발하지 않는 것
+다. 일반적인 사회윤리에 어긋나는 성관련 행위 내용(예, 성매매, 근친상간, 혼음 등)이 있으나 지나치지 않은 것
+3. 폭력성: 폭력성의 요소가 지나치게 구체적이고 직접적이며 노골적인 것
+가. 물리적 폭력 및 학대 행위가 구체적.지속적으로 표현된 것
+나. 흉기나 폭력으로 인한 상해, 선혈 등 신체 손괴가 지속적.직접적으로 묘사된 것
+다. 성적 폭력이 구체적으로 표현된 것
+라. 폭력적인 느낌을 주는 음향효과가 사실적.자극적.지속적인 것
+4. 대사: 자극적이고 혐오스러운 성적 표현과 정서적.인격적인 모욕감이나 수치심을 유발하는 수준의 저속한 언어, 비속어, 욕설, 비방, 성적인 언어사용 등이 반복적.지속적으로 사용된 것
+5. 공포: 공포의 요소가 지나치게 구체적이고 직접적이며 노골적인 것
+가. 심리적 불안과 긴장감을 주는 장면이 구체적으로 표현되어 공포감을 줄 수 있는 것
+나. 공포 분위기의 음향 효과가 사실적.자극적.지속적인 것
+6. 약물: 약물 사용이 지나치게 구체적이고 직접적이며 노골적인 것
+가. 음주.흡연 등의 장면이 반복적.지속적으로 표현된 것
+나. 약물, 향정신성 의약품, 기타 유해물질 등의 오남용, 마약 등 불법약물의 제조.이용방법이 구체적.사실적으로 표현된 것
+7. 모방위험: 모방위험이 지나치게 구체적이고 직접적이며 노골적인 것
+가. 자살이나 자해 행위 등의 장면이 구체적. 지속적으로 묘사된 것
+나. 무기류.흉기류의 이용 방법이 구체적.사실적으로 묘사된 것
+다. 불법.범죄행위의 수단과 방법이 구체적.사실적으로 묘사된 것
+8. 그 밖에 특정한 사상.종교.풍속.인종.민족 등에 대한 묘사가 청소년이 관람하기에 부적절한 것</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">LIM</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/LIM</mdcr:URI>
+    <mdcr:MinRecAge>19</mdcr:MinRecAge>
+    <mdcr:MinAge>19</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>19</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="KO">
+      <mdcr:Label>제한관람가</mdcr:Label>
+      <mdcr:Definition>선정성·폭력성·사회적 행위 등의 표현이 과도하여 인간의 보편적 존엄, 사회적 가치, 선량한 풍속 또는 국민정서를 현저하게 해할 우려가 있어 시청제공·유통에 있어 일정한 제한이 필요한 비디오물</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">제한관람가 기준은 다음과 같다.
+1. 주제 및 내용이 민주적 기본질서를 부정하여 국가 정체성을 현저히 훼손하거나 범죄 등 반인간적.반사회적 행위를 미화.조장하여 사회질서를 심각하게 문란하게 하는 것
+2. 선정성.폭력성.공포.약물사용.모방위험 등의 요소가 과도하여 인간의 존엄과 가치를 훼손.왜곡하거나 성욕만을 자극하여 사회의 선량한 풍속 또는 국민의 정서를 현저히 손상하는 것
+가. 혐오스러운 성적 행위(수간, 시간, 소아성애, 배설물.도구를 이용한 페티쉬 등)가 구체적으로 묘사된 것
+나. 성기 등을 구체적.지속적으로 노출하거나 실제 성행위 장면이 있는 것
+다. 아동.청소년이 성적 대상으로 자극적으로 묘사된 것
+라. 일반적인 사회윤리에 어긋나는 성관련 행위 내용(예, 성매매, 근친상간, 혼음 등)이 과도하게 묘사된 것
+마. 인간 등 생명체에 대한 극도의 폭력 및 신체손괴가 사실적.직접적으로 표현되어 생명의 존엄성을 훼손하는 것
+바. 불법약물 제조.이용 방법 등이 자세하게 묘사되고 미화되며, 약물 중독, 환각 상태에서의 폭력, 강간 등 반인간적.반사회적 행위가 잔혹하게 표현된 것
+3. 대사의 표현이 장애인 등 특정계층에 대한 경멸적.모욕적 언어를 과도하게 사용하여 인간의 보편적 존엄과 가치를 현저하게 손상하는 것
+4. 그 밖에 특정한 사상.종교.풍속.인종.민족 등에 관한 묘사의 반사회성 정도가 극히 심하여 예술적.문학적.교육적.과학적.사회적.인간적 가치 등이 현저히 훼손된다고 인정되는 것 (전문개정 2012.7.31.)
+② 제1항의 규정에 의하여 등급분류를 함에 있어 국가의 정체성 및 국익, 미풍양속과 사회질서 등에 끼칠 영향을 충분히</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

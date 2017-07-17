@@ -1,0 +1,109 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-24T12:39:07" lastSave="2013-09-24T12:39:50">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>LU</md:country>
+      <mdcr:RegionName>LUXEMBOURG</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CSCF</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>LU</md:country>
+    <mdcr:RegionName>LUXEMBOURG</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/LU/CSCF/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Commission de surveillance de la classification des films">
+    <md:DisplayName>Commission de surveillance de la classification des films</md:DisplayName>
+    <mdcr:ContactString>Commission de surveillance de la classification des films
+18, montée de la Pétrusse
+L-2912 Luxembourg
+Tél.: (+352) 247 86637
+cscf@mc.etat.lu</mdcr:ContactString>
+    <mdcr:URL>http://www.luxembourg.public.lu/fr/actualites/2010/07/05-CSCF/index.html</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/LU/CSCF/0/A</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Tous</mdcr:Label>
+      <mdcr:Definition>film accessible à tous</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>All</mdcr:Label>
+      <mdcr:Definition>movie accessible to all</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/LU/CSCF/0/6</mdcr:URI>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>6</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>6</mdcr:Label>
+      <mdcr:Definition>film accessible aux personnes âgées de 6 ans et plus</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>6</mdcr:Label>
+      <mdcr:Definition>movie accessible to individuals aged 6 years and older,</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/LU/CSCF/0/12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>film accessible aux personnes âgées de 12 ans et plus</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>movie accessible to persons aged 12 years and older</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/LU/CSCF/0/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>film accessible aux personnes âgées de 16 ans et plus</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>movie accessible to people aged 16 and over or</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/LU/CSCF/0/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>film accessible aux personnes âgées de 18 ans et plus</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>movie accessible to people aged 18 and over or</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

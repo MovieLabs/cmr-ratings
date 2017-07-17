@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T07:41:02" lastSave="2014-12-22T20:28:57">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>JP</md:country>
+      <mdcr:RegionName>JAPAN</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>ERIN</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>JP</md:country>
+    <mdcr:RegionName>JAPAN</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="EIGA RINRI IINKAI">
+    <md:DisplayName>EIGA RINRI IINKAI</md:DisplayName>
+    <mdcr:URL>http://www.eirin.jp/</mdcr:URL>
+    <mdcr:OrgType>other</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G.</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1/G.</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/JP-ERIN-G.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General</mdcr:Label>
+      <mdcr:Definition>Suitable for all ages</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1/PG12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/JP-ERIN-PG12.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental guidance - 12 and Above</mdcr:Label>
+      <mdcr:Definition>Parental guidance requested for young people under 12 years</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">R15+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1/R15+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/JP-ERIN-R15.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15 and above only</mdcr:Label>
+      <mdcr:Definition>for persons aged 15 and above only (No one under 15 admitted).</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1/R18+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/JP-ERIN-R18.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 and above only</mdcr:Label>
+      <mdcr:Definition>for persons aged 18 and above only (No one under 18 admitted).</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

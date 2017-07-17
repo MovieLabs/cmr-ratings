@@ -1,0 +1,73 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T09:49:04" lastSave="2013-12-03T17:01:13">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>TW</md:country>
+      <mdcr:RegionName>TAIWAN</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MOC-TW</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>TW</md:country>
+    <mdcr:RegionName>TAIWAN</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Ministry of Culture - Tawan">
+    <md:DisplayName>Ministry of Culture - Tawan</md:DisplayName>
+    <mdcr:URL>http://law.moj.gov.tw/eng/LawClass/LawAll.aspx?PCode=P0040007</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/G</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>General audiences</mdcr:Label>
+      <mdcr:Definition>Viewing is permitted for audiences of all ages.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">P</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/P</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>11</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Protected</mdcr:Label>
+      <mdcr:Definition>Viewing is not permitted for children under six; children between six and 11 must be accompanied and given guidance by parents, teachers, seniors, or adult relatives or friends.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/PG</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental guidance</mdcr:Label>
+      <mdcr:Definition>Viewing is not permitted for children under 12.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/R</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Restricted</mdcr:Label>
+      <mdcr:Definition>Viewing is not permitted for those under 18.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

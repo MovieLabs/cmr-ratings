@@ -1,0 +1,81 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T09:29:42" lastSave="2013-10-28T19:00:29">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>HK</md:country>
+      <mdcr:RegionName>HONG KONG</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>FCO</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>HK</md:country>
+    <mdcr:RegionName>HONG KONG</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/HK/FCO/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Office for Film, Newspaper and Article Administration">
+    <md:DisplayName>Office for Film, Newspaper and Article Administration</md:DisplayName>
+    <mdcr:ContactString>Film Division
+Office for Film, Newspaper and Article Administration
+9/F &amp; 39/F, Revenue Tower
+5 Gloucester Road
+Wan Chai
+Hong Kong 
+(852) 2594 5787</mdcr:ContactString>
+    <mdcr:URL>http://www.cedb.gov.hk/ctb/eng/film/film_1.htm</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">I</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HK/FCO/1/I</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Category I</mdcr:Label>
+      <mdcr:Definition>Suitable for All Ages</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">IIA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HK/FCO/1/IIA</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Category IIA</mdcr:Label>
+      <mdcr:Definition>Not Suitable for Children</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">IIB</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HK/FCO/1/IIB</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Category IIB</mdcr:Label>
+      <mdcr:Definition>Not Suitable for for young persons and children.</mdcr:Definition>
+      <mdcr:Explanation />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">III</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HK/FCO/1/III</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Category III</mdcr:Label>
+      <mdcr:Definition>for persons aged 18 or above only</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

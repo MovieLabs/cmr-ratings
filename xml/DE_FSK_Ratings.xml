@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T13:56:48" lastSave="2014-12-12T15:28:31">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>DE</md:country>
+      <mdcr:RegionName>GERMANY</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>FSK</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>DE</md:country>
+    <mdcr:RegionName>GERMANY</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Unoffficial usage for home video (DVD, BD, and EST) in Austria, Switzerland, and Luxembourg.</div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Freiwillige Selbstkontrolle der Filmwirtschaft">
+    <md:DisplayName>Freiwillige Selbstkontrolle der Filmwirtschaft</md:DisplayName>
+    <mdcr:ContactString>FSK - Freiwillige Selbstkontrolle der Filmwirtschaft GmbH
+Murnaustraße 6
+65189 Wiesbaden
+
+Telephone: +49 611 77891-0 (Central Office)
+Telefax: +49 611 77891-39</mdcr:ContactString>
+    <mdcr:URL>http://www.fsk.de/index.asp</mdcr:URL>
+    <mdcr:OrgType>other</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">0</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/1/0</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.fsk.de/media_content/1139.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>FSK ab 0 freigegeben/Freigegeben ohne Altersbeschränkung</mdcr:Label>
+      <mdcr:Definition>Das Kennzeichen "FSK ab 0 freigegeben" entspricht dem bisherigen Kennzeichen "Freigegeben ohne Altersbeschränkung".</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Kleinkinder erleben filmische Darstellungen unmittelbar und spontan. Ihre Wahrnehmung ist vorwiegend episodisch ausgerichtet, kognitive und strukturierende Fähigkeiten sind noch kaum ausgebildet. Schon dunkle Szenarien, schnelle Schnittfolgen oder eine laute und bedrohliche Geräuschkulisse können Ängste mobilisieren oder zu Irritationen führen. Kinder bis zum Alter von sechs Jahren identifizieren sich vollständig mit der Spielhandlung und den Filmfiguren. Vor allem bei Bedrohungssituationen findet eine direkte Übertragung statt. Gewaltaktionen, aber auch Verfolgungen oder Beziehungskonflikte lösen Ängste aus, die nicht selbständig und alleine abgebaut werden können. Eine schnelle und positive Auflösung problematischer Situationen ist daher sehr wichtig.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Ages 0 / Exempt</mdcr:Label>
+      <mdcr:Definition>The mark "for ages 0" corresponds to the previous indicator "Exempt".</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Infants experience cinematic representations directly and spontaneously. Your perception is oriented mainly episodic, and cognitive structuring skills are barely trained. Already dark scenarios, fast cutting sequences or a loud noise and threatening to mobilize fears or cause irritation. Children up to the age of six years to fully identify with the storyline and the film characters. Especially in threatening situations there will be a direct transfer. Violent actions, but also persecution or relationship conflicts trigger fears that can not be removed independently and alone. A quick and positive resolution of problematic situations is very important.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/0/6</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.fsk.de/media_content/1135.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>FSK ab 6 freigegeben</mdcr:Label>
+      <mdcr:Definition>Ab sechs Jahren entwickeln Kinder zunehmend die Fähigkeit zu kognitiver Verarbeitung von Sinneseindrücken.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Allerdings sind bei den sechs bis elfjährigen beträchtliche Unterschiede in der Entwicklung zu berücksichtigen. Etwa mit dem neunten Lebensjahr beginnen Kinder, fiktionale und reale Geschichten unterscheiden zu können. Eine distanzierende Wahrnehmung wird damit möglich. Bei jüngeren Kindern steht hingegen noch immer die emotionale, episodische Impression im Vordergrund. Ein sechsjähriges Kind taucht noch ganz in die Filmhandlung ein, leidet und fürchtet mit den Identifikationsfiguren. Spannungs- und Bedrohungsmomente können zwar schon verkraftet werden, dürfen aber weder zu lang anhalten noch zu nachhaltig wirken. Eine positive Auflösung von Konfliktsituationen ist auch hier maßgebend.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Suitable for ages 6</mdcr:Label>
+      <mdcr:Definition>From six years, children develop the ability to increasingly cognitive processing of sensory impressions.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">However, significant differences in development are taken into account in the six to eleven year old. Start around the age of nine children, to distinguish fictional and real stories. A distancing awareness becomes possible. For younger children, however, is still the emotional, episodic impression in the foreground. A six year old child appeared in the film quite a story, suffering and fear with the identification figures. Although tension and threat moments can already be tolerated, but may continue to appear neither too long nor sustainable. A positive resolution of conflict situations is also relevant here.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/0/12</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.fsk.de/media_content/1134.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>FSK ab 12 freigegeben</mdcr:Label>
+      <mdcr:Definition>Bei Kindern und Jugendlichen dieser Altersgruppe ist die Fähigkeit zu distanzierter Wahrnehmung und rationaler Verarbeitung bereits ausgebildet.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Erste Genre-Kenntnisse sind vorhanden. Eine höhere Erregungsintensität, wie sie in Thrillern oder Science-Fiction-Filmen üblich ist, wird verkraftet. Problematisch ist dagegen zum Beispiel die Bilderflut harter, gewaltbezogener Action-Filme, die zumeist noch nicht selbständig verarbeitet werden kann. 12- bis 15-jährige befinden sich in der Pubertät, einer Phase der Selbstfindung, die mit großer Unsicherheit und Verletzbarkeit verbunden ist. Insbesondere Filme, die zur Identifikation mit einem "Helden" einladen, dessen Rollenmuster durch antisoziales, destruktives oder gewalttätiges Verhalten geprägt ist, bieten ein Gefährdungspotenzial. Die Auseinandersetzung mit Filmen, die gesellschaftliche Themen seriös problematisieren, ist dieser Altersgruppe durchaus zumutbar und für ihre Meinungs- und Bewusstseinsbildung bedeutsam.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Suitable for ages 12</mdcr:Label>
+      <mdcr:Definition>In children and adolescents in this age group the ability to distant perception and rational processing is already trained.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">First genre knowledge exists. A higher excitation intensity, as is usual in thrillers or sci-fi films is absorbed. However problematic, for example, the flood of images of hard, non-violent action-oriented films, most of which can not yet be processed independently. 12 - to 15-year-old are in puberty, a period of self-discovery, which is associated with great uncertainty and vulnerability. In particular, films that invite identification with a "hero", whose role model is characterized by antisocial, destructive or violent behavior, offer a potential hazard. Dealing with films problematize the social issues seriously, this age group is quite reasonable and significant for their opinion and raise awareness.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/0/16</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.fsk.de/media_content/1133.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>FSK ab 16 freigegeben</mdcr:Label>
+      <mdcr:Definition>Bei 16- bis 18-jährigen kann von einer entwickelten Medienkompetenz ausgegangen werden.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Problematisch bleibt die Vermittlung sozial schädigender Botschaften. Nicht freigegeben werden Filme, die Gewalt tendenziell verherrlichen, einem partnerschaftlichen Rollenverhältnis der Geschlechter entgegenstehen, einzelne Gruppen diskriminieren oder Sexualität auf ein reines Instrumentarium der Triebbefriedigung reduzieren. Auch die Werteorientierung in Bereichen wie Drogenkonsum, politischer Radikalismus oder Ausländerfeindlichkeit wird mit besonderer Sensibilität geprüft.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Suitable for ages 16</mdcr:Label>
+      <mdcr:Definition>In 16 - to 18-year-old can be expected from a developed media literacy.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The problem remains the mediation socially harmful messages. Will not be released movies that glorify violence tends to preclude a partnership role between the sexes, discriminate against particular groups or reduce sexuality to a mere instrument of gratification. The values ​​orientation in areas such as drug use, political extremism or hostility to foreigners is tested with the utmost sensitivity.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">Keine</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/1/Keine</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Keine Kennzeichnung</mdcr:Label>
+      <mdcr:Definition>Bei einer Altersfreigabe für Kinofilme muss nach § 14 Abs.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">3 Jugendschutzgesetz (JuSchG) auch bei einer Freigabe "ab 18 Jahren" auf eine "schwere Jugendgefährdung" hin geprüft werden. Hintergrund der gesetzlichen Bestimmungen ist, dass in Einzelfällen auch Jugendliche Zutritt zu den Vorstellungen erhalten könnten. Bei einer Freigabe von Filmen auf DVD, Blu-ray oder vergleichbaren Bildträgern besteht verstärkt die Gefahr, dass bereits Jugendliche Filme sehen, die erst "ab 18 Jahren" freigegeben sind. Hier reicht daher bereits eine "einfache Jugendgefährdung" aus, damit keine Kennzeichnung ausgesprochen werden darf. Es ist daher möglich, dass ein Film, der im Kino eine Freigabe "ab 18 Jahren" erhalten hat, in der gleichen Version für eine Veröffentlichung auf DVD keine Freigabe erhält. Die gesetzlichen Bestimmungen zum Jugendschutz sind hier eindeutig und bindend für die Arbeit der FSK. "Keine Kennzeichnung" stellt aber kein Aufführungsverbot dar. Kinos können auf eigenes rechtliches Risiko den Film vorführen - allerdings nur vor Erwachsenen. Kommt ein Gericht – beispielsweise nach einer Anzeige - zur Auffassung, dass es sich um einen "schwer jugendgefährdenden Film" handelt, sind unter anderem Werbung und Ankündigung gesetzlich verboten und daher strafbar (Jugendschutzgesetz, § 15 Abs. 1). Über den Jugendschutz hinaus möglicherweise zu berücksichtigende strafrechtliche Bestände fallen ebenfalls in den Aufgabenbereich der Justiz - und nicht der FSK</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>No labeling</mdcr:Label>
+      <mdcr:Definition>In an age limit for movies must according to § 14 paragraph 3 Youth Protection Act (JuSchG) even in a release, "18 years" are checked for a "serious risk youth" back.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Background of the statutory provisions is that in some cases even youngsters could gain access to the ideas. In a release movies on DVD, Blu-ray or similar image-makers increasingly there is a risk that young people already see films that have been released only "18 years." Here, therefore, already reaches a "simple risk youth" in order to avoid marking may be pronounced. It is therefore possible that a film that has received a release "18 years" in the cinema, in the same version does not receive a release for a release on DVD. The legal provisions to protect minors are here clearly and binding on the work of the FSC. "No Label" but provides no performance dar. ban on cinemas at your own legal risk show the film - but only in front of adults. If a court - for example, by a display - the view that there is a "serious harmful to young film", including advertising and notice is prohibited by law and therefore punishable (Youth Protection Act, § 15, para 1). Also fall on the protection of minors addition that could be considered criminal stocks within the remit of the judiciary - and not the PM.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>http://www.fsk.de/media_content/1132.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>FSK ab 18/Keine Jugendfreigabe</mdcr:Label>
+      <mdcr:Definition>as Kennzeichen "FSK ab 18" entspricht dem bisherigen Kennzeichen "Keine Jugendfreigabe".</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Dieses Kennzeichen wird vergeben, wenn keine einfache bzw. schwere Jugendgefährdung vorliegt. Nach § 14 Abs. 3 u. 4 des Jugendschutzgesetzes erfolgt für DVDs und Blu-ray Discs die Vergabe des Kennzeichnens "FSK ab 18", wenn keine einfache Jugendgefährdung vorliegt, für die öffentliche Filmvorführung, wenn der Film nicht schwer jugendgefährdend ist. Gekennzeichnete Filme, DVDs und Blu-ray Discs werden von der Bundesprüfstelle für jugendgefährdende Medien (BPjM) nicht indiziert.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Rated 18/Keine Jugendfreigabe</mdcr:Label>
+      <mdcr:Definition>The mark "Rated 18" corresponds to the previous indicator "Not suitable for young".</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This mark is awarded if no simple or serious threat to youth. According to § 14 paragraph 3 and 4 of the Youth Protection Act is for DVDs and Blu-ray discs, the award of identifying "Rated 18", if not a simple youth threat to the public screening if the movie is not hard harmful to minors. Featured Movies, DVDs, and Blu-ray discs are not indexed by the Federal Department for Media Harmful to Young Persons (Harmful to Young Persons).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

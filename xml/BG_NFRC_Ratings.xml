@@ -1,0 +1,84 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T08:28:46" lastSave="2013-12-09T23:00:35">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>BG</md:country>
+      <mdcr:RegionName>BULGARIA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>NFRC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>BG</md:country>
+    <mdcr:RegionName>BULGARIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="National Film Centre">
+    <md:DisplayName>National Film Centre</md:DisplayName>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/A</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Recommended to children</mdcr:Label>
+      <mdcr:Definition>the film confirms the ideals of humanism or popularizes the national and world cultures or contributes to upbringing children;</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">B</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/B</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>No age restrictions</mdcr:Label>
+      <mdcr:Definition>the film confirms the ideals of humanism, promotes national and world culture or by no means contradicts to the universally accepted moral norms in the country and there are no restrictive recommendations by the Committee.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/C</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Not recommended to children under the age of 12</mdcr:Label>
+      <mdcr:Definition>the film contains certain erotic scenes or scenes with drinking, taking drugs or stimulants or a few scenes of violence</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">D</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/D</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>No persons under the age of 16 are admitted.</mdcr:Label>
+      <mdcr:Definition>the film contains quite a number of erotic scenes or scenes with drinking, taking drugs or stimulants or a considerable number of scenes showing violence;</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">X</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/X</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>No persons under the age of 18 are admitted</mdcr:Label>
+      <mdcr:Definition>the film is naturalistically erotic or shows violence in an ostentatious manner.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

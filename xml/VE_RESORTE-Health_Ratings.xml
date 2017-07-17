@@ -1,0 +1,88 @@
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T23:30:26" lastSave="2013-12-30T14:53:17">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>VE</md:country>
+      <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>RESORTE-Health</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>VE</md:country>
+    <mdcr:RegionName>VENEZUELA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Music</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Health/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="SiBCI">
+    <md:DisplayName>SiBCI</md:DisplayName>
+    <mdcr:URL>http://www.leyresorte.gob.ve/ley-resorte/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Health/1/A</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Salud Type-A</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos utilizados para la divulgaci?n de informaci?n, opini?n o conocimientos sobre la prevenci?n, tratamiento o erradicaci?n del consumo de alcohol, tabaco, sustancias estupefacientes o psicotr?picas, as? como de la pr?ctica compulsiva de juegos de envite y azar y de otras conductas adictivas que puedan ser presenciados por ni?os, ni?as y adolescente sin que se requiera la orientaci?n de madres, padres, representantes o responsables.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Health Type-A</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds used for the dissemination of information, opinion or knowledge about prevention, treatment and elimination of alcohol, snuff, narcotic or psychotropic substances, as well as practice games compulsive gambling stake and and other addictive behaviors that can be seen by children and adolescents without requiring guidance from mothers, fathers, representatives or guardians.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="2">B</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Health/1/B</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Salud Type-B</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos utilizados para la divulgaci?n de informaci?n, opini?n o conocimientos sobre la prevenci?n, tratamiento o erradicaci?n del consumo de alcohol, tabaco, sustancias estupefacientes o psicotr?picas, as? como de la pr?ctica compulsiva de juegos de envite y azar y de otras conductas adictivas, que de ser presenciados por ni?os, ni?as y adolescentes requieran la orientaci?n de sus madres, padres, representantes o responsables.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Health Type-B</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds used for the dissemination of information, opinion or knowledge about prevention, treatment and elimination of alcohol, snuff, narcotic or psychotropic substances, as well as practice games compulsive gambling stake and and other addictive behaviors, which if witnessed by children and adolescents require the guidance of their mothers, fathers, representatives or guardians.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Health/1/C</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Salud Type-C</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos en los programas y promociones que se refieran directa o indirectamente: al consumo moderado de alcohol o tabaco, sin que se expresen expl?citamente sus efectos nocivos o tengan como finalidad erradicar las conductas adictivas que producen; al consumo excesivo de bebidas alcoh?licas o de tabaco, en los cuales se expresan expl?citamente sus efectos nocivos; a la pr?ctica compulsiva a los juegos de envite y azar, en los cuales se expresan expl?citamente sus efectos nocivos; o, al consumo de sustancias estupefacientes o psicotr?picas, en los cuales se expresa expl?citamente sus efectos nocivos</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Health Type-C</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds in programs and promotions that refers directly or indirectly: Moderate alcohol consumption or snuff, without explicitly express their harmful effects are intended to eradicate or addictive behaviors that produce, consumer excessive alcohol or snuff, in which are explicitly expressed their harmful effects; into practice games compulsive gambling stake and in which are explicitly expressed its harmful effects, or consumption of narcotic or psychotropic substances, where explicitly stated their harmful effects.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">D</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Health/1/D</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="es">
+      <mdcr:Label>Salud Type-D</mdcr:Label>
+      <mdcr:Definition>Textos, im?genes o sonidos en los programas y promociones que directa o indirectamente se refieran al consumo excesivo de bebidas alcoh?licas o tabaco, en los cuales no se exprese expl?citamente sus efectos nocivos para la salud; se refieran a la pr?ctica compulsiva de juegos de envite y azar, en los cuales no se exprese expl?citamente sus efectos nocivos para la salud; asocien el consumo de bebidas alcoh?licas o tabaco con ventajas en la posici?n econ?mica, en la condici?n social o en el ejercicio de la sexualidad; asocien la pr?ctica compulsiva de juegos de envite y azar, con ventajas en la posici?n econ?mica, en la condici?n social o en el ejercicio de la sexualidad; asocien el consumo de bebidas alcoh?licas o tabaco con una mejora en el rendimiento f?sico o psicol?gico; presenten en forma negativa la sobriedad o la abstinencia de bebidas alcoh?licas y tabaco; se refieran al consumo de sustancias estupefacientes o psicotr?picas, en las cuales no se expresen expl?citamente sus efectos nocivos para la salud; asocie el consumo de sustancias estupefacientes o psicotr?picas con ventajas en la posici?n econ?mica, en la condici?n social o en el ejercicio de la sexualidad; asocien el consumo de sustancias estupefacientes o psicotr?picas con una mejora en el rendimiento f?sico o psicol?gico; o presenten en forma negativa la abstinencia de sustancias estupefacientes o psicotr?picas.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Health Type-D</mdcr:Label>
+      <mdcr:Definition>texts, images or sounds in programs and promotions that directly or indirectly relate to excessive consumption of alcohol or snuff, in which is not expressed explicitly their adverse health effects; practice relating to compulsive stake games and random, which is not expressed explicitly their adverse health effects; associate the consumption of alcohol or snuff-advantaged economic position in the social or in the exercise of sexuality, associate the compulsive practice games and gambling stake, with advantages in the economic position in the social or in the exercise of sexuality associated the consumption of alcohol or snuff with improved physical and psychological performance, presented in a negative way sobriety or abstinence from alcohol and snuff, refer to the consumption of narcotic or psychotropic properties which are not expressly granted its adverse health effects, associated with the consumption of narcotic or psychotropic substances advantaged economic position, in social or in the exercise of sexuality associated consumption narcotic or psychotropic substances with improved physical and psychological performance, or negatively submit withdrawal narcotics or psychotropic substances.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

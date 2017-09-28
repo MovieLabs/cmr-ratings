@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-21T14:02:57" lastSave="2016-12-22T15:55:23">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T03:50:00" lastSave="2017-08-07T14:19:53">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -21,23 +21,25 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2017-07-27</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Ontario Film Review Board,">
     <md:DisplayName>Ontario Film Review Board,</md:DisplayName>
-    <mdcr:ContactString>Ontario Film Review Board
+    <mdcr:ContactString>Ontario Film Authority
 4950 Yonge Street, Suite 101B
-Toronto ON  M2N 6K1
-Phone: (416) 314-3626   
-Fax: (416) 314-3632   
-Toll-free: 1-800-268-6024</mdcr:ContactString>
-    <mdcr:URL>http://www.ofrb.gov.on.ca/english/default.htm</mdcr:URL>
+Toronto ON
+M2N 6K1
+Telephone: 416-224-8000
+Toll-Free: 1-844-229-8009
+Fax: 416-224-8085
+Email: info@ontariofilmauthority.ca</mdcr:ContactString>
+    <mdcr:URL>https://www.ontariofilmauthority.ca/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/G_high.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_OFRB_G.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -50,7 +52,7 @@ Toll-free: 1-800-268-6024</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/PG_high.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_OFRB_PG.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -66,7 +68,7 @@ Toll-free: 1-800-268-6024</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">14A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/14A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/14a_high.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_OFRB_14A.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>14</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -82,7 +84,7 @@ Toll-free: 1-800-268-6024</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="75">18A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/18A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/18a_high.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_OFRB_18A.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -98,7 +100,7 @@ Toll-free: 1-800-268-6024</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2/R</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ofrb.gov.on.ca/english/images/R_high.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_OFRB_R.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

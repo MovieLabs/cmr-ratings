@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-26T23:04:47" lastSave="2014-08-01T15:13:17">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
@@ -32,7 +31,7 @@ Washington, DC 20004
   <mdcr:Rating>
     <mdcr:Value ordinal="0">TV-Y</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y</mdcr:URI>
-    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvy.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_TVPG_tvy.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -48,7 +47,7 @@ Washington, DC 20004
   <mdcr:Rating>
     <mdcr:Value ordinal="2">TV-G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-G</mdcr:URI>
-    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvg.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_TVPG_tvg.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -65,7 +64,7 @@ Washington, DC 20004
   <mdcr:Rating>
     <mdcr:Value ordinal="6">TV-Y7</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y7</mdcr:URI>
-    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvy7.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_TVPG_tvy7.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -82,7 +81,7 @@ Washington, DC 20004
   <mdcr:Rating>
     <mdcr:Value ordinal="7">TV-Y7-FV</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y7-FV</mdcr:URI>
-    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvy7fv.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_TVPG_tvy7fv.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -96,7 +95,7 @@ Washington, DC 20004
   <mdcr:Rating>
     <mdcr:Value ordinal="10">TV-PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvpg.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_TVPG_tvpg.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -116,7 +115,7 @@ Washington, DC 20004
   <mdcr:Rating>
     <mdcr:Value ordinal="14">TV-14</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-14</mdcr:URI>
-    <mdcr:LinkToLogo>http://tvguidelines.org/images/tv14.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_TVPG_tv14.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -136,7 +135,7 @@ Washington, DC 20004
   <mdcr:Rating>
     <mdcr:Value ordinal="80">TV-MA</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-MA</mdcr:URI>
-    <mdcr:LinkToLogo>http://tvguidelines.org/images/tvma.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_TVPG_tvma.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

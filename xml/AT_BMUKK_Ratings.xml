@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T21:30:03" lastSave="2013-12-29T17:47:30">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T01:30:03" lastSave="2017-08-08T20:11:46">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>AT</md:country>
@@ -16,15 +17,16 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2017-08-08</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Bundesministeriums für Unterricht, Kunst und Kultur!">
-    <md:DisplayName>Bundesministeriums für Unterricht, Kunst und Kultur!</md:DisplayName>
-    <mdcr:ContactString>Postanschrift:Bundesministerium für Unterricht, Kunst und Kultur
-Minoritenplatz 51014 Wien, 
-T +43 (0)1 53 120-0 F +43 (0)1 53 120-3099 
-ministerium@bmukk.gv.at</mdcr:ContactString>
-    <mdcr:URL>http://www.bmukk.gv.at/index.xml</mdcr:URL>
+  <mdcr:RatingsOrg organizationID="Jugendmedienkommission beim Bundesministerium für Bildung">
+    <md:DisplayName>Jugendmedienkommission beim Bundesministerium für Bildung</md:DisplayName>
+    <mdcr:ContactString>Geschäftsführender Leiter 
+ADir . Michael Kluger 
+T +43 1 53120-4835 
+F +43 1 53120-814835 
+michael.kluger@bmb.gv.at</mdcr:ContactString>
+    <mdcr:URL>https://www.bmb.gv.at/schulen/service/jmk/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

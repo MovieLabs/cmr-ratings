@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T10:19:22" lastSave="2016-12-22T15:55:02">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
@@ -34,7 +33,7 @@ Montréal (Québec) H2Y 1T9</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/2/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/general.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_RCQ_general.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -57,7 +56,7 @@ Montréal (Québec) H2Y 1T9</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">13+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/2/13+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c13.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_RCQ_c13.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -80,7 +79,7 @@ Montréal (Québec) H2Y 1T9</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">16+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/2/16+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c16.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_RCQ_c16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -103,7 +102,7 @@ Montréal (Québec) H2Y 1T9</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/2/18+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c18.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_RCQ_c18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

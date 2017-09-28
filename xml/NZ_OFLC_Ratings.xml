@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T17:29:33" lastSave="2016-12-06T16:14:58">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T03:50:46" lastSave="2017-08-07T14:25:35">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>NZ</md:country>
       <mdcr:RegionName>NEW ZEALAND</mdcr:RegionName>
@@ -20,18 +20,18 @@
       <mdcr:Environment>other</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1</mdcr:URI>
+  <mdcr:LastChecked>2017-07-27</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Office of FIlm and Literature Classification">
     <md:DisplayName>Office of FIlm and Literature Classification</md:DisplayName>
     <mdcr:ContactString>PO Box 1999, Wellington 6140, New Zealand</mdcr:ContactString>
-    <mdcr:URL>http://www.censorship.govt.nz/home.html</mdcr:URL>
+    <mdcr:URL>https://www.classificationoffice.govt.nz/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/g-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_g.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">
@@ -44,8 +44,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/pg-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_pg.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">
@@ -58,8 +58,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">RP13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/RP13</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/rp13-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/RP13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp13.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -73,8 +73,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">R13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R13</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r13-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r13.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
@@ -89,8 +89,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">R15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R15</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r15-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R15</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r15.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
@@ -105,8 +105,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">M</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/M</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/m-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/M</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_m.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -120,8 +120,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">RP16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/RP16</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/rp16-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/RP16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp16.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -135,8 +135,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="21">R16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R16</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r16-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -150,9 +150,25 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="79">RP18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/RP18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp18.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="en">
+      <mdcr:Label>Restricted to persons 18 years of age and over unless accomp[anied by Parent/Guardian</mdcr:Label>
+      <mdcr:Definition>It is illegal to sell, hire, show or give a film or game with an age restricted label to anyone under the age specified.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">If something has one of these labels it can only be supplied to people of and over the age shown on the label. A parent, shop or cinema is breaking the law if they supply an age-restricted item to someone who is not legally allowed to access it. You will see these labels on films, games, DVDs and a few music recordings, magazines and books.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="80">R18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R18</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r18-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -167,8 +183,8 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="95">R</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/1/R</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.censorship.govt.nz/images/r-label-small.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">

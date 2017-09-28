@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-15T22:37:15" lastSave="2015-08-19T15:10:25">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
@@ -34,7 +33,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medietilsynet.no/globalassets/aldersgrense-ikoner-og-veiledning-no-og-eng/a_stor-ny.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_a_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -50,7 +49,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">6</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/6</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medietilsynet.no/globalassets/aldersgrense-ikoner-og-veiledning-no-og-eng/6_stor-ny.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_6_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -66,7 +65,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="4">9</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/9</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medietilsynet.no/globalassets/aldersgrense-ikoner-og-veiledning-no-og-eng/9_stor-ny.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_9_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>9</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -114,7 +113,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="8">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/12</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medietilsynet.no/globalassets/aldersgrense-ikoner-og-veiledning-no-og-eng/12_stor-ny.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_12_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -130,7 +129,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">15</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/15</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medietilsynet.no/globalassets/aldersgrense-ikoner-og-veiledning-no-og-eng/15_stor-ny.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_15_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -146,7 +145,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/18</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medietilsynet.no/globalassets/aldersgrense-ikoner-og-veiledning-no-og-eng/18_stor-ny.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_18_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

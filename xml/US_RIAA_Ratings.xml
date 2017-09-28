@@ -27,7 +27,7 @@ Washington, DC 20004</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">PAL</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/RIAA/0/PAL</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.riaa.com/images/parentaladvisory.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_RIAA_pal.jpeg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

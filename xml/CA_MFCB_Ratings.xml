@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T08:48:40" lastSave="2016-12-22T15:56:11">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
@@ -62,7 +61,7 @@ Dartmouth, N.S.</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/g.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_MFCB_g.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -75,7 +74,7 @@ Dartmouth, N.S.</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/pg.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_MFCB_pg.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -91,7 +90,7 @@ Dartmouth, N.S.</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">14A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/14A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/14a.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_MFCB_14a.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -107,7 +106,7 @@ Dartmouth, N.S.</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="75">18A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/18A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/18a.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_MFCB_18a.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -124,7 +123,7 @@ explicit violence, frequent coarse language, sexual activity and/or horror.</div
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/R</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/r.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_MFCB_r.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -140,7 +139,7 @@ explicit violence, frequent coarse language, sexual activity and/or horror.</div
   <mdcr:Rating>
     <mdcr:Value ordinal="90">A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.consumerprotectionbc.ca/images/FCO/ratings/a.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_MFCB_a.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

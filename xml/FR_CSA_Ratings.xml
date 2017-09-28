@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-11T10:47:34" lastSave="2014-12-12T16:01:03">
   <mdcr:RatingSystemID version="3">
     <mdcr:Region>
@@ -33,7 +32,7 @@ Tour Mirabeau
   <mdcr:Rating>
     <mdcr:Value ordinal="1">10</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/10</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/protection-des-mineurs-10/330309-1-fre-FR/Protection-des-mineurs-10.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-10.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -46,7 +45,7 @@ Tour Mirabeau
   <mdcr:Rating>
     <mdcr:Value ordinal="3">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/12</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/logos/protection-des-mineurs-12/330313-1-fre-FR/Protection-des-mineurs-12.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-12.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -59,7 +58,7 @@ Tour Mirabeau
   <mdcr:Rating>
     <mdcr:Value ordinal="6">16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/16</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/logos/protection-des-mineurs-16/330317-1-fre-FR/Protection-des-mineurs-16.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -72,7 +71,7 @@ Tour Mirabeau
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3/18</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.csa.fr/var/ezflow_site/storage/images/media/images/logos/protection-des-mineurs-18/330321-1-fre-FR/Protection-des-mineurs-18.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

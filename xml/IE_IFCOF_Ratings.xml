@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-13T19:34:06" lastSave="2014-08-01T15:10:36">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
@@ -34,7 +33,7 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/g_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCOF_g_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -57,7 +56,7 @@ While a General certificate does not necessarily signify a ‘children’s pictu
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/pg_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCOF_pg_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -80,7 +79,7 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
   <mdcr:Rating>
     <mdcr:Value ordinal="6">12A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/12A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/12pg_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCOF_12pg_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -101,7 +100,7 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
   <mdcr:Rating>
     <mdcr:Value ordinal="9">15A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/15A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/15pg_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCOF_15pg_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -122,7 +121,7 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
   <mdcr:Rating>
     <mdcr:Value ordinal="12">16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/16</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/16_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCOF_16_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -143,7 +142,7 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/18</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/18_icon1.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCOF_18_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

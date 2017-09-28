@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2016-12-22T15:24:28">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-27T23:49:20" lastSave="2017-07-27T20:08:30">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -16,7 +16,7 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2017-07-27</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Consumer Protection BC">
     <md:DisplayName>Consumer Protection BC</md:DisplayName>
@@ -32,7 +32,7 @@ Fax: (780) 427-0195</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/G.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_AFC_G.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -48,7 +48,7 @@ Fax: (780) 427-0195</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/PG.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_AFC_PG.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -64,7 +64,7 @@ Fax: (780) 427-0195</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">14A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/14A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/14A.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_AFC_14A.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -80,7 +80,7 @@ Fax: (780) 427-0195</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="70">18A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/18A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/18A.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_AFC_18A.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -101,7 +101,7 @@ The Hangover Part II (2011), and Project X (2012). Most horror movies that inclu
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/AFC/2/R</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.albertafilmratings.ca/images/R.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_AFC_R.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

@@ -34,7 +34,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   <mdcr:Rating>
     <mdcr:Value ordinal="0">I</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1/I</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/usmiech_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_usmiech_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -51,7 +51,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   <mdcr:Rating>
     <mdcr:Value ordinal="3">II</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/II</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/7_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_7_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -68,7 +68,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   <mdcr:Rating>
     <mdcr:Value ordinal="6">III</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/III</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/12_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_12_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -85,7 +85,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   <mdcr:Rating>
     <mdcr:Value ordinal="9">IV</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/IV</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/16_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_16_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -102,7 +102,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1/18+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.krrit.gov.pl/Data/Files/_public/images/elementy-graf/ochrona-znaki/klucz_kolor.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_klucz_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

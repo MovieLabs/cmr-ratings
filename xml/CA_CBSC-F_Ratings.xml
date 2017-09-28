@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T14:19:22" lastSave="2014-08-01T14:24:44">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
@@ -40,7 +39,7 @@ K1P 6H8</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/general.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_general.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -63,7 +62,7 @@ K1P 6H8</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="2">8+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/8+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/clip_image003.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_clip_image003.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>8</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -79,7 +78,7 @@ K1P 6H8</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">13+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/13+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c13.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c13.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -102,7 +101,7 @@ K1P 6H8</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">16+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/16+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c16.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -125,7 +124,7 @@ K1P 6H8</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/18+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.rcq.gouv.qc.ca/images/c18.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

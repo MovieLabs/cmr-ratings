@@ -26,7 +26,7 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/general_40_web.gif/$File/general_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCO_general_40_web.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -51,7 +51,7 @@ who know their own children best - consult the consumer advice available on this
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/pg_40_web.gif/$File/pg_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCO_pg_40_web.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -75,7 +75,7 @@ who know their own children best - consult the consumer advice available on this
   <mdcr:Rating>
     <mdcr:Value ordinal="6">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/12</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/12_40_web.gif/$File/12_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCO_12_40_web.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -98,7 +98,7 @@ who know their own children best - consult the consumer advice available on this
   <mdcr:Rating>
     <mdcr:Value ordinal="9">15</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/15</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/15_40_web.gif/$File/15_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCO_15_40_web.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -123,7 +123,7 @@ Generally, films classified 16 on cinema release will be classified 15 on video 
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/18</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.ifco.ie/ifco/ifcoweb.nsf/lookupgraphics/18_40_web.gif/$File/18_40_web.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/IE_IFCO_18_40_web.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

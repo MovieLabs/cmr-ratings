@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-13T16:27:45" lastSave="2014-12-12T16:04:19">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
@@ -35,7 +34,7 @@ Fax  (02) 9289 7101</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image1.jpeg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/AU_NCS_image1.jpeg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -51,7 +50,7 @@ Fax  (02) 9289 7101</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image2.jpeg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/AU_NCS_image2.jpeg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -67,7 +66,7 @@ Fax  (02) 9289 7101</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">M</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/M</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image3.jpeg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/AU_NCS_image3.jpeg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -83,7 +82,7 @@ Fax  (02) 9289 7101</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">MA15</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/MA15</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image4.jpeg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/AU_NCS_image4.jpeg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
@@ -99,7 +98,7 @@ Fax  (02) 9289 7101</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/R18+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image5.jpeg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/AU_NCS_image5.jpeg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -115,7 +114,7 @@ Fax  (02) 9289 7101</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">CTC</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/CTC</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/Check-the-Classification.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/AU_NCS_Check-the-Classification.jpg</mdcr:LinkToLogo>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">
@@ -129,7 +128,7 @@ Fax  (02) 9289 7101</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">X18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/NCS/1/X18+</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.classification.gov.au/Guidelines/PublishingImages/image6.jpeg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/AU_NCS_image6.jpeg</mdcr:LinkToLogo>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>

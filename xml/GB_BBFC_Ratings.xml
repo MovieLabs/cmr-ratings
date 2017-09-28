@@ -1,154 +1,154 @@
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-18T07:29:17" lastSave="2014-01-04T15:04:39">
-	<mdcr:RatingSystemID version="1">
-		<mdcr:Region>
-			<md:country>GB</md:country>
-			<mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
-		</mdcr:Region>
-		<mdcr:System>BBFC</mdcr:System>
-	</mdcr:RatingSystemID>
-	<mdcr:AdoptiveRegion>
-		<md:country>GB</md:country>
-		<mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Film</mdcr:Media>
-			<mdcr:Media>DVD</mdcr:Media>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-			<mdcr:Environment>Theater</mdcr:Environment>
-			<mdcr:Environment>Broadcast</mdcr:Environment>
-			<mdcr:Environment>Retail</mdcr:Environment>
-			<mdcr:Environment>App</mdcr:Environment>
-			<mdcr:Environment>other</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-	<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1</mdcr:URI>
-	<mdcr:RatingsOrg organizationID="British Board of Film Classification">
-		<md:DisplayName>British Board of Film Classification</md:DisplayName>
-		<mdcr:URL>http://www.bbfc.co.uk/</mdcr:URL>
-		<mdcr:OrgType>other</mdcr:OrgType>
-	</mdcr:RatingsOrg>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="1">U</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/U</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.bbfc.co.uk/sites/default/files/styles/large/public/U-150px.jpg</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>4</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>Universal</mdcr:Label>
-			<mdcr:Definition>A U film should be suitable for audiences aged four years and over. However, it is impossible to predict what might upset a particular child, especially at this lower end of the category range.</mdcr:Definition>
-		</mdcr:Descriptor>
-		<mdcr:ApplicableReason id="Theme"/>
-		<mdcr:ApplicableReason id="Behaviour"/>
-		<mdcr:ApplicableReason id="Horror"/>
-		<mdcr:ApplicableReason id="Nudity"/>
-		<mdcr:ApplicableReason id="Discrimination"/>
-		<mdcr:ApplicableReason id="Language"/>
-		<mdcr:ApplicableReason id="Violence"/>
-		<mdcr:ApplicableReason id="Drugs"/>
-		<mdcr:ApplicableReason id="Sex"/>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="3">PG</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/PG</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.bbfc.co.uk/sites/default/files/styles/large/public/PG-150px_1.jpg</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>8</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>Parental Guidance</mdcr:Label>
-			<mdcr:Definition>Film is suitable for general viewing, but some scenes may be unsuitable for younger children. A PG film should not disturb a child aged around eight or older.</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">Parents should consider whether the content might upset younger or more sensitive children. Some films are given a PG certificate but have not been made with a young audience in mind. However, the certificate means that any issues in the work are appropriate for the majority of this age group and nothing should upset a child of eight or over.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-		<mdcr:ApplicableReason id="Theme"/>
-		<mdcr:ApplicableReason id="Behaviour"/>
-		<mdcr:ApplicableReason id="Horror"/>
-		<mdcr:ApplicableReason id="Nudity"/>
-		<mdcr:ApplicableReason id="Discrimination"/>
-		<mdcr:ApplicableReason id="Language"/>
-		<mdcr:ApplicableReason id="Violence"/>
-		<mdcr:ApplicableReason id="Drugs"/>
-		<mdcr:ApplicableReason id="Sex"/>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="6">12A</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12A</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.bbfc.co.uk/sites/default/files/styles/large/public/12A-150px.jpg</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>12</mdcr:MinRecAge>
-		<mdcr:MinAge>12</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:Override>
-			<md:country>GB</md:country>
-			<mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
-			<mdcr:Usage>
-				<mdcr:Media>Film</mdcr:Media>
-				<mdcr:Environment>Theater</mdcr:Environment>
-			</mdcr:Usage>
-		</mdcr:Override>
-		<mdcr:HPCApplicable>false</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>Accompanied under 12</mdcr:Label>
-			<mdcr:Definition>Children younger than 12 may see the film if they are accompanied by an adult (eg someone over the age of 18), who must watch the film with them.</mdcr:Definition>
-		</mdcr:Descriptor>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="6">12</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.bbfc.co.uk/sites/default/files/styles/large/public/12-150px.jpg</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>12</mdcr:MinRecAge>
-		<mdcr:MinAge>12</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:Override>
-			<md:country>GB</md:country>
-			<mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
-			<mdcr:Usage>
-				<mdcr:Environment>Home</mdcr:Environment>
-				<mdcr:Environment>Broadcast</mdcr:Environment>
-				<mdcr:Environment>Retail</mdcr:Environment>
-				<mdcr:Environment>App</mdcr:Environment>
-				<mdcr:Environment>other</mdcr:Environment>
-			</mdcr:Usage>
-		</mdcr:Override>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>12 and Older</mdcr:Label>
-			<mdcr:Definition>Suitable for 12 years and over</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">The 12 certificate is just for videos, DVDs and Blu-rays. 12A is for films at the cinema only.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="9">15</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/15</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.bbfc.co.uk/sites/default/files/styles/large/public/15-150px.jpg</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>15</mdcr:MinRecAge>
-		<mdcr:MinAge>15</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>15 and Older</mdcr:Label>
-			<mdcr:Definition>15 rated works are not suitable for children under 15 years of age. No theme is prohibited, provided the treatment is appropriate for 15 year olds.</mdcr:Definition>
-		</mdcr:Descriptor>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="80">18</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/18</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.bbfc.co.uk/sites/default/files/styles/large/public/18-150px.jpg</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>18</mdcr:MinRecAge>
-		<mdcr:MinAge>18</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>18 and Older</mdcr:Label>
-			<mdcr:Definition>No-one under 18 is allowed to see an 18 film at the cinema or buy/rent an 18 rated DVD. No 18 rated works are suitable for children.</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">No theme is prohibited at 18. Adults are free to pick their own entertainment within the law, so it is possible some themes tackled at 18 
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>GB</md:country>
+      <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>BBFC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>GB</md:country>
+    <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+      <mdcr:Environment>App</mdcr:Environment>
+      <mdcr:Environment>other</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="British Board of Film Classification">
+    <md:DisplayName>British Board of Film Classification</md:DisplayName>
+    <mdcr:URL>http://www.bbfc.co.uk/</mdcr:URL>
+    <mdcr:OrgType>other</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="1">U</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/U</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_U-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>4</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Universal</mdcr:Label>
+      <mdcr:Definition>A U film should be suitable for audiences aged four years and over. However, it is impossible to predict what might upset a particular child, especially at this lower end of the category range.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="Behaviour" />
+    <mdcr:ApplicableReason id="Horror" />
+    <mdcr:ApplicableReason id="Nudity" />
+    <mdcr:ApplicableReason id="Discrimination" />
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Drugs" />
+    <mdcr:ApplicableReason id="Sex" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_PG-150px_1.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Parental Guidance</mdcr:Label>
+      <mdcr:Definition>Film is suitable for general viewing, but some scenes may be unsuitable for younger children. A PG film should not disturb a child aged around eight or older.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Parents should consider whether the content might upset younger or more sensitive children. Some films are given a PG certificate but have not been made with a young audience in mind. However, the certificate means that any issues in the work are appropriate for the majority of this age group and nothing should upset a child of eight or over.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="Behaviour" />
+    <mdcr:ApplicableReason id="Horror" />
+    <mdcr:ApplicableReason id="Nudity" />
+    <mdcr:ApplicableReason id="Discrimination" />
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Drugs" />
+    <mdcr:ApplicableReason id="Sex" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12A</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12A-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>GB</md:country>
+      <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Media>Film</mdcr:Media>
+        <mdcr:Environment>Theater</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Accompanied under 12</mdcr:Label>
+      <mdcr:Definition>Children younger than 12 may see the film if they are accompanied by an adult (eg someone over the age of 18), who must watch the film with them.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>GB</md:country>
+      <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Environment>Home</mdcr:Environment>
+        <mdcr:Environment>Broadcast</mdcr:Environment>
+        <mdcr:Environment>Retail</mdcr:Environment>
+        <mdcr:Environment>App</mdcr:Environment>
+        <mdcr:Environment>other</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12 and Older</mdcr:Label>
+      <mdcr:Definition>Suitable for 12 years and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The 12 certificate is just for videos, DVDs and Blu-rays. 12A is for films at the cinema only.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/15</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_15-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15 and Older</mdcr:Label>
+      <mdcr:Definition>15 rated works are not suitable for children under 15 years of age. No theme is prohibited, provided the treatment is appropriate for 15 year olds.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_18-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 and Older</mdcr:Label>
+      <mdcr:Definition>No-one under 18 is allowed to see an 18 film at the cinema or buy/rent an 18 rated DVD. No 18 rated works are suitable for children.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">No theme is prohibited at 18. Adults are free to pick their own entertainment within the law, so it is possible some themes tackled at 18 
 may be offensive even to some adult viewers. There can be strong and detailed portrayals of sex at 18, including full nudity. 
 There are no constraints on nudity in a non-sexual or educational context. An 18 film or DVD might also contain depictions of real sex if 
 it is justified by context, as long as the film or DVD is not a sex work. 
@@ -156,101 +156,101 @@ Sex works are works whose primary purpose is sexual arousal or stimulation. Sex 
 simulated are generally passed 18. Those containing clear images of real sex, strong fetish material, sexually explicit animated 
 images, or other very strong sexual images will be confined to the R18 category. Material which is unacceptable in a sex work at
  R18 is also unacceptable in a sex work at 18.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="90">R18</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/R18</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.bbfc.co.uk/sites/default/files/styles/large/public/R18-150px.jpg</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>18</mdcr:MinRecAge>
-		<mdcr:MinAge>18</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>RESTRICTED 18 and Older</mdcr:Label>
-			<mdcr:Definition>Classification primarily for explicit works of consenting sex or strong fetish material involving adults. Films may only be shown to adults in specially licensed cinemas, and video works may be supplied to adults only in licensed sex shops.</mdcr:Definition>
-		</mdcr:Descriptor>
-	</mdcr:Rating>
-	<mdcr:Reason language="en" reasonID="Discrimination">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>No discriminatory language or behaviour unless clearly disapproved of.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>Discriminatory language or behaviour is unlikely to be acceptable unless clearly disapproved of or in an educational or historical context. Discrimination by a character with which children can readily identify is unlikely to be acceptable.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Drugs">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>No references to illegal drugs or drug misuse unless they are infrequent and innocuous, or there is a clear educational purpose or anti-drug message suitable for young children.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>References to illegal drugs or drug misuse must be innocuous or carry a suitable anti-drug message.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Horror">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>Scary sequences should be mild, brief and unlikely to cause undue anxiety to young children. The outcome should be reassuring.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>Frightening sequences should not be prolonged or intense. Fantasy settings may be a mitigating factor.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Behaviour">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>No potentially dangerous behaviour which young children are likely to copy. No emphasis on realistic or easily accessible weapons.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>No detail of potentially dangerous behaviour which young children are likely to copy. No glamorisation of realistic or easily accessible weapons.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Language">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>Infrequent use only of very mild bad language.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>Mild bad language only.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Nudity">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>Occasional natural nudity, with no sexual context.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>Natural nudity, with no sexual context.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Sex">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>Mild sexual behaviour (for example, kissing) and references only (for example, to ‘making love’).</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>Sexual activity may be implied, but should be discreet and infrequent. Mild sex references and innuendo only.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Theme">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>While problematic themes may be present, their treatment must be sensitive and appropriate for young children.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>Where more serious issues are featured (for example, domestic violence) nothing in their treatment should condone unacceptable behaviour.</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Violence">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="U">
-			<mdcr:Definition>Mild violence only. Occasional mild threat or menace only.</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PG">
-			<mdcr:Definition>Moderate violence, without detail, may be allowed, if justified by its context (for example, history, comedy or fantasy).</mdcr:Definition>
-		</mdcr:Criteria>
-	</mdcr:Reason>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">R18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/R18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_R18-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>RESTRICTED 18 and Older</mdcr:Label>
+      <mdcr:Definition>Classification primarily for explicit works of consenting sex or strong fetish material involving adults. Films may only be shown to adults in specially licensed cinemas, and video works may be supplied to adults only in licensed sex shops.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="Discrimination">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>No discriminatory language or behaviour unless clearly disapproved of.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>Discriminatory language or behaviour is unlikely to be acceptable unless clearly disapproved of or in an educational or historical context. Discrimination by a character with which children can readily identify is unlikely to be acceptable.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Drugs">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>No references to illegal drugs or drug misuse unless they are infrequent and innocuous, or there is a clear educational purpose or anti-drug message suitable for young children.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>References to illegal drugs or drug misuse must be innocuous or carry a suitable anti-drug message.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Horror">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>Scary sequences should be mild, brief and unlikely to cause undue anxiety to young children. The outcome should be reassuring.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>Frightening sequences should not be prolonged or intense. Fantasy settings may be a mitigating factor.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Behaviour">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>No potentially dangerous behaviour which young children are likely to copy. No emphasis on realistic or easily accessible weapons.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>No detail of potentially dangerous behaviour which young children are likely to copy. No glamorisation of realistic or easily accessible weapons.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Language">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>Infrequent use only of very mild bad language.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>Mild bad language only.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Nudity">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>Occasional natural nudity, with no sexual context.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>Natural nudity, with no sexual context.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Sex">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>Mild sexual behaviour (for example, kissing) and references only (for example, to ‘making love’).</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>Sexual activity may be implied, but should be discreet and infrequent. Mild sex references and innuendo only.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Theme">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>While problematic themes may be present, their treatment must be sensitive and appropriate for young children.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>Where more serious issues are featured (for example, domestic violence) nothing in their treatment should condone unacceptable behaviour.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Violence">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="U">
+      <mdcr:Definition>Mild violence only. Occasional mild threat or menace only.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PG">
+      <mdcr:Definition>Moderate violence, without detail, may be allowed, if justified by its context (for example, history, comedy or fantasy).</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
 </mdcr:RatingSystem>

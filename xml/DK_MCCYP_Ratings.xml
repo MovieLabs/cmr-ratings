@@ -28,7 +28,7 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/a.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/DK_MCCYP_a.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>4</mdcr:MinRecAge>
     <mdcr:MinAge>4</mdcr:MinAge>
     <mdcr:MinAgeSupervised>4</mdcr:MinAgeSupervised>
@@ -46,7 +46,7 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="3">7</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/7</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/7.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/DK_MCCYP_7.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -64,7 +64,7 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="6">11</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/11</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/11.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/DK_MCCYP_11.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>11</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -82,7 +82,7 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="80">15</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/DK/MCCYP/1/15</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.medieraadet.dk/html/hva/hva_grafik/15.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/DK_MCCYP_15.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

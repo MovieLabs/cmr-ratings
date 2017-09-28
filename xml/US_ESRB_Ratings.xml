@@ -34,7 +34,7 @@ New York, NY 10017</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">E</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/E</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_e.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_e.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -47,7 +47,7 @@ New York, NY 10017</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">RP</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/RP</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_rp.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_rp.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -61,7 +61,7 @@ New York, NY 10017</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">C</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/C</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_ec.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_ec.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -74,7 +74,7 @@ New York, NY 10017</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="60">10-plus</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/10-plus</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_e10.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_e10.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -87,7 +87,7 @@ New York, NY 10017</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="70">T</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/T</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_t.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_t.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -100,7 +100,7 @@ New York, NY 10017</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">M</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/M</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_m.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_m.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -113,7 +113,7 @@ New York, NY 10017</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.esrb.org/images/ratingsymbol_ao.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_ao.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

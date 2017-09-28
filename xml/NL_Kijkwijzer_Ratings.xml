@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-09T08:01:40" lastSave="2014-12-12T16:00:12">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
@@ -46,7 +45,7 @@ tel: 085 4011690</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">AL</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/AL</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/upload/pic/50_groen_al.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_50_groen_al.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -59,7 +58,7 @@ tel: 085 4011690</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">6</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/6</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/upload/pic/51_groen_6.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_51_groen_6.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -72,7 +71,7 @@ tel: 085 4011690</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">9</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/9</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/images/icons/groen_9.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_groen_9.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>9</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -85,7 +84,7 @@ tel: 085 4011690</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/12</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/images/icons/groen_12.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_groen_12.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -98,7 +97,7 @@ tel: 085 4011690</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/16</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.kijkwijzer.nl/images/icons/groen_16.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_groen_16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

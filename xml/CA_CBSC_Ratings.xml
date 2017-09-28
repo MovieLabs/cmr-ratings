@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2016-12-22T15:56:36">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T03:50:25" lastSave="2017-08-07T14:19:35">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -18,6 +18,7 @@
       <mdcr:Environment>other</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2017-07-27</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
@@ -36,7 +37,7 @@ K1P 6H8</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">C</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/C</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-c.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC_C.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -72,7 +73,7 @@ Depictions of aggressive behaviour will be infrequent and limited to portrayals 
   <mdcr:Rating>
     <mdcr:Value ordinal="2">C8</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/C8</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-c8.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC_C8.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -95,7 +96,7 @@ Programming within this classification might deal with themes which could be uns
   <mdcr:Rating>
     <mdcr:Value ordinal="4">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-g.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC_G.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>8</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -117,7 +118,7 @@ minimize or gloss over the effects of violent acts.</div>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-pg.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC_PG.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -142,7 +143,7 @@ minimized.</div>
   <mdcr:Rating>
     <mdcr:Value ordinal="14">14</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/14</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-14plus.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC_14plus.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -162,7 +163,7 @@ could deal with mature themes and societal issues in a realistic fashion.</div>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/18</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.cbsc.ca/assets/agvot-rating-18plus.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC_18plus.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

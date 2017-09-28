@@ -1,277 +1,275 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!-- edited with XMLSpy v2009 (http://www.altova.com) by Lawrence J Levin (private) -->
 <mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2015-01-27T16:17:43">
-	<mdcr:RatingSystemID version="0">
-		<mdcr:Region>
-			<md:country>BE</md:country>
-			<mdcr:RegionName>BELGIUM</mdcr:RegionName>
-		</mdcr:Region>
-		<mdcr:System>PEGI</mdcr:System>
-	</mdcr:RatingSystemID>
-	<mdcr:AdoptiveRegion>
-		<md:country>AT</md:country>
-		<mdcr:RegionName>AUSTRIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>BE</md:country>
-		<mdcr:RegionName>BELGIUM</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>BG</md:country>
-		<mdcr:RegionName>BULGARIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>CY</md:country>
-		<mdcr:RegionName>CYPRUS</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>CZ</md:country>
-		<mdcr:RegionName>CZECH REPUBLIC</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>DK</md:country>
-		<mdcr:RegionName>DENMARK</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>EE</md:country>
-		<mdcr:RegionName>ESTONIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>FI</md:country>
-		<mdcr:RegionName>FINLAND</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>FR</md:country>
-		<mdcr:RegionName>FRANCE</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>GR</md:country>
-		<mdcr:RegionName>GREECE</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>HU</md:country>
-		<mdcr:RegionName>HUNGARY</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>IS</md:country>
-		<mdcr:RegionName>ICELAND</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>IE</md:country>
-		<mdcr:RegionName>IRELAND</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>IL</md:country>
-		<mdcr:RegionName>ISRAEL</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>IT</md:country>
-		<mdcr:RegionName>ITALY</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>LV</md:country>
-		<mdcr:RegionName>LATVIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>LT</md:country>
-		<mdcr:RegionName>LITHUANIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>LU</md:country>
-		<mdcr:RegionName>LUXEMBOURG</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>MT</md:country>
-		<mdcr:RegionName>MALTA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>NL</md:country>
-		<mdcr:RegionName>NETHERLANDS</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>NO</md:country>
-		<mdcr:RegionName>NORWAY</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>PL</md:country>
-		<mdcr:RegionName>POLAND</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>PT</md:country>
-		<mdcr:RegionName>PORTUGAL</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>RO</md:country>
-		<mdcr:RegionName>ROMANIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>SK</md:country>
-		<mdcr:RegionName>SLOVAKIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>SI</md:country>
-		<mdcr:RegionName>SLOVENIA</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>ES</md:country>
-		<mdcr:RegionName>SPAIN</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>SE</md:country>
-		<mdcr:RegionName>SWEDEN</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>CH</md:country>
-		<mdcr:RegionName>SWITZERLAND</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:AdoptiveRegion>
-		<md:country>GB</md:country>
-		<mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
-		<mdcr:Usage>
-			<mdcr:Media>Game</mdcr:Media>
-			<mdcr:Environment>Home</mdcr:Environment>
-		</mdcr:Usage>
-	</mdcr:AdoptiveRegion>
-	<mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0</mdcr:URI>
-	<mdcr:RatingsOrg organizationID="Interactive Software Federation of Europe">
-		<md:DisplayName>Interactive Software Federation of Europe</md:DisplayName>
-		<mdcr:ContactString>Interactive Software Federation of Europe
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>BE</md:country>
+      <mdcr:RegionName>BELGIUM</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>PEGI</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>AT</md:country>
+    <mdcr:RegionName>AUSTRIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>BE</md:country>
+    <mdcr:RegionName>BELGIUM</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>BG</md:country>
+    <mdcr:RegionName>BULGARIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>CY</md:country>
+    <mdcr:RegionName>CYPRUS</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>CZ</md:country>
+    <mdcr:RegionName>CZECH REPUBLIC</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>DK</md:country>
+    <mdcr:RegionName>DENMARK</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>EE</md:country>
+    <mdcr:RegionName>ESTONIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>FI</md:country>
+    <mdcr:RegionName>FINLAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>FR</md:country>
+    <mdcr:RegionName>FRANCE</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>GR</md:country>
+    <mdcr:RegionName>GREECE</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>HU</md:country>
+    <mdcr:RegionName>HUNGARY</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>IS</md:country>
+    <mdcr:RegionName>ICELAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>IE</md:country>
+    <mdcr:RegionName>IRELAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>IL</md:country>
+    <mdcr:RegionName>ISRAEL</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>IT</md:country>
+    <mdcr:RegionName>ITALY</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>LV</md:country>
+    <mdcr:RegionName>LATVIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>LT</md:country>
+    <mdcr:RegionName>LITHUANIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>LU</md:country>
+    <mdcr:RegionName>LUXEMBOURG</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>MT</md:country>
+    <mdcr:RegionName>MALTA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>NL</md:country>
+    <mdcr:RegionName>NETHERLANDS</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>NO</md:country>
+    <mdcr:RegionName>NORWAY</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>PL</md:country>
+    <mdcr:RegionName>POLAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>PT</md:country>
+    <mdcr:RegionName>PORTUGAL</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>RO</md:country>
+    <mdcr:RegionName>ROMANIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>SK</md:country>
+    <mdcr:RegionName>SLOVAKIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>SI</md:country>
+    <mdcr:RegionName>SLOVENIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>ES</md:country>
+    <mdcr:RegionName>SPAIN</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>SE</md:country>
+    <mdcr:RegionName>SWEDEN</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>CH</md:country>
+    <mdcr:RegionName>SWITZERLAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>GB</md:country>
+    <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Interactive Software Federation of Europe">
+    <md:DisplayName>Interactive Software Federation of Europe</md:DisplayName>
+    <mdcr:ContactString>Interactive Software Federation of Europe
 15 Rue Guimard
 B-1040 Brussels
 Tel: (00) 32 2 612 17 79
 Fax:(00) 32 2 612 17 78</mdcr:ContactString>
-		<mdcr:URL>http://www.pegi.info/en/index/id/952</mdcr:URL>
-		<mdcr:OrgType>Trade</mdcr:OrgType>
-	</mdcr:RatingsOrg>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="0">PEGI-OK</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-OK</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.pegi.info/en/index/id/1382/media/img/255.GIF</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>0</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>PEGI OK</mdcr:Label>
-			<mdcr:Definition>there is nothing in the game that would lead to a higher rating than the standard 3+ category</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">Many websites and online services contain small games and in order to cover this rapidly growing segment, the PEGI OK label was devised. 
+    <mdcr:URL>http://www.pegi.info/en/index/id/952</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">PEGI-OK</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-OK</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/BE_PEGI_255.GIF</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PEGI OK</mdcr:Label>
+      <mdcr:Definition>there is nothing in the game that would lead to a higher rating than the standard 3+ category</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Many websites and online services contain small games and in order to cover this rapidly growing segment, the PEGI OK label was devised. 
 When a small online game on a website has been labelled ‘PEGI OK’, it means that the game can comfortably be played by players of all age 
 groups because it does not contain any potentially unsuitable game content.
 A PEGI OK label indicates that the strict PEGI rating criteria have been applied and it has been ascertained that there is nothing in the game that would lead to a higher rating than the standard 3+ category. 
@@ -286,116 +284,116 @@ gambling,
 promotion or use of drugs,
 promotion of alcohol or tobacco,
 scary scenes</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="0">PEGI-3</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-3</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.pegi.info/en/index/id/33/media/img/320.gif</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>0</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>PEGI 3</mdcr:Label>
-			<mdcr:Definition>suitable for all age groups</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">The content of games given this rating is considered suitable for all age groups. Some violence in a comical context (typically Bugs 
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">PEGI-3</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-3</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/BE_PEGI_320.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PEGI 3</mdcr:Label>
+      <mdcr:Definition>suitable for all age groups</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The content of games given this rating is considered suitable for all age groups. Some violence in a comical context (typically Bugs 
 Bunny or 'Tom and Jerry' cartoon-like forms of violence) is acceptable. The child should not be able to associate the character on the 
 screen with real life characters, they should be totally fantasy. The game should not contain any sounds or pictures that are likely to 
 scare or frighten young children. No bad language should be heard.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="7">PEGI-7</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-7</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.pegi.info/en/index/id/33/media/img/321.gif</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>7</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>PEGI 7</mdcr:Label>
-			<mdcr:Definition/>
-			<mdcr:Explanation>
-				<div class="userHtml">Any game that would normally be rated at 3 but contains some possibly frightening scenes or sounds may be considered suitable in this 
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="7">PEGI-7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-7</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/BE_PEGI_321.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PEGI 7</mdcr:Label>
+      <mdcr:Definition />
+      <mdcr:Explanation>
+        <div class="userHtml">Any game that would normally be rated at 3 but contains some possibly frightening scenes or sounds may be considered suitable in this 
 category.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-		<mdcr:ApplicableReason id="Fear"/>
-		<mdcr:ApplicableReason id="Violence"/>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="12">PEGI-12</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-12</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.pegi.info/en/index/id/33/media/img/322.gif</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>12</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>PEGI 12</mdcr:Label>
-			<mdcr:Definition/>
-			<mdcr:Explanation>
-				<div class="userHtml">Videogames that show violence of a slightly more graphic nature towards fantasy character and/or non graphic violence towards human-looking characters or recognisable animals, as well as videogames that show nudity of a slightly more graphic nature would fall in this age category. Any bad language in this category must be mild and fall short of sexual expletives.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-		<mdcr:ApplicableReason id="Gambling"/>
-		<mdcr:ApplicableReason id="Language"/>
-		<mdcr:ApplicableReason id="Violence"/>
-		<mdcr:ApplicableReason id="Sex"/>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="16">PEGI-16</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-16</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.pegi.info/en/index/id/33/media/img/323.gif</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>16</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>PEGI 16</mdcr:Label>
-			<mdcr:Definition/>
-			<mdcr:Explanation>
-				<div class="userHtml">This rating is applied once the depiction of violence (or sexual activity) reaches a stage that looks the same as would be expected in real life. More extreme bad language, the concept of the use of tobacco and drugs and the depiction of criminal activities can be content of games that are rated 16.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-		<mdcr:ApplicableReason id="Gambling"/>
-		<mdcr:ApplicableReason id="Language"/>
-		<mdcr:ApplicableReason id="Violence"/>
-		<mdcr:ApplicableReason id="Drugs"/>
-		<mdcr:ApplicableReason id="Sex"/>
-	</mdcr:Rating>
-	<mdcr:Rating>
-		<mdcr:Value ordinal="80">PEGI-18</mdcr:Value>
-		<mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-18</mdcr:URI>
-		<mdcr:LinkToLogo>http://www.pegi.info/en/index/id/33/media/img/324.gif</mdcr:LinkToLogo>
-		<mdcr:MinRecAge>18</mdcr:MinRecAge>
-		<mdcr:MinAge>0</mdcr:MinAge>
-		<mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-		<mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-		<mdcr:Descriptor language="EN">
-			<mdcr:Label>PEGI 18</mdcr:Label>
-			<mdcr:Definition/>
-			<mdcr:Explanation>
-				<div class="userHtml">The adult classification is applied when the level of violence reaches a stage where it becomes a depiction of gross violence and/or includes elements of specific types of violence. Gross violence is the most difficult to define since it can be very subjective in many cases, but in general terms it can be classed as the depictions of violence that would make the viewer feel a sense of revulsion.</div>
-			</mdcr:Explanation>
-		</mdcr:Descriptor>
-		<mdcr:ApplicableReason id="Gambling"/>
-		<mdcr:ApplicableReason id="Discrimination"/>
-		<mdcr:ApplicableReason id="Language"/>
-		<mdcr:ApplicableReason id="Violence"/>
-		<mdcr:ApplicableReason id="Drugs"/>
-		<mdcr:ApplicableReason id="Sex"/>
-	</mdcr:Rating>
-	<mdcr:Reason language="en" reasonID="Language">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="PEGI-12">
-			<mdcr:Definition>Mild swearing and/or offensive language</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">This means bad language that falls short of sexual
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Fear" />
+    <mdcr:ApplicableReason id="Violence" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">PEGI-12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/BE_PEGI_322.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PEGI 12</mdcr:Label>
+      <mdcr:Definition />
+      <mdcr:Explanation>
+        <div class="userHtml">Videogames that show violence of a slightly more graphic nature towards fantasy character and/or non graphic violence towards human-looking characters or recognisable animals, as well as videogames that show nudity of a slightly more graphic nature would fall in this age category. Any bad language in this category must be mild and fall short of sexual expletives.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Gambling" />
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">PEGI-16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/BE_PEGI_323.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PEGI 16</mdcr:Label>
+      <mdcr:Definition />
+      <mdcr:Explanation>
+        <div class="userHtml">This rating is applied once the depiction of violence (or sexual activity) reaches a stage that looks the same as would be expected in real life. More extreme bad language, the concept of the use of tobacco and drugs and the depiction of criminal activities can be content of games that are rated 16.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Gambling" />
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Drugs" />
+    <mdcr:ApplicableReason id="Sex" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">PEGI-18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/BE_PEGI_324.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PEGI 18</mdcr:Label>
+      <mdcr:Definition />
+      <mdcr:Explanation>
+        <div class="userHtml">The adult classification is applied when the level of violence reaches a stage where it becomes a depiction of gross violence and/or includes elements of specific types of violence. Gross violence is the most difficult to define since it can be very subjective in many cases, but in general terms it can be classed as the depictions of violence that would make the viewer feel a sense of revulsion.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Gambling" />
+    <mdcr:ApplicableReason id="Discrimination" />
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Drugs" />
+    <mdcr:ApplicableReason id="Sex" />
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="Language">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PEGI-12">
+      <mdcr:Definition>Mild swearing and/or offensive language</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This means bad language that falls short of sexual
 expletives and includes the words damn, hell, God,
 bloody, son-of-a-bitch, sod, tart, crap, bugger, screw,
 arse, slag, slut, tosser, Christ, dickhead, bitch, shit,
@@ -403,13 +401,13 @@ piss off, whore, arsehole, prick, bollocks, twat,
 bastard, wanker and shag. It also covers offensive
 language such as nigger, coon, yid, queer, dyke
 and other racially or gender offensive words</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-16">
-			<mdcr:Definition>Sexual expletives or blasphemy</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">
-					<p>The most common sexual expletives are fuck, cunt,
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-16">
+      <mdcr:Definition>Sexual expletives or blasphemy</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>The most common sexual expletives are fuck, cunt,
 motherfucker and cocksucker although this list is not
 exhaustive. Blasphemy means irreverent depictions
 or words concerning sacred matters or religious
@@ -417,57 +415,57 @@ beliefs (not restricted to the Christian faith). It should
 be noted that blasphemy is likely to be illegal under
 national criminal laws and may not be included in
 the game in any event.</p>
-				</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-18"/>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Discrimination">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="PEGI-18"/>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Drugs">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="PEGI-16">
-			<mdcr:Definition>Encouragement of the use of tobacco or alcohol; Depictions of the use of illegal drugs</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">
-					<ul>
-						<li>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-18" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Discrimination">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PEGI-18" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Drugs">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PEGI-16">
+      <mdcr:Definition>Encouragement of the use of tobacco or alcohol; Depictions of the use of illegal drugs</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <ul>
+            <li>
               Encouragement of the use of tobacco or alcohol:
               <p>This means where the character gains advantage in the game by the use of tobacco or alcohol. It
 also includes prominent advertising encouraging the use of tobacco or alcohol products.</p>
-						</li>
-						<li>
+            </li>
+            <li>
               Depictions of the use of illegal drugs:
               <p>This includes the use of illegal drugs in any circumstances.</p>
-						</li>
-					</ul>
-				</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-18"/>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Fear">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="PEGI-7">
-			<mdcr:Definition>Pictures or sounds likely to be scary or frightening to young children</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">This is where you do not actually see or hear anything
+            </li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-18" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Fear">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PEGI-7">
+      <mdcr:Definition>Pictures or sounds likely to be scary or frightening to young children</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This is where you do not actually see or hear anything
 specifically violent but nevertheless because of the
 sounds or depictions the overall theme may be
 frightening to young children (haunting or aggressive
 music, entering a haunted house, background
 screams or rustling in the undergrowth).</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Gambling">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="PEGI-12">
-			<mdcr:Definition>Moving images that encourage and/or teach the use of games of chance that are played/carried out as a traditional means of gambling</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">This refers to types of betting or gambling for money
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Gambling">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PEGI-12">
+      <mdcr:Definition>Moving images that encourage and/or teach the use of games of chance that are played/carried out as a traditional means of gambling</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This refers to types of betting or gambling for money
 that is normally played/carried out in casinos,
 gambling halls, racetracks. This does not cover
 games where betting or gambling is simply part of
@@ -478,12 +476,12 @@ real life. For example this will include games that
 teach the player how to play card games that are
 usually played for money or how to play the odds
 in horse racing.</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-16">
-			<mdcr:Definition>Moving images that encourage and/or teach the use of games of chance that are played/carried out as a traditional means of gambling</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">This refers to types of betting or gambling for money
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-16">
+      <mdcr:Definition>Moving images that encourage and/or teach the use of games of chance that are played/carried out as a traditional means of gambling</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This refers to types of betting or gambling for money
 that is normally played/carried out in casinos,
 gambling halls, racetracks. This does not cover
 games where betting or gambling is simply part of
@@ -494,12 +492,12 @@ real life. For example this will include games that
 teach the player how to play card games that are
 usually played for money or how to play the odds
 in horse racing.</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-18">
-			<mdcr:Definition>Moving images that encourage and/or teach the use of games of chance that are played/carried out as a traditional means of gambling</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">This refers to types of betting or gambling for money
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-18">
+      <mdcr:Definition>Moving images that encourage and/or teach the use of games of chance that are played/carried out as a traditional means of gambling</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">This refers to types of betting or gambling for money
 that is normally played/carried out in casinos,
 gambling halls, racetracks. This does not cover
 games where betting or gambling is simply part of
@@ -510,16 +508,16 @@ real life. For example this will include games that
 teach the player how to play card games that are
 usually played for money or how to play the odds
 in horse racing.</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Sex">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="PEGI-12">
-			<mdcr:Definition>Words or activities that amount to obvious sexual innuendo or explicit sexual descriptions or images or sexual posturing</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">
-					<p>This can refer to words or pictures that may be
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Sex">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PEGI-12">
+      <mdcr:Definition>Words or activities that amount to obvious sexual innuendo or explicit sexual descriptions or images or sexual posturing</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>This can refer to words or pictures that may be
  sexually explicit but do not amount to eroticism (a
 brief glimpse of a lady with bare boobs at a window
  or a brief glimpse of a naked couple (not showing
@@ -530,65 +528,65 @@ foreplay and can consist of words and/or activity.
 sexual intercourse is taking place but the participants
  are out of view, under sheets etc. The importance is
 sexual connotation.</p>
-					<p>If however, the couple can be seen, even if they are
+          <p>If however, the couple can be seen, even if they are
  partially clothed, then question 14 ‘sexual intercourse
 without visible genitals’ will be more appropriate.
  The test is whether the images could prompt sexual
 curiosity on behalf of the player.</p>
-					<p>Sexual posturing means dancing or posing (while
+          <p>Sexual posturing means dancing or posing (while
  remaining clothed) in a manner intended to put across
 a sexual message or suggestion. This will include
  such things as pole dancing, lap dancing and even
 some of the more suggestive music video sequences.</p>
-				</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-16">
-			<mdcr:Definition>Erotic or sexual nudity; sexual intercourse without visible genitals</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">
-					<ol>
-						<li>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-16">
+      <mdcr:Definition>Erotic or sexual nudity; sexual intercourse without visible genitals</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <ol>
+            <li>
               Depictions of sexual intercourse without visible genitals:
               <p>This is self-explanatory although it must be fairly apparent what the characters are doing. ‘Boobs
 and bums’ do not count as genital organs and nor does the showing of pubic hair only.</p>
-						</li>
-						<li>
+            </li>
+            <li>
               Depictions of erotic or sexual nudity:
               <p>This is where the depiction of nudity (including partial nudity) could result in sexual arousal or is
 shown as a prelude to human sexual activity. This can include still pictures particularly if they depict
 an erotic activity. This will not generally include straightforward pin-ups.</p>
-						</li>
-					</ol>
-				</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-18"/>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Violence">
-		<mdcr:Label/>
-		<mdcr:Criteria ratingID="PEGI-7">
-			<mdcr:Definition>Non-realistic, humorous, or implied</mdcr:Definition>
-			<mdcr:Explanation>
-				<div class="userHtml">
-					<ul>
-						<li>
+            </li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-18" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Violence">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="PEGI-7">
+      <mdcr:Definition>Non-realistic, humorous, or implied</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <ul>
+            <li>
               Depictions of non-realistic violence towards fantasy characters:
               <p>A fantasy character is a character that does not exist  in real life and does not take a human appearance
 and includes ghosts, gremlins, dragons and other mythical creatures. The characters react in a way
 that would not be expected of human-like characters and although you know that the characters are being
 killed or injured you do not really see very much (eg. the characters immediately disappear in a puff
 of smoke or are otherwise so small that you really cannot see what exactly is happening).</p>
-						</li>
-						<li>
+            </li>
+            <li>
               Depictions of non-detailed and non-realistic violence towards nondetailed human-like characters:
               <p>This is where the depiction gives only a basic
 representation of a human (stick men or pixelated
 characters). If the characters are small but are detailed
 enough to be clearly recognisable as humans a ‘yes’
 answer to this question is not appropriate.</p>
-						</li>
-						<li>
+            </li>
+            <li>
               Depictions of non-realistic violence of a minor nature towards a humanlike or animal-like character:
               <p>Characters must react to the violence in an unrealistic
  way, e.g. they flash or disappear when hit, but do
@@ -596,12 +594,12 @@ not show any apparent reactions consistent with
  real life. The important aspect will be the minor
 nature of the violence. Therefore there cannot be
  any of the following:</p>
-							<ul>
-								<li>Emphasis on the violence in depictions or audio, e.g. close-ups, slow motion</li>
-								<li>Depictions of pain or suffering</li>
-							</ul>
-						</li>
-						<li>
+              <ul>
+                <li>Emphasis on the violence in depictions or audio, e.g. close-ups, slow motion</li>
+                <li>Depictions of pain or suffering</li>
+              </ul>
+            </li>
+            <li>
               Depictions of implied violence to humans where the actual violence is not shown:
               <p>This is where you do not actually see any violence to humans but it is obvious what is happening. It
 covers such matters as the bombing of a city where you know civilians are killed and injured, blowing
@@ -609,8 +607,8 @@ up a tank or shooting down a plane where you know the crew are killed, smashing 
 other vehicles where the driver/passenger must be injured. It also includes depictions of violence
 against humans where you do not see any violent act, or the immediate reaction to this act, but you
 do see the cause and/or the result.</p>
-						</li>
-						<li>
+            </li>
+            <li>
               Depictions of violence that is humorous and/or is set in a cartoon, slapstick or child-like setting, and is likely to be disturbing
 to younger children:
               <p>
@@ -619,30 +617,30 @@ to younger children:
                 is a setting that is more likely to appeal to younger children. Such a setting may
 include (but is not limited to):
               </p>
-							<ul>
-								<li>a fantastical theme</li>
-								<li>bright colors</li>
-								<li>playful music</li>
-								<li>cheerful sounds and/or an overall cartoonlike atmosphere</li>
-							</ul>
-							<p>Whether the violence in that setting is likely to be disturbing to younger children is determined by elements such as:</p>
-							<ul>
-								<li>fierce sounds</li>
-								<li>nature of the characters</li>
-								<li>the severity of the violence and/or dark overtones</li>
-							</ul>
-						</li>
-					</ul>
-				</div>
-			</mdcr:Explanation>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-12">
-			<mdcr:Definition>realistic looking violence towards fantasy characters or of a minor nature; non-realistic looking violence towards human-like or animal-like characters; ;arcade style or sporting action showing violence</mdcr:Definition>
-		</mdcr:Criteria>
-		<mdcr:Criteria ratingID="PEGI-16"/>
-		<mdcr:Criteria ratingID="PEGI-18"/>
-	</mdcr:Reason>
-	<mdcr:Reason language="en" reasonID="Online gameplay">
-		<mdcr:Label/>
-	</mdcr:Reason>
+              <ul>
+                <li>a fantastical theme</li>
+                <li>bright colors</li>
+                <li>playful music</li>
+                <li>cheerful sounds and/or an overall cartoonlike atmosphere</li>
+              </ul>
+              <p>Whether the violence in that setting is likely to be disturbing to younger children is determined by elements such as:</p>
+              <ul>
+                <li>fierce sounds</li>
+                <li>nature of the characters</li>
+                <li>the severity of the violence and/or dark overtones</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-12">
+      <mdcr:Definition>realistic looking violence towards fantasy characters or of a minor nature; non-realistic looking violence towards human-like or animal-like characters; ;arcade style or sporting action showing violence</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="PEGI-16" />
+    <mdcr:Criteria ratingID="PEGI-18" />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Online gameplay">
+    <mdcr:Label />
+  </mdcr:Reason>
 </mdcr:RatingSystem>

@@ -33,7 +33,7 @@ Fax:(323) 469-8541</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">F</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/F</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.filmadvisoryboard.com/images/rating/Family.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_Family.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -47,7 +47,7 @@ Fax:(323) 469-8541</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">C</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/C</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.filmadvisoryboard.com/images/rating/Children.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_Children.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -60,7 +60,7 @@ Fax:(323) 469-8541</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PD</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/PD</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.filmadvisoryboard.com/images/rating/ParentalDiscretion.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_ParentalDiscretion.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -74,7 +74,7 @@ Fax:(323) 469-8541</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">PD-M</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/1/PD-M</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.filmadvisoryboard.com/images/rating/ParentalDiscretion_Mature.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_ParentalDiscretion_Mature.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -117,7 +117,7 @@ Is equivalent to MPAA 'PG-13' rating.</mdcr:Explanation>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">EM</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/EM</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.filmadvisoryboard.com/images/rating/ExtremelyMature.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_ExtremelyMature.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -131,7 +131,7 @@ Is equivalent to MPAA 'PG-13' rating.</mdcr:Explanation>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">AO</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/AO</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.filmadvisoryboard.com/images/rating/AdultsOnly.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_AdultsOnly.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

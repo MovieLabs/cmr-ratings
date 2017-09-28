@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-01T19:42:17" lastSave="2013-10-28T19:00:51">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-01T23:42:17" lastSave="2017-09-28T20:23:44">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>HU</md:country>
@@ -11,13 +12,17 @@
     <mdcr:RegionName>HUNGARY</mdcr:RegionName>
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
       <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2017-09-28</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Rating Committee of the National Office of Film">
-    <md:DisplayName>Rating Committee of the National Office of Film</md:DisplayName>
-    <mdcr:URL>http://www.ortt.hu/belso_oldal.php?belso_id=55</mdcr:URL>
+  <mdcr:RatingsOrg organizationID="NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY">
+    <md:DisplayName>NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY</md:DisplayName>
+    <mdcr:ContactString>1015 Budapest, Ostrom u. 23-25; email: info@nmhh.hu; tel: (06 1) 457 7100</mdcr:ContactString>
+    <mdcr:URL>http://nmhh.hu/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -28,66 +33,61 @@
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>category I</mdcr:Label>
-      <mdcr:Definition>suitable for all.</mdcr:Definition>
-      <mdcr:Explanation />
+    <mdcr:Descriptor language="HU">
+      <mdcr:Label>I</mdcr:Label>
+      <mdcr:Definition>A korhatárra tekintet nélkül megtekinthető műsorokat a csatornáknak nem kell jelöléssel ellátniuk, és bármikor bemutathatók.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">II</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/0/II</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/II</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_II.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>category II</mdcr:Label>
-      <mdcr:Definition>not suitable for children under 6.</mdcr:Definition>
-      <mdcr:Explanation>Mild violence, sex references and drug references are allowed.</mdcr:Explanation>
+    <mdcr:Descriptor language="HU">
+      <mdcr:Label>II</mdcr:Label>
+      <mdcr:Definition>A 6 éven aluliak számára nem ajánlott műsor a megfelelőjelzéssel bármikor vetíthető, de 6 éven aluliaknak szánt műsorszámok között nem tehető közzé.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">III</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/0/III</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/III</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_III.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>category III</mdcr:Label>
-      <mdcr:Definition>not suitable for children under 12.</mdcr:Definition>
-      <mdcr:Explanation>Moderate violence, sex stuff, drug references and also strong language is allowed.</mdcr:Explanation>
+    <mdcr:Descriptor language="HU">
+      <mdcr:Label>III</mdcr:Label>
+      <mdcr:Definition>A 12 éven aluliak számára nem ajánlott műsorok a jelzéssel bármikor adásba kerülhetnek, kivéve a 12 éven aluliaknak szánt műsorszám között.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">IV</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/0/IV</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/IV</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_IV.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>category IV</mdcr:Label>
-      <mdcr:Definition>not suitable for children under 16.</mdcr:Definition>
-      <mdcr:Explanation>Strong violence, drugs, themes, sex scenes and also very strong language.</mdcr:Explanation>
+    <mdcr:Descriptor language="HU">
+      <mdcr:Label>IV</mdcr:Label>
+      <mdcr:Definition>A 16 éven aluliak számára nem ajánlott műsorok csak 21 óra és hajnali 5 óra között vetíthetők.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">V</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/0/V</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/V</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_V.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>category V</mdcr:Label>
-      <mdcr:Definition>not suitable for children under 18.</mdcr:Definition>
-      <mdcr:Explanation>Strong graphic violence, torture, glamorisation of drugs, very strong sexual content and also themes involving killing, incest and explicit content.</mdcr:Explanation>
+    <mdcr:Descriptor language="HU">
+      <mdcr:Label>V</mdcr:Label>
+      <mdcr:Definition>A 18 éven aluliak számára nem ajánlott műsorok csak 22 óra és hajnali 5 óra között vetíthetők.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -98,10 +98,9 @@
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>category V</mdcr:Label>
-      <mdcr:Definition>only for adults.</mdcr:Definition>
-      <mdcr:Explanation>Very gruesome violent content or high impact sexual content</mdcr:Explanation>
+    <mdcr:Descriptor language="HU">
+      <mdcr:Label>VI</mdcr:Label>
+      <mdcr:Definition>Az ebbe a kategóriába tartozó műsorok olyan szélsőségesen erőszakos jeleneteket mutatnak be, ami miatt nem kerülhetnek adásba.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

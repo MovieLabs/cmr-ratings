@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T07:41:02" lastSave="2014-12-22T20:28:57">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T11:41:02" lastSave="2017-10-17T20:08:49">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>JP</md:country>
       <mdcr:RegionName>JAPAN</mdcr:RegionName>
     </mdcr:Region>
-    <mdcr:System>ERIN</mdcr:System>
+    <mdcr:System>EIRIN</mdcr:System>
   </mdcr:RatingSystemID>
   <mdcr:AdoptiveRegion>
     <md:country>JP</md:country>
@@ -24,8 +24,8 @@
     <mdcr:OrgType>other</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">G.</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1/G.</mdcr:URI>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/JP-ERIN-G.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>

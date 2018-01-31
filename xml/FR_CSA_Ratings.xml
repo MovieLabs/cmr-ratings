@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-11T10:47:34" lastSave="2014-12-12T16:01:03">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-11T14:47:34" lastSave="2018-01-25T22:13:35">
   <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>FR</md:country>
@@ -15,8 +16,8 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA/3</mdcr:URI>
+  <mdcr:LastChecked>2018-01-25</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/FR/CSA</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">This system is used on an unofficial basis in Luxembourg.</div>
   </mdcr:Notes>
@@ -40,6 +41,9 @@ Tour Mirabeau
     <mdcr:Descriptor language="FR">
       <mdcr:Label>déconseillés aux moins de 10 ans</mdcr:Label>
       <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Lorsqu’un programme comporte des scènes qui risquent de choquer les plus jeunes ou lorsque le sujet abordé risque de les perturber. Ils ne peuvent pas être programmés à l’intérieur des émissions pour la jeunesse, mais ils peuvent être diffusés durant la journée.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -52,7 +56,10 @@ Tour Mirabeau
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FR">
       <mdcr:Label>déconseillés aux moins de 12 ans</mdcr:Label>
-      <mdcr:Definition>.</mdcr:Definition>
+      <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Lorsqu’un programme risque de perturber les repères d’un enfant de moins de 12 ans, notamment parce qu’il recourt de façon répétée à la violence physique ou psychologique, ou évoque la sexualité adulte.Ces programmes sont diffusés essentiellement après 22 h, mais peuvent l’être ponctuellement après 20 h 30 (les chaînes cinéma et les chaînes de paiement à la séance étant soumises à un régime différent).</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -66,6 +73,9 @@ Tour Mirabeau
     <mdcr:Descriptor language="FR">
       <mdcr:Label>déconseillés aux moins de 16 ans</mdcr:Label>
       <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Lorsqu’un programme risque de perturber les repères des moins de 16 ans, notamment les programmes érotiques ou ceux qui présentent des scènes de violence particulièrement impressionnantes.Ces programmes sont diffusés après 22 h 30 (les chaînes cinéma et les chaînes de paiement à la séance étant soumises à un régime différent).</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -78,7 +88,10 @@ Tour Mirabeau
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FR">
       <mdcr:Label>déconseillés aux moins de 18 ans</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Les films interdits aux moins de 18 ans ainsi que les programmes pornographiques ou de très grande violence, réservés à un public adulte averti et qui peuvent nuire à l’épanouissement physique, mental ou moral des moins de 18 ans. Seules certaines chaînes accessibles par abonnement, dont des chaînes cinéma et des chaînes de paiement à la séance, sont autorisées à diffuser ces programmes, dans la mesure notamment où elles mettent en place un système de verrouillage de ces programmes permettant d’éviter que des mineurs y aient accès. Ils ne peuvent être diffusés qu’entre minuit et 5 h du matin.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

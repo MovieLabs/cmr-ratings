@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-01-31T23:09:20">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>BE</md:country>
+      <mdcr:RegionName>BELGIUM</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CSA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:countryRegion>BE-WAL</md:countryRegion>
+    <mdcr:SubRegion>Wallonie</mdcr:SubRegion>
+    <mdcr:RegionName>BELGIUM</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+      <mdcr:Environment>other</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2018-01-25</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CSA</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Applicable to Francophone community within Belgium (primarily in, but not limited to, Wallonia). Identical ratings and symbols to French CSA.</div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Conseil supérieur de l’audiovisuel">
+    <md:DisplayName>Conseil supérieur de l’audiovisuel</md:DisplayName>
+    <mdcr:ContactString>CSA
+Rue Royale, 89 - 1000 Bruxelles 
+– T. +32 2 349 58 80 
+– F. +32 2 349 58 97 
+– info@csa.be</mdcr:ContactString>
+    <mdcr:URL>http://www.csa.be/</mdcr:URL>
+    <mdcr:OrgType>other</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="1">10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CSA/1/10</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-10.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 10 ans</mdcr:Label>
+      <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Lorsqu’un programme comporte des scènes qui risquent de choquer les plus jeunes ou lorsque le sujet abordé risque de les perturber. Ils ne peuvent pas être programmés à l’intérieur des émissions pour la jeunesse, mais ils peuvent être diffusés durant la journée.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CSA/1/12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-12.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 12 ans</mdcr:Label>
+      <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Lorsqu’un programme risque de perturber les repères d’un enfant de moins de 12 ans, notamment parce qu’il recourt de façon répétée à la violence physique ou psychologique, ou évoque la sexualité adulte.Ces programmes sont diffusés essentiellement après 22 h, mais peuvent l’être ponctuellement après 20 h 30 (les chaînes cinéma et les chaînes de paiement à la séance étant soumises à un régime différent).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CSA/1/16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-16.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 16 ans</mdcr:Label>
+      <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Lorsqu’un programme risque de perturber les repères des moins de 16 ans, notamment les programmes érotiques ou ceux qui présentent des scènes de violence particulièrement impressionnantes.Ces programmes sont diffusés après 22 h 30 (les chaînes cinéma et les chaînes de paiement à la séance étant soumises à un régime différent).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CSA/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/FR_CSA_Protection-des-mineurs-18.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>déconseillés aux moins de 18 ans</mdcr:Label>
+      <mdcr:Definition>n.a.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Les films interdits aux moins de 18 ans ainsi que les programmes pornographiques ou de très grande violence, réservés à un public adulte averti et qui peuvent nuire à l’épanouissement physique, mental ou moral des moins de 18 ans. Seules certaines chaînes accessibles par abonnement, dont des chaînes cinéma et des chaînes de paiement à la séance, sont autorisées à diffuser ces programmes, dans la mesure notamment où elles mettent en place un système de verrouillage de ces programmes permettant d’éviter que des mineurs y aient accès. Ils ne peuvent être diffusés qu’entre minuit et 5 h du matin.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">interdiction</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CSA/1/interdiction</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>interdits</mdcr:Label>
+      <mdcr:Definition>Les programmes portant atteinte à la dignité humaine ou incitant à des comportements délinquants ou inciviques sont interdits de toute diffusion.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

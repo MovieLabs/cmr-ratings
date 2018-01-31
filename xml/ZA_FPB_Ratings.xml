@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T06:13:44" lastSave="2017-01-02T22:10:43">
-  <mdcr:RatingSystemID version="2">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T18:13:44" lastSave="2018-01-25T21:33:07">
+  <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>ZA</md:country>
       <mdcr:RegionName>SOUTH AFRICA</mdcr:RegionName>
@@ -22,8 +22,8 @@
       <mdcr:Environment>Retail</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2</mdcr:URI>
+  <mdcr:LastChecked>2018-01-24</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Film &amp; Publication Board">
     <md:DisplayName>Film &amp; Publication Board</md:DisplayName>
     <mdcr:ContactString>Postal address:
@@ -37,7 +37,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/A</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/A</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-A.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -50,7 +50,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-PG.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -64,7 +64,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">7-9-PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/7-9-PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/7-9-PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-7_9.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>9</mdcr:MinAge>
@@ -81,7 +81,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="10">10</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/10</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/10</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-10.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>10</mdcr:MinAge>
@@ -93,8 +93,21 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="10">10M</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/10M</mdcr:URI>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>10</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>10M</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="11">10-12-PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/10-12-PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/10-12-PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-10_12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
@@ -111,7 +124,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/13</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-13.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
@@ -125,7 +138,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-16.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
@@ -139,7 +152,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -164,7 +177,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">X18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/X18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/X18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-X18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -177,7 +190,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="100">XX</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/2/XX</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/ZA/FPB/3/XX</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA-XX.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>

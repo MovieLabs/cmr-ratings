@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T18:42:40" lastSave="2013-10-28T19:38:04">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T02:42:40" lastSave="2018-02-01T20:06:46">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>SG</md:country>
@@ -19,21 +20,22 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Media Development Authority">
-    <md:DisplayName>Media Development Authority</md:DisplayName>
-    <mdcr:ContactString>Media Development Authority
+  <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Infocomm Media Development Authority">
+    <md:DisplayName>Infocomm Media Development Authority</md:DisplayName>
+    <mdcr:ContactString>Infocomm Media Development Authority
 3 Fusionopolis Way
 #16-22 Symbiosis
 Singapore 138633
 Tel: 6377 3800
 Fax: 6577 3888</mdcr:ContactString>
-    <mdcr:URL>http://www.mda.gov.sg/Pages/Home.aspx</mdcr:URL>
+    <mdcr:URL>https://www.imda.gov.sg/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA_G.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -41,12 +43,12 @@ Fax: 6577 3888</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>General</mdcr:Label>
       <mdcr:Definition>Suitable for all ages.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/0/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA_PG.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -54,12 +56,12 @@ Fax: 6577 3888</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Parental Guidance</mdcr:Label>
       <mdcr:Definition>Suitable for all ages but parents should guide their young.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">PG13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/0/PG13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/PG13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA_PG13.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -67,12 +69,15 @@ Fax: 6577 3888</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Parental Guidance 13</mdcr:Label>
       <mdcr:Definition>Suitable for persons 13 and above but parental guidance is advised for children below 13.</mdcr:Definition>
-      <mdcr:Explanation>The PG13 rating helps to indicate to parents that the content in the film is more suitable for an older teenage audience. This allows for informed choice. It also helps parents in supervising their young children in the selection of films. PG13 is an advisory rating. Parents exercise their discretion as to whether they would want their younger children to watch a PG13 film</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">The PG13 rating helps to indicate to parents that the content in the film is more suitable for an older teenage audience. This allows for informed choice. It also helps parents in supervising their young children in the selection of films. PG13 is an advisory rating. Parents exercise their discretion as to whether they would want their younger children to watch a PG13 film</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">NC16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/0/NC16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/NC16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA_NC16.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -80,12 +85,12 @@ Fax: 6577 3888</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>No Children Under 16</mdcr:Label>
       <mdcr:Definition>Suitable for persons aged 16 and above.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">M18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/M18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA_M18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -93,12 +98,12 @@ Fax: 6577 3888</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Mature 18</mdcr:Label>
       <mdcr:Definition>Suitable for persons aged 18 and above.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R21</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/R21</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA_R21.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>21</mdcr:MinRecAge>
     <mdcr:MinAge>21</mdcr:MinAge>
     <mdcr:MinAgeSupervised>21</mdcr:MinAgeSupervised>
@@ -106,7 +111,6 @@ Fax: 6577 3888</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Restricted 21</mdcr:Label>
       <mdcr:Definition>Suitable for adults aged 21 and above.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

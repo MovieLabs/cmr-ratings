@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T16:19:43" lastSave="2013-12-16T16:16:36">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T20:19:43" lastSave="2018-02-01T20:32:19">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>NG</md:country>
@@ -12,12 +13,14 @@
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>
       <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
       <mdcr:Environment>Theater</mdcr:Environment>
       <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1</mdcr:URI>
+  <mdcr:LastChecked>2018-02-01</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB</mdcr:URI>
   <mdcr:RatingsOrg organizationID="National Film and Video Censors' Board">
     <md:DisplayName>National Film and Video Censors' Board</md:DisplayName>
     <mdcr:ContactString>National Film and Video Censors' Board
@@ -35,7 +38,7 @@ Phone: +234 9 220 0246
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1/G</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.nfvcb.gov.ng/cms/UserFiles/Gnu(1).jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NG_NFVCB_G.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -47,8 +50,8 @@ Phone: +234 9 220 0246
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/0/PG</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.nfvcb.gov.ng/cms/UserFiles/PGnu(1).jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NG_NFVCB_PG.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -60,71 +63,76 @@ Phone: +234 9 220 0246
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/0/12</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.nfvcb.gov.ng/cms/UserFiles/Image/12.1.gif</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1/12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NG_NFVCB_12.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>12</mdcr:Label>
-      <mdcr:Definition>Films rated “12” are not suitable for people under the age of 12</mdcr:Definition>
+      <mdcr:Definition>A film is to be classified “12” where in the opinion of the Board, the theme or content of the film, is suitable for persons 12 years and over. Also, no one younger than 12 may rent or buy a “12” rated film.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">12A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/0/12A</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.nfvcb.gov.ng/cms/UserFiles/Image/12A.1.gif</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1/12A</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NG_NFVCB_12A.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>12A</mdcr:Label>
-      <mdcr:Definition>While films rated 12A advices consumers that the movie may contain scenes not suitable for persons under the age of 12 therefore, parental guidance must be applied.</mdcr:Definition>
-      <mdcr:Explanation>i.e, the child must be accompanied by an adult to view the film. ** Note that the requirements are not met if the adult buys a ticket, but does not accompany the child in the cinema for the duration of the film.</mdcr:Explanation>
+      <mdcr:Definition>No one younger than 12 years old may see a “12A” movie in a cinema unless accompanied by an adult. It is an offence to exhibit a “12A” film to a person younger than 12, unaccompanied by an adult.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Note that the requirements are not met if the adult buys a ticket, but does not accompany the child in the cinema for the duration of the film.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/0/15</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.nfvcb.gov.ng/cms/UserFiles/Image/12.1.gif</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1/15</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NG_NFVCB_15.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>15</mdcr:Label>
-      <mdcr:Definition>The “15” films are not suitable for persons under the age of 15 as the content is strong in impact.</mdcr:Definition>
-      <mdcr:Explanation>There are legal restrictions governing who can be admitted to “15” films. While people aged between 2 and under 15/18 cannot be admitted to a “15”/”18” film respectively, a child under 2 can be admitted to a “15”/”18” film.</mdcr:Explanation>
+      <mdcr:Definition>A film is to be classified “15” where the film, in the opinion of the Board is suitable only for persons, 15 years and above.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">No one younger than 15 may see a “15” film in a cinema or rent or buy a “15” rated video. It is an offence to exhibit a “15” film to a person younger than 15.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1/18</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.nfvcb.gov.ng/cms/UserFiles/18nu(1).jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NG_NFVCB_18.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
-      <mdcr:Definition>The “18” films are not suitable for persons under the age of 18 as the content is strong in impact.</mdcr:Definition>
-      <mdcr:Explanation>This is a legally restrictive classification. No one under the age of 18 years may be allowed to watch such a film in a cinema or rent such a video or DVD. There are no restrictions on themes or classifiable elements with respect to films classified "18", with or without accompanying consumer information. In line with our guiding philosophy and democratic tenets, the Board believes that adults over 18 years should be free to decide what they wish to watch or not, within the law. However, there are exceptions, where the Board will have to make interventions when it believes that certain materials that would ordinarily attract 18 classifications are likely to cause harm to individuals, incite public disorder. Moreover, such films SHALL NOT contain scenes of child pornography, explicit violent sexual conduct, bestiality, explicit sexual conduct, or any act which degrades a person and which constitutes incitement to cause harm, the explicit infliction of extreme violence, or explicit sexual conduct involving sexual intercourse with visual presentation of the genitals or anal regions. While people aged between 2 and under 15/18 cannot be admitted to a “15”/”18” film respectively, a child under 2 can be admitted to a “15”/”18” film.</mdcr:Explanation>
+      <mdcr:Definition>A film is to be classified 18 where in the opinion of the Board, it is suitable for viewing by persons 18 years and above, because the film may contain explicit violence, frequent coarse language, horror and simulated sexual scenes.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">It is an offence to exhibit a “18” film to a person younger than 18.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="95">RE</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NG/NFVCB/1/RE</mdcr:URI>
-    <mdcr:LinkToLogo>http://www.nfvcb.gov.ng/cms/UserFiles/REnu(1).jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NG_NFVCB_RE.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>RE</mdcr:Label>
-      <mdcr:Definition>Restricted Exhibition: To be exhibited and distributed only in specially licensed premises.</mdcr:Definition>
-      <mdcr:Explanation>The 'RE' category is a special and legally restricted classification category. Afilm is to be classified as Restricted where the film, in the opinion of the Board, is not suitable for viewing by persons less than 18 years of age because the film contains frequent use of any of the following: brutal or graphic violence; intense horror; graphic sexual scenes; Other disturbing content. Films which fall under this category are to be exhibited and distributed only in specially licensed premises. The ‘RE’ category is a special and legally restricted classification category and non compliance will result to serious sanctions.</mdcr:Explanation>
+      <mdcr:Definition>A film is to be classified “RE” where in the opinion of the Board, it is not suitable for persons under 18 and it is exhibited wholly in specially licensed premises for a specialized audience. The film may contain frequent use of disturbing content.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T15:47:50" lastSave="2018-01-31T22:17:18">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T19:47:50" lastSave="2018-02-02T19:32:33">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>BE</md:country>
@@ -20,27 +20,11 @@
   <mdcr:Notes>
     <div class="userHtml">Status unclear. Created 1920. Intent is to replace with modernized system. May have been replaced by community-based systems.</div>
   </mdcr:Notes>
-  <mdcr:RatingsOrg organizationID="Commission de Sélection des Films ">
+  <mdcr:RatingsOrg organizationID="CSF">
     <md:DisplayName>Commission de Sélection des Films</md:DisplayName>
     <mdcr:URL>http://www.audiovisuel.cfwb.be/index.php?id=avm_csf</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">KT/EA</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CICF/1/KT_EA</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="NL">
-      <mdcr:Label>Kinderen Toegelaten</mdcr:Label>
-      <mdcr:Definition />
-    </mdcr:Descriptor>
-    <mdcr:Descriptor language="FR">
-      <mdcr:Label>Enfants Admis</mdcr:Label>
-      <mdcr:Definition />
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">E</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CICF/1/E</mdcr:URI>
@@ -54,6 +38,22 @@
     </mdcr:Descriptor>
     <mdcr:Descriptor language="FR">
       <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">KT/EA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CICF/1/KT_EA</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>Kinderen Toegelaten</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Enfants Admis</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>

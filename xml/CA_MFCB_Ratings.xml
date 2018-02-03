@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T08:48:40" lastSave="2016-12-22T15:56:11">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T12:48:40" lastSave="2018-02-02T20:03:24">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -49,8 +50,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Maritime Film Classification Board">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="MFCB">
     <md:DisplayName>Maritime Film Classification Board</md:DisplayName>
     <mdcr:ContactString>Nova Scotia Film Classification Division,
 2nd Floor, 780 Windmill Road,

@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T10:19:22" lastSave="2016-12-22T15:55:02">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T14:19:22" lastSave="2018-02-02T20:33:16">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -20,14 +21,14 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/2</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Régie du cinéma Quebec">
-    <md:DisplayName>Régie du cinéma Quebec</md:DisplayName>
-    <mdcr:ContactString>Régie du cinéma
-390, rue Notre-Dame OThis links opens a new window.., bureau 100
-Montréal (Québec) H2Y 1T9</mdcr:ContactString>
-    <mdcr:URL>http://www.rcq.gouv.qc.ca/</mdcr:URL>
+  <mdcr:LastChecked>2018-02-02</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="MCC">
+    <md:DisplayName>Ministre de la Culture et des Communications</md:DisplayName>
+    <mdcr:ContactString>Ministry of Culture and Communications 
+225 Grande Allée Est 
+Québec, Quebec G1R 5G5</mdcr:ContactString>
+    <mdcr:URL>https://mcc.gouv.qc.ca/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

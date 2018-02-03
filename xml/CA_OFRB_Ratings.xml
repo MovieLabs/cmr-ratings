@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T03:50:00" lastSave="2017-08-07T14:19:53">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T07:50:00" lastSave="2018-02-02T20:03:46">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -22,8 +22,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2017-07-27</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB/2</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Ontario Film Review Board,">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/OFRB</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="OFRB">
     <md:DisplayName>Ontario Film Review Board,</md:DisplayName>
     <mdcr:ContactString>Ontario Film Authority
 4950 Yonge Street, Suite 101B

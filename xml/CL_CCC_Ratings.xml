@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-12-11T15:53:54">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-02-02T20:51:42">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CL</md:country>
@@ -14,9 +15,13 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/0</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Consejo de Calificación Cinematográfica">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="CCC">
     <md:DisplayName>Consejo de Calificación Cinematográfica</md:DisplayName>
+    <mdcr:ContactString>Ministerio de Educación
+Teléfono +56 2 24066000
+Dirección Av. Libertador Bernardo O'Higgins 1371</mdcr:ContactString>
+    <mdcr:URL>http://www.consejodecalificacioncinematografica.cl/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -53,7 +58,9 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>14</mdcr:Label>
       <mdcr:Definition>Suitable for people aged 14 and older.</mdcr:Definition>
-      <mdcr:Explanation>Children younger than 14 may be accompanied by a parent or guardian 18 or older.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Children younger than 14 may be accompanied by a parent or guardian 18 or older.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -66,19 +73,9 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>Suitable for people aged 18 and older.</mdcr:Definition>
-      <mdcr:Explanation>Children younger than 18 may be accompanied by a parent or guardian 18 or older.</mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="80">18V</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/0/18V</mdcr:URI>
-    <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>18</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>18 - Explicit Violence</mdcr:Label>
-      <mdcr:Definition>Suitable for people 18 and older with extreme violence</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Children younger than 18 may be accompanied by a parent or guardian 18 or older.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -91,7 +88,21 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18 - Explicit Sex</mdcr:Label>
       <mdcr:Definition>Suitable for people aged 18 and older with sexually explicit content.</mdcr:Definition>
-      <mdcr:Explanation>This indication signifies that the film essentially contains scenes of real and explicit sexual activity .</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">This indication signifies that the film essentially contains scenes of real and explicit sexual activity .</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18V</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/0/18V</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18 - Explicit Violence</mdcr:Label>
+      <mdcr:Definition>Suitable for people 18 and older with extreme violence</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

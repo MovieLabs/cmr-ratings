@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-21T11:48:40" lastSave="2016-12-22T15:55:55">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-21T15:48:40" lastSave="2018-02-02T19:50:36">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -16,8 +17,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Consumer Protection BC">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="CPBC">
     <md:DisplayName>Consumer Protection BC</md:DisplayName>
     <mdcr:ContactString>Consumer Protection BC Compliance &amp; Enforcement and Motion Picture Classification
 PO Box 9244 Victoria BC V8W 9J2</mdcr:ContactString>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T01:30:03" lastSave="2017-08-08T20:11:46">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T05:30:03" lastSave="2018-02-02T19:29:18">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>AT</md:country>
@@ -18,8 +18,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2017-08-08</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Jugendmedienkommission beim Bundesministerium für Bildung">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="JMK">
     <md:DisplayName>Jugendmedienkommission beim Bundesministerium für Bildung</md:DisplayName>
     <mdcr:ContactString>Geschäftsführender Leiter 
 ADir . Michael Kluger 

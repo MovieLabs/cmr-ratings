@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T06:38:25" lastSave="2013-12-11T15:21:20">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T10:38:25" lastSave="2018-02-02T19:48:33">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -16,8 +17,8 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="MOTION PICTURE ASSOCIATION - CANADA">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="MPA-CANADA">
     <md:DisplayName>MOTION PICTURE ASSOCIATION - CANADA</md:DisplayName>
     <mdcr:ContactString>Tel: 416-961-1888
 Fax: 416-968-1016
@@ -25,19 +26,6 @@ Email: info@mpa-canada.org</mdcr:ContactString>
     <mdcr:URL>http://mpa-canada.org/</mdcr:URL>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1/G</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/CHVRS_G.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>G</mdcr:Label>
-      <mdcr:Definition>Suitable for viewing by all ages.</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">E</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1/E</mdcr:URI>
@@ -49,7 +37,22 @@ Email: info@mpa-canada.org</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>E</mdcr:Label>
       <mdcr:Definition>Exempt.</mdcr:Definition>
-      <mdcr:Explanation>Contains material not subject to classification, such as documentaries, nature, travel, music, arts and culture, sports and leisure, educational and instructional information.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Contains material not subject to classification, such as documentaries, nature, travel, music, arts and culture, sports and leisure, educational and instructional information.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/CHVRS_G.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by all ages.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -67,7 +70,7 @@ Email: info@mpa-canada.org</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">14A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/0/14A</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1/14A</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CHVRS_14A.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -76,7 +79,9 @@ Email: info@mpa-canada.org</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>14A</mdcr:Label>
       <mdcr:Definition>Suitable for people 14 years of age or older.</mdcr:Definition>
-      <mdcr:Explanation>Those under 14 should view with an adult. No rental or purchase by those under 14 where prohibited by law. Parents cautioned. May contain violence, coarse language and/or sexually suggestive scenes.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Those under 14 should view with an adult. No rental or purchase by those under 14 where prohibited by law. Parents cautioned. May contain violence, coarse language and/or sexually suggestive scenes.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -90,7 +95,9 @@ Email: info@mpa-canada.org</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18A</mdcr:Label>
       <mdcr:Definition>Suitable for people 18 years of age or older.</mdcr:Definition>
-      <mdcr:Explanation>Persons under 18 should view with an adult. No rental or purchase by those under 18. Parents strongly cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity and/or horror.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Persons under 18 should view with an adult. No rental or purchase by those under 18. Parents strongly cautioned. Will likely contain explicit violence, frequent coarse language, sexual activity and/or horror.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -104,7 +111,9 @@ Email: info@mpa-canada.org</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>R</mdcr:Label>
       <mdcr:Definition>Restricted to 18 years and older.</mdcr:Definition>
-      <mdcr:Explanation>No rental or purchase by those under 18. Contents not suitable for minors. Contains frequent sexual activity, brutality/graphic violence, intense horror, and/or other disturbing content.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">No rental or purchase by those under 18. Contents not suitable for minors. Contains frequent sexual activity, brutality/graphic violence, intense horror, and/or other disturbing content.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

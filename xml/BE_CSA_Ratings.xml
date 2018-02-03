@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-01-31T23:09:20">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-02-02T19:32:50">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>BE</md:country>
@@ -27,7 +27,7 @@
   <mdcr:Notes>
     <div class="userHtml">Applicable to Francophone community within Belgium (primarily in, but not limited to, Wallonia). Identical ratings and symbols to French CSA.</div>
   </mdcr:Notes>
-  <mdcr:RatingsOrg organizationID="Conseil supérieur de l’audiovisuel">
+  <mdcr:RatingsOrg organizationID="CSA">
     <md:DisplayName>Conseil supérieur de l’audiovisuel</md:DisplayName>
     <mdcr:ContactString>CSA
 Rue Royale, 89 - 1000 Bruxelles 

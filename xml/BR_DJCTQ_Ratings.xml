@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-09T06:11:12" lastSave="2018-01-31T22:30:46">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-09T10:11:12" lastSave="2018-02-02T19:44:00">
   <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>BR</md:country>
@@ -22,7 +22,7 @@
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2018-01-31</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Department of Justice, Rating, Titles and Qualification">
+  <mdcr:RatingsOrg organizationID="DJCTQ">
     <md:DisplayName>Department of Justice, Rating, Titles and Qualification</md:DisplayName>
     <mdcr:URL>http://www.justica.gov.br/seus-direitos/classificacao</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
@@ -39,19 +39,6 @@
     <mdcr:Descriptor language="PT">
       <mdcr:Label>Especialmente recomendado para crianças e adolescentes</mdcr:Label>
       <mdcr:Definition />
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="1">L-14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/L-14</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-14-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>Conteúdo varia de Livre a 14 anos</mdcr:Label>
-      <mdcr:Definition>Livre a 14 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -124,16 +111,16 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="6">10-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/10-16</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-16-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:Value ordinal="1">L-14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/L-14</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-14-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>10 a 16 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 10 a 16 anos</mdcr:Definition>
+      <mdcr:Label>Conteúdo varia de Livre a 14 anos</mdcr:Label>
+      <mdcr:Definition>Livre a 14 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -193,16 +180,16 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="9">12-14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/12-14</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-14-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:Value ordinal="6">10-16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/10-16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-16-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>12 a 14 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 12 a 14 anos</mdcr:Definition>
+      <mdcr:Label>10 a 16 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 10 a 16 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -251,20 +238,16 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="12">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/14</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_14.svg.png</mdcr:LinkToLogo>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_14-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:Value ordinal="9">12-14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/12-14</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-14-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>Não recomendado para menores de 14 anos</mdcr:Label>
-      <mdcr:Definition>São admitidos para esta faixa etária conteúdos que apresentem os critérios abaixo.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Nem sempre a ocorrência de cenas que remetem à violência, sexo e drogas são prejudiciais ao desenvolvimento psicológico da criança, portanto estes são sempre analisados e ponderados com os critérios de atenuantes e agravantes.</div>
-      </mdcr:Explanation>
+      <mdcr:Label>12 a 14 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 12 a 14 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -294,16 +277,16 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="15">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/16</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_16.svg.png</mdcr:LinkToLogo>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_16-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:Value ordinal="12">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/14</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_14.svg.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_14-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>Não recomendado para menores de 16 anos</mdcr:Label>
+      <mdcr:Label>Não recomendado para menores de 14 anos</mdcr:Label>
       <mdcr:Definition>São admitidos para esta faixa etária conteúdos que apresentem os critérios abaixo.</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Nem sempre a ocorrência de cenas que remetem à violência, sexo e drogas são prejudiciais ao desenvolvimento psicológico da criança, portanto estes são sempre analisados e ponderados com os critérios de atenuantes e agravantes.</div>
@@ -321,6 +304,23 @@
     <mdcr:Descriptor language="PT">
       <mdcr:Label>16 a 18 anos</mdcr:Label>
       <mdcr:Definition>Conteúdo varia de 16 a 18 anos</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/3/16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_16.svg.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_16-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>Não recomendado para menores de 16 anos</mdcr:Label>
+      <mdcr:Definition>São admitidos para esta faixa etária conteúdos que apresentem os critérios abaixo.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Nem sempre a ocorrência de cenas que remetem à violência, sexo e drogas são prejudiciais ao desenvolvimento psicológico da criança, portanto estes são sempre analisados e ponderados com os critérios de atenuantes e agravantes.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

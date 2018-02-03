@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T08:28:46" lastSave="2013-12-09T23:00:35">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T12:28:46" lastSave="2018-02-02T19:43:27">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>BG</md:country>
@@ -18,22 +19,11 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="National Film Centre">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="NFRC">
     <md:DisplayName>National Film Centre</md:DisplayName>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/A</mdcr:URI>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Recommended to children</mdcr:Label>
-      <mdcr:Definition>the film confirms the ideals of humanism or popularizes the national and world cultures or contributes to upbringing children;</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">B</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/B</mdcr:URI>
@@ -43,6 +33,17 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>No age restrictions</mdcr:Label>
       <mdcr:Definition>the film confirms the ideals of humanism, promotes national and world culture or by no means contradicts to the universally accepted moral norms in the country and there are no restrictive recommendations by the Committee.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/A</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Recommended to children</mdcr:Label>
+      <mdcr:Definition>the film confirms the ideals of humanism or popularizes the national and world cultures or contributes to upbringing children;</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

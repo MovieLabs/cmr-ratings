@@ -1,8 +1,8 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T14:19:22" lastSave="2014-08-01T14:24:44">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T18:19:22" lastSave="2018-02-02T19:47:09">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CA</md:country>
-      <mdcr:SubRegion>Quebec</mdcr:SubRegion>
       <mdcr:RegionName>CANADA</mdcr:RegionName>
     </mdcr:Region>
     <mdcr:System>CBSC-F</mdcr:System>
@@ -17,7 +17,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
       <p>Canadian French-language broadcasters use the classification system of the 
@@ -27,7 +27,7 @@ classification of a particular film  or program. Even if a Canadian channel is a
  program, it must put a Canadian rating on it.</p>
     </div>
   </mdcr:Notes>
-  <mdcr:RatingsOrg organizationID="Canadian Broadcast Standards Council">
+  <mdcr:RatingsOrg organizationID="CBSC">
     <md:DisplayName>Canadian Broadcast Standards Council</md:DisplayName>
     <mdcr:ContactString>Canadian Broadcast Standards Council
 P.O. Box 3265, Station D
@@ -100,7 +100,7 @@ K1P 6H8</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">16+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/16+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/16+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
@@ -123,7 +123,7 @@ K1P 6H8</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">18+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/18+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/18+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -147,7 +147,7 @@ scenes of hyperrealistic cruelty, torture and horror.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="100">RC</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/RCQ/1/RC</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/RC</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

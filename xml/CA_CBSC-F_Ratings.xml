@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T18:19:22" lastSave="2018-02-02T19:47:09">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T22:19:22" lastSave="2018-02-05T21:50:28">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -17,7 +17,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
       <p>Canadian French-language broadcasters use the classification system of the 

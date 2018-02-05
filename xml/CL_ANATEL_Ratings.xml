@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-02-02T20:37:06">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-02-05T21:53:01">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CL</md:country>
@@ -18,7 +18,7 @@
       <mdcr:Environment>other</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CL/ANATEL</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CL/ANATEL/0</mdcr:URI>
   <mdcr:RatingsOrg organizationID="ANATEL">
     <md:DisplayName>Asociación Nacional de Televisión</md:DisplayName>
     <mdcr:ContactString>Lota 2257 Of. 501 
@@ -29,18 +29,6 @@ contact@anatel.cl</mdcr:ContactString>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">I</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/ANATEL/0/I</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>Infantil</mdcr:Label>
-      <mdcr:Definition />
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">F</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CL/ANATEL/0/F</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
@@ -49,6 +37,18 @@ contact@anatel.cl</mdcr:ContactString>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>Familiar</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">I</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/ANATEL/0/I</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>Infantil</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>

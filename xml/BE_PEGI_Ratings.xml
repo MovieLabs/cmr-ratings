@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-02-02T19:36:05">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-02-05T21:48:35">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>BE</md:country>
@@ -248,7 +248,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2018-02-02</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0</mdcr:URI>
   <mdcr:RatingsOrg organizationID="PEGI">
     <md:DisplayName>Pan European Game Information</md:DisplayName>
     <mdcr:ContactString>Pan European Game Information
@@ -259,25 +259,6 @@ Fax:(00) 32 2 612 17 78</mdcr:ContactString>
     <mdcr:URL>http://www.pegi.info/en/index/id/952</mdcr:URL>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">PEGI-3</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-3</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/BE_PEGI_320.gif</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>PEGI 3</mdcr:Label>
-      <mdcr:Definition>suitable for all age groups</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">The content of games given this rating is considered suitable for all age groups. Some violence in a comical context (typically Bugs 
-Bunny or 'Tom and Jerry' cartoon-like forms of violence) is acceptable. The child should not be able to associate the character on the 
-screen with real life characters, they should be totally fantasy. The game should not contain any sounds or pictures that are likely to 
-scare or frighten young children. No bad language should be heard.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">PEGI-OK</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-OK</mdcr:URI>
@@ -305,6 +286,25 @@ gambling,
 promotion or use of drugs,
 promotion of alcohol or tobacco,
 scary scenes</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">PEGI-3</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-3</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/BE_PEGI_320.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PEGI 3</mdcr:Label>
+      <mdcr:Definition>suitable for all age groups</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The content of games given this rating is considered suitable for all age groups. Some violence in a comical context (typically Bugs 
+Bunny or 'Tom and Jerry' cartoon-like forms of violence) is acceptable. The child should not be able to associate the character on the 
+screen with real life characters, they should be totally fantasy. The game should not contain any sounds or pictures that are likely to 
+scare or frighten young children. No bad language should be heard.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

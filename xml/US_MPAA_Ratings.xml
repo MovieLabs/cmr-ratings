@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T08:18:19" lastSave="2014-01-20T17:34:32">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T16:18:19" lastSave="2018-02-05T21:56:37">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>US</md:country>
@@ -18,7 +19,7 @@
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAA/2</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Motion Picture Association of America, Inc.">
+  <mdcr:RatingsOrg organizationID="MPAA">
     <md:DisplayName>Motion Picture Association of America, Inc.</md:DisplayName>
     <mdcr:ContactString>1600 Eye St., NW
 Washington, D.C. 20006

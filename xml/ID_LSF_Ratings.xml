@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-01-25T21:57:10">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2018-02-05T21:54:29">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>ID</md:country>
@@ -21,7 +21,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2018-01-25</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/ID/LSF</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/ID/LSF/1</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">Ratings as defined by Article 28 of Govt Regulation # 18 2014: GUIDELINES AND CRITERIA Censorship</div>
   </mdcr:Notes>

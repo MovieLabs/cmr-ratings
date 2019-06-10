@@ -1,4 +1,10 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-09T08:01:40" lastSave="2014-12-12T16:00:12">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" 
+xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 
+http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" 
+lastValidated="2013-11-11T00:01:40" lastSave="2019-01-22T21:03:26">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>NL</md:country>
@@ -27,13 +33,16 @@
       <mdcr:Environment>Home</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2019-01-22</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1</mdcr:URI>
   <mdcr:Notes>
-    <div class="userHtml">This rating system is used on an unofficial basis in Belgium.</div>
+    <div class="userHtml">This rating system is used on an unofficial basis in 
+Belgium.</div>
   </mdcr:Notes>
-  <mdcr:RatingsOrg organizationID="Nederlands Instituut voor de Classificatie van Audiovisuele Media">
-    <md:DisplayName>Nederlands Instituut voor de Classificatie van Audiovisuele Media</md:DisplayName>
+  <mdcr:RatingsOrg organizationID="Nederlands Instituut voor de Classificatie   
+ van Audiovisuele Media">
+    <md:DisplayName>Nederlands Instituut voor de Classificatie van Audiovisuele 
+   Media</md:DisplayName>
     <mdcr:ContactString>NICAM
 Nederlands Instituut voor de Classificatie van Audiovisuele Media
 Postbus 322
@@ -45,7 +54,7 @@ tel: 085 4011690</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">AL</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/AL</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_50_groen_al.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_AL.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -53,12 +62,18 @@ tel: 085 4011690</mdcr:ContactString>
     <mdcr:Descriptor language="NL">
       <mdcr:Label>AL</mdcr:Label>
       <mdcr:Definition>Niet schadelijk/Alle Leeftijden</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>De leeftijdscategorie Alle Leeftijden geeft aan dat een 
+mediaproductie geen schadelijke elementen bevat.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">6</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/6</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_51_groen_6.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_6.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -66,12 +81,36 @@ tel: 085 4011690</mdcr:ContactString>
     <mdcr:Descriptor language="NL">
       <mdcr:Label>6</mdcr:Label>
       <mdcr:Definition>Mogelijk schadelijk tot 6 jaar</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Binnen de leeftijdscategorie 6 kunnen onder andere mild geweld, 
+dreiging met geweld, verwondingen of beelden met dreigende wezens, monsters of 
+spoken voorkomen.</p>
+          <p>Voorbeelden in deze categorie zijn Cars 2 en Finding Nemo.</p>
+          <p>De leeftijdscategorie 6 is ontwikkeld om jonge kinderen te 
+beschermen tegen 
+bepaalde angstwekkende en gewelddadige media-inhouden. Het is algemeen erkend 
+in de literatuur dat kinderen tot zeven jaar geen goed onderscheid maken tussen 
+werkelijkheid en fantasie in de media (Davies,1997).</p>
+          <p>Kinderen onder de zeven kunnen net zo goed overmatig druk of 
+agressief worden 
+door teken -of animatiefilms als door films met mensen van vlees en bloed 
+(Valkenburg, 2008). Daarom krijgen teken -en animatiefilms waarin bepaalde 
+typen geweld voorkomen met Kijkwijzer de leeftijdsindicatie 6. Kinderen onder 
+de zeven zijn zeer visueel georiënteerd en kunnen angstig worden van een 
+specifieke categorie beelden (Cantor, 2001). Dit zijn beelden van 
+fantasiewezens of dieren die zich dreigend gedragen of er dreigend uitzien, van 
+transformaties (zoals bijv. in het geval van de Hulk of Power Rangers), en van 
+beelden van dieren en kinderen die fysiek iets wordt aangedaan. Daarom krijgen 
+ook dit type beelden de classificatie 6 jaar.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">9</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/9</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_groen_9.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_9.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>9</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -79,12 +118,40 @@ tel: 085 4011690</mdcr:ContactString>
     <mdcr:Descriptor language="NL">
       <mdcr:Label>9</mdcr:Label>
       <mdcr:Definition>Mogelijk schadelijk tot 9 jaar</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Binnen de leeftijdscategorie 9 kunnen onder andere geweld tegen 
+kinderen of dieren, milde griezeleffecten, lijken van mensen en slachtoffers 
+van een ongeluk of ziekte voorkomen.</p>
+          <p>Voorbeelden van films binnen deze categorie zijn: De Griezelbus en 
+Paranorman.</p>
+          <p>Wanneer kinderen de kleuterfase ontgroeien krijgen zij in het 
+algemeen een 
+beter begrip van televisie en filmbeelden, hoewel dat nog relatief beperkt is. 
+Tekenfilms, nieuws en documentaires kunnen zij goed onderscheiden, maar tot 
+circa negen jaar blijven ze moeite hebben om de onechtheid van fantasy in 
+speelfilms en series te herkennen. Pas vanaf hun negende krijgen kinderen 
+inzicht in de fictionele aard van films en de gemaaktheid van mediaproducties 
+in het algemeen. Inleven in anderen en afstand kunnen nemen zijn belangrijke 
+voorwaarden voor het al dan niet optreden van media-invloeden. Tot een jaar of 
+negen zijn kinderen minder goed in staat om zich te verplaatsen in anderen. Dit 
+is van groot belang voor de verwerking van mogelijk schadelijke beelden, omdat 
+zij tot die leeftijd de beweegredenen achter het handelen van acteurs niet goed 
+inzien en de consequenties van het gedrag nog niet kunnen onderkennen. Kinderen 
+tot negen jaar hebben ook vaak nog een minder goed ontwikkelde zelfcontrole dan 
+oudere kinderen. Daardoor laten zij zich makkelijker overhalen tot het imiteren 
+van mediagedrag en daarmee het waarderen van mediahandelingen. Diverse studies 
+hebben uitgewezen dat kinderen van negen jaar of ouder aanzienlijk kritischer 
+staan ten opzichte van reclamespots, geweldfilms en andere mediaproducties dan 
+kinderen van acht jaar of jonger (Valkenburg, 2008).</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/12</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_groen_12.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -92,12 +159,60 @@ tel: 085 4011690</mdcr:ContactString>
     <mdcr:Descriptor language="NL">
       <mdcr:Label>12</mdcr:Label>
       <mdcr:Definition>Mogelijk schadelijk tot 12 jaar</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Binnen deze leeftijdscategorie 12 kunnen onder andere voorkomen: 
+indringende, harde geweldsscènes zeer angstige/ lijdende mensen en ernstige of 
+bloederige verwondingen/lijken. Verder kan er vaak seksueel taalgebruik of 
+seksuele handelingen in voorkomen, een discriminerende uiting, en overmatig 
+gebruik van alcohol/softdrugs of harddrugsgebruik.</p>
+          <p>Voorbeelden van films in deze categorie zijn: Twilight Saga en 
+James 
+Bond.</p>
+          <p>12 Jaar is voor Kijkwijzer een belangrijke leeftijdsindicatie voor 
+geweld, 
+angstaanjagende scènes, seksualiteit, discriminatie en drugsgebruik. Tussen de 
+tien en twaalf jaar gaan kinderen op een andere manier naar de wereld kijken. 
+Ze krijgen dan door dat mensen tot bepaalde maatschappelijke groepen behoren en 
+dat deze groepen van elkaar verschillen (Hoffman, 2000). Vanaf deze leeftijd 
+kunnen kinderen andere mensen en hun gedrag in het perspectief van hun 
+maatschappelijke groep of positie plaatsen. Ook kunnen ze bepaald gedrag van 
+mensen begrijpen en relativeren aan de hand van de context van hun 
+maatschappelijke achtergrond (Hoffman, 2000).</p>
+          <p>Vanaf 10 jaar gaan kinderen ook steeds beter abstract denken, en 
+krijgen ze 
+oog voor de meer abstractere typen humor, zoals parodie, ironie en satire 
+(McGhee, 1979; Selman, 1980). Kinderen van negen tot circa twaalf jaar kunnen 
+ook een visuele representatie maken van wat zij zien en de abstracte betekenis 
+daarvan inpassen in hun algemene (zij het nog beperkte) kennis van de wereld om 
+hen heen. In deze leeftijdsfase worden kinderen ook vanwege hun emotionele 
+vermogens meer kritisch over wat zij zien en horen. Zij verwachten daarom nu 
+meer en meer overtuigende acteerprestaties, zoeken karakters met een 
+psychologische gelijkenis aan henzelf en krijgen steeds meer behoefte aan 
+‘sociale lessen’ voor hun eigen sociaal-emotionele ontwikkeling. Mede door het 
+abstracter denken zijn kinderen goed in staat de kern van de boodschap van een 
+film te doorzien en verbanden te leggen tussen eerdere en latere scènes in 
+mediaproducties. Ook laten zij zich niet langer door direct herkenbare 
+bedreigingen beangstigen en gebruiken zij vaker dan jongere kinderen cognitieve 
+middelen om de angst te reduceren. Zij kunnen dus hun angst beredeneren, het 
+risico van (na)gespeelde bedreigingen inschatten en bij voldoende aanwijzingen 
+voor de onechtheid ervan afstand nemen. Ten opzichte van pubers zijn de negen 
+tot twaalfjarige kinderen echter toch nog makkelijker te beïnvloeden. Het duurt 
+bijvoorbeeld tot circa het twaalfde jaar voor kinderen ook voldoende en 
+beredeneerd afstand kunnen nemen van abstractere gevaren zoals 
+oorlogsdreigingen in veraf gelegen landen of andere zeer realistisch ogende 
+bedreigingen. Ook het gebruik van middelen, het voorkomen van discriminatie en 
+het zien van seks kan bij kinderen onder de twaalf jaar nog tot ongewenste 
+reacties en gevoelens leiden, doordat zij die inhouden nog niet goed kunnen 
+plaatsen.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/16</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_groen_16.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_16.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -105,24 +220,396 @@ tel: 085 4011690</mdcr:ContactString>
     <mdcr:Descriptor language="NL">
       <mdcr:Label>16</mdcr:Label>
       <mdcr:Definition>Mogelijk schadelijk tot 16 jaar</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Binnen de leeftijdscategorie 16 kunnen onder andere voorkomen: 
+indringende, harde of meedogenloze geweldsacties of seksueel geweld, hevige 
+angstaanjagende beelden of griezeleffecten. Verder valt in deze 
+leeftijdscategorie: vele nadrukkelijke seksuele handelingen, tijdens de 
+handelingen (details van) genitaliën en overmatig gebruik van alcohol/softdrugs 
+of harddrugsgebruik dat in een gunstig daglicht wordt geplaatst.</p>
+          <p>Voorbeelden van films in deze categorie zijn: Django Unchained en 
+Paranormal 
+Activity.</p>
+          <p>Vanaf een jaar of 12 gebruiken kinderen films en 
+televisieprogramma’s steeds 
+vaker om sociale lessen te leren en om te zien hoe acteurs dagelijkse 
+problemen, 
+waar zij zelf ook mee worstelen, oplossen (Valkenburg, 2008). Met name jonge 
+adolescenten kunnen zich sterk identificeren met realistische acteurs. De late 
+kindertijd en adolescentie zijn perioden waarin kinderen en jongeren een 
+voorbeeld kunnen nemen aan bepaalde psychologische en sociale kenmerken van 
+mediafiguren, helden en idolen. Pas vanaf een jaar of twaalf kunnen kinderen 
+empathie voor anderen goed onderscheiden van eigen gevoelens en kunnen zij die 
+gevoelens in een kader van moreel besef plaatsen. Oudere kinderen zijn dan ook 
+beter in staat dan kinderen onder de twaalf om volwassen normen over goed en 
+kwaad te betrekken bij het zien van allerlei media-inhouden. Toch betekent dit 
+niet dat jongeren alle beelden probleemloos kunnen volgen. De media tonen 
+jongeren legio voorbeelden voor crimineel gedrag en het is bekend dat jongeren, 
+vooral jongens, zich sterk kunnen identificeren met criminele mediahelden 
+(Nikken, 2007). Onderzoek wijst uit dat crimineel gedrag onder jongeren een 
+piek 
+vertoont gedurende de adolescentieperiode en daarna weer afneemt. De grootste 
+groep van jeugdige delinquenten houdt zich bezig met opportunistisch delinquent 
+gedrag: vandalisme, winkeldiefstal en vechten (Junger Tas, 2000). Risicovol, 
+delinquent gedrag blijkt aantrekkelijk te zijn voor jongeren, omdat zij per 
+definitie nog enigszins buiten de maatschappij staan en nog niet zoveel te 
+verliezen hebben als ouderen.</p>
+          <p>Jongeren zijn in de adolescentieperiode op zoek naar een nieuwe 
+identiteit en de 
+daarbij behorende grenzen. Ze zijn in deze periode doelbewust op zoek naar 
+informatie en ideeën die ze kunnen gebruiken bij dit proces. De media en 
+mediahelden spelen in dit proces een belangrijke rol (Strasburger, 1995). Omdat 
+bekend is dat juist adolescenten een voorbeeld kunnen nemen aan agressieve 
+helden in de media, hebben we in Kijkwijzer bepaalde typen geweld verbonden met 
+de leeftijdsindicatie van 16 jaar. Het is bekend dat angst voor geweld en 
+horrorfilms juist in de adolescentietijd vaak voorkom</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="G">
     <mdcr:Label />
+    <mdcr:Definition>Geweld</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">
+        <p>Audiovisueel geweld kan verscheidene schadelijke gevolgen hebben. 
+Het kijken 
+naar mediageweld kan onder andere (a) de agressie van kinderen aanwakkeren, (b) 
+kinderen afstompen voor geweld, en (c) kinderen angstig maken (Potter, 1999; 
+Nikken, 2007). In Kijkwijzer hebben we met deze drie negatieve effecten 
+rekening 
+gehouden. De classificatie die geweld krijgt is gebaseerd op bestaande 
+theorieën 
+over de invloed van mediageweld op de twee eerste effecten: agressief gedrag en 
+ 
+afstomping. In het onderdeel over angst komt ook geweld in mediaproducties aan 
+bod, maar dan vanuit theorieën over de typen mediageweld die angst bij kinderen 
+van verschillende leeftijden oproepen.</p>
+        <p>Het is bekend dat mediageweld niet altijd tot agressief gedrag en 
+afstomping 
+leidt (Potter, 1999). Een documentaire over de toename van geweld onder 
+jongeren, waarin gewelddadige scènes voorkomen om dit probleem aan de kaak te 
+stellen, is natuurlijk niet te vergelijken met een horrorfilm waarin een 
+hoofdpersoon met een kettingzaag op zijn tegenstanders afgaat. De documentaire 
+is wellicht gemaakt met het doel om geweld te ontmoedigen, terwijl het in de 
+horrorfilm wordt verheerlijkt. Natuurlijk gebruiken kijkers de context waarin 
+het mediageweld wordt uitgevoerd om betekenis te construeren uit de beelden. 
+Uit 
+onderzoek blijkt dat verschillende contextkenmerken van mediageweld de kans op 
+agressief gedrag en/of afstomping verhogen (Potter, 1999). We zullen de 
+belangrijkste contextkenmerken achtereenvolgens noemen.</p>
+        <p>Een eerste kenmerk dat agressie en afstomping verhoogt, is het 
+realiteitsgehalte 
+van het geweld. Het realiteitsgehalte van mediaproducten bepaalt hun 
+geloofwaardigheid. In dit classificatiesysteem gaan we ervan uit dat geweld dat 
+in de ogen van kinderen niet geloofwaardig is, geen of weinig schadelijke 
+gevolgen voor hen heeft. Men dient hierbij echter te beseffen dat 
+geloofwaardigheid sterk leeftijdsafhankelijk is. Wat volgens volwassenen 
+onschuldig (Power Rangers, Pokémon) of met opzet overdreven is (James Bond), 
+kan 
+voor jonge kinderen wél realistisch en geloofwaardig zijn.</p>
+        <p>Een tweede kenmerk van mediageweld dat met name afstomping 
+stimuleert is de mate 
+waarin de gevolgen van het geweld in beeld worden gebracht (bloed, ernstige 
+verwondingen, verminkingen). Het vaker zien van dit soort beelden verhoogt de 
+kans dat kijkers afstompen of onverschillig worden voor geweld (zie bijv. Linz 
+et al., 1994).</p>
+        <p>Een derde contextkenmerk waarvan het bekend is dat het agressie 
+verhogend werkt, 
+is de mate waarin de geweldpleger sympathiek is. Hoewel het geweld van slechte 
+schurken of maniakken vaak meer indruk maakt, wordt agressief gedrag vooral 
+bevorderd door het geweld van personen met wie men zich enigszins kan 
+identificeren (Paik &amp; Comstock, 1994).</p>
+        <p>Een vierde contextkenmerk is de mate waarin het geweld 
+gerechtvaardigd is. Vaak 
+is er voor de goede partij in een verhaal een legitieme reden om geweld te 
+gebruiken, bijvoorbeeld om natuurrampen tegen te gaan of onschuldige 
+slachtoffers te redden. Het zien van gerechtvaardigd geweld kan voor jongere en 
+oudere kijkers reden zijn om lichter te denken over geweld in de werkelijkheid 
+(Paik &amp; Comstock, 1994).</p>
+        <p>Het laatste kenmerk is de mate waarin het geweld bestraft wordt. 
+Indien geweld 
+op de een of andere wijze gestraft wordt, verkleint dit de kans op 
+agressiviteit 
+bij de kijker. In mediaproducties behoren de helden van kinderen over het 
+algemeen tot de goede partij. Ze zijn slim, machtig en aantrekkelijk, en worden 
+zelden op hun vingers getikt of gehinderd bij hun gewelddadige acties. Diverse 
+onderzoeken suggereren dat beloond geweld door de goede partij een agressie 
+verhogend effect heeft (bijv. Bandura, 1986).</p>
+      </div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_geweld.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="A">
     <mdcr:Label />
+    <mdcr:Definition>Angst</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">
+	<p>Angsteffecten zijn sterk afhankelijk van het cognitieve 
+ontwikkelingsniveau van de kijker. Uit onderzoek blijkt dat volwassenen en 
+oudere kinderen op twee manieren naar een angstaanjagende film kunnen kijken. 
+Ze kunnen emoties toelaten en er lekker voor gaan zitten om te griezelen. Maar 
+ze kunnen ook emotioneel afhaken door te denken dat hetgeen ze zien niet echt 
+is. In deze gevallen passen volwassen kijkers en oudere kinderen een mechanisme 
+toe dat in de Angelsaksische literatuur ‘adult discount’ wordt genoemd.</p>
+<p>Uit onderzoek blijkt dat kinderen onder de negen deze zogenoemde ‘adult 
+discount’ nog niet kunnen inzetten als ze naar fictie kijken. Kinderen onder de 
+negen weten soms best dat iets fantasie is, maar toch kunnen ze die kennis 
+tijdens het kijken nog niet gebruiken bij het verwerken van angstwekkende 
+media-inhouden (Harris, 2000). In Kijkwijzer hebben we hiermee rekening 
+gehouden door specifiek te kijken naar elementen die een aanwijzing geven voor 
+de onechtheid van producties. Uit onderzoek blijkt dat mensen banger worden van 
+gevaren die dicht bij hen in de buurt gebeuren, of in ieder geval voorstelbaar 
+zijn, dan van gevaren die ver van hun bed zijn. Dat geldt voor nieuws en 
+entertainment. Kijkwijzer houdt om die reden rekening met het realisme van de 
+omgeving bij de angstaanjagende scènes. 
+ </p>
+<p>
+Angstaanjagende beelden die zich in een alledaagse context afspelen kunnen 
+gemakkelijk worden geassocieerd met voorwerpen of gebeurtenissen die in het 
+dagelijks leven van kinderen gewoon zijn, zoals speelgoed, een schoolgebouw of 
+een strandbezoek. In Poltergeist wordt de angst geassocieerd met de televisie 
+en raakt het speelgoed bezeten van boze geesten. In Jaws wordt de angst 
+geassocieerd met de zee en het strand. Angstreacties blijken intenser en 
+langduriger te zijn als zij na confrontatie met herkenbare situaties of 
+objecten opnieuw worden opgeroepen. Dat verklaart waarom sommige films als Jaws 
+en Psycho eerder tot langdurige en intense angsten leiden dan films met een 
+verre context, zoals Indiana Jones. Daarnaast wordt rekening gehouden met het 
+voorkomen van personages met fantasiekenmerken, omdat de aanwezigheid van zulke 
+karakters een extra mogelijkheid biedt om afstand te kunnen nemen van een 
+angstaanjagende productie. 
+ </p>
+<p>
+Binnen de categorie angst zijn verder drie elementen belangrijk: dingen die er 
+beangstigend uitzien,  personen in een productie die angstig zijn of lijden, en 
+geluiden en griezelige horroreffecten. Uit onderzoeken weten we dat dit de drie 
+belangrijkste manieren zijn waarop kinderen bang kunnen worden van mediabeelden 
+ (Valkenburg, 2008): angst door het observeren van ‘enge’ dingen, door het 
+inleven met andere personen en door het interpreteren van (aangeleerde) 
+signalen die een voorbode zijn van angstige elementen of die daarmee gepaard 
+gaan. Bij waarneembare gevaren gaat het om zaken als verwondingen, lijken, 
+zelfverminking en zelfmoord. Daarnaast wordt ook rekening gehouden met 
+opvallende zaken waarvan bekend is dat zij vooral bij heel jonge kinderen tot 
+angsten kunnen leiden, zoals monsters, heksen, enge dieren en fysieke 
+bedreigingen van kinderen of dieren. Tot slot, horen typische griezeleffecten 
+bij de waarneembare gevaren. Het aanschouwen van zulke situaties en effecten 
+kan bij kinderen tot gevolg hebben dat zij hevig schrikken, zich ongemakkelijk 
+voelen en uiteindelijk zelfs nachtmerries krijgen. Afhankelijk van de 
+intensiteit van deze beelden en de context (type productie en realisme) leidt 
+de aanwezigheid van angstaanjagende elementen tot 6, 9, 12 of 16 jaar.
+Een tweede inhoudskenmerk dat angst verhogend kan werken is het zien van 
+angstige mensen of van personen die ernstig lijden. Vaak worden gevaren in de 
+media afgebeeld via de angsten van hoofdpersonen. Het daadwerkelijke gevaar 
+hoeft dan niet expliciet in beeld te zijn, alleen de angst van de hoofdpersonen 
+is al genoeg om een kijker de stuipen op het lijf te jagen. Het mechanisme dat 
+aan dit proces ten grondslag ligt is empathie met de hoofdpersoon. Empathie met 
+anderen is een aangeboren kenmerk van mensen en treedt al op vanaf zeer jonge 
+leeftijd. Het zien van angstige personen in een mediaproductie kan via de 
+opgewekte empathie bij de kijker gevoelens van onrust overbrengen. De kijker 
+leeft mee met personages in een productie en neemt diens angstgevoelens over. 
+De observatie van iemand die ernstig lijdt, bijvoorbeeld als gevolg van pijn, 
+kan bij de kijker via empathie ook angst opwekken. Het lijden is iets dat 
+afwijkt van het gangbare en onzekerheid over de toekomst in zich meedraagt. Bij 
+het meeleven gaat het overigens niet alleen om mensen, maar ook om ‘anderen’, 
+zoals mensachtigen en dieren. Het gaat immers om de identificatie met 
+psychologische kenmerken van de personages. De kijker kan zich herkennen in de 
+personages en leeft mee. Juist voor kinderen kan het dan ook gaan om 
+niet-realistische, maar wel mensachtige wezens.
+ </p>
+<p>
+Een derde kenmerk dat kan bijdragen aan de angstwekkendheid van een productie 
+zijn de geluidseffecten en de muziek. Al in de jaren vijftig vonden Himmelweit, 
+Openheim en Vince (1958) dat kinderen specifieke geluidseffecten, in het 
+bijzonder muziek, angstwekkende elementen van films vonden. Ook andere studies 
+wijzen uit dat het toevoegen van angstaanjagende muziek aan een film de 
+angstreacties erop kan verhogen. In een studie van Thayer en Levenson (1983), 
+bijvoorbeeld, werd gevonden dat de toevoeging van zogenoemde ‘horrormuziek’ aan 
+een documentaire over industriële ongelukken tot meer angst leidde dan de 
+toevoeging van gewone ‘documentairemuziek’.
+</p>
+      </div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_angst.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
+    <mdcr:Definition>Seks</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">
+        <p>Seksualiteit is een inhoudskenmerk waarop mediaproducten over de 
+gehele wereld geclassificeerd worden. De twee consumentenonderzoeken die ten 
+grondslag liggen aan Kijkwijzer hebben beide uitgewezen dat ook Nederlandse 
+ouders het belangrijk vinden om te weten of er seks in een mediaproduct 
+voorkomt. Veel ouders zijn er van overtuigd dat het onwenselijk is om kinderen 
+al jong naar seks te laten kijken (Valkenburg, 1997).</p>
+        <p>In inhoudsanalyses over de aard en frequentie van seks in de media 
+wordt 
+geconstateerd dat er aan het eind van de jaren negentig meer seks in de media 
+aanwezig is dan ooit tevoren en dat de seks ook nadrukkelijker in beeld wordt 
+gebracht (Donnerstein en Smith, 2001; Kunkel et al., 2005). Opgemerkt moet 
+echter worden dat het begrip seks in deze inhoudsanalyses ruim is 
+geïnterpreteerd. Het gaat bijvoorbeeld om handelingen als strelen, kussen, en 
+geslachtsgemeenschap, maar ook om afbeeldingen van schaars of uitdagend geklede 
+personages, en om gesprekken over seks. De mogelijk schadelijke effecten van 
+seks in televisieprogramma’s of films op kinderen jonger dan 16 jaar is 
+tegenwoordig een belangrijk onderwerp op de academische agenda. In het 
+afgelopen decennium zijn tientallen studies uitgevoerd naar het verband tussen 
+het bekijken van seks op televisie of in films en de houding en het gedrag van 
+kinderen en jongeren (Nikken, 2009). Deze studies geven aan dat het zien van 
+seks in de media door kinderen of jongeren niet geheel risicovrij is (Peter 
+&amp; 
+Valkenburg, 2008, 2009). Door het gebrek aan voldoende effectstudies zijn we in 
+het geval van seks ook aangewezen op educated guesses. Hoewel er geen 
+empirische onderbouwing voor is, wordt van jonge kinderen verondersteld dat zij 
+heftige seksuele handelingen nog niet goed interpreteren, omdat ze nog geen 
+ervaring hebben met seks.</p>
+        <p>Een mogelijk misverstand is dat zij deze handelingen als geweld 
+opvatten, 
+hetgeen hen angstig zou kunnen maken. Dat is een schadelijk gevolg. Een ander 
+mogelijk schadelijk gevolg is dat zij onzeker worden over volwassenen in hun 
+omgeving. Onder kinderen van acht tot twaalf jaar hebben enkele studies 
+uitgewezen dat deze kinderen zich vooral ongemakkelijk kunnen voelen bij het 
+zien van beelden van seks en ander intiem gedrag (Wartella et al., 2000; 
+Cantor, Mares &amp; Hyde, 2003). Vooral kinderen die zelf nog niet aan seks toe 
+zijn, geven aan dat zij liever niet met zoenen, vrijen en al te intiem 
+knuffelgedrag van volwassenen geconfronteerd willen worden. Een ander mogelijk 
+schadelijk gevolg voor oudere kinderen is dat zij zich op basis van wat zij 
+zien 
+in audiovisuele producties een onwenselijk idee vormen over wat seks inhoudt. 
+Seksualiteit in de media wordt immers veelal gepresenteerd op manieren die ver 
+van de realiteit staan. Seks in fictie is bijvoorbeeld zelden gepland. De 
+deelnemers, die vaak perfect gevormd zijn, storten zich, zodra ze samen in een 
+ruimte zijn in pure hartstocht op elkaar. Voorbehoedmiddelen worden zelden 
+gebruikt en vrouwen die aanvankelijk niet willen, geven zich na een beetje 
+aandrang vaak toch in volle overgave over. Voor zover het onderzoek het toelaat 
+is het wel aannemelijk dat jongeren dit beeld overnemen en een meer liberale 
+houding ontwikkelen over seksualiteit (Nikken, 2009). Daarnaast is het niet uit 
+te sluiten dat sommige jongeren door de media ook eerder overgaan tot seksueel 
+gedrag en met name grensoverschrijdend seksueel gedrag. Het risico dat jeugdige 
+kijkers verkeerde ideeën aan seksuele mediapresentaties overhouden, bestaat met 
+name bij adolescenten die het beeld in de media geloofwaardig en relevant voor 
+hun ontwikkeling vinden. Omdat kinderen in deze leeftijdsfase midden in een 
+identiteitsontwikkeling zitten, waarin seksualiteit een belangrijke rol speelt, 
+zijn ze naarstig op zoek naar informatie over seksuele relaties.</p>
+      </div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_seks.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="T">
     <mdcr:Label />
+    <mdcr:Definition>Taal</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Uit het consumentenonderzoek bleek dat ouders zich relatief veel 
+zorgen maken over de grote hoeveelheid grof taalgebruik in de media en hier 
+graag over geïnformeerd willen worden. Kijkwijzer voorziet in deze behoefte. 
+Hoewel grof taalgebruik als inhoudsclassificatie is opgenomen, is er in 
+tegenstelling tot de andere inhoudscategorieën, in het geval van grof 
+taalgebruik voor gekozen deze niet aan een bepaalde leeftijdscategorie te 
+verbinden. Bij de proefclassificaties vonden we veel voorbeelden van grof 
+taalgebruik, ook door personages met wie kinderen zich zouden kunnen 
+identificeren.</p>
+<p>	    
+Het is aannemelijk dat kinderen hieraan een voorbeeld nemen. Dat is een 
+mogelijk schadelijk gevolg. Het is echter de vraag welke leeftijd het meest 
+gevoelig is voor de effecten van grof taalgebruik. Kinderen van twee imiteren 
+immers al regelmatig slogans en zinsneden van de televisie. Grof taalgebruik en 
+schuttingtaal lijken echter ook frequent binnen subculturen van oudere kinderen 
+en adolescenten overgenomen te worden. Om deze reden hebben we ervoor gekozen 
+ouders wel te informeren over de aanwezigheid van grof taalgebruik, maar deze 
+aanwezigheid niet te verbinden met een leeftijdsindicatie.
+	    </p>
+        </div>
+      </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_taal.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
+    <mdcr:Definition>Disriminatie</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Uit onderzoek blijkt dat ouders graag geïnformeerd worden over 
+discriminatoire uitingen in de media. Mede door de resultaten van dit 
+consumentenonderzoek is discriminatie als inhoudscategorie in Kijkwijzer 
+opgenomen. Kijkwijzer hanteert een brede definitie van discriminatie. Onder 
+discriminatie verstaan we elke uiting waarin bepaalde bevolkingsgroepen als 
+inferieur worden afgeschilderd op grond van ras, religie, huidskleur, sekse, 
+nationaliteit of etnische afstamming.</p>
+<p> 
+Er kan onderscheid gemaakt worden tussen directe en indirecte discriminatie. 
+Vormen van indirecte discriminatie zijn onder andere beledigen, pesten, fysiek 
+bedreigen en aanvallen. Vormen van directe discriminatie zijn bijdragen aan 
+negatieve stereotypering, oproepen tot discriminatie of bestaansrecht ontkennen 
+(Tan, 2003). Kijkwijzer gaat uit van discriminatoire uitingen waarin opgeroepen 
+wordt tot discriminatie van een groep in algemene termen. Een voorbeeld van 
+directe discriminatie is een scène uit As Good As it Gets waarin de 
+hoofdpersoon een Joods stel aantreft in een restaurant. De man en vrouw zijn 
+druk in gesprek als de hoofdpersoon zegt: “Appetites are not as big as your 
+noses, huh?” Seksisme of vrouwonvriendelijkheid valt ook onder discriminatie 
+omdat personen op grond van geslacht als ondergeschikt worden behandeld. 
+Onderzoek (Hansen &amp; Hansen, 2000) wijst uit dat seksisme in de media op 
+zowel jongens als meisjes mogelijk schadelijke effecten kan hebben.</p>
+<p> 
+Bijvoorbeeld het kijken naar videoclips kan bijdragen aan de vorming van 
+seksistische attitudes. Seksisme wordt in de clips vaak in een positief 
+daglicht geplaatst, het wordt uitgevoerd door idolen, hetgeen een belangrijke 
+voorwaarde is voor grote media-effecten. Dit kan leiden tot negatieve attitudes 
+ten aanzien van de vrouw (zie voor een overzicht, Hansen &amp; Hansen, 2000; 
+Nikken, (2009). Met name de zogenoemde ‘seksuele objectivering’ van de vrouw in 
+videoclips krijgt in dit type onderzoek de aandacht. Met seksuele objectivering 
+wordt bedoeld dat vrouwen in de clips worden gereduceerd tot een seksueel 
+lustobject. Ze worden afgebeeld in een onderdanige en willige rol en hun enige 
+functie is de mannelijke hoofdpersoon of het publiek te vermaken of seksueel op 
+te winden. Blootstelling aan seksuele objectivering van vrouwen in de media 
+blijken vooral meisjes in de vroege adolescentie negatief te beïnvloeden 
+(Aubrey, 2006; Slater &amp; Tiggemann, 2002). De objectivering van vrouwen in 
+de clips kan verschillende effecten hebben. In de eerste plaats kunnen de 
+seksistische normen die de clips verkondigen via een proces van priming 
+‘geïnternaliseerd’ worden. Dit kan bij zowel mannen als vrouwen gebeuren 
+(Hansen &amp; Hansen, 2000). Ook al lijkt onderzoek uit te wijzen dat seksisme 
+in de media op zowel jongens als meisjes mogelijk schadelijke effecten kan 
+hebben, blijft de vraag welke leeftijdsclassificaties het best passen bij deze 
+mogelijk schadelijke effecten. Op basis van de literatuur naar 
+identiteitsontwikkeling in de adolescentie, is er reden aan te nemen dat de 
+preadolescentie en vroege adolescentie met name een gevoelige tijd is om 
+seksistische en seksueel objectiverende normen over te nemen. De vroege 
+adolescentie kenmerkt zich door grote onzekerheid over seksualiteit en de 
+sekserol-identiteit. Wanneer seksisme verbonden moet worden aan een 
+leeftijdsindicatie, lijkt de leeftijdscategorie 12 derhalve het meest geschikt. 
+Een ander mogelijk schadelijk gevolg van discriminatie in audiovisuele media is 
+dat kinderen deze handelingen als gewoon gaan beschouwen. Indien ze als stoer of 
+macho worden voorgesteld, is het zelfs mogelijk dat ze als nastrevenswaardig 
+worden gezien. </p>
+        </div>
+      </mdcr:Explanation>
+<mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_disriminatie.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
+    <mdcr:Definition>Drugs</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <p>Net als bij discriminatie is een mogelijk schadelijk gevolg van 
+harddrugsgebruik en overmatig softdrugs- en alcoholgebruik in audiovisuele 
+media dat kinderen deze handelingen als gewoon gaan zien. Wanneer het gebruik in 
+een positief daglicht wordt geplaatst, is het zelfs mogelijk dat kinderen en 
+adolescenten het als nastrevenswaardig zien. Het is bekend dat veel personages 
+in films en televisieseries alcohol drinken. Vaak gaat het om personages met 
+wie kinderen zich kunnen identificeren. 
+</p>
+<p>Uit onderzoek blijkt dat alcohol- en drugsgebruik vaak in de adolescentietijd 
+begint (Strasburger, 1995). Het is dan ook plausibel te veronderstellen dat 
+kinderen in deze periode met name ontvankelijk zijn voor informatie over alcohol 
+en drugs. Kijkwijzer houdt hier rekening mee. Wanneer harddrugsgebruik, 
+overmatig softdrugs- en/of alcoholgebruik in een gunstig daglicht geplaatst 
+worden, krijgt een productie de leeftijdsindicatie 16. Wanneer het niet wordt 
+aangeraden of slechts impliciet wordt afgeraden, krijgt de mediaproductie de 
+leeftijdsindicatie 12. Wanneer het expliciet wordt afgeraden, krijgt de 
+productie AL. 
+</p>
+        </div>
+      </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_drugs.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T09:41:19" lastSave="2013-12-12T21:07:35">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T21:41:19" lastSave="2018-04-02T21:26:22">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>MX</md:country>
@@ -11,15 +12,32 @@
     <mdcr:RegionName>MEXICO</mdcr:RegionName>
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
       <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+      <mdcr:Environment>other</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2018-04-02</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      Guidance states:
+      <i>"For the Classification of Content warning, a color system similar to the warning traffic light mode was implemented. This system is only an aid or guide for the spectators and their families, using the green color for classification A and AA, yellow for the classifications B and B15 and red for C and D."</i>
+      However no explicit examples are provided showing how color is to be used (i.e. as background, as border, etc.). [
+      <a href="http://rtc.gob.mx/NuevoSitio/preguntas_frec.php">Ref</a>
+      ]
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="DIRECCIÓN GENERAL DE RADIO, TELEVISIÓN Y CINEMATOGRAFÍA">
     <md:DisplayName>DIRECCIÓN GENERAL DE RADIO, TELEVISIÓN Y CINEMATOGRAFÍA</md:DisplayName>
     <mdcr:ContactString>Roma #41 Col. Juárez Delegación Cuauhtémoc C.P. 06600, México, D.F. 
-Teléfono: 51-40-80-00</mdcr:ContactString>
+Teléfono: 51-40-80-00, E--mail: buzonrtc@segob.gob.mx</mdcr:ContactString>
+    <mdcr:URL>http://rtc.gob.mx/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -32,7 +50,29 @@ Teléfono: 51-40-80-00</mdcr:ContactString>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>AA</mdcr:Label>
       <mdcr:Definition>Comprensible para menores de 7 años.</mdcr:Definition>
-      <mdcr:Explanation>Informativa. Presenta una narrativa de fácil comprensión. No contiene escenas eróticas ni sexuales. Tampoco hace uso de lenguaje altisonante ni consumo de estupefacientes o psicotrópicos. No hay horror. La violencia puede ser mínima, mientras no se aliente ni sea traumática. Besos, abrazos o caricias se presentan en tono cariñoso, familiar o amistoso. No afecta el desarrollo integral de un menor de 7 años.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Esta clasificación es de carácter informativo:
+          <p>Indica que es una película para todo público, pero particularmente atractiva y
+comprensible para niños menores de 7 años de edad.</p>
+          Consideraciones:
+          <p>En los menores de 7 años de edad, la capacidad de representación simbólica y el
+lenguaje son limitados y poco organizados; además, la identidad personal y cultural
+no están definidas, lo cual no les permite distinguir entre lo positivo y lo negativo, y
+entre lo verdadero y lo falso. Tampoco pueden distinguir claramente entre la fantasía
+y la realidad, y mucho menos una imagen realista mezclada con la fantasía.</p>
+          Criterios:
+          <p>El contenido no provoca un desequilibrio en el desarrollo integral de los menores de
+7 años. La narrativa es de fácil comprensión y no degrada los valores humanos.
+En el sentido general de la obra no se humilla o denigra a ningún grupo o individuo.
+No hay horror en el tratamiento de los temas.</p>
+          <p>No hay violencia o cuando ésta se presenta, es con un grado mínimo, no es
+traumática y no se alienta. No hay escenas sexuales, eróticas o con desnudez. Los
+besos, abrazos y caricias se presentan en un contexto afectivo, amistoso o familiar.
+No hay consumo de estupefacientes o sustancias psicotrópicas. El lenguaje no
+contiene palabras ni expresiones procaces.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -45,7 +85,34 @@ Teléfono: 51-40-80-00</mdcr:ContactString>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>A</mdcr:Label>
       <mdcr:Definition>Para todo público.</mdcr:Definition>
-      <mdcr:Explanation>Informativa. La narrativa puede presentar cierto grado de complejidad. La violencia puede ser mínima si no se alienta. También pueden incluirse desnudos siempre que sean breves, no frecuentes y no detallados; sin embargo no puede presentar escenas sexuales ni eróticas. No hay consumo de drogas aunque el lenguaje puede contener un cierto número de expresiones procaces.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Esta clasificación es de carácter informativo:
+          <p>Indica que es una película para todo público no necesariamente de interés para
+niños menores de 7 años, pero apta para ser vista por menores de 12 años.</p>
+          Consideraciones:
+          <p>En los menores de 12 años de edad la capacidad de representación simbólica y el
+lenguaje, aunque están desarrollados, la identidad personal y cultural están en
+proceso de formación. Por ello, no han desarrollado un juicio que siempre les
+permita distinguir entre lo positivo y lo negativo, y/o entre lo verdadero y lo falso.</p>
+          <p>Debe tomarse en cuenta el tono, el género y el desarrollo de la narrativa, ya que las
+escenas en un mundo de ficción causan un impacto y efecto distintos que
+las mismas escenas en un contexto realista, y más impacto y confusión en un
+contexto donde se mezcle la realidad con la ficción.</p>
+          Criterios:
+          <p>Se considera que el contenido no debe confundir, influenciar o afectar el desarrollo
+integral de los menores de 12 años. La narrativa tiene cierto grado de complejidad.
+No se degradan valores humanos. En el sentido general de la obra, no se humilla o
+denigra a grupos o individuos. No hay horror en el tratamiento de los temas.</p>
+          <p>Cuando se presenta violencia, es con un grado mínimo, no se detalla ni es intensa y
+no se alienta. No hay escenas sexuales ni eróticas. Los besos, abrazos y caricias
+son en un contexto afectivo o amoroso. Puede haber algún desnudo, pero no es en
+un contexto erótico ni humillante, no es frecuente, es breve, no es detallado ni exhibe
+genitales de los actores. No hay consumo de estupefacientes o sustancias
+psicotrópicas. El lenguaje puede incluir un mínimo de palabras y expresiones
+procaces.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -56,14 +123,41 @@ Teléfono: 51-40-80-00</mdcr:ContactString>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="ES">
-      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Label>B</mdcr:Label>
       <mdcr:Definition>Para adolescentes de 12 años en adelante.</mdcr:Definition>
-      <mdcr:Explanation>Informativa. La narrativa puede ser compleja. Presenta cierto grado de violencia, no extrema, por motivos específicos y no vinculada con lo sexual, poniendo en claro sus consecuencias. Los desnudos son breves y no detallados y las escenas sexuales sólo sugeridas. Se puede tratar el tema de las adicciones y las drogas pero sin exhibir su consumo. La violencia verbal no puede ser extrema.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Esta clasificación es de carácter informativo.
+          <p>Indica que es una película apta para mayores de 12 años de edad. Sugiere que los
+padres tomen en cuenta esta clasificación.</p>
+          Consideraciones:
+          <p>En los mayores de 12 años de edad, menores de 18, la dimensión afectiva, social,
+intelectual y física continúa desarrollándose, por lo que la identidad personal y el
+juicio crítico se encuentran en una etapa de formación. Están conscientes de que
+una película es una fantasía visual y no es real, razón por la cual están mejor
+preparados para comprender obras más complejas y dramáticas.</p>
+          Criterios:
+          <p>Es probable que el contenido confunda, influya o afecte el desarrollo integral de los
+menores de 12 años. La narrativa puede ser compleja o tener escenas que requieren
+un cierto nivel de discernimiento y juicio. La película permite al espectador distinguir
+el carácter de los personajes, sus acciones y sus consecuencias.</p>
+          <p>Puede contener un mínimo de horror y secuencias de violencia por un motivo
+específico, pero no es extrema ni detallada y no se encuentra vinculada con
+conductas sexuales, señalando las consecuencias negativas de la violencia. Las
+escenas sexuales que se presentan son sugeridas y en un contexto no degradante.
+En el caso de desnudez, no es en un contexto erótico ni humillante, no es
+frecuente, es breve, sin detalle ni acercamiento de genitales de los actores.
+Los temas relacionados con estupefacientes o sustancias psicotrópicas se tratan sin
+exhibir su consumo. Cuando se abarca el tema de las adicciones se señalan sus
+consecuencias negativas. El lenguaje puede incluir palabras y expresiones procaces,
+sin llegar a constituir violencia verbal extrema.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">B15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/0/B15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/B15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -71,20 +165,35 @@ Teléfono: 51-40-80-00</mdcr:ContactString>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>B15</mdcr:Label>
       <mdcr:Definition>No recomendada para menores de 15 años.</mdcr:Definition>
-      <mdcr:Explanation>Informativa. La narrativa puede ser muy compleja y el contenido, al ser más explícito que el de la clasificación B, requiere cierto nivel de discernimiento y juicio. Puede contener mayor grado de horror y la violencia se puede vincular con conductas sexuales siempre que no se lleve al extremo. El erotismo y las escenas sexuales son implícitas y en un contexto no degradante o humillante. El consumo de drogas es mínimo y no se alienta. Puede contener expresiones y palabras procaces.</mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="90">D</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/D</mdcr:URI>
-    <mdcr:MinRecAge>19</mdcr:MinRecAge>
-    <mdcr:MinAge>19</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>19</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>D</mdcr:Label>
-      <mdcr:Definition>Películas para adultos.</mdcr:Definition>
-      <mdcr:Explanation>Restrictiva. Tiene como contenido dominante o único, sexo explícito, lenguaje procaz o alto grado de violencia.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Es una modalidad de la clasificación “B”, de carácter informativo.
+          <p>Tiene fundamento en el tercer párrafo del artículo 22 del Reglamento de la Ley
+Federal de Cinematografía.
+Invita a que los padres acompañen a sus hijos, ya que es una película no
+recomendable para menores de 15 años de edad.</p>
+          Consideraciones:
+          <p>Los mayores de 15 años de edad, menores de 18, viven el periodo de transición a la
+vida adulta y usualmente son más independientes. Tienen un mayor nivel de
+discernimiento y conciencia de las consecuencias de sus acciones.</p>
+          Criterios:
+          <p>Es probable que el contenido confunda, influya o afecte el desarrollo integral de los
+menores de 15 años. La narrativa puede ser muy compleja o tener escenas que
+requieren de discernimiento y un cierto nivel de juicio. Se desarrolla cualquier tema o
+conducta problemática, con escenas más evidentes que la clasificación anterior. La
+película permite al espectador distinguir el carácter de los personajes, sus acciones y
+sus consecuencias.</p>
+          <p>Puede contener un mayor grado de horror, sin llegar a ser extremo. En el caso de
+violencia, ésta no es extrema y puede estar vinculada con conductas sexuales
+sugeridas, señalando las consecuencias negativas de su vinculación. Puede haber
+erotismo y escenas sexuales implícitas, ambos en un contexto no degradante. Las
+escenas sexuales no son frecuentes ni de larga duración. Cuando se presenta
+desnudez, es esporádica, sin acercamiento a los genitales de los actores y en un
+contexto no humillante. Puede haber adicciones y consumo de drogas, pero el
+consumo ilícito de estupefacientes o sustancias psicotrópicas es mínimo, sin
+alentarlo, o se desalienta. El lenguaje puede incluir palabras y expresiones procaces.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -97,7 +206,46 @@ Teléfono: 51-40-80-00</mdcr:ContactString>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>C</mdcr:Label>
       <mdcr:Definition>Para adultos de 18 años en adelante.</mdcr:Definition>
-      <mdcr:Explanation>Restrictiva. La narración de los hechos o situaciones es detallada. Puede contener horror detallado, alto grado de violencia, escenas sexuales explícitas, adicciones y consumo de drogas así como violencia verbal extrema.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Esta clasificación es de carácter restrictivo.
+          <p>Indica que prohíbe la entrada a menores de 18 años.</p>
+          Consideraciones:
+          <p>Una persona de 18 años de edad o más tiene plena capacidad de discernimiento y
+es consciente de sus acciones y consecuencias.</p>
+          Criterios:
+          <p>La narración de los hechos o situaciones es detallada. El tratamiento del tema o
+contenido requiere de un nivel de juicio y discernimiento que por lo general no tienen
+los menores de edad.</p>
+          <p>Puede contener horror detallado, alto grado de violencia o violencia cruel, conductas
+sexuales explícitas, adicciones y consumo de drogas. El lenguaje es el necesario
+para cumplir los propósitos narrativos.</p>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">D</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MX/RTC/1/D</mdcr:URI>
+    <mdcr:MinRecAge>19</mdcr:MinRecAge>
+    <mdcr:MinAge>19</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>19</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>D</mdcr:Label>
+      <mdcr:Definition>Películas para adultos.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Esta clasificación es de carácter restrictivo.
+          <p>Indica que es una película exclusivamente para adultos.</p>
+          Considerando:
+          <p>Una persona de 18 años de edad o más tiene plena capacidad de discernimiento y
+es consciente de sus acciones y consecuencias.</p>
+          Criterio:
+          <p>Tiene como contenido dominante o único, sexo explícito, lenguaje procaz o alto
+grado de violencia.</p>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

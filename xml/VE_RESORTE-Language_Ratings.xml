@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T09:31:02" lastSave="2013-12-30T14:52:59">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T13:31:02" lastSave="2019-06-11T12:50:21">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>VE</md:country>
@@ -18,12 +19,15 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2019-06-11</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/VE/RESORTE-Language/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Rating system defined by "Ley de Responsabilidad Social en Radio Television y Medios Electronicos"</div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="SiBCI">
     <md:DisplayName>SiBCI</md:DisplayName>
-    <mdcr:URL>http://www.leyresorte.gob.ve/ley-resorte/</mdcr:URL>
-    <mdcr:OrgType>not_specified</mdcr:OrgType>
+    <mdcr:URL>http://www.leyresorte.gob.ve/?page_id=503</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>

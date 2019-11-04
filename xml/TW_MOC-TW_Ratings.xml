@@ -1,5 +1,6 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T09:49:04" lastSave="2013-12-03T17:01:13">
-  <mdcr:RatingSystemID version="1">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T05:49:04" lastSave="2019-06-19T16:09:14">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>TW</md:country>
       <mdcr:RegionName>TAIWAN</mdcr:RegionName>
@@ -12,19 +13,36 @@
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>
       <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1</mdcr:URI>
+  <mdcr:LastChecked>2019-06-19</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/2</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      <p>Ratings regulations last revised 2015-OCT-16.</p>
+      Refererences:
+      <ul>
+        <li>
+          <a href="https://law.moj.gov.tw/eng/LawClass/LawHistory.aspx?pcode=P0040007">Regulations Governing the Classification of Motion Pictures and Trailers and the Use of advertisements and promotional materials for a motion picture</a>
+        </li>
+      </ul>
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="Ministry of Culture - Tawan">
     <md:DisplayName>Ministry of Culture - Tawan</md:DisplayName>
-    <mdcr:URL>http://law.moj.gov.tw/eng/LawClass/LawAll.aspx?PCode=P0040007</mdcr:URL>
+    <mdcr:ContactString>Ministry of Culture
+No. 439 Zhongping Road 13 Floor (South Building
+Xinzhuang District, New Taipei City, Taiwan (R.O.C.)
+Postal Code：24219
+Tel：+886-2-8512-6000</mdcr:ContactString>
+    <mdcr:URL>https://english.moc.gov.tw</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/2/G</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -33,10 +51,14 @@
       <mdcr:Label>General audiences</mdcr:Label>
       <mdcr:Definition>Viewing is permitted for audiences of all ages.</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>普遍級</mdcr:Label>
+      <mdcr:Definition>一般觀眾皆可觀賞</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">P</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/P</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/2/P</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>11</mdcr:MinAge>
     <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
@@ -44,23 +66,135 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Protected</mdcr:Label>
       <mdcr:Definition>Viewing is not permitted for children under six; children between six and 11 must be accompanied and given guidance by parents, teachers, seniors, or adult relatives or friends.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Motion pictures and motion picture advertisements shall be given the “Parental
+guidance” rating where any of the following applies:
+          <ul>
+            <li>Where fighting,burglary,thrills,occult or bizarre phenomena,or twisted interpretations of
+society are depicted that could be detrimental to the behavior or psychology of children.</li>
+            <li>Where there is concern over how sex, corrupt morals, or values are being depicted.</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>保護級</mdcr:Label>
+      <mdcr:Definition>未滿六歲之兒童不得觀賞，六歲以上未滿  十二歲之兒童須父母、師長或成年親友陪伴輔導觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電影片、電影片之廣告片內容有下列情形之一，且無前三條情形，列為「
+護」級
+          <ul>
+            <li>一、涉及打鬥、竊盜、驚悚、玄奇怪異或社會畸型現象，對兒童行為或心
+ 理有不良影響之虞者</li>
+            <li>二、涉及性或有混淆道德、價值觀之虞者</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/2/PG</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Parental guidance</mdcr:Label>
       <mdcr:Definition>Viewing is not permitted for children under 12.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">DEPRECATED as of 2015-Oct-16 revision to regulations</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">R-12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/2/R-12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Restricted-12</mdcr:Label>
+      <mdcr:Definition>Viewing not permitted for children under age 12</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Motion pictures and motion picture advertisements shall be given the “Restricted-12”
+rating where any of the following applies:
+          <ul>
+            <li>The plot or dialogue depicts crime; violence; terrorism; bloody events; perversion; dark,
+strange material; twisted depictions of society; or other content that would be
+detrimental to the behavior or psychology of children under age 12.</li>
+            <li>Where sexual imagery or innuendo is portrayed vividly in animation, images, language,
+text, dialogue, or sound that would be detrimental to the behavior or psychology of
+children under age 12.</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>輔導十二歲級</mdcr:Label>
+      <mdcr:Definition>未滿十二歲之兒童不得觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電影片、電影片之廣告片有下列情形之一，列為「輔十二」級
+          <ul>
+            <li>一、情節或對白涉及犯罪、暴力、恐怖、血腥、變態、玄奇怪異、社會畸
+ 型現象或其他對兒童行為或心理有不良影響者</li>
+            <li>二、以動作、影像、語言、文字、對白、聲音呈現性表現或性暗示，對未
+ 滿十二歲兒童之行為或心理有不良影響之虞者</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">R-15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/2/R-15</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Restricted-15</mdcr:Label>
+      <mdcr:Definition>Viewing not permitted for those under age 15</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Motion pictures and motion picture advertisements shall be given the “Restricted-15”
+rating where any of the following applies:
+          <ul>
+            <li>The plot or dialogue depicts crime; terrorism; bloody events; violence; perversion;
+occult or bizarre phenomena; twisted depictions of society; or other content that would
+be detrimental to the behavior or psychology of those under age 15.</li>
+            <li>Where sexual imagery or innuendo is portrayed vividly in animation, images, language,
+text, dialogue, or sound that would be detrimental to the behavior or psychology of those
+under age 15.</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>輔導十五歲級</mdcr:Label>
+      <mdcr:Definition>未滿十五歲之人不得觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電影片、電影片之廣告片有下列情形之一，列為「輔十五」級
+          <ul>
+            <li>一、情節或對白涉及犯罪、恐怖、血腥、暴力、變態、玄奇怪異、社會畸
+ 型現象或其他對未滿十五歲之人之行為或心理有不良影響者</li>
+            <li>二、以動作、影像、語言、文字、對白、聲音呈現性表現或性暗示，對未
+ 滿十五歲之人之行為或心理有不良影響之虞者</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/1/R</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW/2/R</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -68,6 +202,39 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Restricted</mdcr:Label>
       <mdcr:Definition>Viewing is not permitted for those under 18.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Motion pictures and motion picture advertisements shall be given the “Restricted” rating
+where any of the following applies:
+          <ul>
+            <li>Where the sale or use of illegal drugs, robbery, kidnapping, killing, or other illegal
+activities are detailed in the plot, where there is concern that such activity could be
+mimicked.</li>
+            <li>Where terrorism, bloody events, violence, or perversion are particularly vivid and could
+still be acceptable to persons over age 18.</li>
+            <li>Where sexual imagery or innuendo is portrayed vividly in animation, images, language,
+text, dialogue, or sound, but does not elicit feelings of shame or disgust in persons over
+the age of 18.</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>限制級</mdcr:Label>
+      <mdcr:Definition>未滿十八歲之人不得觀賞。</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電影片、電影片之廣告片有下列情形之一，列為「限」級
+          <ul>
+            <li>描述吸毒、販毒、搶劫、綁架、殺人或其他犯罪行為情節細密，有誘
+ 發模仿之虞者</li>
+            <li>有恐怖、血腥、暴力、變態等情節且表現方式強烈，十八歲以上之人
+ 尚可接受者</li>
+            <li>以動作、影像、語言、文字、對白、聲音表現出強烈之性表現或性暗
+ 示，且不致引起十八歲以上之人羞恥或厭惡者</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-07T16:28:46" lastSave="2018-02-05T21:48:56">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-08T04:28:46" lastSave="2019-06-10T20:35:22">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>BG</md:country>
@@ -13,49 +13,68 @@
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>
       <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Media>Ad</mdcr:Media>
       <mdcr:Environment>Home</mdcr:Environment>
       <mdcr:Environment>Theater</mdcr:Environment>
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2019-06-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Rating system defined by the FIlm Industry Act as ammeded 2008</div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="NFRC">
     <md:DisplayName>National Film Centre</md:DisplayName>
+    <mdcr:ContactString>2 A, Dondukov Blvd., 7th floor, 1000 Sofia, Bulgaria
+phone: (02) 9150 811
+fax: (02) 9150 827
+email: nfc@nfc.bg</mdcr:ContactString>
+    <mdcr:URL>https://www.nfc.bg/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/A</mdcr:URI>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Recommended to children</mdcr:Label>
-      <mdcr:Definition>the film confirms the ideals of humanism or popularizes the national and world cultures or contributes to upbringing children;</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">B</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/B</mdcr:URI>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>No age restrictions</mdcr:Label>
-      <mdcr:Definition>the film confirms the ideals of humanism, promotes national and world culture or by no means contradicts to the universally accepted moral norms in the country and there are no restrictive recommendations by the Committee.</mdcr:Definition>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>B</mdcr:Label>
+      <mdcr:Definition>Без възрастови ограничения</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">когато филмът утвърждава идеалите на хуманизма, популяризира националната и световната култура или по никакъв начин не противоречи на общоприетите морални норми в страната и няма ограничителни препоръки от комисията</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/A</mdcr:URI>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Definition>Препоръчва се за деца</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">когато филмът е за деца и има възпитателен характер</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">C</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/1/C</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Not recommended to children under the age of 12</mdcr:Label>
-      <mdcr:Definition>the film contains certain erotic scenes or scenes with drinking, taking drugs or stimulants or a few scenes of violence</mdcr:Definition>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>C</mdcr:Label>
+      <mdcr:Definition>Не се препоръчва за деца под 12-годишна възраст</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">когато филмът съдържа отделни кадри с еротично съдържание или с употреба на алкохол, стимуланти, наркотици или отделни кадри с насилие в тях</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -65,9 +84,12 @@
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>No persons under the age of 16 are admitted.</mdcr:Label>
-      <mdcr:Definition>the film contains quite a number of erotic scenes or scenes with drinking, taking drugs or stimulants or a considerable number of scenes showing violence;</mdcr:Definition>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>D</mdcr:Label>
+      <mdcr:Definition>Забранен за лица под 16-годишна възраст</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">когато филмът съдържа значителен брой кадри с еротично съдържание или с употреба на алкохол, стимуланти, наркотици или значителен брой кадри с насилие в тях</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -77,9 +99,12 @@
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>No persons under the age of 18 are admitted</mdcr:Label>
-      <mdcr:Definition>the film is naturalistically erotic or shows violence in an ostentatious manner.</mdcr:Definition>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>X</mdcr:Label>
+      <mdcr:Definition>Забранен за лица под 18-годишна възраст</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">когато филмът е натуралистично-еротичен.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T06:42:40" lastSave="2018-02-05T21:56:15">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T10:42:40" lastSave="2019-06-18T17:50:27">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>SG</md:country>
       <mdcr:RegionName>SINGAPORE</mdcr:RegionName>
@@ -14,13 +14,33 @@
       <mdcr:Media>Film</mdcr:Media>
       <mdcr:Media>Trailer</mdcr:Media>
       <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Media>Music</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
       <mdcr:Media>Ad</mdcr:Media>
+      <mdcr:Media>other</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
       <mdcr:Environment>Theater</mdcr:Environment>
       <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1</mdcr:URI>
+  <mdcr:LastChecked>2019-06-18</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/2</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      Applies to a film, music compilation, karaoke or serial.
+      <p>VOD and OTT services offering content rated NC16 and above are required to offer a parental lock feature that allows subscribers to limit the access of such content to their children. To further ensure children are not accidentally exposed to Restricted 21 (R21) content on VOD and OTT, such programmes must be locked by default and can only be accessed by entering an R21 PIN.</p>
+      References:
+      <ul>
+        <li>
+          <a href="https://www2.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Codes-of-Practice-and-Guidelines/Acts-Codes/Managed-Linear-TV-Services-Content-Code-updated-29-April-2019.pdf">Content Code for Nationwide Managed Transmission Linear TV Services: Annex A</a>
+        </li>
+        <li>
+          <a href="https://www2.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/television-and-radio">Classification Overview: TV and Radio</a>
+        </li>
+      </ul>
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="Infocomm Media Development Authority">
     <md:DisplayName>Infocomm Media Development Authority</md:DisplayName>
     <mdcr:ContactString>Infocomm Media Development Authority
@@ -34,7 +54,7 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/2/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA_G.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -47,7 +67,7 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/2/PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA_PG.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -60,7 +80,7 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">PG13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/PG13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/2/PG13</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA_PG13.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -76,11 +96,11 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">NC16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/NC16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/2/NC16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA_NC16.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>No Children Under 16</mdcr:Label>
@@ -89,11 +109,11 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">M18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/M18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/2/M18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA_M18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Mature 18</mdcr:Label>
@@ -102,7 +122,7 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R21</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/1/R21</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA/2/R21</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA_R21.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>21</mdcr:MinRecAge>
     <mdcr:MinAge>21</mdcr:MinAge>
@@ -113,4 +133,110 @@ Fax: 6577 3888</mdcr:ContactString>
       <mdcr:Definition>Suitable for adults aged 21 and above.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="T">
+    <mdcr:Label />
+    <mdcr:Definition>Theme and Message</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Classification must take into account the treatment of theme(s) and message(s)
+in a film. For the advisory ratings, theme(s) and message(s) should be
+presented and treated sensitively due to the potential impact on the young.
+Films that center on mature theme(s) or content would generally be classified
+NC16, M18 or R21. Films that contain distorted or misrepresented discussions
+or depictions of a subject matter (including historical events), may be classified
+at a higher rating or refused classification.</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+    <mdcr:Definition>Violence</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">The degree and nature of violence in a film will impact the classification rating.
+Depictions of violence may frighten, unsettle or invite imitation, especially from
+children. Therefore, only mild depictions of violence may be allowed in films
+meant for children. For the higher ratings, stronger depictions of violence are
+permitted. However, films that contain detailed or gratuitous depictions of
+extreme violence or cruelty; detailed instructions on methods of crime or killings;
+or excessive or exploitative depictions of sexual violence will be refused
+classification.</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="N">
+    <mdcr:Label />
+    <mdcr:Definition>NUdity</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">The extent and context of depictions of nudity are classification considerations.
+There should be no nudity at a G rating. At a PG or PG13 rating, depictions of
+rear or side profile nudity in a non-sexual context may be presented. There can
+be exceptions for films which feature infrequent and non-sexual depictions of
+female upper body nudity at a PG13 rating, e.g. films containing footage of
+historical events, tribal ways of life, or medical/health programmes. Upper body
+frontal nudity in a non-sexual context is allowed under NC16. Depictions of full
+frontal nudity may be featured at M18 or R21. Exploitative depictions of nudity
+will be refused classification.</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="S">
+    <mdcr:Label />
+    <mdcr:Definition>Sex</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">
+        <p>Classification of depictions of sexual activity in films depends on its explicitness,
+frequency, and relevance to the storyline. Generally, there should be no
+depictions of sexual activity at the G and PG ratings.</p>
+        <p>Films that depict alternative sexualities, e.g. homosexuality, should be sensitive
+to community values. Films that centre on alternative sexualities may be
+classified at highest rating of R21. Non-explicit depictions of sexual activity
+between persons of the same gender may be featured at R21 rating.</p>
+        <p>Films containing depictions of sexual activities such as sadomasochism,
+bondage, orgies or sexual violence will be subject to strict review and may only
+be allowed at the higher ratings, depending on the treatment and context.</p>
+        <p>Films containing explicit depictions of deviant sexual activities (e.g. paedophilia,
+bestiality and necrophilia) or exploitative depictions of sexual activities will be
+refused classification.</p>
+      </div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="L">
+    <mdcr:Label />
+    <mdcr:Definition>Language</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">
+        <p>The classification of coarse language depends on the strength of the language,
+the context in which it is used, as well as community and cultural sensitivities
+associated with its usage.</p>
+        <p>Coarse language, rude gestures, and gestures with sexual connotations must
+not be featured in G films as they are easily imitated by young children. In PG13
+films, there may be infrequent use of expletives such as ‘f**k’.</p>
+        <p>Stronger language is acceptable at higher ratings, with due consideration given
+to the degree of offensiveness and frequency of usage. This includes coarse
+language that offends community and cultural sensitivities.</p>
+        <p>Chinese films meant for theatrical release should generally be in Mandarin, in
+line with the Speak Mandarin Campaign. Films with dialect content are allowed
+on a case-by-case basis.</p>
+      </div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+    <mdcr:Definition>Drug and Substance Abuse</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Films rated G should have no references to or depictions of drug and substance
+abuse. Films rated PG and PG13 may only feature infrequent or discreet
+references or depictions of drug and substance abuse, as these may have a
+negative influence on the young. Depictions of drug and substance abuse may
+be featured at NC16, M18 or R21, depending on the frequency and level of
+details. Films with content that promote drug or psychoactive substance abuse,
+or includes detailed and instructive depictions of drug or psychoactive
+substance abuse will be refused classification.</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="H">
+    <mdcr:Label />
+    <mdcr:Definition>Horror</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">In classifying films containing horrific or disturbing content, the IMDA will take
+into consideration the impact of such depictions to ensure that young audiences
+are protected.</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
 </mdcr:RatingSystem>

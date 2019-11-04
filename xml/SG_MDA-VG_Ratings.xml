@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-06-18T18:34:41">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>SG</md:country>
+      <mdcr:RegionName>SINGAPORE</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MDA-VG</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>SG</md:country>
+    <mdcr:RegionName>SINGAPORE</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Game</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      See Annex B of IMDA Video Game Classification Guidlines for exemption criteria
+      References:
+      <ul>
+        <li>
+          <a href="https://www2.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/video-games">Classification Overview: Video Games</a>
+        </li>
+        <li>
+          <a href="https://www2.imda.gov.sg/-/media/Imda/Files/Regulations-and-Licensing/Regulations/Frameworks-and-Policies/Content-Standards-and-Classification/Standards-and-Classification/Video-Games/Video-Game-Classification-Guidelines-29_Apr_2019.pdf">IMDA Video Game Classification Guidlines</a>
+        </li>
+      </ul>
+    </div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="MDA">
+    <md:DisplayName>Infocomm Media Development Authority</md:DisplayName>
+    <mdcr:ContactString>Infocomm Media Development Authority 
+3 Fusionopolis Way #16-22 Symbiosis Singapore 138633 
+Tel: 6377 3800 
+Fax: 6577 3888</mdcr:ContactString>
+    <mdcr:URL>https://www.imda.gov.sg/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">Adv16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/0/Adv16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA-VG_ADV16.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Advisory 16</mdcr:Label>
+      <mdcr:Definition>Suitable for individuals who are at least 16 years old</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="L" />
+    <mdcr:ApplicableReason id="N" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">M18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/0/M18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SG_IMDA_M18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Mature 18</mdcr:Label>
+      <mdcr:Definition>Restricted to individuals who are at least 18 years old</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="T">
+    <mdcr:Label />
+    <mdcr:Explanation>
+      <div class="userHtml">Classification must take into account the treatment of theme(s) and message(s) in a film. For the advisory ratings, theme(s) and message(s) should be presented and treated sensitively due to the potential impact on the young. Films that center on mature theme(s) or content would generally be classified NC16, M18 or R21. Films that contain distorted or misrepresented discussions or depictions of a subject matter (including historical events), may be classified at a higher rating or refused classification.</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="Adv16">
+      <mdcr:Explanation>
+        <div class="userHtml">Moderate level of violence. This refers to realistic but not excessively
+graphic violence with depiction of blood</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="N">
+    <mdcr:Label />
+    <mdcr:Definition>NUdity</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">The extent and context of depictions of nudity are classification considerations.
+There should be no nudity at a G rating. At a PG or PG13 rating, depictions of
+rear or side profile nudity in a non-sexual context may be presented. There can
+be exceptions for films which feature infrequent and non-sexual depictions of
+female upper body nudity at a PG13 rating, e.g. films containing footage of
+historical events, tribal ways of life, or medical/health programmes. Upper body
+frontal nudity in a non-sexual context is allowed under NC16. Depictions of full
+frontal nudity may be featured at M18 or R21. Exploitative depictions of nudity
+will be refused classification.</div>
+    </mdcr:Explanation>
+    <mdcr:Criteria ratingID="Adv16">
+      <mdcr:Explanation>
+        <div class="userHtml">
+          <ul>
+            <li>Nudity without details, e.g. no nipples, genitalia or pubic region (includes
+hair).</li>
+            <li>Still or moving images which may be mildly suggestive e.g. scantily-clad
+women in bikinis or lingerie.</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="S">
+    <mdcr:Label />
+    <mdcr:Definition>Sex</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">
+        <p>Classification of depictions of sexual activity in films depends on its explicitness,
+frequency, and relevance to the storyline. Generally, there should be no
+depictions of sexual activity at the G and PG ratings.</p>
+        <p>Films that depict alternative sexualities, e.g. homosexuality, should be sensitive
+to community values. Films that centre on alternative sexualities may be
+classified at highest rating of R21. Non-explicit depictions of sexual activity
+between persons of the same gender may be featured at R21 rating.</p>
+        <p>Films containing depictions of sexual activities such as sadomasochism,
+bondage, orgies or sexual violence will be subject to strict review and may only
+be allowed at the higher ratings, depending on the treatment and context.</p>
+        <p>Films containing explicit depictions of deviant sexual activities (e.g. paedophilia,
+bestiality and necrophilia) or exploitative depictions of sexual activities will be
+refused classification.</p>
+      </div>
+    </mdcr:Explanation>
+    <mdcr:Criteria ratingID="Adv16">
+      <mdcr:Explanation>
+        <div class="userHtml">Portrayal of implied sexual activity.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="L">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="Adv16">
+      <mdcr:Explanation>
+        <div class="userHtml">Coarse language such as the use of the expletive “fuck”.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+    <mdcr:Definition>Drug and Substance Abuse</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Films rated G should have no references to or depictions of drug and substance
+abuse. Films rated PG and PG13 may only feature infrequent or discreet
+references or depictions of drug and substance abuse, as these may have a
+negative influence on the young. Depictions of drug and substance abuse may
+be featured at NC16, M18 or R21, depending on the frequency and level of
+details. Films with content that promote drug or psychoactive substance abuse,
+or includes detailed and instructive depictions of drug or psychoactive
+substance abuse will be refused classification.</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="H">
+    <mdcr:Label />
+  </mdcr:Reason>
+</mdcr:RatingSystem>

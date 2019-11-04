@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-06-19T16:08:43">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>TW</md:country>
+      <mdcr:RegionName>TAIWAN</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MOC-TW-TV</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>TW</md:country>
+    <mdcr:RegionName>TAIWAN</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2019-06-19</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW-TV/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      <p>Ratings regulations last revised 2019-Mar-05</p>
+      Refererences:
+      <ul>
+        <li>
+          <a href="https://law.moj.gov.tw/eng/LawClass/LawAll.aspx?pcode=P0050016">Television Programs Classification Handling Regulations</a>
+        </li>
+      </ul>
+    </div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="Ministry of Culture - Tawan">
+    <md:DisplayName>Ministry of Culture - Tawan</md:DisplayName>
+    <mdcr:ContactString>Ministry of Culture
+No. 439 Zhongping Road 13 Floor (South Building
+Xinzhuang District, New Taipei City, Taiwan (R.O.C.)
+Postal Code：24219
+Tel：+886-2-8512-6000</mdcr:ContactString>
+    <mdcr:URL>https://english.moc.gov.tw</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW-TV/0/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/TW_TV-0.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>suitable for watching by general audiences</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Television programs free of circumstances listed in a higher classification and suitable for watching by general audiences may be listed as G .</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>普</mdcr:Label>
+      <mdcr:Definition>一般觀眾皆可觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">電視節目無前四條所列情形，適合一般觀眾觀賞者，得列為「普」級。</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">P</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW-TV/0/P</mdcr:URI>
+    <mdcr:LinkToLogo>imageCache/TW_TV-6.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>P</mdcr:Label>
+      <mdcr:Definition>not suitable for viewing by children under the age of six; children over six and under the age of twelve can view if accompanied by parents, teacher or an adult relative</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Television programs free of circumstances listed in a higher classification but portraying any one of the following circumstances shall be listed as P:
+          <ol>
+            <li>The portrayal of fighting, larceny, terror, abnormal social phenomenon.</li>
+            <li>The portrayal of sexual encounters or confused ethics and values.</li>
+            <li>Other content that has a detrimental influence on the behavior or psychology wellbeing of children under the age of six.</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>護</mdcr:Label>
+      <mdcr:Definition>未滿六歲之兒童不宜觀賞，六歲以上未滿     十二歲之兒童需父母、師長或成年親友陪伴輔導觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電視節目無前三條所列情形，但涉及下列情形之一，列為「護」級。
+          <ol>
+            <li>涉及打鬥、竊盜、驚悚、玄奇怪異或社會畸型現象</li>
+            <li>涉及性或有混淆道德、價值觀者</li>
+            <li>其他對未滿六歲兒童之行為或心理有不良影響者。</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">PG-12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW-TV/0/PG-12</mdcr:URI>
+    <mdcr:LinkToLogo>imageCache/TW_TV-12.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG-12</mdcr:Label>
+      <mdcr:Definition>not suitable for viewing by children under the age of twelve.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Television programs free of circumstances listed in a higher classification but portraying any one of the following circumstances shall be listed as PG-12.
+          <ol>
+            <li>Plots or dialogues that portray crime, violence, terror, blood, abnormality, strangeness or social deformity or other phenomenon, the portrayal of which is slight.</li>
+            <li>Content that uses action, images, language, words, dialogue or audio to portray slight sexual expression or sexual implication.</li>
+            <li>Other circumstances having detrimental influence on the behavior or psychology wellbeing children under the age of twelve.</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>輔十二</mdcr:Label>
+      <mdcr:Definition>未滿十二歲之兒童不宜觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電視節目無前二條所列情形，但涉及下列情形之一，列為「輔十二」級
+          <ol>
+            <li>情節或對白涉及犯罪、暴力、恐怖、血腥、變態、玄奇怪異或社會畸  型現象且表現方式輕微</li>
+            <li>以動作、影像、語言、文字、對白、聲音呈現輕微性表現或性暗示</li>
+            <li>其他對未滿十二歲兒童之行為或心理有不良影響者。</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">PG-15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW-TV/0/PG-15</mdcr:URI>
+    <mdcr:LinkToLogo>imageCache/TW_TV-15.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG-15</mdcr:Label>
+      <mdcr:Definition>not suitable for viewing by children under the age of fifteen.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Television programs free of circumstances resulting in an R classification but portraying any one of the following circumstances shall be listed as PG-15.
+          <ol>
+            <li>Plots or dialogues that portray crime, terror, blood, violence, abnormality, strangeness or social deformity or other phenomenon, the portrayal of which is not slight but do not cause a sadistic impression or excessive panic.</li>
+            <li>Content that uses action, images, language, words, dialogue or audio to represent sexual expression or sexual implication.</li>
+            <li>Other content that has a detrimental influence on the behavior or psychology wellbeing of people under the age of fifteen.</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>輔十五</mdcr:Label>
+      <mdcr:Definition>未滿十五歲之人不宜觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電視節目無第四條所列情形，但涉及下列情形之一，列為「輔十五」級
+          <ol>
+            <li>情節或對白涉及犯罪、恐怖、血腥、暴力、變態、玄奇怪異或社會畸 型現象且表現方式非屬輕微但未令人產生殘虐印象或過度驚恐</li>
+            <li>以動作、影像、語言、文字、對白、聲音呈現性表現或性暗示</li>
+            <li>其他對未滿十五歲之人之行為或心理有不良影響者。</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TW/MOC-TW-TV/0/R</mdcr:URI>
+    <mdcr:LinkToLogo>imageCache/TW_TV-18.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>R</mdcr:Label>
+      <mdcr:Definition>not suitable for viewing by people under the age of eighteen.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Television programs portraying any one of the following circumstances shall be listed as R and be broadcasted by encryption.
+          <ol>
+            <li>Detailed portrayal of gambling, use or trafficking of drugs, robbery, kidnap, murder or other criminal behaviors, and detailed portrayal of the process of suicide.</li>
+            <li>Content that portrays terror, blood, atrocity, abnormality, etc, the portrayal of which is strong, but acceptable to people over the age of eighteen.</li>
+            <li>Content that uses action, images, language, words, dialogue or audio to portray obscenity or strong sexual implication, but is acceptable to people over the age of eighteen.</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>限</mdcr:Label>
+      <mdcr:Definition>未滿十八歲之人不宜觀賞</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          電視節目有下列情形之一，列為「限」級，並應鎖碼播送
+          <ol>
+            <li>描述賭博、吸毒、販毒、搶劫、綁架、殺人或其他犯罪行為細節、自 殺過程細節</li>
+            <li>有恐怖、血腥、殘暴、變態等情節且表現方式強烈，十八歲以上之人
+    尚可接受者</li>
+            <li>以動作、影像、語言、文字、對白、聲音表現淫穢情態或強烈性暗示 ，十八歲以上之人尚可接受者</li>
+          </ol>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

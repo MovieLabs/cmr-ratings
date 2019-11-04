@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-06-11T16:16:49">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>DE</md:country>
+      <mdcr:RegionName>GERMANY</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>FSF</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>DE</md:country>
+    <mdcr:RegionName>GERMANY</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2019-06-11</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      FSF age classifications are based on the
+      <a href="https://www.kjm-online.de/fileadmin/user_upload/Rechtsgrundlagen/Gesetze_Staatsvertraege/Interstate_Treaty_on_the_Protection_of_Minors_in_the_Media__JMStV_in_English___19th_Interstate_Broadcasting_Treaty.pdf">Interstate Treaty on the Protection of Minors in the Media (Jugendmedienschutz-Staatsvertrag: JMStV)</a>
+      .
+    </div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="FSF">
+    <md:DisplayName>Freiwillige Selbstkontrolle Fernsehen</md:DisplayName>
+    <mdcr:ContactString>Freiwillige Selbstkontrolle Fernsehen e.V.
+Am Karlsbad 11
+10785 Berlin
++49 30 23 08 36 10
+info@fsf.de</mdcr:ContactString>
+    <mdcr:URL>https://en.fsf.de/</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">0</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/0</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_0.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label />
+      <mdcr:Definition>For viewers of all ages and for transmission at all times</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">For content to be approved for viewers of all ages, it must be clear that it 
+will not impair the development or upbringing of children under six, who are 
+almost entirely incapable of distancing themselves from the action on screen. 
+This age group tends to experience individual scenes in isolation from their 
+overall context.
+
+Emotionally stressful moments such as threat situations, acts of violence, 
+heated arguments or the humiliation or intimidation of on-screen characters may 
+disturb and frighten small children, who cannot as a rule integrate them into 
+the wider context of a storyline in a film. Alongside moments featuring 
+disturbing content, consideration should also be given when evaluating material 
+– especially when dealing with this youngest age bracket – to formal 
+presentation methods designed to agitate the senses.
+
+Aggressive background music, excessive visual stimulation during action 
+sequences or sinister visual design can all be too much for children under six 
+to take on board and process properly.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label />
+      <mdcr:Definition>Frei ab 0 Jahren und Ausstrahlung zu allen Sendezeiten</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Die Freigabe ab 0 Jahren gilt für Angebote, die offensichtlich auch für Kinder 
+unter 6 Jahren nicht entwicklungs- oder erziehungsbeeinträchtigend sind. Kinder 
+unter 6 Jahren können sich noch nahezu überhaupt nicht vom Filmgeschehen 
+distanzieren. Einzelszenen werden von dieser Altersgruppe zumeist noch isoliert 
+vom Gesamtzusammenhang wahrgenommen. Emotional belastende Momente wie 
+Bedrohungssituationen, Gewalthandlungen, heftiger Streit, Demütigung oder 
+Verängstigung von Filmfiguren können auf Kleinkinder verstörend und ängstigend 
+wirken und werden von ihnen in der Regel noch nicht in den größeren 
+Sinnzusammenhang der Filmhandlung eingeordnet. Insbesondere bei dieser jüngsten 
+Altersgruppe sind neben inhaltlich verstörenden Momenten auch die formalen 
+Gestaltungsmittel, die auf eine sensorische Erregung zielen, bei der Bewertung 
+zu berücksichtigen. Aggressive Musikuntermalung, visuell überreizende 
+Actionpassagen oder eine düstere Bildgestaltung können unter 6-Jährige bei der 
+Wahrnehmung und Verarbeitung überfordern.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/6</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_6.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>6</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label />
+      <mdcr:Definition>For viewers aged 6 and over and for transmission at all times</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Children between the ages of 6 and 12 need stories that challenge them and 
+provide guidance, thereby helping them deal with negative feelings and fears. 
+They look for and find such stories on television, and not just in children’s 
+programmes. Thanks to their experience of television, primary-school children 
+are already in a position to process excitement and handle moments of tension, 
+provided these are not too intense and are resolved quickly. When watching 
+suspenseful films, children in this age group need dramatic structures with 
+built-in periods for catching their breath and episodic solutions to reassure 
+them that much-loved characters, or those with whom they identify, will survive 
+the danger unharmed.
+
+Because of this, content without any such opportunities for relief cannot be 
+approved for age brackets under 12. The same applies to content depicting war or 
+other forms of violent action in their respective historical, political or 
+social contexts, thereby setting them in a frame of reference that may be 
+impossible for younger children to understand. They cannot as a rule be expected 
+to contextualise the intensive effect of individual scenes in the light of the 
+overall context or to distance themselves by recognising the fictional nature of 
+a given representation.
+
+Since the primary-school age is when value orientations are developed and 
+progressively consolidated, it is important, when looking at potentially 
+disorienting content, to consider whether the behaviour depicted may be taken as 
+a model or seems to be treated as normal and whether children viewing it are 
+offered any guidance they can understand.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label />
+      <mdcr:Definition>Frei ab 0 Jahren und Ausstrahlung zu allen Sendezeiten</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Kinder zwischen 6 und 12 Jahren brauchen Geschichten, die sie herausfordern, 
+ihnen Orientierung bieten und dabei helfen, auch mit negativen Gefühlen und 
+Ängsten umzugehen. Solche Geschichten suchen und finden sie auch im Fernsehen 
+und nicht nur in Kinderprogrammen. Auf Grundlage ihrer Fernseherfahrung sind 
+Grundschulkinder bereits in der Lage, erregende Eindrücke zu verarbeiten und 
+Spannungsmomente auszuhalten, sofern diese nicht zu intensiv gestaltet und rasch 
+wieder aufgelöst werden. Kinder dieser Altersgruppe brauchen im Laufe eines 
+spannungsreichen Films dramaturgisch angelegte Erholungsphasen und episodische 
+Lösungen, die ihnen die Gewissheit geben, dass Sympathieträger oder 
+Identifikationsfiguren die Gefahr unbeschadet überstehen werden.
+
+Angebote, die diese Entlastungsmöglichkeiten nicht bieten, können daher für die 
+Altersstufen unter 12 Jahren nicht freigegeben werden. Dasselbe gilt für 
+Angebote, die Krieg oder andere Gewalthandlungen in den jeweiligen 
+geschichtlichen, politischen oder sozialen Zusammenhängen darstellen und damit 
+in einen Kontext einordnen, der jüngeren Kindern unverständlich sein kann. Ihnen 
+kann in der Regel noch nicht zugetraut werden, die intensive Wirkung einzelner 
+Szenen durch das Verständnis des Gesamtkontextes zu verarbeiten oder sich über 
+das Erkennen des fiktionalen Charakters von einer Darstellung zu distanzieren.
+Da sich Wertorientierungen im Grundschulalter entwickeln und erst zunehmend 
+festigen, ist bei potenziell desorientierenden Inhalten wesentlich, ob bei dem 
+gezeigten Verhalten eine Vorbildwirkung oder der Eindruck von Normalität 
+entstehen oder ob Kindern verständliche Orientierungshilfen geboten werden.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_12.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label />
+      <mdcr:Definition>For viewers aged 12 and over and for transmission at all times</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Programmes with an age rating of 12 and over may go out during the daytime, provided this is not inconsistent 
+with the welfare of younger children. In many cases, films that have received an FSK rating for viewers aged 12 
+and over are edited for daytime transmission.
+
+Frank presentations of acts of violence and fighting, fairly intense threat scenarios or images of victims 
+are scaled back, so as to avoid such scenes causing lasting anxiety to younger children. Programmes 
+falling into this category will therefore tend more towards an age rating of six and over than one of 16 
+and over. However, they are not necessarily suitable for younger children, and parents should be present 
+when they are viewed.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label />
+      <mdcr:Definition>Frei ab 12 Jahren und Ausstrahlung zu allen Sendezeiten</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Programme mit einer Altersfreigabe ab 12 Jahren dürfen im Tagesprogramm 
+platziert werden, sofern das Wohl jüngerer Kinder dem nicht entgegensteht. In 
+vielen Fällen werden Filme, die eine FSK-Freigabe ab 12 Jahren erhalten haben, 
+für die Ausstrahlung im Tagesprogramm gekürzt. Deutlich inszenierte Gewalt- und 
+Kampfhandlungen, intensivere Bedrohungsszenarien oder Opferbilder sind so 
+zurückgenommen, dass jüngere Kinder durch diese Szenen nicht nachhaltig 
+geängstigt werden. Programme dieser Kategorie tendieren also eher in Richtung 
+einer Freigabe ab 6 Jahren als in Richtung einer Freigabe ab 16 Jahren. Sie sind 
+für jüngere Kinder aber nicht unbedingt geeignet und sollten in Begleitung der 
+Eltern angesehen werden.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="13">12ab20uhr</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/12ab20uhr</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_12ab20.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label />
+      <mdcr:Definition>For viewers aged 12 and over and for transmission from 8 p.m. onwards (prime time)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Children and adolescents aged 12 and over are generally aware of films in their 
+overall context. They are capable of taking individual scenes in the context of 
+the storyline or putting them into perspective, and they are in a position to 
+distinguish between fiction and reality.
+
+Moments of on-screen threat can be processed provided they are not depicted in 
+too extreme a manner. Fears are generated predominantly by realistic scenarios. 
+This age group understands complex storytelling and is able to deal with 
+extended arcs of suspense. As such, the evaluation of individual scenes and 
+risks becomes a less significant factor in determining whether they will cause 
+any lasting anxiety than is the case with younger age groups. At this point the 
+emphasis shifts to the overall message conveyed by a film, and to any tendencies 
+that might be socioethically disorienting or advocate violence.
+
+Viewers aged 12 and over have developed relatively well-established basic 
+behaviour patterns and attitudes that cannot be changed by media content on its 
+own. They are therefore fairly unlikely to identify unilaterally with characters 
+or behaviour patterns. Meanwhile, with the onset of puberty, increased 
+significance is given to ideological perspectives and examples, distinctions 
+between a viewer’s own group and others and to sexual orientation and behaviour 
+towards the opposite sex.
+
+Children and adolescents belonging to this age group are gradually breaking away 
+from their family home and are receptive to alternative value judgements and 
+lifestyles. Attention should therefore be paid to whether the relevant media 
+content promotes violent or socioethically disorienting behaviour, either in its 
+overall message or in part.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label />
+      <mdcr:Definition>Frei ab 12 Jahren und Ausstrahlung ab 20.00 Uhr (Hauptabendprogramm)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Kinder und Jugendliche ab 12 Jahren nehmen Filme in der Regel im 
+Gesamtzusammenhang wahr, können einzelne Szenen in den Kontext der Geschichte 
+ggf. relativierend einordnen und sind in der Lage, zwischen Fiktion und Realität 
+zu unterscheiden. Bedrohliche Momente in Filmen können verarbeitet werden, 
+sofern die Darstellungsweise nicht zu extrem ist. Ängste beziehen sich 
+überwiegend auf realitätsnahe Szenarien. Die Altersgruppe versteht komplexe 
+Erzählweisen und verkraftet längere Spannungsbögen. Vor diesem Hintergrund 
+spielen die Bewertung von Einzelszenen und Wirkungsrisiken für die Feststellung 
+einer nachhaltigen Ängstigung eine geringere Rolle als bei jüngeren 
+Altersgruppen. Nunmehr stehen die Gesamtaussage eines Films und mögliche 
+sozialethisch desorientierende oder gewaltbefürwortende Tendenzen im 
+Vordergrund. Ab 12-Jährige haben relativ gefestigte Verhaltensgrundmuster und 
+Einstellungen entwickelt, die nicht ohne Weiteres durch Medieninhalte 
+veränderbar sind. Eine einseitige Orientierung an Figuren oder Handlungsmustern 
+ist daher eher unwahrscheinlich. Gleichzeitig gewinnen ideologische Perspektiven 
+und Vorbilder, die Abgrenzung der eigenen Gruppe gegenüber anderen sowie die 
+sexuelle Orientierung und das Verhalten gegenüber dem anderen Geschlecht im 
+Lebensabschnitt der Pubertät an Bedeutung. Kinder und Jugendliche dieser 
+Altersgruppe lösen sich allmählich vom Elternhaus und sind für alternative 
+Wertvorstellungen und Lebensweisen empfänglich. Daher sollte darauf geachtet 
+werden, ob das Medienangebot in der Gesamtaussage oder auch nur in Teilen 
+gewaltbefürwortende oder sozialethisch desorientierende Verhaltensweisen 
+propagiert.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_16.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label />
+      <mdcr:Definition>For viewers aged 16 and over and for transmission from 10 p.m. onwards (late-night programming)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Adolescents aged 16 and over have already acquired well-established guiding 
+values, enabling them to deal constructively with problematic media content. 
+This age group is also capable of processing relatively drastic depictions of 
+violence in the context of the programme or genre, provided the programme does 
+not tend overall to legitimise violence as a means of resolving conflicts. In 
+addition to the message, the composition and style of a depiction should also be 
+considered, as should its suitability for a youthful audience. Programmes whose 
+attraction rests to a significant degree on their depiction of explicit violence 
+may desensitise viewers as regards how they perceive violence in the media and 
+in real life. The aestheticisation of extreme violence, particularly in 
+conjunction with attractive film heroes, can reinforce positive connotations or 
+a fascination with violence.
+
+Especially important factors in evaluating the risk of socioethical 
+disorientation are the suitability of a specific depiction for a youthful 
+audience and the relevance of that depiction to everyday life. Viewers aged 16 
+and over are capable of contemplating socioethically disorienting moments in the 
+light of their own values, provided the programme as a whole does not tend to 
+call constitutionally protected values into question.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label />
+      <mdcr:Definition>Frei ab 16 Jahren und Ausstrahlung ab 22.00 Uhr (Spätabendprogramm)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Jugendliche ab 16 Jahren verfügen bereits über eine gefestigte 
+Werteorientierung, die es ihnen ermöglicht, sich auch mit problematischen 
+Medieninhalten konstruktiv auseinanderzusetzen. Diese Altersgruppe kann auch 
+drastischere Darstellungen von Gewalt im Kontext des Angebots oder Genres 
+verarbeiten, sofern das Angebot nicht in seiner Gesamttendenz Gewalt als Mittel 
+der Konfliktlösung legitimiert. Neben der Aussage sind auch Gestaltungsweise und 
+Jugendaffinität einer Darstellung zu berücksichtigen. Angebote, deren 
+Attraktivität ganz wesentlich auf der Darstellung expliziter Gewalt beruht, 
+können hinsichtlich der Wahrnehmung von medialer und realer Gewalt 
+desensibilisieren. Die Ästhetisierung von extremer Gewalt kann insbesondere in 
+Verbindung mit attraktiven Filmhelden eine positive Konnotation oder eine 
+Gewaltfaszination verstärken.  Bei der Einschätzung des Wirkungsrisikos einer 
+sozialethischen Desorientierung sind die Jugendaffinität und Alltagsrelevanz 
+einer Darstellung von besonderer Bedeutung. Sozialethisch desorientierende 
+Momente können von ab 16-Jährigen vor dem Hintergrund des eigenen 
+Wertehorizontes reflektiert werden, sofern das Angebot nicht in seiner 
+Gesamttendenz grundgesetzlich geschützte Werte infrage stellt.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_18.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label />
+      <mdcr:Definition>For viewers aged 18 and over and for transmission from 11 p.m. onwards (night-time programming)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Once viewers reach the age of 18, it is possible to approve content that, while 
+considered  “merely” liable to impair development in children and adolescents, 
+is not “clearly very harmful to young persons” (Sect. 4 Para. 2 Sentence 1 No. 3 
+JMStV).
+
+The key factor determining the examiners’ decision is not whether or not adults 
+would be able to process the content (youth protection is not adult protection), 
+but whether a programme is legal or illegal (Sect. 4 JMStV, cf. legal 
+prohibitions and restrictions).
+
+Programmes are not generally approved for viewing by adolescents if they string 
+together a large number of detailed scenes of violence or discriminating 
+statements without putting them into perspective or commenting on them. If acts 
+of cruelty are displayed for their own sake or depicted in great detail, without 
+the problematic nature of violence as a means of resolving conflicts being 
+addressed sufficiently, this indicates that the content is clearly very harmful 
+to young persons.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label />
+      <mdcr:Definition>Frei ab 18 Jahren und Ausstrahlung ab 23.00 Uhr (Nachtprogramm)</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Ab 18 Jahren können Angebote freigegeben werden, die zwar für Kinder und 
+Jugendliche "lediglich" entwicklungsbeeinträchtigend, allerdings nicht 
+"offensichtlich schwer jugendgefährdend" sind (§ 4 Abs. 2 Satz 1 Nr. 3 JMStV, § 
+30 PrO-FSF). Maßgeblich für die Prüfentscheidung sind nicht die 
+Verarbeitungsfähigkeiten von Erwachsenen (Jugendschutz ist kein 
+Erwachsenenschutz), sondern ob eine Sendung zulässig oder unzulässig ist (§ 4 
+JMStV, § 29 PrO-FSF). Angebote werden in der Regel nicht für Jugendliche 
+freigegeben, wenn sie eine Vielzahl detailliert geschilderter Gewaltszenen oder 
+diskriminierender Aussagen aneinanderreihen, die nicht relativiert oder 
+kommentiert werden. Werden Grausamkeiten selbstzweckhaft ausgespielt oder sehr 
+detailliert geschildert und kommt im Kontext des Angebots die Problematik von 
+Gewalt als Mittel der Konfliktlösung nicht hinreichend zum Ausdruck, ist dies 
+ein Indiz für eine offensichtlich schwere Jugendgefährdung (siehe hierzu auch 
+den Abschnitt XIV 3 [offensichtlich schwere Jugendgefährdung] in den 
+FSF-Richtlinien zur Anwendung der Prüfordnung).</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="100">X</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/X</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_X.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label />
+      <mdcr:Definition>Not to be broadcast</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Sect. 4 JMStV and Sect. 29 and 30 PrO-FSF determine which content is illegal. In 
+addition to material declared strictly illegal in the German Criminal Code 
+(StGB) (dissemination of propaganda material of unconstitutional organisations 
+and using symbols of unconstitutional organisations, incitement of the people, 
+denial or trivialisation of National Socialist crimes, glorification of 
+violence, instructions to commit criminal acts) and content on the index of the 
+German Federal Review Board for Media Harmful to Minors (BPjM), the following 
+television programming is not permitted:
+          <ul>
+            <li>That which violates human dignity (Sect. 4 Para. 1 Sentence 1 No. 8 JMStV);</li>
+            <li>That which shows children or adolescents in unnatural, sexually suggestive 
+postures (Sect. 4 Para. 1 Sentence 1 No. 9 JMStV);</li>
+            <li>That which glorifies war (Sect. 4 Para. 1 Sentence 1 No. 7 JMStV);</li>
+            <li>That which is pornographic (Sect. 4 Para. 1 Sentence 1 No. 10 JMStV; Sect. 4 
+Para. 2 Sentence 1 No. 1 JMStV)</li>
+            <li>That which is obviously suited to posing a serious threat to the development of 
+children and adolescents or to the prospect of them being brought up to be 
+self-dependent and socially competent personalities (Sect. 4 Para. 2 Sentence 1 
+No. 3 JMStV). In particular, content is considered to pose a serious threat if 
+it glorifies or trivialises violence, if it is disorienting in some other way 
+that will lead minors astray into a mindset that is grossly contrary to 
+constitutionally protected values (e.g. disregard for human dignity, racism) or 
+if it is capable of causing minors to harm themselves (e.g. glorification of 
+drug use or suicide).</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label />
+      <mdcr:Definition>Keine Ausstrahlung</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Welche Angebote unzulässig sind, ergibt sich aus § 4 JMStV und §§ 29, 30 
+PrO-FSF. Neben den absoluten Unzulässigkeitstatbeständen des StGB (Verbreitung 
+von Propagandamitteln und Verwendung von Kennzeichen verfassungswidriger 
+Organisationen, Volksverhetzung, Leugnung oder Verharmlosung von Verbrechen des 
+NS-Regimes, Gewaltverherrlichung, Anleitung zu Straftaten) und Inhalten, die von 
+der Bundesprüfstelle für jugendgefährdende Medien (BPjM) indiziert wurden, sind 
+im Fernsehen Programme unzulässig,
+          <ul>
+            <li>die gegen die Menschenwürde verstoßen (§ 4 Abs. 1 Satz 1 Nr. 8 JMStV);</li>
+            <li>die Kinder oder Jugendliche in unnatürlich geschlechtsbetonter Körperhaltung 
+zeigen (§ 4 Abs. 1 Satz 1 Nr. 9 JMStV);</li>
+            <li>die den Krieg verherrlichen (§ 4 Abs. 1 Satz 1 Nr. 7 JMStV);</li>
+            <li>die pornografisch sind (§ 4 Abs. 1 Satz 1 Nr. 10 JMStV; § 4 Abs. 2 Satz 1 Nr. 1 
+JMStV)</li>
+            <li>die offensichtlich geeignet sind, die Entwicklung von Kindern und Jugendlichen 
+oder ihre Erziehung zu einer eigenverantwortlichen und gemeinschaftsfähigen 
+Persönlichkeit schwer zu gefährden (§ 4 Abs. 2 Satz 1 Nr. 3 JMStV). Schwer 
+gefährdend sind insbesondere Gewalt verherrlichende oder verharmlosende Inhalte, 
+des Weiteren desorientierende Angebote, die Minderjährige zu einer Einstellung 
+verleiten, die den grundgesetzlich geschützten Werten krass zuwiderläuft (z.B. 
+Missachtung der Menschenwürde, Rassismus) oder Angebote, die dazu führen können, 
+dass Minderjährige sich selbst schädigen (z.B. Verherrlichung von Drogenkonsum 
+oder Selbstmord).</li>
+          </ul>
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

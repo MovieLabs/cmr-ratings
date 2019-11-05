@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T09:29:42" lastSave="2013-10-28T19:00:29">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T13:29:42" lastSave="2019-06-11T14:50:38">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>HK</md:country>
@@ -15,8 +16,19 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2019-06-11</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/HK/FCO/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      System defined by the Film Censorship Ordinance of 1988 as amended Nov 1995. 
+
+Reference:
+      <ul>
+        <li>https://www.elegislation.gov.hk/hk/cap392!en@2012-04-01T00:00:00?xpid=ID_1438403142664_004</li>
+        <li>https://www.cedb.gov.hk/ccib/eng/film/film_1.htm</li>
+      </ul>
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="Office for Film, Newspaper and Article Administration">
     <md:DisplayName>Office for Film, Newspaper and Article Administration</md:DisplayName>
     <mdcr:ContactString>Film Division
@@ -26,7 +38,7 @@ Office for Film, Newspaper and Article Administration
 Wan Chai
 Hong Kong 
 (852) 2594 5787</mdcr:ContactString>
-    <mdcr:URL>http://www.cedb.gov.hk/ctb/eng/film/film_1.htm</mdcr:URL>
+    <mdcr:URL>https://www.ofnaa.gov.hk/eng/home/index.htm</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -40,6 +52,10 @@ Hong Kong
       <mdcr:Label>Category I</mdcr:Label>
       <mdcr:Definition>Suitable for All Ages</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>第1类</mdcr:Label>
+      <mdcr:Definition>核准對任何年齡的人上映</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">IIA</mdcr:Value>
@@ -52,6 +68,10 @@ Hong Kong
       <mdcr:Label>Category IIA</mdcr:Label>
       <mdcr:Definition>Not Suitable for Children</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>第 2A 类</mdcr:Label>
+      <mdcr:Definition>兒童不宜</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">IIB</mdcr:Value>
@@ -63,7 +83,10 @@ Hong Kong
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Category IIB</mdcr:Label>
       <mdcr:Definition>Not Suitable for for young persons and children.</mdcr:Definition>
-      <mdcr:Explanation />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>第2B类</mdcr:Label>
+      <mdcr:Definition>青少年及兒童不宜</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -75,7 +98,11 @@ Hong Kong
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Category III</mdcr:Label>
-      <mdcr:Definition>for persons aged 18 or above only</mdcr:Definition>
+      <mdcr:Definition>Approved for exhibition only to those who have attained the age of 18 years</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ZH">
+      <mdcr:Label>第3类</mdcr:Label>
+      <mdcr:Definition>只核准對年滿18歲的人上映</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

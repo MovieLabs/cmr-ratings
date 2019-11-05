@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-13T19:34:06" lastSave="2014-08-01T15:10:36">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T03:34:06" lastSave="2019-06-18T16:09:10">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>IE</md:country>
@@ -16,18 +17,28 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2019-06-18</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
       <p>Note this system is IFCOF (“F” is for film) to differentiate from the DVD/Video ratings.</p>
+      Scope defined by
+      <a href="http://www.irishstatutebook.ie/eli/1989/act/22/enacted/en/print">Video Recordings Act, 1989</a>
+      , guidelines and markings
+      <a href="http://www.ifco.ie/en/ifco/pages/guidelines">defined by IFCO</a>
     </div>
   </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="Irish Film Classification Office">
     <md:DisplayName>Irish Film Classification Office</md:DisplayName>
-    <mdcr:ContactString>Blackhall Walk, Smithfield, Dublin 7, Ireland
-+353 (01) 799 6100, 828 7420</mdcr:ContactString>
-    <mdcr:URL>http://www.ifco.ie/ifco/ifcoweb.nsf/web/classcatintro</mdcr:URL>
+    <mdcr:ContactString>Irish Film Classification Office (IFCO)
+Blackhall Walk
+Smithfield
+Dublin 7
+DO7 NRR6
+Ireland
+Phone: +353 (01) 828 7420
+Email:  info@ifco.gov.ie</mdcr:ContactString>
+    <mdcr:URL>http://www.ifco.ie/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -47,15 +58,15 @@
 While a General certificate does not necessarily signify a ‘children’s picture’, such films will not include themes or content that will upset younger children.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="SC" />
-    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/IE_IFCOF_pg_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -70,15 +81,15 @@ While a General certificate does not necessarily signify a ‘children’s pictu
 A Parental Guidance certificate does not necessarily signify a ‘children’s picture’, but while more mature issues might be addressed (e.g., war, family issues) there will generally be a positive or redemptive resolution.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="SC" />
-    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">12A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCO/1/12A</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IE/IFCOF/1/12A</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/IE_IFCOF_12pg_icon1.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -91,10 +102,10 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
         <div class="userHtml">Films classified 12A have been deemed appropriate for viewers of twelve and over. However, they can also be seen by younger children - provided they are accompanied by an adult who has deemed the film appropriate viewing for that child. In such cases, IFCO strongly recommends that parents/guardians make informed decisions by accessing the consumer advice available on this website.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="SC" />
-    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Rating>
@@ -112,10 +123,10 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
         <div class="userHtml">Films classified 15A have been deemed appropriate for viewers of fifteen and over. However, they can also be seen by younger children - provided they are accompanied by an adult who has deemed the film appropriate viewing for that child. In such cases, IFCO strongly recommends that parents/guardians make informed decisions by accessing the consumer advice available on this website.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="SC" />
-    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Rating>
@@ -133,10 +144,10 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
         <div class="userHtml">The 16 certificate recognizes the ability of today’s teenagers to digest and understand mature themes and complex material. Many films that would previously have been classified 18 are now classified in this category.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="SC" />
-    <mdcr:ApplicableReason id="Theme" />
+    <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="Theme" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Rating>

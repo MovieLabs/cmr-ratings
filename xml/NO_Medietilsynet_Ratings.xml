@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-15T22:37:15" lastSave="2015-08-19T15:10:25">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T02:37:15" lastSave="2019-06-19T13:24:01">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>NO</md:country>
@@ -17,10 +18,24 @@
       <mdcr:Environment>Home</mdcr:Environment>
       <mdcr:Environment>Theater</mdcr:Environment>
       <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2015-08-19</mdcr:LastChecked>
+  <mdcr:LastChecked>2019-06-18</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      References:
+      <ul>
+        <li>
+          <a href="https://lovdata.no/dokument/NL/lov/2015-02-06-7">Lov om beskyttelse av mindreårige mot skadelige bildeprogram mv.</a>
+        </li>
+        <li>
+          <a href="https://medietilsynet.no/barn-og-medier/aldersgrenser/#anchor_15">Kino aldergrense</a>
+        </li>
+      </ul>
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="Medietilsynet">
     <md:DisplayName>Medietilsynet</md:DisplayName>
     <mdcr:ContactString>Media Authority 
@@ -63,22 +78,6 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="4">9</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/9</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_9_stor-ny.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>9</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="NO">
-      <mdcr:Label>9</mdcr:Label>
-      <mdcr:Definition>9-årsgrense</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">En film med 9-årsgrense kan ha partier med mørk, intens eller utrygg stemning. Dette kan for eksempel være noe dramatiske bilder av ulykker eller barn som har det vanskelig (inkludert mobbing). Kortvarige og lite nærgående voldsinnslag kan også få 9-årsgrense.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="3">7</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/7</mdcr:URI>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
@@ -91,6 +90,22 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
       <mdcr:Definition>Ei 7-årsgrense på film blir gjeven fordi vi meiner filmen kan verka skremmande for dei aller minste.</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">7-årsfilmar kan t.d. ha lange mørke sekvensar. Det kan vera ein dramatisk lyd- og effektbruk eller vi kan sjå at hovudpersonane blir utsette for psykisk eller fysisk fare. Eit døme på ein slik film er "Shrek", der dragen først er skummel for dei minste (2001: vurdert eigna for familie). Andre faktorar som speler inn når vi set ein film opp til 7 år, kan vera kjensleutbrot som kan verka uforståelege for dei aller minste. Vi legg også vekt på den gjennomgåande stemninga i filmen. At ein film får 7 eller 11 år treng ikkje utan vidare tyda at det er ein film som er spesielt eigna for desse aldersgruppene.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="4">9</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/9</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_9_stor-ny.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>9</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NO">
+      <mdcr:Label>9</mdcr:Label>
+      <mdcr:Definition>9-årsgrense</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">En film med 9-årsgrense kan ha partier med mørk, intens eller utrygg stemning. Dette kan for eksempel være noe dramatiske bilder av ulykker eller barn som har det vanskelig (inkludert mobbing). Kortvarige og lite nærgående voldsinnslag kan også få 9-årsgrense.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

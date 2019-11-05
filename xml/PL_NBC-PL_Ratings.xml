@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T06:57:04" lastSave="2013-12-16T16:21:07">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T10:57:04" lastSave="2019-06-18T19:36:56">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>PL</md:country>
@@ -19,8 +20,21 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2016-12-20</mdcr:LastChecked>
+  <mdcr:LastChecked>2019-06-18</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      References:
+      <ul>
+        <li>
+          <a href="http://www.krrit.gov.pl/dla-abonentow-i-konsumentow/ochrona-maloletnich/aktualnosci-o-ochronie-maloletnich/news,2742,ochrona-dzieci-i-mlodziezy--priorytetem-i-zadaniem-strategicznym-krrit.html">Protection of children and young people - priority and strategic task of the National Broadcasting Council</a>
+        </li>
+        <li>
+          <a href="http://www.krrit.gov.pl/dla-nadawcow-i-operatorow/audiowizualne-uslugi-medialne-na-zadanie/aktualnosci-dla-dostawcow-aum-na-zadanie/news,2284,ochrona-maloletnich-w-internecie--kodeks-dobrych-praktyk.html">Protection of minors on the Internet - Code of good practice</a>
+        </li>
+      </ul>
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="National Broadcasting Council">
     <md:DisplayName>National Broadcasting Council</md:DisplayName>
     <mdcr:ContactString>The National Broadcasting Council's Office
@@ -50,7 +64,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">II</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/II</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1/II</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_7_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -67,7 +81,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">III</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/III</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1/III</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_12_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -84,7 +98,7 @@ Children’s Ombudsman http://www.brpd.gov.pl
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">IV</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/0/IV</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PL/NBC-PL/1/IV</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/PL_NBC-PL_16_kolor.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>

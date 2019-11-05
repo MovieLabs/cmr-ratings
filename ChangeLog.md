@@ -1,6 +1,31 @@
  
 # Change Log
 
+### V2.3.3x
+
+* Bulgaria NFRC:
+  * updated contact info and text of rating explanations
+  * "C" Rating corrected to indicate under-12 admission requires adult supervision
+* Denmark MCCYP: updated contact info and text of rating explanations
+* Germany FSK: Usage was incorrectly indicated to include TV broadcast. TV ratings,
+however, are handled by the FSF, rather than FSK, rating system.
+The FSF rating system has been added and the FSK usage has been corrected.
+* Ireland IFCO and IFCOF: updated contact info
+* Mexico RTC:
+  * Corrected typo re label for 'B' rating
+  * updated contact info and text of rating explanations
+  * added clarifying note regarding use of color in labeling.
+* Netherlands Kijkwijzer: Updated reasons, explanations, and icons
+* Singapore MDA: 
+  * Version/URI change: NC16 and NC18 were incorrectly specified as 'guidance' rather than restrictions enforceable by law.
+  * Updated notes regarding OTT relevance
+  * Evaluation criteria (i.e., Reasons) have been added
+* Singapore MDA-VG: New rating system added that is specific to video games.
+* Taiwan MOC: 
+  * PG rating has been deprecated
+  * R-12 and R-15 ratings have been added
+* Taiwan MOC-TV: New rating system added.
+
 ### V2.3.2
 
 * Argentina INCAA: updated contact information

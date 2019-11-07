@@ -63,6 +63,19 @@ New York, NY 10017</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">E</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/E</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/US_ESRB_e.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Everyone</mdcr:Label>
+      <mdcr:Definition>Content is generally suitable for all ages. May contain minimal cartoon, fantasy or mild violence and/or infrequent use of mild language.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="60">10-plus</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/ESRB/0/10-plus</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_ESRB_e10.png</mdcr:LinkToLogo>

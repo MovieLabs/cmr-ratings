@@ -1,6 +1,47 @@
  
 # Change Log
 
+### V2.3.3.5
+* Great Britain BBFC
+  * updated graphics and edited descriptions
+  * needs review
+* US ESRB
+  * deprecated C rating
+* Canada CHVRS
+  * minor editing
+* Colombia MOC
+  * added some descriptions
+* Egypt Film
+  * no Valid sources found
+* Greece Film
+  * no Changes found since 2000
+  * 2000 law referenced as authoritative in 2017 book on Greek Media Law.
+* Iceland SMAIS
+  * deprecated System.  No Updates made
+* Netherlands Kijkwijzer
+  * removed Iceland from usage section.  Iceland uses a similar but different system.
+  * Not sure if this is correct procedure
+* Iceland Frisk
+  * added ratings system. It is the current system.
+  * needs to be reviewed
+* Malaysia FCBM
+  * updated url link
+* Peru Film
+  * Could only find references to system on wikipedia and several independent websites
+  * Could only match ratings here at a non authoritative website
+    * https://www.terramedia.co.uk/media/film/film_classification_schemes.htm
+  * according to wikipedia Peru ratings system was created in 2002 and then ignored
+  * most channels do not use ratings
+  * some channels use their own version of the the 2002 system.
+  * wiki article
+    * https://es.wikipedia.org/wiki/Clasificaci%C3%B3n_por_edades_(televisi%C3%B3n_peruana)
+  * decided to leave decision to ratings group since no one has requested the system
+* Portugal CCE
+  * deprecated m/4 and added A, m/3, and m/18-P
+  * added updated documentation to source material
+  * used wikipedia id's for ratings because the source material didn't list the shorthand or have images.
+  * description directly from governement source material
+
 ### V2.3.3x
 
 * Bulgaria NFRC:

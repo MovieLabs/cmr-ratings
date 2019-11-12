@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-10-28T19:35:27">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-11-12T00:53:24">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>PT</md:country>
@@ -18,24 +19,28 @@
   <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Comissão de Classificação de Espectáculos">
     <md:DisplayName>Comissão de Classificação de Espectáculos</md:DisplayName>
+    <mdcr:URL>https://www.igac.gov.pt/emissao-de-licencas-de-distribuicao</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">M/4</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M/4</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_4</mdcr:URI>
     <mdcr:MinRecAge>4</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>M/4</mdcr:Label>
       <mdcr:Definition>Suitable for all audiences.</mdcr:Definition>
-      <mdcr:Explanation>This is used mostly for movies and videos that are particularly recommended for young children.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">This is used mostly for movies and videos that are particularly recommended for young children.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">M/6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M/6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_6</mdcr:URI>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -43,12 +48,14 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>M/6</mdcr:Label>
       <mdcr:Definition>Passed for viewers aged 6 and older.</mdcr:Definition>
-      <mdcr:Explanation>May have some mild content/foul language. This is also the lowest rating a subtitled movie can get.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">May have some mild content/foul language. This is also the lowest rating a subtitled movie can get.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">M/12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -56,12 +63,14 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>M/12</mdcr:Label>
       <mdcr:Definition>suitable for children aged 12 and above; children under 12 may be admitted if accompanied by an adult.</mdcr:Definition>
-      <mdcr:Explanation>Movies rated M/12 may contain moderate violence and some gore, moderate sex scenes or references, suicide, strong language and drug references.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Movies rated M/12 may contain moderate violence and some gore, moderate sex scenes or references, suicide, strong language and drug references.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">M/16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -69,12 +78,14 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>M/16</mdcr:Label>
       <mdcr:Definition>suitable for children aged 16 and above; children under 16 may be admitted if accompanied by an adult.</mdcr:Definition>
-      <mdcr:Explanation>Movies rated M/16 may contain strong violence and gore, sexual violence, aggressive language, strong sex scenes and drug use.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Movies rated M/16 may contain strong violence and gore, sexual violence, aggressive language, strong sex scenes and drug use.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">M/18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -82,7 +93,62 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>M/18</mdcr:Label>
       <mdcr:Definition>Passed for viewers aged 18 and older.</mdcr:Definition>
-      <mdcr:Explanation>Children under 18 may accompany an adult but admission can be refused by the exhibitor. Movies rated M/18 may contain extreme violence and gore, strong sustained sexual violence, unsimulated sex scenes, frequent aggressive strong language and glamorized drug use.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Children under 18 may accompany an adult but admission can be refused by the exhibitor. Movies rated M/18 may contain extreme violence and gore, strong sustained sexual violence, unsimulated sex scenes, frequent aggressive strong language and glamorized drug use.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="1">M/3</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_3</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>M/3</mdcr:Label>
+      <mdcr:Definition>Para Maiores de 3 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Conteúdo qualquer nível de complexidade, de fácil compreensão e
+não suscetível de assustar ou amedrontar por qualquer modo, visual ou sonoro. É aceitável a
+ocorrência pontual de “violência” física num contexto estritamente lúdico, quando desenvolvida
+por personagens de fantasia não associáveis à vida real. Conteúdo sem violência verbal ou de
+qualquer outro tipo além do referido;v</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">M/18-P</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_18-P</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>M/18-P</mdcr:Label>
+      <mdcr:Definition>Para maiores de 18 anos– Pornográfico</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Cenas com descrição ostensiva de atos sexuais
+simulados ou praticados com exibição explícita dos órgãos genitais.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/A</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Definition>Para Todos os Públicos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Conteúdo apropriado para todos os públicos; os conteúdos não
+devem conter quaisquer sons ou imagens suscetíveis de assustar ou amedrontar os
+espectadores com idade igual ou inferior a 3 anos; sem qualquer tipo de violência e de curta
+duração</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

@@ -24,6 +24,8 @@
 * Iceland Frisk
   * added ratings system. It is the current system.
   * needs to be reviewed
+* Ireland RTE
+  * found several references to this system on rte sight, but they seem to be burying it.  Hasn't changed though.
 * Malaysia FCBM
   * updated url link
 * Peru Film

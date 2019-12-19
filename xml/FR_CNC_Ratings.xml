@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-12-12T20:02:51">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-11T23:39:15">
   <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>FR</md:country>
@@ -23,7 +24,7 @@
 12 rue de Lubeck 
 75784 Paris Cedex 16 
 Tel. +33 (0) 1 44 34 34 40 &gt;</mdcr:ContactString>
-    <mdcr:URL>http://www.cnc.fr/web/fr/classification-des-films</mdcr:URL>
+    <mdcr:URL>https://www.cnc.fr/professionnels/visas-et-classification</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

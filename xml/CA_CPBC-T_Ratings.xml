@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-21T19:48:40" lastSave="2018-02-05T21:51:55">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T09:48:40" lastSave="2019-12-02T18:47:41">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -41,7 +41,7 @@ PO Box 9244 Victoria BC V8W 9J2</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">SP</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2/SP</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/CA_CPBC-T_special%20permission.gif</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CPBC-T_special_permission.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>14</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -52,12 +52,26 @@ PO Box 9244 Victoria BC V8W 9J2</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="75">R</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2/R</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/CA_CPBC-T_r.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Restricted</mdcr:Label>
+      <mdcr:Definition>Restricted trailers may be exhibited only with motion pictures classified as Restricted or Adult.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="80">A</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CPBC-T/2/A</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CPBC-T_a.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Adult</mdcr:Label>

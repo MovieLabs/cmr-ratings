@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-12-16T16:12:08">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-18T21:25:25">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>GR</md:country>
@@ -17,9 +18,20 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>CY</md:country>
+    <mdcr:RegionName>CYPRUS</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>DVD</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/GR/Film/0</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="-t.b.d.-">
-    <md:DisplayName>-t.b.d.-</md:DisplayName>
+  <mdcr:RatingsOrg>
+    <md:DisplayName />
     <mdcr:OrgType>not_specified</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -32,7 +44,9 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>K</mdcr:Label>
       <mdcr:Definition>Suitable film for everyone, including children.</mdcr:Definition>
-      <mdcr:Explanation>The film does not contain violence, drug abuse, or sexual content.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">The film does not contain violence, drug abuse, or sexual content.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -41,9 +55,22 @@
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="2">K-12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/Film/0/K-12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>K-12</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
@@ -57,7 +84,21 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>K-13</mdcr:Label>
       <mdcr:Definition>Suitable film for children 13+.</mdcr:Definition>
-      <mdcr:Explanation>The film may contain mild violence and adult themes. This is not recommended for those under 13 but not restricted.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">The film may contain mild violence and adult themes. This is not recommended for those under 13 but not restricted.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/Film/0/18+</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18+</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -70,7 +111,9 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>K-17</mdcr:Label>
       <mdcr:Definition>Suitable film for adults 17+.</mdcr:Definition>
-      <mdcr:Explanation>The film may contain violence, drug abuse, and mild pornographic scenes. An ID card certifying the age is required in all Greek cinemas and DVD rental shops in order to get a cinema ticket or rent a DVD of a "K-17" rated film. This category is legally restricted.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">The film may contain violence, drug abuse, and mild pornographic scenes. An ID card certifying the age is required in all Greek cinemas and DVD rental shops in order to get a cinema ticket or rent a DVD of a "K-17" rated film. This category is legally restricted.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

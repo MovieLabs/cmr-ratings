@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-11T08:01:40" lastSave="2019-11-11T22:01:17">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-12T08:01:40" lastSave="2019-11-14T00:06:22">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>NL</md:country>
@@ -254,20 +254,50 @@ horrorfilms juist in de adolescentietijd vaak voorkom</p>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="G">
     <mdcr:Label />
+    <mdcr:Definition>Geweld</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Audiovisueel geweld kan verscheidene schadelijke gevolgen hebben. Het kijken naar mediageweld kan onder andere (a) de agressie van kinderen aanwakkeren, (b) kinderen afstompen voor geweld, en (c) kinderen angstig maken (Potter, 1999; Nikken, 2007). In Kijkwijzer hebben we met deze drie negatieve effecten rekening gehouden. De classificatie die geweld krijgt is gebaseerd op bestaande theorieën over de invloed van mediageweld op de twee eerste effecten: agressief gedrag en  afstomping. In het onderdeel over angst komt ook geweld in mediaproducties aan bod, maar dan vanuit theorieën over de typen mediageweld die angst bij kinderen van verschillende leeftijden oproepen.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_geweld.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="A">
     <mdcr:Label />
+    <mdcr:Definition>Angst</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Angsteffecten zijn sterk afhankelijk van het cognitieve ontwikkelingsniveau van de kijker. Uit onderzoek blijkt dat volwassenen en oudere kinderen op twee manieren naar een angstaanjagende film kunnen kijken. Ze kunnen emoties toelaten en er lekker voor gaan zitten om te griezelen. Maar ze kunnen ook emotioneel afhaken door te denken dat hetgeen ze zien niet echt is. In deze gevallen passen volwassen kijkers en oudere kinderen een mechanisme toe dat in de Angelsaksische literatuur ‘adult discount’ wordt genoemd.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_angst.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
+    <mdcr:Definition>Seks</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Seksualiteit is een inhoudskenmerk waarop mediaproducten over de gehele wereld geclassificeerd worden. De twee consumentenonderzoeken die ten grondslag liggen aan Kijkwijzer hebben beide uitgewezen dat ook Nederlandse ouders het belangrijk vinden om te weten of er seks in een mediaproduct voorkomt. Veel ouders zijn er van overtuigd dat het onwenselijk is om kinderen al jong naar seks te laten kijken (Valkenburg, 1997).</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_seks.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="T">
     <mdcr:Label />
+    <mdcr:Definition>Grof taalgebruik</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Uit het consumentenonderzoek bleek dat ouders zich relatief veel zorgen maken over de grote hoeveelheid grof taalgebruik in de media en hier graag over geïnformeerd willen worden. Kijkwijzer voorziet in deze behoefte. Hoewel grof taalgebruik als inhoudsclassificatie is opgenomen, is er in tegenstelling tot de andere inhoudscategorieën, in het geval van grof taalgebruik voor gekozen deze niet aan een bepaalde leeftijdscategorie te verbinden. Bij de proefclassificaties vonden we veel voorbeelden van grof taalgebruik, ook door personages met wie kinderen zich zouden kunnen identificeren.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_taal.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
+    <mdcr:Definition>Discriminatie</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Uit onderzoek blijkt dat ouders graag geïnformeerd worden over discriminatoire uitingen in de media. Mede door de resultaten van dit consumentenonderzoek is discriminatie als inhoudscategorie in Kijkwijzer opgenomen. Kijkwijzer hanteert een brede definitie van discriminatie. Onder discriminatie verstaan we elke uiting waarin bepaalde bevolkingsgroepen als inferieur worden afgeschilderd op grond van ras, religie, huidskleur, sekse, nationaliteit of etnische afstamming.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_disriminatie.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
+    <mdcr:Definition>Drugs en alcohol</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Net als bij discriminatie is een mogelijk schadelijk gevolg van harddrugsgebruik en overmatig softdrugs- en alcoholgebruik in audiovisuele media dat kinderen deze handelingen als gewoon gaan zien. Wanneer het gebruik in een positief daglicht wordt geplaatst, is het zelfs mogelijk dat kinderen en adolescenten het als nastrevenswaardig zien. Het is bekend dat veel personages in films en televisieseries alcohol drinken. Vaak gaat het om personages met wie kinderen zich kunnen identificeren.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_drugs.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

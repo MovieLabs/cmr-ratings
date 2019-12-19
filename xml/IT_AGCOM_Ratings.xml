@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T09:14:59" lastSave="2013-12-09T21:33:54">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T16:14:59" lastSave="2019-12-02T17:57:39">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>IT</md:country>
@@ -58,6 +59,22 @@ Fax 081/7507616</mdcr:ContactString>
     <mdcr:Descriptor language="IT">
       <mdcr:Label>18 anni</mdcr:Label>
       <mdcr:Definition>FILM VIETATI AI MINORI DI 18 ANNI.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">VM6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/AGCOM/1/VM6</mdcr:URI>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>6</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>6 and Over</mdcr:Label>
+      <mdcr:Definition>For kids 6 and over</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="IT">
+      <mdcr:Label>6 anni</mdcr:Label>
+      <mdcr:Definition>FILM VIETATI AI MINORI DI 6 ANNI.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

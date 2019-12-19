@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-16T20:42:57">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>AE</md:country>
+      <mdcr:RegionName>UNITED ARAB EMIRATES</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>NMC</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>AE</md:country>
+    <mdcr:RegionName>UNITED ARAB EMIRATES</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="NMC">
+    <md:DisplayName>NMC</md:DisplayName>
+    <mdcr:URL>http://nmc.gov.ae/ar-ae/Pages/About-Age.aspx</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AE_NMC_G.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>For public viewing, suitable for all age groups</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AE_NMC_PG.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Definition>For public viewing, with adult supervision</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">PG13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG13</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AE_NMC_PG13.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG13</mdcr:Label>
+      <mdcr:Definition>Ages 13 and below allowed with adult supervision</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">PG15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG15</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AE_NMC_PG15.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG15</mdcr:Label>
+      <mdcr:Definition>Ages 15 and below allowed with adult supervision</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">15+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/15+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AE_NMC_15.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15+</mdcr:Label>
+      <mdcr:Definition>Ages 15 and above only</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/18+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AE_NMC_18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18+</mdcr:Label>
+      <mdcr:Definition>Ages 18 and above only</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

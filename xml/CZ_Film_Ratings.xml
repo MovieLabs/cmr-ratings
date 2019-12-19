@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-12-12T19:47:56">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-11T00:53:18">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CZ</md:country>
@@ -16,9 +17,18 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="-t.b.d.-">
-    <md:DisplayName>-t.b.d.-</md:DisplayName>
-    <mdcr:OrgType>not_specified</mdcr:OrgType>
+  <mdcr:RatingsOrg organizationID="SFK">
+    <md:DisplayName>STÁTNÍ FOND KINEMATOGRAFIE</md:DisplayName>
+    <mdcr:ContactString>Státní fond kinematografie
+Veletržní palác
+Dukelských hrdinů 47
+170 00 Praha 7
+
++420 224 301 278
+film. podpory tel: 224 301 285
+film. pobídky tel.: 224 301 286</mdcr:ContactString>
+    <mdcr:URL>https://fondkinematografie.cz/english/legislative.html</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">U</mdcr:Value>
@@ -29,7 +39,7 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>U</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>unrestricted</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -41,7 +51,7 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>12</mdcr:Label>
-      <mdcr:Definition>Suitable for children 12 and over</mdcr:Definition>
+      <mdcr:Definition>unsuitable for minors under 12 years of age</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -50,10 +60,23 @@
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>14</mdcr:Label>
       <mdcr:Definition>Suitable for children 14 and over</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="7">15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0/15</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>unsuitable for minors under 15 years of age</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -65,7 +88,7 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
-      <mdcr:Definition>Suitable for children 18 and over</mdcr:Definition>
+      <mdcr:Definition>unsuitable for minors and juveniles under 18 years of age.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

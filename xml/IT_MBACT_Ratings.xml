@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T03:14:59" lastSave="2014-12-22T19:58:24">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-15T00:14:59" lastSave="2019-12-18T20:52:43">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>IT</md:country>
@@ -35,7 +35,7 @@ Piazza Santa Croce in Gerusalemme, 9 / a
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="IT">
-      <mdcr:Label>Pellicola per tutti</mdcr:Label>
+      <mdcr:Label>T</mdcr:Label>
       <mdcr:Definition>Pellicola per tutti</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
@@ -47,8 +47,20 @@ Piazza Santa Croce in Gerusalemme, 9 / a
     <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="IT">
-      <mdcr:Label>14 anni</mdcr:Label>
+      <mdcr:Label>VM14</mdcr:Label>
       <mdcr:Definition>14 anni</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">VM16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/1/VM16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IT">
+      <mdcr:Label>VM16</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -59,7 +71,7 @@ Piazza Santa Croce in Gerusalemme, 9 / a
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="IT">
-      <mdcr:Label>18 anni</mdcr:Label>
+      <mdcr:Label>VM18</mdcr:Label>
       <mdcr:Definition>18 anni</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>

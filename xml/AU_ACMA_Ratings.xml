@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T11:50:35" lastSave="2018-02-05T21:47:52">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-29T01:50:35" lastSave="2019-12-16T17:30:55">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>AU</md:country>
@@ -46,6 +46,130 @@ script, cast, direction, editing, shooting, sound and other production
 elements; and
 (d) enhances the understanding and experience of preschool children; and
 (e) is appropriate for Australian preschool children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/0/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AU_ACMA_G.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>The General (G) Classification</mdcr:Label>
+      <mdcr:Definition>Material classified G is not necessarily intended for children but it must be very mild  in  impact  and  must  not  contain  any  matter  likely  to  be  unsuitable  for  children to watch without supervision. All elements must be justified by context.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Violence:    Depictions  of  physical  and  psychological  violence  must  be  very  restrained.  The  use  of  weapons,  threatening  language,  sounds  or  special  effects must have a very low sense of threat or menace, must be infrequent and must not show violent activity to be acceptable or desirable.
+          <br />
+          Sex:    Depictions  of,  and  verbal  references  to,  sexual  activity  must  be  brief,  infrequent, and contain little or no detail.
+          <br />
+          Nudity:  Restrained,  brief  and  infrequent  visual  depiction  of  nudity  only  when  absolutely necessary to the story line or program context.
+          <br />
+          Language:    Very  mild  coarse  language  considered  socially  offensive  or  discriminatory may only be used infrequently when absolutely justified by the story line or program context.
+          <br />
+          Drugs:  Depictions of, or verbal reference to, illegal drugs must be absolutely justified by the story line or program context, contain very little detail and be handled with care.  The program must not promote or encourage drug use in any way.  The use of legal drugs must also be handled with care.
+          <br />
+          Suicide:    Only  limited  and  careful  verbal  reference  to  suicide  is  acceptable,  when  absolutely  justified  by  the  story  line  or  program  context,  and  provided  that it is not presented as romantic, heroic, alluring or normal.
+          <br />
+          Themes:  Themes dealing with social or domestic conflict must have a very low sense of threat or menace to children.
+          <br />
+          Dangerous imitable activity:  Dangerous imitable activity should only be shown when absolutely justified by the story line or program context, and then only in ways which do not encourage dangerous imitation.
+          <br />
+          Other:  Music,  special  effects  and  camera  work  may  be  used  to  create  an  atmosphere of tension or fear, but the overall impact should be very mild.
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/0/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AU_ACMA_PG.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>The Parental Guidance Recommended (PG) Classification</mdcr:Label>
+      <mdcr:Definition>Material classified PG may contain adult themes or concepts but must be mild in  impact  and  remain  suitable  for  children  to  watch  with  supervision.  All elements must be justified by context.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Violence:    Depictions  of  violence  must  be  inexplicit  and  restrained.    More  leeway is permitted when the depiction is stylised and/or unrealistic.
+          <br />
+          Sex:  Depictions of and verbal reference to sexual activity must be restrained.
+          <br />
+          Nudity: Restrained depictions of nudity are permitted.
+          <br />
+          Language:      Mild   or   socially   offensive   coarse   language   may   be   used   infrequently, when justified by the story line or program context.
+          <br />
+          Drugs:    Depictions  of  and  restrained  verbal  reference  to  illegal  drug  use  are  permitted, but the program must not promote or encourage illegal use.  The use of legal drugs must be handled with care.
+          <br />
+          Suicide:    Visual  depiction  of  and  verbal  reference  to  suicide  or  attempted  suicide  must  be  inexplicit  and  restrained.    It  must  not  be  presented  as  the  means  of  achieving  a  desired  result  or  as  an  appropriate  response  to  stress,  depression or other problems.
+          <br />
+          Themes:    The  treatment  of  social  or  domestic  conflict  and  psychological  themes should be carefully handled. Supernatural or mild horror themes may be included.
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">M</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/0/M</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AU_ACMA_M.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>The Mature (M) Classification</mdcr:Label>
+      <mdcr:Definition>Material  classified  M  is  for  mature  audiences.  It  is  recommended  for  viewing  only  by  persons  aged  15  years  or  over.  The  impact  must  be  moderate  (i.e.  higher  than  mild  but  lower  than  strong).  All  elements  must  be  justified  by  context.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Violence:  Depictions of violence may be realistically shown only if they are not detailed  or  prolonged.  Any  depiction  of  or  verbal  reference  to  violence  occurring  in  a  sexual  context  must  be  infrequent  and  restrained,  and  strictly  justified by the story line or program context.
+          <br />
+          Sex:  Depictions of sexual activity may be implied or simulated in a restrained way.   Verbal   references   to   sexual   activity   may   be   more   detailed   than   depictions if this does not increase the impact.
+          <br />
+          Nudity:  Depictions  of  nudity  are  permitted  but  must  not  be  detailed  if  in  a  sexual context.
+          <br />
+          Language:  The use of coarse language is permitted but aggressive or strong coarse language should be infrequent overall.
+          <br />
+          Drugs:    The  use  of  illegal  drugs  may  be  shown  but  the  program  must  not  promote or encourage their use.
+          <br />
+          Suicide:  Suicide must not be promoted or encouraged by the program and methods of suicide must not be instructional or shown in realistic detail.
+          <br />
+          Themes:  Most adult themes can be dealt with, but intense adult themes should be handled with care.
+        </div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">MA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/0/MA</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AU_ACMA_MA.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>The Mature Audience (MA) Classification</mdcr:Label>
+      <mdcr:Definition>Material classified MA is suitable for viewing only by persons aged 15 years or over because of the intensity and/or frequency of violence, sexual depictions, or coarse language, adult themes or drug use. The impact may be strong. All elements must be justified by context.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">
+          Violence:    Realistic  depictions  may  contain  some  detail,  but  should  not  be  prolonged and should not be unduly bloody or horrific.  Violence occurring in a sexual context may be implied and must not be detailed.
+          <br />
+          Sex:  Depictions of implied sexual activity may contain detail. Non-consenting sexual  relations  must  not  be  depicted  as  desirable.  Verbal  sexual  references  may be detailed.
+          <br />
+          Nudity: Depictions of nudity must be justified by the narrative context.
+          <br />
+          Language:  The use of very coarse language must be appropriate to the story line or program context and not overly frequent or impactful.
+          <br />
+          Drugs:  No detailed depiction of intravenous use of illegal drugs.  The program must not promote or encourage the use of illegal drugs.
+          <br />
+          Suicide:    Methods  of  suicide  should  not  be  shown  in  realistic  detail.    The  program must not promote or encourage suicide.
+          <br />
+          Themes:  The treatment of strong adult themes should be justified.
+        </div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

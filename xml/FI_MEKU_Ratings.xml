@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2014-11-11T13:27:20" lastSave="2018-02-05T21:54:02">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2014-11-11T21:27:20" lastSave="2019-12-06T18:19:11">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>FI</md:country>
@@ -36,6 +36,7 @@
     <mdcr:URI>http://www.movielabs.com/md/ratings/FI/MEKU/2/S</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/FI_MEKU_SA.png</mdcr:LinkToLogo>
     <mdcr:LinkToLogo>./imageCache/FI_MEKU_TI.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -54,7 +55,7 @@
     <mdcr:LinkToLogo>./imageCache/FI_MEKU_7.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>7</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
+    <mdcr:MinAgeSupervised>4</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FI">
       <mdcr:Label>Sallittu yli 7-vuotiaille</mdcr:Label>
@@ -71,7 +72,7 @@
     <mdcr:LinkToLogo>./imageCache/FI_MEKU_12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:MinAgeSupervised>9</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FI">
       <mdcr:Label>Sallittu yli 12-vuotiaille</mdcr:Label>
@@ -88,7 +89,7 @@
     <mdcr:LinkToLogo>./imageCache/FI_MEKU_16.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>19</mdcr:MinAgeSupervised>
+    <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="SV">
       <mdcr:Label>Förbjudet under 18 år</mdcr:Label>
@@ -105,7 +106,7 @@
     <mdcr:LinkToLogo>./imageCache/FI_MEKU_18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="SV">
       <mdcr:Label>Förbjudet under 18 år</mdcr:Label>
@@ -118,14 +119,22 @@
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
+    <mdcr:Definition>Sisältää väkivaltaa</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/FI_MEKU_VA.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SC">
     <mdcr:Label />
+    <mdcr:Definition>Sisältää seksiä</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/FI_MEKU_SE.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="A">
     <mdcr:Label />
+    <mdcr:Definition>Voi aiheuttaa ahdistusta</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/FI_MEKU_AH.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
+    <mdcr:Definition>Sisältää päihteiden käyttöä</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/FI_MEKU_PA.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

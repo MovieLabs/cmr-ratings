@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T01:57:33" lastSave="2019-12-03T18:48:06">
+  <mdcr:RatingSystemID version="2">
+    <mdcr:Region>
+      <md:country>KR</md:country>
+      <mdcr:RegionName>KOREA, REP</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>KMRB-T</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>KR</md:country>
+    <mdcr:RegionName>KOREA, REP</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Trailer</mdcr:Media>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2016-12-20</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Korea Media Rating Board">
+    <md:DisplayName>Korea Media Rating Board</md:DisplayName>
+    <mdcr:ContactString>Korea Media Ratting Board(121-904) 400,
+ World Cup buk-ro, Mapo, 
+Seoul, Korea 
+Tel +82-2-3153-4300</mdcr:ContactString>
+    <mdcr:URL>http://kmros.kmrb.or.kr/html/data/classstandards.do</mdcr:URL>
+    <mdcr:OrgType>other</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_G.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>All Ages</mdcr:Label>
+      <mdcr:Definition>Can be seen by All Ages</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The trailer is classified into two ratings: 'All Ages' and 'Adults Only' regardless of the rating of the main Film. A trailer rated 'Adults Only' should be seen only before/after the main Film rated 'Adults Only'.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/18+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adults Only</mdcr:Label>
+      <mdcr:Definition>Only for adults</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The trailer is classified into two ratings: 'All Ages' and 'Adults Only' regardless of the rating of the main Film. A trailer rated 'Adults Only' should be seen only before/after the main Film rated 'Adults Only'.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

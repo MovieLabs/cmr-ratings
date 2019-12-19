@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T11:41:02" lastSave="2017-10-17T20:08:49">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T18:41:02" lastSave="2019-12-16T18:40:02">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>JP</md:country>
@@ -18,6 +18,9 @@
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/JP/ERIN/1</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Site Geo Blocked</div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="EIGA RINRI IINKAI">
     <md:DisplayName>EIGA RINRI IINKAI</md:DisplayName>
     <mdcr:URL>http://www.eirin.jp/</mdcr:URL>

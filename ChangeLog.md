@@ -16,6 +16,8 @@
 * Greece Film
   * no Changes found since 2000
   * 2000 law referenced as authoritative in 2017 book on Greek Media Law.
+  * added Cyprus to rating
+  * deprecated E
 * Iceland SMAIS
   * deprecated System.  No Updates made
 * Netherlands Kijkwijzer
@@ -43,6 +45,42 @@
   * added updated documentation to source material
   * used wikipedia id's for ratings because the source material didn't list the shorthand or have images.
   * description directly from governement source material
+  * added Macao to usage
+* Brunei Film:
+  * added system
+* Slovenia Film:
+  * added system
+* Lithuania LKC:
+  * added system
+* Italy MBACT
+  * added VM16
+* Croatia HAVC
+  * added system
+* Canada AFC
+  * added reasons
+* Belarus IBC
+  * added system
+* United Arab Emirates NMC-G
+  * added system
+* Uruguay
+  * added system
+* Slovakia Film
+  * nothing yet, but have been told this system is incorrect.  Getting more information
+* Nicaragua Film
+  * added system
+* Moldova CGA
+  * added system
+* Honduras Filme
+  * added system
+* Germany FSK
+  * deprecated Keine rating
+* Germany FSF
+  * deprecated 12ab20uhr
+* Brazil DJCTQ
+  * found out that this rating mixes both tv only and film only ratings systems.
+  * concluded that it could not be changed without messing up legacy systems
+  * leaving as is.
+
 
 ### V2.3.3x
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2014-11-11T21:27:20" lastSave="2019-12-06T18:19:11">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2014-11-12T05:27:20" lastSave="2019-12-23T21:08:36">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>FI</md:country>
@@ -42,11 +42,18 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FI">
       <mdcr:Label>Sallittu kaikenikäisille</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Kuvaohjelmassa ei ole väkivaltaa tai se on vain hyvin lievää. OHJE: Hyvin lievä väkivalta tai väkivallan uhka esimerkiksi animaatiossa tai slapstick-komediassa. Slapstickillä tarkoitetaan tässä yliampuviin törmäilyihin liittyvää komiikkaa, jossa ruumiillista kipua ei esiinny. Animaation oltava yleistunnelmaltaan lämminhenkinen tai iloinen ja selvästi lapsille suunnattu (tarina, väritys, äänimaailma).</mdcr:Definition>
     </mdcr:Descriptor>
     <mdcr:Descriptor language="SV">
       <mdcr:Label>Tillåtet för alla åldrar</mdcr:Label>
       <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>S</mdcr:Label>
+      <mdcr:Definition>VERY MILD VIOLENCE or NO VIOLENCE</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The audio-visual programme contains no violence or only very mild violence.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -59,11 +66,18 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FI">
       <mdcr:Label>Sallittu yli 7-vuotiaille</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Epärealistista tai komediallista tai animaatio- tai slapstick-komediassa esitettyä yliampuvaa tai vähäistä.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">OHJE: Väkivalta ei ole aidon väkivallan kaltaista tai se on komedian kontekstissa niin liioiteltua, että se näyttää absurdilta ja naurettavalta kohellukselta. Eroaa kaikille sallitusta väkivallasta voimakkaampien tehosteiden, uskottavampien tai helposti samaistuttavien hahmojen takia. Väkivaltaa ei ihannoida, sen seuraukset esitetään pääsääntöisesti negatiivisessa valossa. 13. Yksittäinen, lievähkö ja lyhytkestoinen realistinen väkivaltakohtaus tai selkeät, mutta lievät tai lyhytkestoiset väkivaltaviitteet. OHJE: Väkivaltakohtaus, jossa väkivalta voi olla selväpiirteistä ja lyhytkestoista. Aikuisille tai nuorille suunnattu elokuva tai televisiosarja voi yksittäisen väkivaltatilanteen takia sijoittua tähän kategoriaan. Väkivaltaviitteet saavat olla lievästi pelottavia ja tunnelman intensiivisyyden voimakas korostuminen niiden yhteydessä lyhytkestoista. Esimerkiksi jotkin poliisisarjojen jaksot, kuten osa Matlock ja Poirot-sarjojen jaksoista, joissa väkivallan uhri näytetään, mutta väkivallan ulkoiset merkit ovat lieviä tai uhrin kokemaan väkivaltaan viitataan muulla tavoin esim. rikostutkinnan tai uhrin löytymisen yhteydessä dialogissa tai rikoksen tekoon viittaavilla kuvallisilla elementeillä (aseella, kamppailun jäljillä ympäristössä) tai joillakin muulla uhriin liittyvällä tapahtumalla, joka viittaa tulevaan tai jo tapahtuneeseen väkivaltarikokseen.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:Descriptor language="SV">
       <mdcr:Label>Förbjudet under 7 år</mdcr:Label>
       <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>7</mdcr:Label>
+      <mdcr:Definition>Mild Violence</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -76,11 +90,21 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FI">
       <mdcr:Label>Sallittu yli 12-vuotiaille</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Ei erityisen yksityiskohtaista tai ei hallitsevasti lapsiin, eläimiin tai lapsi-päähenkilön perheenjäseniin kohdistuvaa tai tarinan kannalta perusteltu yksittäinen, yksityiskohtainen ihmisiin tai eläimiin kohdistuva väkivaltakohtaus.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">OHJE: Väkivallan uhka tai väkivaltarikoksen selvittäminen usein keskeisempää kuin väkivalta tai väkivalta on osana vauhdikasta toimintaa, yleensä runsasta, nopeaa, selväpiirteistä, tehosteita hyödyntävää, mutta ei kovin yksityiskohtaista. Yksittäinen väkivaltakohtaus saa olla yksityiskohtaisesti esitetty, mikäli se tarinan kannalta on tärkeä ja oleellinen. 10. Epärealistisessa, etäännytetyssä yhteydessä esitetty. OHJE: Joko epärealistinen väkivalta ihmis- tai eläinmäisiä hahmoja kohtaan tai realistinen väkivalta selkeän kuvitteellisia hahmoja kohtaan tai historiallinen, kulttuurinen jne. etäännytys. Monet seikkailu-, fantasia- ja tieteiselokuvat kuuluvat väkivallan osalta tähän kategoriaan. 11. Seksuaaliseen väkivaltaan viittaavaa (raiskaus, insesti, pedofilia). OHJE: Teeman rankkuudesta huolimatta viittaukset ovat selkeitä, mutta hienovaraisia eikä sellaisenaan kovin järkyttäviä.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:Descriptor language="SV">
       <mdcr:Label>Förbjudet under 12 år</mdcr:Label>
       <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Not particularly detailed or not predominantly children, animals or the child-protagonist's family members, or a single detailed scene of violence against people or animals justified by the storyline.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">NOTE: The threat of violence or violence in solving the crime often pivotal role in the violence and violence against women is part of the fast-paced action, usually abundant, quick, clear-cut, effects, exploiting, but not very detailed. Isolated violence scene may be shown in detail, if it is important and inseparable to the story 10, depicted in an unrealistic, estranged connection (either unrealistic violence against human or animal-like characters or realistic violence against clearly imaginary characters or historically, culturally, etc. estranged violence) 11, Referring to sexual violence (rape, incest, pedophilia).</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -97,7 +121,18 @@
     </mdcr:Descriptor>
     <mdcr:Descriptor language="FI">
       <mdcr:Label>Sallittu yli 16-vuotiaille</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Fiktiivistä tai aitoa yksityiskohtaista ja realistista tai hallitsevaa tai pitkäkestoista ihmisiin tai eläimiin kohdistuvaa.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">OHJE: Erona erittäin raakaan väkivaltaan realistisessa kuvauksessa on väkivallan verisyyden vähäisempi määrä ja väkivaltaisten kohtausten lyhyempi kesto. Esitystapa ei ole yhtä voimakkaasti väkivallalla mässäilyä. Aito väkivalta voi olla yksityiskohtaista, jos uhrin kärsimykset tai väkivallan seuraukset tuodaan selkeästi esille 5. Fiktiivistä tai aitoa, yksityiskohtaisesti ja korostetusti tai yksityiskohtaisesti ja viihteellistetysti esitettyä ihmisiin tai eläimiin kohdistuvaa väkivallan tai onnettomuuksien seurausten kuvausta. OHJE: Väkivallan ja onnettomuuksien seuraukset voivat olla yksityiskohtaisia ja korostettuja. Ne voivat olla esimerkiksi sodan, väkivallan, tappeluiden ja päällekarkauksien tai yhteisellä sopimuksella itselle tai toiselle aiheutettuja tai onnettomuuksien seurausta. 6. Fiktiivistä, esitystavaltaan selvästi yliampuvaa tai parodista veristä ja yksityiskohtaista tai pitkäkestoista ja yksityiskohtaista tai pitkäkestoista ja sadistista ihmisiin tai eläimiin kohdistuvaa väkivaltaa. OHJE: Selkeästi, yksiselitteisesti parodisissa ja yliampuvissa kuvaohjelmissa verta tai verenvuotoa voi olla hyvin runsaastikin. Nämä ovat esim. kuvaohjelmia, joissa parodioidaan muita genrejä ja niiden tunnusomaisia piirteitä niin yliampuvasti, että katsoja etäännytetään kuvaohjelman tapahtumista. Irvailu ja huumori genrekonventioiden kustannuksella on parodiassa pääasia. Myös erittäin pitkäkestoista, veristä ja yksityiskohtaista väkivaltaa sisältävät kuvaohjelmat, jotka eivät ole parodiaa, mutta joissa väkivaltakohtauksissa väkivallan kohteina olevat roolihahmot ovat ihmishahmostaan huolimatta ulkoisen olemuksensa ja muiden hyvin selkeästi ja johdonmukaisesti esille tuotujen karrikoitujen, stereotyyppisten ominaisuuksiensa vuoksi kiistattomasti mielikuvituksen piiriin kuuluvia niin, että tämä selkeästi vaikeuttaa samaistumista näihin ja tapahtumien hahmottumista katsojalle realistisina. Tällaisia voivat olla esim. zombit, vampyyrit ja näiden kaltaiset mielikuvitukselliset roolihahmot niiden karrikoiduimmissa muodoissaan sekä vastaavan oloiset epärealistisia maagisia tai muita yli-inhimillisiä ominaisuuksia omaavat ihmismäiset hahmot. Ne lähenevät usein yliampuvuudessaan parodista ilmaisua. Myös tekniseltä toteutukseltaan tai ilmaisultaan vanhahtavat tai muuten toteutukseltaan kömpelöt kuvaohjelmat voidaan katsoa sisällöltään etäännyttäviksi (esimerkiksi jotkin amatöörielokuvat). 7. Aitoa yksityiskohtaisesti tai selväpiirteisesti esitettyä väkivaltaa, jossa uhrin kärsimykset tai väkivallan seuraukset tuodaan realistisesti esille. OHJE: Todellisuuden väkivallan dokumentointia, jossa väkivalta ja sen seuraukset tai uhrin kärsimys näytetään niin yksityiskohtaisesti tai selkeästi, että kuvassa näytetyn tulkinta on näiltä osin yksiselitteistä. 8. Seksiin liittyvää fiktiivistä väkivaltaa, jossa uhrin kärsimys tulee selvästi esiin ja väkivalta on tarinan kannalta perusteltua tai voimakkaita viittauksia alaikäisiin kohdistuvaan seksuaaliseen väkivaltaan tai hyväksikäyttöön. OHJE: Seksiin liittyvä väkivalta on tarinan kannalta tärkeässä osassa ja sen esittämistapa sellainen, että uhrin kärsimys on yksiselitteistä. Viittaukset (visuaaliset tai auditiiviset) alaikäiseen kohdistuvasta seksuaalisesta väkivallasta tai hyväksikäytöstä selkeitä ja yksiselitteisiä suhteessa viitattuun tapahtumaan.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Strong violence</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">fictive or genuine detailed and realistic or dominant or prolonged violence against people or animals.
+Fictive or authentic depicted in a detailed and exaggerated or detailed and entertaining manner describing the consequences of violence against or accidents on people or animals. fictive, depicted in a clearly exaggerating or parodic manner, bloody and detailed or prolonged and detailed or prolonged and sadistic violence against people or animals.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -114,7 +149,17 @@
     </mdcr:Descriptor>
     <mdcr:Descriptor language="FI">
       <mdcr:Label>Vain aikuisille</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Väkivalta kuvaohjelmassa on fiktiivistä, realistista ja erittäin veristä ja yksityiskohtaista tai erittäin pitkäkestoista ja yksityiskohtaista tai erittäin pitkäkestoista ja sadistista ihmisiin tai eläimiin kohdistuvaa väkivaltaa.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">OHJE: Useimmat nk. splatter- ja gore-tyylin elokuvat ovat esimerkkinä erittäin raa’asta väkivallasta. Eri lajityypeissä saattaa olla gore-tyyliin toteutettuja hyvin pitkäkestoisia kohtauksia. Tyypillistä on hyvin pitkäkestoinen yksityiskohtaisella väkivallalla mässäily, kidutuksenomaiset kohtaukset, ihmisten yksityiskohtaiset silpomiset ja vastaavat erittäin pitkäkestoiset kohtaukset. 2. Aitoa ja yksityiskohtaisesti tai selväpiirteisesti sekä viihteellisesti tai ihannoiden esitettyä ihmisiin tai eläimiin kohdistuvaa väkivaltaa. OHJE: Esimerkiksi tosi tv–ohjelmat, joissa esitetään aitoja, hyvin voimakkaita itseen tai muihin kohdistuvia väkivaltaisia tekoja, joiden seuraukset voivat olla hengenvaarallisia. Teot voivat olla myös vakavan itsetuhoisen käyttäytymisen kuvausta. Kyse voi olla myös esimerkiksi yksityiskohtaisista erittäin järkyttävän eläinrääkkäyksen kuvauksista. Todellisuuden väkivallan yksityiskohtaista tai selväpiirteistä dokumentointia viihteellisesti tai ihannoiden esitettynä. Tyypillistä esittämistavalle on musiikin, toistojen, hidastusten, äänimaailman, selostajan ym. keinojen kuvaohjelmalle antama viihteellisyyttä tai ihannoivuutta korostava vaikutus. 3. Fiktiivistä, selväpiirteisesti ja pitkäkestoisesti esitettyä seksiin liittyvää väkivaltaa (raiskaus, insesti, pedofilia). OHJE: Ei ole aitoa vaan näyteltyä väkivalta. Kaikkia yksityiskohtia ei välttämättä näytetä kuvassa, mutta yksityiskohtia ei myöskään välttämättä peitellä.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>fictive, realistic and extremely bloody and detailed or extremely prolonged and detailed or extremely prolonged and sadistic violence against people or animals.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Authentic violence and violence depicted in a detailed or pronounced manner as well as in an entertaining or idolising manner against people or animals. Fictive sex-related violence depicted in a pronounced and prolonged manner (rape, incest, paedophilia)</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="V">

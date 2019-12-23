@@ -28,6 +28,7 @@
   * needs to be reviewed
 * Ireland RTE
   * found several references to this system on rte sight, but they seem to be burying it.  Hasn't changed though.
+  * removed broken url.
 * Malaysia FCBM
   * updated url link
 * Peru Film
@@ -80,6 +81,53 @@
   * found out that this rating mixes both tv only and film only ratings systems.
   * concluded that it could not be changed without messing up legacy systems
   * leaving as is.
+* Estonia Film
+  * deprecated K-6
+* El Salvador Film
+  * added system
+* Ecuador CNE
+  * added system
+* Costa Rica CCEP
+  * added system
+* Arab Emirates NMC
+  * added system
+* Saudi Arabia GCAM
+  * added system
+* Japan EIRIN
+  * No changes, but please note that the site is geo blocked
+* Hong Kong FCO
+  * changed url link.  Classification info located at cedb site.  Actual agency OFNAA
+* Canada CBSC-F
+  * updated descriptions
+* Australia ACMA
+  * added ratings G, PG, M, MA
+* France CNC
+  * changed url
+* South Africa FPB
+  * Added in ratings specific reasons
+* Czech Republic
+  * Added 15 rating.  Deprecated 14
+* Canada RCQ
+  * Added in reasons
+* Finland MEKU
+  * Description updates
+* Canada OFRB
+  * Deprecated System.  Ontario now uses British Columbia version
+* Republic of Korea KMRB-T
+  * Added seperate system for Trailers
+  * Does this break anything?
+* Republic of Korea KMRB
+  * removed trailer usage
+* Spain ICAA
+  * updated Url
+* Canada CBSC
+  * Added Reasons
+* Canada MFCB
+  * Added in XXX, and AA ratings
+* Canada CPBC-T
+  * Deprecated A and added R rating
+* Italy AGCOM
+  * Added VM6 Rating
 
 
 ### V2.3.3x

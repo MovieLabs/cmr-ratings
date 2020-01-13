@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-18T08:13:44" lastSave="2019-12-11T23:03:05">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-18T15:13:44" lastSave="2020-01-11T00:55:27">
   <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>ZA</md:country>
@@ -240,6 +240,7 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>XX</mdcr:Label>
@@ -251,12 +252,6 @@ Telephone: +27 (0) 12 661 0051</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
-    <mdcr:Definition>Substance Abuse</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Substance Abuse ‘D’alerts to the sustained or sporadic excessive use of substances, any use of illicit substances and the unlawful use of substances; 
-(i)Any occurrences of substance abuse must  be considered in the allocation of an appropriate restriction; and
-(ii)Regardless  of  the  level  of  age  restriction,  the  public  must  be  alerted  to  the occurrence  of  substance  abuse  of  a  mild,  moderate,  strong  or  very  strong impact.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content may not contain any scenes of substance abuse, direct or implied;</div>
@@ -291,10 +286,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
-    <mdcr:Definition>Horror</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Horror ‘H’ alters that there are occurrences of horror;(i)Any occurrences of horror of a mild, moderate, strong or very strong nature must be considered in the allocation of an appropriate age restriction.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content only contains low impact scenes of horror</div>
@@ -328,10 +319,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CT">
     <mdcr:Label />
-    <mdcr:Definition>Criminal Techniques</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Criminal Techniques ‘CT’(i)Criminal techniques and instructional details of illegal or dangerous acts that may   be   life-threatening   and   detailed   enough   to   be   re-enacted   or   self-instructional  must  be  treated  as  a  classifiable  element  to  determine  age restrictions. This may require a higher age restriction.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content may not contain any scenes of criminal techniques</div>
@@ -365,10 +352,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="IAT">
     <mdcr:Label />
-    <mdcr:Definition>Imitative Acts and techniques</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Imitative Acts and techniques ‘IAT’(i)Imitative  acts  and  techniques’  is  a  classifiable  element  that  determines  age restrictions where there is a reasonable likelihood that such acts or techniques may be copied or imitated, especially by children.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content may contain scenes of low impact imitative acts and techniques</div>
@@ -402,10 +385,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="L">
     <mdcr:Label />
-    <mdcr:Definition>Language</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Language ‘L’ alerts that there is use of strong language;(i)The  use  of  strong  language  must  be  considered  in  the  allocation  of  an appropriate age restriction; and(ii)Regardless  of  the  level  of  age  restriction,  the  public  must  be  alerted  to  the occurrence  of  strong  language  of  a mild, moderate,  strong  or  very  strong impact.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content   may   only   contain   scenes   with   low   impact language</div>
@@ -439,10 +418,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="N">
     <mdcr:Label />
-    <mdcr:Definition>Nudity</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Nudity ‘N’warns that there are occurrences of nudity;(i)  Nudity  in  natural  non-sexual  contexts,  such  as  breast-feeding  or  bona  fide cultural traditions, is not considered in the allocation of age-restrictions;(ii)  The undue exposure of intimate parts must be considered in the allocation of an appropriate age restriction, based on the context and impact; and(iii)  Regardless  of  the  level  of  age  restriction,  the  public  must  be  alerted  to  the occurrence of nudity, sexual or nonsexual, of a mild, moderate, strong or very strong impact.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content may only contain scenes of low impact nudity in non-sexual contexts</div>
@@ -476,10 +451,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="P">
     <mdcr:Label />
-    <mdcr:Definition>Prejudice</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Prejudice ‘P’ warns  of  occurrences  or  language  that  are  biased  or  prejudiced  with regard to race, ethnicity, gender, sex, pregnancy, marital status, ethnic or social origin, colour,   sexual   orientation,   age,   disability,   religion, conscience,   belief,   culture, language; birth or other identifiable group characteristics;(i)  Any occurrences or language of prejudice must be considered in the allocation of an appropriate age restriction; and(ii)  The  advocacy  of  hatred  constituting  incitement to  cause  harm,  based  on  an identifiable group characteristic, must be refused classification.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content may not contain scenes or language of prejudice</div>
@@ -513,10 +484,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
-    <mdcr:Definition>Sexually-related Activity</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Sexually-related Activity ‘S’indicates occurrences involving sexually-related activity;(i)  Any  mild,  moderate,  strong  or  very  strong  impact  occurrences  of sexually-related    activity,    including    consensual    sexually-related    activity,    must    be considered  in  the  allocation  of  an  appropriate  age-restriction  or  distribution restriction; and(ii)  Any  occurrences  of  consensual  explicit  sexual  conduct  must  be  regarded  as having a very strong or extreme impact, and must be classified appropriately.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content  may  not  contain  any  scenes  of  actual, simulated or implied sexual conduct, but may contain scenes of affection</div>
@@ -550,10 +517,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SV">
     <mdcr:Label />
-    <mdcr:Definition>Sexual Violence</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Sexual Violence ‘SV’ indicates occurrences involving sexual violence;(i)  Any  occurrence  of  sexual  violence  must  be  considered  in  the  allocation  of  an appropriate age restriction; a nd (ii)  Any occurrences involving sexual violence, actual or implied, must be regarded as  having  a  moderate,  strong  or  every  strong  impact,  and  must  be  classified appropriately.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content  may  not  contain  any  scenes  of  actual  or implied sexual violence</div>
@@ -587,10 +550,6 @@ abuse if justified by context.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
-    <mdcr:Definition>Violence</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Violence ‘V’ warns of violent occurrences;(i)  Regardless  of  the  level  of  age  restriction,  the  public  must  be  alerted  to  the occurrence of violence of a mild, moderate, strong or very strong impact; and(ii)  Any  occurrences  of  extreme  violence  must  be  regarded  as  having  a  strong  or very strong impact, and must be classified appropriately.</div>
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Explanation>
         <div class="userHtml">content may contain only low impact violence, and may not contain any scenes of domestic violence</div>
@@ -638,9 +597,5 @@ appropriate consumer information.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CI">
     <mdcr:Label />
-    <mdcr:Definition>Competitive Intensity</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Competitive Intensity ‘CI’(i)  The level of competitive intensity in a game, to the extent that it is linked to in-game  violence,  must  be  treated  as  a  classifiable  element  to  determine  age restrictions; (ii)  Higher levels of competitiveness in games involving violence may result in much higher aggression levels than in less competitive games involving violence, and are therefore a factor that must be considered in the determination of an age restriction; and(iii)  Competitive intensity is heightened by the degree of interactivity of a game.</div>
-    </mdcr:Explanation>
   </mdcr:Reason>
 </mdcr:RatingSystem>

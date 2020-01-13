@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2013-10-28T19:32:32">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-11T00:33:08">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>PE</md:country>
@@ -15,8 +16,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/PE/Film/0</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="-t.b.d.-">
-    <md:DisplayName>-t.b.d.-</md:DisplayName>
+  <mdcr:RatingsOrg organizationID="MDC">
+    <md:DisplayName>MDC</md:DisplayName>
     <mdcr:OrgType>not_specified</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -30,6 +31,10 @@
       <mdcr:Label>PT</mdcr:Label>
       <mdcr:Definition>suitable for all audiences</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>PT</mdcr:Label>
+      <mdcr:Definition>Para todo público</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
@@ -41,6 +46,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>PG</mdcr:Label>
       <mdcr:Definition>parental guidance advised</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Definition>Orientación parental</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -54,6 +63,10 @@
       <mdcr:Label>14</mdcr:Label>
       <mdcr:Definition>contains violence and language; children under 14 admitted only with an adult</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>14</mdcr:Label>
+      <mdcr:Definition>No recomendada para menores de 14 años</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
@@ -65,6 +78,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>contains extreme violence, strong language, pornography or drug abuse; children under 18 admitted only with an adult</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Children under 18 admitted only with an adult</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

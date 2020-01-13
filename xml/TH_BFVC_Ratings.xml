@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-11-13T21:21:54">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-11T00:51:42">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>TH</md:country>
@@ -38,6 +38,10 @@
       <mdcr:Label>General audience</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="TH">
+      <mdcr:Label>ท ทั่วไป</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">E</mdcr:Value>
@@ -49,6 +53,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Educational</mdcr:Label>
       <mdcr:Definition>promoting arts, national culture and traditions</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TH">
+      <mdcr:Label>ส ส่งเสริม</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -62,6 +70,10 @@
       <mdcr:Label>13</mdcr:Label>
       <mdcr:Definition>no one under 13 admitted</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="TH">
+      <mdcr:Label>น 13+</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">15</mdcr:Value>
@@ -73,6 +85,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>15</mdcr:Label>
       <mdcr:Definition>no one under 15 admitted</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TH">
+      <mdcr:Label>น 15+</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -86,6 +102,10 @@
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>no one under 18 admitted</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="TH">
+      <mdcr:Label>น 18+</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">20</mdcr:Value>
@@ -97,6 +117,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>20</mdcr:Label>
       <mdcr:Definition>no one under 20 admitted</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="TH">
+      <mdcr:Label>น 20+</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

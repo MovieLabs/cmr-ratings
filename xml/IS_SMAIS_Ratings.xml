@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T21:22:33" lastSave="2014-09-15T18:25:47">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T04:22:33" lastSave="2020-01-10T00:40:56">
   <mdcr:RatingSystemID version="1" deprecated="true">
     <mdcr:Region>
       <md:country>IS</md:country>
@@ -19,7 +19,7 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/4</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="SMAIS">
     <md:DisplayName>SMAIS</md:DisplayName>
     <mdcr:ContactString>SMÁÍS - Samtök Myndrétthafa á Íslandi. Laugavegi 182, 105 Reykjavík. Sími 588-3800</mdcr:ContactString>
@@ -37,10 +37,14 @@
       <mdcr:Label>L</mdcr:Label>
       <mdcr:Definition>suitable for all audiences</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>L</mdcr:Label>
+      <mdcr:Definition>Mynd Þessi er leyfð öllum aldurshópum</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/0/7</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/7</mdcr:URI>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -49,10 +53,14 @@
       <mdcr:Label>7</mdcr:Label>
       <mdcr:Definition>passed for audiences aged 7 and above</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>7</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 7 ára</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/0/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -61,10 +69,14 @@
       <mdcr:Label>12</mdcr:Label>
       <mdcr:Definition>passed for audiences aged 12 and above</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 12 ára</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/0/14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -73,10 +85,14 @@
       <mdcr:Label>14</mdcr:Label>
       <mdcr:Definition>passed for audiences aged 14 and above</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>14</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 14 ára</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/0/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -85,10 +101,14 @@
       <mdcr:Label>16</mdcr:Label>
       <mdcr:Definition>passed for audiences aged 16 and above</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 16 ára</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/0/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -96,6 +116,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>passed for audiences aged 18 and above</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 18 ára</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

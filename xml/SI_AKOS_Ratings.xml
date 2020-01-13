@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-18T20:55:39">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-11T00:44:45">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>SI</md:country>
       <mdcr:RegionName>SLOVENIA</mdcr:RegionName>
     </mdcr:Region>
-    <mdcr:System>Film</mdcr:System>
+    <mdcr:System>AKOS</mdcr:System>
   </mdcr:RatingSystemID>
   <mdcr:AdoptiveRegion>
     <md:country>SI</md:country>
@@ -17,8 +17,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/SI/Film/0</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="SI">
-    <md:DisplayName>Film</md:DisplayName>
+  <mdcr:RatingsOrg organizationID="AKOS">
+    <md:DisplayName>AKOS</md:DisplayName>
     <mdcr:OrgType>not_specified</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -30,7 +30,7 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="SL">
       <mdcr:Label>All</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Primerno za vse ciljne skupine</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -42,7 +42,7 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="SL">
       <mdcr:Label>12</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Predvajana programska vsebina vključuje prizore, ki niso primerni za otroke do 12. leta starosti</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -54,7 +54,7 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="SL">
       <mdcr:Label>15</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Predvajana programska vsebina vključuje prizore, ki niso primerni za otroke do 15. leta starosti</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -66,7 +66,7 @@
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="SL">
       <mdcr:Label>18</mdcr:Label>
-      <mdcr:Definition />
+      <mdcr:Definition>Predvajana programska vsebina vključuje prizore, ki niso primerni za otroke in mladostnike do 18. leta starosti</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

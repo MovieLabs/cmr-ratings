@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-17T22:21:45">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T21:41:37">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>EE</md:country>
@@ -33,6 +33,10 @@
       <mdcr:Label>PERE</mdcr:Label>
       <mdcr:Definition>Family Film</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>Семейный фильм</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">L</mdcr:Value>
@@ -45,6 +49,10 @@
       <mdcr:Label>L</mdcr:Label>
       <mdcr:Definition>For all audiences with no age limit</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>Разрешен всем</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">MS-6</mdcr:Value>
@@ -56,6 +64,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>MS-6</mdcr:Label>
       <mdcr:Definition>not recommended for children under 6</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>Нежелателен до 6. лет</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -70,6 +82,10 @@
       <mdcr:Label>K-6</mdcr:Label>
       <mdcr:Definition>children under 6 not admitted</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ET">
+      <mdcr:Label>Alla 6 a. keelatud</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">MS-12</mdcr:Value>
@@ -81,6 +97,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>MS-12</mdcr:Label>
       <mdcr:Definition>not recommended for children under 12</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>Нежелателен до 12. лет</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -94,6 +114,10 @@
       <mdcr:Label>K-12</mdcr:Label>
       <mdcr:Definition>children under 12 not admitted</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ET">
+      <mdcr:Label>Alla 12 a. keelatud</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">K-14</mdcr:Value>
@@ -106,6 +130,10 @@
       <mdcr:Label>K-14</mdcr:Label>
       <mdcr:Definition>children under 14 not admitted</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ET">
+      <mdcr:Label>Alla 14 a. keelatud</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">K-16</mdcr:Value>
@@ -117,6 +145,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>K-16</mdcr:Label>
       <mdcr:Definition>children under 16 not admitted</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ET">
+      <mdcr:Label>Alla 16 a. keelatud</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

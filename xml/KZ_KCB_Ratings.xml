@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-10T21:34:58">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>KZ</md:country>
+      <mdcr:RegionName>KAZAKHSTAN</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>KCB</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>KZ</md:country>
+    <mdcr:RegionName>KAZAKHSTAN</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="KCB">
+    <md:DisplayName>KCB</md:DisplayName>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">K</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/K</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>K</mdcr:Label>
+      <mdcr:Definition>фильмы, предназначенные для зрителей разного возраста</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>фильмы, разрешенные для показа детям, достигшим двенадцати лет</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>14</mdcr:Label>
+      <mdcr:Definition>фильмы, которые детям до четырнадцати лет рекомендуется смотреть вместе с родителями</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>фильмы, которые зрителям до шестнадцати лет рекомендуются смотреть вместе с родителями</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>фильмы, предназначенные для зрителей с восемнадцати лет</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">HA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/HA</mdcr:URI>
+    <mdcr:MinRecAge>21</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>HA</mdcr:Label>
+      <mdcr:Definition>фильмы, предназначенные только для зрителей, достигших двадцати одного года</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

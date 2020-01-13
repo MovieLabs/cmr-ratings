@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-18T21:25:25">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-10T00:23:38">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>GR</md:country>
@@ -48,6 +48,10 @@
         <div class="userHtml">The film does not contain violence, drug abuse, or sexual content.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EL">
+      <mdcr:Label>K</mdcr:Label>
+      <mdcr:Definition>Κατάλληλο για όλους</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">E</mdcr:Value>
@@ -73,6 +77,10 @@
       <mdcr:Label>K-12</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EL">
+      <mdcr:Label>K-12</mdcr:Label>
+      <mdcr:Definition>Κατάλληλο για άνω των 12</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">K-13</mdcr:Value>
@@ -88,9 +96,13 @@
         <div class="userHtml">The film may contain mild violence and adult themes. This is not recommended for those under 13 but not restricted.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EL">
+      <mdcr:Label>K-13</mdcr:Label>
+      <mdcr:Definition>Κατάλληλο για άνω των 13</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="15">18+</mdcr:Value>
+    <mdcr:Value ordinal="80">18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GR/Film/0/18+</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -100,9 +112,13 @@
       <mdcr:Label>18+</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EL">
+      <mdcr:Label>18+</mdcr:Label>
+      <mdcr:Definition>Κατάλληλο για άνω των 18</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="80">K-17</mdcr:Value>
+    <mdcr:Value ordinal="70">K-17</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GR/Film/0/K-17</mdcr:URI>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>17</mdcr:MinAge>
@@ -114,6 +130,22 @@
       <mdcr:Explanation>
         <div class="userHtml">The film may contain violence, drug abuse, and mild pornographic scenes. An ID card certifying the age is required in all Greek cinemas and DVD rental shops in order to get a cinema ticket or rent a DVD of a "K-17" rated film. This category is legally restricted.</div>
       </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EL">
+      <mdcr:Label>K-17</mdcr:Label>
+      <mdcr:Definition>Κατάλληλο για άνω των 17</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="5">K-15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/Film/0/K-15</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EL">
+      <mdcr:Label>K-15</mdcr:Label>
+      <mdcr:Definition>Κατάλληλο για άνω των 15</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T17:31:41">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>AM</md:country>
+      <mdcr:RegionName>ARMENIA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>MKRF</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>AM</md:country>
+    <mdcr:RegionName>ARMENIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="MKRF">
+    <md:DisplayName>MKRF</md:DisplayName>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">0</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/0</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>0</mdcr:Label>
+      <mdcr:Definition>Для любой зрительской аудитории</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/6</mdcr:URI>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>6</mdcr:Label>
+      <mdcr:Definition>Для детей старше шести лет</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Детям до 12 лет просмотр фильма разрешен в сопровождении родителей</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Зрителям, достигшим 16 лет</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Зрителям, достигшим 18 лет</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

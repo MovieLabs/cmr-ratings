@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-10T21:37:42">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>LK</md:country>
+      <mdcr:RegionName>SRI LANKA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>Film</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>LK</md:country>
+    <mdcr:RegionName>SRI LANKA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0</mdcr:URI>
+  <mdcr:RatingsOrg>
+    <md:DisplayName />
+    <mdcr:OrgType>not_specified</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">U</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/U</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TA">
+      <mdcr:Label>U</mdcr:Label>
+      <mdcr:Definition>வரையறை அற்ற கண்காட்சி</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/A</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TA">
+      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Definition>வயது வந்தவர்களுக்கு மிகவும் பொருத்தமானது</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">X</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/X</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TA">
+      <mdcr:Label>X</mdcr:Label>
+      <mdcr:Definition>வயது வந்தவர்களுக்கு மட்டும்</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

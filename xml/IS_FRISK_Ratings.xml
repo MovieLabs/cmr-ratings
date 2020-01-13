@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-11-14T00:11:30">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-10T00:37:59">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>IS</md:country>
@@ -112,7 +112,7 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="18">18</mdcr:Value>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0/18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/IS_FRISK_18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
@@ -130,32 +130,20 @@
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="F">
     <mdcr:Label />
-    <mdcr:Definition>Myndin/leikurinn dregur upp mynd af mismunun eða felur í sér efni sem getur hvatt til mismununar</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IS_FRISK_fordomar_misretti.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="B">
     <mdcr:Label />
-    <mdcr:Definition>Í myndinni/leiknum er ljótt orðbragð</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IS_FRISK_blotsyrdi.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="O">
     <mdcr:Label />
-    <mdcr:Definition>Í myndinni/leiknum er ofbeldi</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IS_FRISK_ofbeldi.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="E">
     <mdcr:Label />
-    <mdcr:Definition>Myndin/leikurinn vísar til eða sýnir notkun vímuefna</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IS_FRISK_eiturlyf.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="K">
     <mdcr:Label />
-    <mdcr:Definition>Í myndinni/leiknum er sýnd nekt og/eða þar er að finna kynferðislega hegðun eða tilvísanir</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IS_FRISK_kynlif.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
-    <mdcr:Definition>Myndin/leikurinn getur valdið ótta hjá eða er ógnvekjandi fyrir ung börn</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IS_FRISK_hraedsla.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

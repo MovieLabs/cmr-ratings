@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-11T00:53:18">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T21:12:19">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CZ</md:country>
@@ -41,6 +41,10 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
       <mdcr:Label>U</mdcr:Label>
       <mdcr:Definition>unrestricted</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="CS">
+      <mdcr:Label>U</mdcr:Label>
+      <mdcr:Definition>Bez věkového limitu</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">12</mdcr:Value>
@@ -52,6 +56,10 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>12</mdcr:Label>
       <mdcr:Definition>unsuitable for minors under 12 years of age</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="CS">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Nevhodné pro osoby do 12 let</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -66,6 +74,10 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
       <mdcr:Label>14</mdcr:Label>
       <mdcr:Definition>Suitable for children 14 and over</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="CS">
+      <mdcr:Label>14</mdcr:Label>
+      <mdcr:Definition>Nevhodné pro osoby do 14 let</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="7">15</mdcr:Value>
@@ -78,6 +90,14 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
       <mdcr:Label>15</mdcr:Label>
       <mdcr:Definition>unsuitable for minors under 15 years of age</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="CS">
+      <mdcr:Label>t.b.d</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="CS">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>Nevhodné pro osoby do 15 let</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
@@ -89,6 +109,10 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>unsuitable for minors and juveniles under 18 years of age.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="CS">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Nevhodné pro osoby do 18 let</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

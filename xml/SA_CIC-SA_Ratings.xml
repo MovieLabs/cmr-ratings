@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-16T19:13:10">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-11T00:42:38">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>SA</md:country>
       <mdcr:RegionName>SAUDI ARABIA</mdcr:RegionName>
     </mdcr:Region>
-    <mdcr:System>GCAM</mdcr:System>
+    <mdcr:System>CIC-SA</mdcr:System>
   </mdcr:RatingSystemID>
   <mdcr:AdoptiveRegion>
     <md:country>SA</md:country>
@@ -15,7 +15,7 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0</mdcr:URI>
   <mdcr:RatingsOrg organizationID="GCAM">
     <md:DisplayName>General Commission For Audiovisual Media</md:DisplayName>
     <mdcr:ContactString>E - mail Authority: Info@gcam.gov.sa</mdcr:ContactString>
@@ -24,7 +24,7 @@
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA_GCOM_G.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -37,7 +37,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA_GCOM_PG.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -50,7 +50,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="7">PG12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/PG12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA_GCOM_PG12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
@@ -63,7 +63,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">R12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/R12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/R12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA_GCOM_R12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
@@ -76,7 +76,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">R15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/R15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/R15</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA_GCOM_R15.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
@@ -89,7 +89,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">R18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/R18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/R18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SA_GCOM_R18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>

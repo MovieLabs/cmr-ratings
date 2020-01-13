@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-24T12:19:22" lastSave="2019-12-16T18:03:24">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T02:19:22" lastSave="2020-01-09T18:19:15">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -8,7 +8,8 @@
     <mdcr:System>CBSC-F</mdcr:System>
   </mdcr:RatingSystemID>
   <mdcr:AdoptiveRegion>
-    <md:country>CA</md:country>
+    <md:countryRegion>CA-QC</md:countryRegion>
+    <mdcr:SubRegion>Quebec</mdcr:SubRegion>
     <mdcr:RegionName>CANADA</mdcr:RegionName>
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>

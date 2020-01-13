@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-12-18T18:59:09">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T17:22:35">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>AE</md:country>
       <mdcr:RegionName>UNITED ARAB EMIRATES</mdcr:RegionName>
     </mdcr:Region>
-    <mdcr:System>NMC-G</mdcr:System>
+    <mdcr:System>MOI-G</mdcr:System>
   </mdcr:RatingSystemID>
   <mdcr:AdoptiveRegion>
     <md:country>AE</md:country>
@@ -16,23 +16,11 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="NMC">
-    <md:DisplayName>NMC</md:DisplayName>
+  <mdcr:RatingsOrg organizationID="MOI-G">
+    <md:DisplayName>MOI-G</md:DisplayName>
     <mdcr:URL>http://nmc.gov.ae/ar-ae/Pages/About-Age.aspx</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/16</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>16</mdcr:Label>
-      <mdcr:Definition>Suitable for 16 year olds</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">7</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/7</mdcr:URI>
@@ -91,6 +79,18 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>3</mdcr:Label>
       <mdcr:Definition>Suitable for 3 year olds</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/16</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Suitable for 16 year olds</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

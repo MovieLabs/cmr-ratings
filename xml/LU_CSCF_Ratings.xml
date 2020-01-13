@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-24T19:39:07" lastSave="2019-12-02T23:28:11">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T02:39:07" lastSave="2020-01-10T22:45:24">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>LU</md:country>
@@ -33,6 +33,7 @@ cscf@mc.etat.lu</mdcr:ContactString>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="FR">
       <mdcr:Label>Tous</mdcr:Label>
@@ -105,6 +106,22 @@ cscf@mc.etat.lu</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>movie accessible to people aged 18 and over</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">T</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/LU/CSCF/1/T</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>T</mdcr:Label>
+      <mdcr:Definition>Film accessible à tous</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>T</mdcr:Label>
+      <mdcr:Definition>movie accessible to all</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

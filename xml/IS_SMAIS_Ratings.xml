@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T04:22:33" lastSave="2020-01-10T00:40:56">
-  <mdcr:RatingSystemID version="1" deprecated="true">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T11:22:33" lastSave="2020-01-17T20:27:27">
+  <mdcr:RatingSystemID version="2" deprecated="true">
     <mdcr:Region>
       <md:country>IS</md:country>
       <mdcr:RegionName>ICELAND</mdcr:RegionName>
@@ -19,7 +19,8 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1</mdcr:URI>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="SMAIS">
     <md:DisplayName>SMAIS</md:DisplayName>
     <mdcr:ContactString>SMÁÍS - Samtök Myndrétthafa á Íslandi. Laugavegi 182, 105 Reykjavík. Sími 588-3800</mdcr:ContactString>
@@ -28,7 +29,7 @@
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">L</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/L</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/2/L</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -44,7 +45,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/7</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/2/7</mdcr:URI>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -60,7 +61,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/2/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -76,7 +77,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/2/14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -92,7 +93,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/2/16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -108,7 +109,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/1/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/SMAIS/2/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

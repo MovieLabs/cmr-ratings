@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-12T08:01:40" lastSave="2019-11-14T00:06:22">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-12T16:01:40" lastSave="2020-01-17T18:18:48">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>NL</md:country>
       <mdcr:RegionName>NETHERLANDS</mdcr:RegionName>
@@ -19,8 +19,8 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2019-01-22</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1</mdcr:URI>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">This rating system is used on an unofficial basis in 
 Belgium.</div>
@@ -37,7 +37,7 @@ tel: 085 4011690</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">AL</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/AL</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/AL</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_AL.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -56,7 +56,7 @@ mediaproductie geen schadelijke elementen bevat.</p>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/6</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_6.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -93,7 +93,7 @@ ook dit type beelden de classificatie 6 jaar.</p>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">9</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/9</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/9</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_9.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>9</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -134,7 +134,7 @@ kinderen van acht jaar of jonger (Valkenburg, 2008).</p>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -195,7 +195,7 @@ plaatsen.</p>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/1/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_16.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -252,52 +252,70 @@ horrorfilms juist in de adolescentietijd vaak voorkom</p>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="11">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/14</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_14.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>14 jaar</mdcr:Label>
+      <mdcr:Definition>Mogelijk schadelijk tot 14 jaar</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vanaf een jaar of 12 gebruiken kinderen films en televisieprogramma’s steeds vaker om sociale lessen te leren. Als beelden risicovol gedrag tonen, kan dit een probleem zijn. Bepaalde media krijgen bij Kijkwijzer daarom een 14 jaar classificatie.
+
+Wat hoort bij deze leeftijdsfase?
+•	Sterke identificatie met realistische acteurs, sporthelden, muziekidolen of andere bekende mediafiguren waar zij enige gelijkenis in zien. 
+•	Nog moeite hebben om uit zichzelf kritisch te zijn over maatschappelijke normen. En daar ook een eigen standpunt over in te nemen. 
+•	Zich meer en meer onttrekken aan het ouderlijk gezag. 
+•	Zich het meest aangetrokken voelen tot het risicovolle gedrag, waarbij het voldoen aan een groepsnorm een belangrijke rol speelt.
+•	Films en televisie gebruiken om sociale lessen te leren. 
+Welke media kunnen daarom schadelijk zijn?
+•	Invloedrijke mediafiguren die gedrag vertonen dat risico’s met zich meebrengt, of uitspraken doen en een houding aannemen die op gespannen voet staat met algemeen geldende sociale normen.
+•	Met name mediaproducties die zowel seks als alcohol of drugs tonen en weinig aandacht geven aan de risicovolle, negatieve consequenties van de combinatie daarvan. Het risico is dat jongeren de combinatie als geaccepteerd gedrag gaan zien en hun verwachtingen ten aanzien hiervan laten beïnvloeden.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>18 jaar</mdcr:Label>
+      <mdcr:Definition>Mogelijk schadelijk tot 18 jaar</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vanaf de leeftijd van 18 jaar wordt verwacht dat (jong)volwassenen zelf de verantwoordelijkheid kunnen nemen om ergens wel of niet naar te kijken. Met de invoering van deze leeftijdsgrens kan Kijkwijzer meer duidelijkheid bieden over media die alleen voor volwassenen is. 
+
+Wat hoort bij deze leeftijdsfase?
+•	Heftige media kunnen nog tot negatieve consequenties leiden, zoals agressie of een verhoogde acceptatie van geweld tegen vrouwen.
+Welke media kunnen daarom schadelijk zijn?
+•	Heftige gewelddadige beelden
+•	Heftige pornografie</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="G">
     <mdcr:Label />
-    <mdcr:Definition>Geweld</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Audiovisueel geweld kan verscheidene schadelijke gevolgen hebben. Het kijken naar mediageweld kan onder andere (a) de agressie van kinderen aanwakkeren, (b) kinderen afstompen voor geweld, en (c) kinderen angstig maken (Potter, 1999; Nikken, 2007). In Kijkwijzer hebben we met deze drie negatieve effecten rekening gehouden. De classificatie die geweld krijgt is gebaseerd op bestaande theorieën over de invloed van mediageweld op de twee eerste effecten: agressief gedrag en  afstomping. In het onderdeel over angst komt ook geweld in mediaproducties aan bod, maar dan vanuit theorieën over de typen mediageweld die angst bij kinderen van verschillende leeftijden oproepen.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_geweld.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="A">
     <mdcr:Label />
-    <mdcr:Definition>Angst</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Angsteffecten zijn sterk afhankelijk van het cognitieve ontwikkelingsniveau van de kijker. Uit onderzoek blijkt dat volwassenen en oudere kinderen op twee manieren naar een angstaanjagende film kunnen kijken. Ze kunnen emoties toelaten en er lekker voor gaan zitten om te griezelen. Maar ze kunnen ook emotioneel afhaken door te denken dat hetgeen ze zien niet echt is. In deze gevallen passen volwassen kijkers en oudere kinderen een mechanisme toe dat in de Angelsaksische literatuur ‘adult discount’ wordt genoemd.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_angst.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
-    <mdcr:Definition>Seks</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Seksualiteit is een inhoudskenmerk waarop mediaproducten over de gehele wereld geclassificeerd worden. De twee consumentenonderzoeken die ten grondslag liggen aan Kijkwijzer hebben beide uitgewezen dat ook Nederlandse ouders het belangrijk vinden om te weten of er seks in een mediaproduct voorkomt. Veel ouders zijn er van overtuigd dat het onwenselijk is om kinderen al jong naar seks te laten kijken (Valkenburg, 1997).</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_seks.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="T">
     <mdcr:Label />
-    <mdcr:Definition>Grof taalgebruik</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Uit het consumentenonderzoek bleek dat ouders zich relatief veel zorgen maken over de grote hoeveelheid grof taalgebruik in de media en hier graag over geïnformeerd willen worden. Kijkwijzer voorziet in deze behoefte. Hoewel grof taalgebruik als inhoudsclassificatie is opgenomen, is er in tegenstelling tot de andere inhoudscategorieën, in het geval van grof taalgebruik voor gekozen deze niet aan een bepaalde leeftijdscategorie te verbinden. Bij de proefclassificaties vonden we veel voorbeelden van grof taalgebruik, ook door personages met wie kinderen zich zouden kunnen identificeren.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_taal.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
-    <mdcr:Definition>Discriminatie</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Uit onderzoek blijkt dat ouders graag geïnformeerd worden over discriminatoire uitingen in de media. Mede door de resultaten van dit consumentenonderzoek is discriminatie als inhoudscategorie in Kijkwijzer opgenomen. Kijkwijzer hanteert een brede definitie van discriminatie. Onder discriminatie verstaan we elke uiting waarin bepaalde bevolkingsgroepen als inferieur worden afgeschilderd op grond van ras, religie, huidskleur, sekse, nationaliteit of etnische afstamming.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_disriminatie.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
-    <mdcr:Definition>Drugs en alcohol</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Net als bij discriminatie is een mogelijk schadelijk gevolg van harddrugsgebruik en overmatig softdrugs- en alcoholgebruik in audiovisuele media dat kinderen deze handelingen als gewoon gaan zien. Wanneer het gebruik in een positief daglicht wordt geplaatst, is het zelfs mogelijk dat kinderen en adolescenten het als nastrevenswaardig zien. Het is bekend dat veel personages in films en televisieseries alcohol drinken. Vaak gaat het om personages met wie kinderen zich kunnen identificeren.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_drugs.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

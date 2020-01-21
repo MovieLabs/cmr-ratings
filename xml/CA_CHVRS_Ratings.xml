@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T04:38:25" lastSave="2020-01-09T18:18:50">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T11:38:25" lastSave="2020-01-16T23:19:55">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -17,6 +17,7 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2020-01-16</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="MPA-CANADA">
     <md:DisplayName>MOTION PICTURE ASSOCIATION - CANADA</md:DisplayName>
@@ -26,23 +27,6 @@ Email: info@mpa-canada.org</mdcr:ContactString>
     <mdcr:URL>http://mpa-canada.org/</mdcr:URL>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1/G</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/CHVRS_G.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>G</mdcr:Label>
-      <mdcr:Definition>Suitable for viewing by all ages.</mdcr:Definition>
-    </mdcr:Descriptor>
-    <mdcr:Descriptor language="FR">
-      <mdcr:Label>G</mdcr:Label>
-      <mdcr:Definition>Visa général.</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">E</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1/E</mdcr:URI>
@@ -64,6 +48,23 @@ Email: info@mpa-canada.org</mdcr:ContactString>
       <mdcr:Explanation>
         <div class="userHtml">Ce matériel vidéo n’est sujet á aucune classification. Il peut s'agir d'un documentaire en rapport avec la nature, les voyages, la musique, les arts, la culture ou les sports ou encore d'un document d'ordre éducatif ou informatif.</div>
       </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CHVRS/1/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/CHVRS_G.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by all ages.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>Visa général.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

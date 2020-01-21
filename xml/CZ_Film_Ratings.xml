@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T21:12:19">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T00:18:10">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>CZ</md:country>
       <mdcr:RegionName>CZECH REPUBLIC</mdcr:RegionName>
@@ -16,7 +16,8 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0</mdcr:URI>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="SFK">
     <md:DisplayName>STÁTNÍ FOND KINEMATOGRAFIE</md:DisplayName>
     <mdcr:ContactString>Státní fond kinematografie
@@ -32,7 +33,7 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">U</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0/U</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/1/U</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -48,7 +49,7 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/1/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -64,7 +65,7 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0/14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/1/14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -81,7 +82,7 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="7">15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0/15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/1/15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -101,7 +102,7 @@ film. pobídky tel.: 224 301 286</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/0/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CZ/Film/1/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

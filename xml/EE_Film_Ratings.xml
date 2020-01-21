@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T21:41:37">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T00:26:16">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>EE</md:country>
       <mdcr:RegionName>ESTONIA</mdcr:RegionName>
@@ -16,14 +16,15 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0</mdcr:URI>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="-t.b.d.-">
     <md:DisplayName>-t.b.d.-</md:DisplayName>
     <mdcr:OrgType>not_specified</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">Pere</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/Pere</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/Pere</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -40,7 +41,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">L</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/L</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/L</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -56,7 +57,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">MS-6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/MS-6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/MS-6</mdcr:URI>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -72,7 +73,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">K-6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/K-6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/K-6</mdcr:URI>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>6</mdcr:MinAge>
     <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
@@ -89,7 +90,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">MS-12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/MS-12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/MS-12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -105,7 +106,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">K-12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/K-12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/K-12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
@@ -121,7 +122,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">K-14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/K-14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/K-14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>14</mdcr:MinAge>
     <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
@@ -137,7 +138,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">K-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/0/K-16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EE/Film/1/K-16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>

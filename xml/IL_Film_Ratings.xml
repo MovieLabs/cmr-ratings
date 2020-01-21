@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2017-01-17T19:37:15">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T20:25:24">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>IL</md:country>
@@ -32,7 +32,7 @@
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
+    <mdcr:Descriptor language="IW">
       <mdcr:Label>לכל</mdcr:Label>
       <mdcr:Definition>הותר לכל</mdcr:Definition>
     </mdcr:Descriptor>
@@ -44,9 +44,9 @@
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
+    <mdcr:Descriptor language="IW">
       <mdcr:Label>12</mdcr:Label>
-      <mdcr:Definition>הותר מגיל 12</mdcr:Definition>
+      <mdcr:Definition>12הותר מגיל</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -68,9 +68,9 @@
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
+    <mdcr:Descriptor language="IW">
       <mdcr:Label>16</mdcr:Label>
-      <mdcr:Definition>הותר מגיל 16</mdcr:Definition>
+      <mdcr:Definition>16הותר מגיל</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -80,9 +80,9 @@
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
+    <mdcr:Descriptor language="IW">
       <mdcr:Label>18</mdcr:Label>
-      <mdcr:Definition>הותר מגיל 18</mdcr:Definition>
+      <mdcr:Definition>18הותר מגיל</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

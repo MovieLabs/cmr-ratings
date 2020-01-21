@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-15T07:14:59" lastSave="2020-01-10T21:05:08">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-15T14:14:59" lastSave="2020-01-17T21:06:01">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>IT</md:country>
       <mdcr:RegionName>ITALY</mdcr:RegionName>
@@ -16,8 +16,8 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/1</mdcr:URI>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Ministero dei Beni e delle Attività Culturali e del Turismo">
     <md:DisplayName>Ministero dei Beni e delle Attività Culturali e del Turismo</md:DisplayName>
     <mdcr:ContactString>Ministero dei Beni e delle Attività Culturali e del Turismo
@@ -29,7 +29,7 @@ Piazza Santa Croce in Gerusalemme, 9 / a
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">T</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/1/T</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/2/T</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -41,7 +41,7 @@ Piazza Santa Croce in Gerusalemme, 9 / a
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">VM14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/1/VM14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/2/VM14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>14</mdcr:MinAge>
     <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
@@ -53,7 +53,7 @@ Piazza Santa Croce in Gerusalemme, 9 / a
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">VM16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/1/VM16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/2/VM16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -65,7 +65,7 @@ Piazza Santa Croce in Gerusalemme, 9 / a
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">VM18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/1/VM18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/2/VM18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

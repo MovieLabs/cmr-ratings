@@ -1,34 +1,133 @@
  
 # Change Log
 
-### V2.3.3.X
+### V2.3.3.X.X
+* There are a number of new ratings systems this release.  Paramount gave us a long list of systems that were missing, but many could not be confirmed.  Everything that could be verified are in the new release.  The rest are divided into 2 groups.  Those that could be verified through paramount and third party sources such as movie theater websites and those that could only be verified through paramount.
+* It needs to be decided if those verified by paramount and third party sources should be added to the database.
+* There is a third group that have not been reviewed.  Rather then hold up the release, they will be pushed to the next release.
 
-* Australia ACMA
-  * added in missing ratings and graphics: G, PG, M, And MA
-  * reasons are listed in some descriptions of ratings.  Unsure if they need to be converted to reasons
-  * updated version
+* Verified by 2 sources:
 * Bahrain MIA
   * added system
   * supposedly from their ministry of information affairs
   * from paramount.  verified that cinemas use it, but can't find mention
   * https://bahrain.cinepolisgulf.com/Browsing/General/Ratings
+* Bolivia Film:
+  * added system
+  * from paramount database.
+  * verified that system is used through cinema websites, but found no documentation
+  * https://www.cinecenter.com.bo/#/inicio
+* Brunei Film:
+  * added system
+  * from paramount database.  verified the system is currently used by cinema in brunei.
+  * https://www.mall-ticket.com/Browsing/General/Ratings
+* Cambodia MCFA-KH:
+  * added system
+  * from paramount database.  Partially verified from theater sites.
+  * PG-13 is not listed on the site, but was given to us as a rating
+  * https://legend.com.kh/ratings.aspx
+* Croatia HAVC:
+  * added system
+  * from paramount database..
+  * verified that a system is used in croatia through cinema websites
+  * could not find out who determines ratings and only saw 15 and SU in movie listings
+* Ecuador CNE:
+  * added system
+  * from paramount database.
+  * verified through cinema sites that ratings are regional, and match what we were given. I could not find any official verification for it.
+  * it also matches the system listed in the forum post below.
+  * https://getsatisfaction.com/imdb/topics/please-add-movie-tv-certifications-for-ecuador
+* El Salvador Film:
+  * added system
+  * from paramount database. Verified they have a ratings system with cinema websites, but couldn't find any official source for them or their names.
+* Honduras Film:
+  * added system
+  * from paramount database.  Verified they have a ratings system with cinema websites, but couldn't find any official source for them or their names.
+* Jordan MC-JO:
+  * added system
+  * from paramount database.
+  * ratings run by Jordan Media Commission.  Could not find an online presence, but verified ratings through cinema websites.
+  * Found reference to it on french gov website
+  * http://www.rirm.org/en/mc-media-commission-2/#pll_switcher
+* Kuwait KCB:
+  * added system
+  * from paramount database.  verified it exists but could not find official documentation on internet.  found 2 slightly different accounts on cinema website.  Neither account matches the paramount account.
+  * https://www.cinescape.com.kw/FAQs
+  * https://kwt.voxcinemas.com/faq  
+* Lebanon LCB:
+  * added system
+  * from paramount database.
+  * verified that ratings match system in cinema and confirmed that system is run by government censor board.  Could not find copy of law though.
+  * sources:
+  * http://www.medialawinternational.com/page148.html
+  * https://lb.boell.org/sites/default/files/2010._censorship_in_lebanon-_law_practice_en.pdf  
+* Unverified or contradictory sources:
+* Jamaica CA-JM:
+  * added system
+  * from paramount database.  partially verified by several jamaican news articles
+  * The ratings we were given differ slightly from both news articles.  I cannot say which is the correct one.
+  * Cinema Authority controls ratings and has internal documents, but does not have a public present or post papers.  It was created by a law made in 1913.
+  * 2012
+  * http://www.jamaicaobserver.com/columns/rating-a-film---jamaican-style_11012748
+  * 2014
+  * http://jamaica-gleaner.com/gleaner/20140519/letters/letters2.html
+* Moldova CGA:
+  * added system
+  * from paramount database.
+  * could not verify.  Movie theaters used different age ranges in their ratings
+  
+* Not reviewed yet:
+* Nicaragua Film
+  * added system
+  * from paramount database.  unverified  
+* Oman Film
+  * added system
+  * from paramount database.  unverified
+* Panama Film
+  * added system
+  * from paramount database.  unverified
+* Paraguay Film
+  * added system
+  * from paramount database.  unverified  
+* Saudi Arabia CIC-SA
+  * added system
+  * from paramount database.  unverified
+* Slovenia AKOS
+  * added system
+  * from paramount database.  unverified
+* Spain Setsi
+  * added system
+  * from paramount database.  unverified
+* Sri Lanka Film
+  * added system
+  * from paramount database.  unverified
+* Switzerland CH-FA
+  * french ratings
+  * added from paramount database.  Unverified
+* Switzerland MKB
+  * German
+  * added from paramount database.  Unverified
+* Switzerland TFC
+  * Italy
+  * added from paramount database.  Unverified
+* Uruguay INAU
+  * added system
+  * added from paramount database.  Unverified
+
+### V2.3.3
+
+* Australia ACMA
+  * added in missing ratings and graphics: G, PG, M, And MA
+  * reasons are listed in some descriptions of ratings.  Unsure if they need to be converted to reasons
+  * updated version
 * Brazil DJCTQ
   * found out that this rating mixes both tv only and film only ratings systems.
   * concluded that it could not be changed without messing up legacy systems
   * leaving as is.
-* Bolivia
-  * added system
-  * from paramount database.  unverified
-* Brunei Film:
-  * added system
-  * from paramount database.  unverified
 * Bulgaria NFRC:
   * updated contact info and text of rating explanations
   * "C" Rating corrected to indicate under-12 admission requires adult supervision
   * tweaked ordinals and moved to version 2
-* Cambodia
-  * added system
-  * from paramount database.  unverified
 * Canada AFC
   * added reasons
 * Canada CBSC
@@ -51,25 +150,19 @@
   * paramount says T should be TP and X should be 18X and that banned should deprecated.  it's possible since the last known info comes from 2014, but not implementing without further proof
 * Costa Rica CCEP
   * added system
-  * from paramount database.  unverified
-* Croatia HAVC
-  * added system
-  * from paramount database.  unverified
+  * from paramount database. verified.  put law in source materials
+  * added url.
+  * could not find a short hand for Todo Público menores de 12 acompañados de un adulto.  Theatres seem to just use 12.  Chose TP12 arbitrarily.
+  * Note: paramount says there's an over 14 and over 16, but could not find evidence of either rating.  maybe deprecated?
 * Czech Republic
   * Added 15 rating.  Deprecated 14
   * updated version
 * Denmark MCCYP
   * updated contact info and text of rating explanations
-* Ecuador CNE
-  * added system
-  * from paramount database.  unverified
 * Egypt Film
   * no Valid sources found except from paramount
   * paramount database confirmed several new ratings.
   * added 12+, 16 from paramount
-* El Salvador Film
-  * added system
-  * from paramount database.  unverified
 * Estonia Film
   * deprecated K-6 on paramount advice
   * updated system
@@ -92,9 +185,6 @@
   * deprecated E
   * added K-15 rating
   * added greek definitions
-* Honduras Filme
-  * added system
-  * from paramount database.  unverified
 * Hong Kong FCO
   * changed url link.  Classification info located at cedb site.  Actual agency OFNAA
   * added chinese definitions
@@ -119,52 +209,28 @@
 * Italy MBACT
   * added VM16
   * updated version
-* Jamaica CA-JM
-  * added system
-  * from paramount database.  unverified
 * Japan EIRIN
   * Added Japanese Description and note that the site is geo blocked
-* Jordan MC-JO
-  * added system
-  * from paramount database.  unverified
 * Kazakhstan KCB
   * added system
-  * from paramount database.  unverified
-* Kuwait KCB
-  * added system
-  * from paramount database.  unverified
-* Lebanon LCB
-  * added system
-  * from paramount database.  unverified
+  * from paramount database.  Verified
+  * found relevant law and added to media sources
+  * changed ratings names to reflect law.
 * Lithuania LKC:
   * added system
-  * from paramount database.  unverified
+  * from paramount database. verified
+  * added law to source material
 * Malaysia FCBM
   * updated url link
 * Mexico RTC:
   * Corrected typo re label for 'B' rating
   * updated contact info and text of rating explanations
   * added clarifying note regarding use of color in labeling.
-* Moldova CGA
-  * added system
-  * from paramount database.  unverified
-* Nicaragua Film
-  * added system
-  * from paramount database.  unverified
 * Netherlands Kijkwijzer
   * removed Iceland from usage section.  Iceland uses a similar but different system.
   * Not sure if this is correct procedure  
   * Updated reasons, explanations, and icons
   * Added 14 and 18 and images
-* Oman Film
-  * added system
-  * from paramount database.  unverified
-* Panama Film
-  * added system
-  * from paramount database.  unverified
-* Paraguay Film
-  * added system
-  * from paramount database.  unverified
 * Peru Film
   * Could only find references to system on wikipedia and several independent websites
   * Could only match ratings here at a non authoritative website
@@ -193,9 +259,6 @@
   * added Belarus as a region
   * added 14 rating
   * updated version
-* Saudi Arabia GCAM
-  * added system
-  * from paramount database.  unverified
 * Singapore MDA
   * Version/URI change: NC16 and NC18 were incorrectly specified as 'guidance' rather than restrictions enforceable by law.
   * Updated notes regarding OTT relevance
@@ -205,9 +268,6 @@
 * Slovakia Film
   * added 7 ratings
   * added in new descriptions.  Some of them have different labels
-* Slovenia Film
-  * added system
-  * from paramount database.  unverified
 * South Africa FPB
   * Added in ratings specific reasons
   * deprecated 10M, and XX
@@ -215,24 +275,9 @@
 * Spain ICAA
   * updated Url
   * added spanish definitions
-* Spain Setsi
-  * added system
-  * from paramount database.  unverified
-* Sri Lanka Film
-  * added system
-  * from paramount database.  unverified
-* Switzerland CH-FA
-  * french ratings
-  * added from paramount database.  Unverified
 * Switzerland Film
   * should be SKJF according to paramount.  Unverified
   * Needs to be reviewed
-* Switzerland MKB
-  * German
-  * added from paramount database.  Unverified
-* Switzerland TFC
-  * Italy
-  * added from paramount database.  Unverified
 * Taiwan MOC-TW
   * PG rating has been deprecated
   * R-12 and R-15 ratings have been added
@@ -249,9 +294,6 @@
   * added system
 * US ESRB
   * deprecated C rating
-* Uruguay
-  * added system
-  * added from paramount database.  Unverified
 * Viet Nam MCST
   * Deprecated NYR, 0, 16+
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T21:09:49">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-03T23:09:15">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CR</md:country>
@@ -15,32 +15,22 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2020-02-03</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0</mdcr:URI>
   <mdcr:RatingsOrg organizationID="CCEP">
     <md:DisplayName>CCEP</md:DisplayName>
+    <mdcr:ContactString>Central Offices Office Minister and Vice Ministry of Peace
+info@mj.go.cr
+(+506) 2539-8700</mdcr:ContactString>
+    <mdcr:URL>https://www.mjp.go.cr/viceministeriopaz/EspectaculosPublicos</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">I</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/I</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>I</mdcr:Label>
-      <mdcr:Definition>Especialmente Niños Y Niñas</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Contempla programas infantiles, de fantasía y aventuras. Se trata de material cuyo formato, trama, historia ha sido concebido y diseñado para ese grupo de edad y cuyos contenidos no atenten contra los derechos de la infancia y contribuyan a su desarrollo y formación</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>3</mdcr:MinAgeSupervised>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>15</mdcr:Label>
@@ -54,8 +44,8 @@
     <mdcr:Value ordinal="0">15</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>15</mdcr:Label>
@@ -66,23 +56,11 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/16</mdcr:URI>
-    <mdcr:MinRecAge>16</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>7</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>16</mdcr:Label>
-      <mdcr:Definition>Mayores de 16 Años</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>9</mdcr:MinAgeSupervised>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="ES">
       <mdcr:Label>18</mdcr:Label>
@@ -93,18 +71,17 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">TP+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/TP+</mdcr:URI>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
-    <mdcr:MinAge>12</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>2</mdcr:MinAgeSupervised>
-    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:Value ordinal="0">I</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/I</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="ES">
-      <mdcr:Label>TP+</mdcr:Label>
-      <mdcr:Definition>Todo Público menores de 12 acompañados de un adulto</mdcr:Definition>
+      <mdcr:Label>I</mdcr:Label>
+      <mdcr:Definition>Especialmente Niños Y Niñas</mdcr:Definition>
       <mdcr:Explanation>
-        <div class="userHtml">Comprende películas que por la complejidad, la naturaleza del tema tratado, el contenido de algunas escenas, se considera importante el acompañamiento y orientación de una persona adulta.</div>
+        <div class="userHtml">Contempla programas infantiles, de fantasía y aventuras. Se trata de material cuyo formato, trama, historia ha sido concebido y diseñado para ese grupo de edad y cuyos contenidos no atenten contra los derechos de la infancia y contribuyan a su desarrollo y formación</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
@@ -124,15 +101,18 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/14</mdcr:URI>
-    <mdcr:MinRecAge>14</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>5</mdcr:MinAgeSupervised>
+    <mdcr:Value ordinal="0">TP12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/TP12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="ES">
-      <mdcr:Label>14</mdcr:Label>
-      <mdcr:Definition>Mayores de 14 Años</mdcr:Definition>
+      <mdcr:Label>TP12</mdcr:Label>
+      <mdcr:Definition>Todo Público menores de 12 acompañados de un adulto</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Comprende películas que por la complejidad, la naturaleza del tema tratado, el contenido de algunas escenas, se considera importante el acompañamiento y orientación de una persona adulta.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

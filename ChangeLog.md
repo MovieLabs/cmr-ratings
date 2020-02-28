@@ -1,7 +1,7 @@
  
 # Change Log
 
-### V2.3.3.X
+### V2.4.X
 * There are a number of new ratings systems this release.  Paramount gave us a long list of systems that were missing, but many could not be confirmed.  Everything that could be verified are in the new release.  The rest need to be reviewed or have contradictory information
 * Jamaica CA-JM:
   * added system
@@ -53,7 +53,7 @@
   * added system
   * added from paramount database.  Unverified
 
-### V2.3.3
+### V2.4
 
 * Australia ACMA
   * added in missing ratings and graphics: G, PG, M, And MA
@@ -244,7 +244,7 @@
   * removed trailer usage
 * Republic of Korea KMRB-T
   * Added seperate system for Trailers
-  * Does this break anything?
+  * Older versions of the ratings may link Trailer ratings to KMRB
 * Romania CNA
   * Updated descriptions
 * Russia MKRF
@@ -275,8 +275,9 @@
   * updated Url
   * added spanish definitions
 * Switzerland Film
-  * should be SKJF according to paramount.  Unverified
-  * Needs to be reviewed
+  * Ratings ID should be SKJF according to paramount database. Cannot change Ratings ID without breaking older versions.
+  * The reviewer could not verify that these ratings exist.
+  * Needs to be reviewed in future version. Paramount Database has 4 ratings systems for Switzerland.
 * Taiwan MOC-TW
   * PG rating has been deprecated
   * R-12 and R-15 ratings have been added

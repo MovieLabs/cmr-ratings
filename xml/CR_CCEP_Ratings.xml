@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-03T23:09:15">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-28T21:46:15">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CR</md:country>
@@ -26,22 +26,7 @@ info@mj.go.cr
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/12</mdcr:URI>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
-    <mdcr:MinAge>12</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>15</mdcr:Label>
-      <mdcr:Definition>Mayores de 12 Años</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Comprende material de diversos géneros, en especial de aventuras, ficción, de vida en familia, en los que puede incluirse en forma ocasional tramas y escenas de adulto, sin promover la resolución de conflictos por medios violentos. El material no contiene violencia física ni verbal extrema y/o sistemática, adicciones ni sexo explícito.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">15</mdcr:Value>
+    <mdcr:Value ordinal="6">15</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
@@ -56,7 +41,7 @@ info@mj.go.cr
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">18</mdcr:Value>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -101,7 +86,7 @@ info@mj.go.cr
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">TP12</mdcr:Value>
+    <mdcr:Value ordinal="2">TP12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/TP12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
@@ -112,6 +97,21 @@ info@mj.go.cr
       <mdcr:Definition>Todo Público menores de 12 acompañados de un adulto</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Comprende películas que por la complejidad, la naturaleza del tema tratado, el contenido de algunas escenas, se considera importante el acompañamiento y orientación de una persona adulta.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Mayores de 12 Años</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Comprende material de diversos géneros, en especial de aventuras, ficción, de vida en familia, en los que puede incluirse en forma ocasional tramas y escenas de adulto, sin promover la resolución de conflictos por medios violentos. El material no contiene violencia física ni verbal extrema y/o sistemática, adicciones ni sexo explícito.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T17:42:06">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-28T20:42:04">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>BH</md:country>
@@ -15,26 +15,14 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BH/MIA/0</mdcr:URI>
   <mdcr:RatingsOrg organizationID="MIA">
     <md:DisplayName>MIA</md:DisplayName>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/G</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>G</mdcr:Label>
-      <mdcr:Definition>General audiences</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BH/MIA/0/PG</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -45,8 +33,20 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BH/MIA/0/G</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>General audiences</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="3">PG-13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG-13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BH/MIA/0/PG-13</mdcr:URI>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -58,7 +58,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">PG-15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/PG-15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BH/MIA/0/PG-15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -70,7 +70,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">15+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/15+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BH/MIA/0/15+</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
@@ -82,7 +82,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/-t.b.d.-/-t.b.d.-/0/18+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BH/MIA/0/18+</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

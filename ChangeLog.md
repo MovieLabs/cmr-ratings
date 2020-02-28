@@ -57,206 +57,159 @@
 
 * Australia ACMA
   * added in missing ratings and graphics: G, PG, M, And MA
-  * reasons are listed in some descriptions of ratings.  Unsure if they need to be converted to reasons
-  * updated version
+  * Note: reasons are listed in some descriptions of ratings. Unsure if they need to be converted to reasons
 * Bahrain MIA
-  * added system
-  * supposedly from their ministry of information affairs
-  * from paramount.  verified that cinemas use it, but can't find mention
-  * https://bahrain.cinepolisgulf.com/Browsing/General/Ratings
-* Bolivia Film:
-  * added system
-  * from paramount database.
-  * verified that system is used through cinema websites, but found no documentation
-  * https://www.cinecenter.com.bo/#/inicio
+  * New system
+  * Sources include: https://bahrain.cinepolisgulf.com/Browsing/General/Ratings
+* Bolivia Film
+  * New system
+  * No authoritative sites identified. Verified through cinema websites, including https://www.cinecenter.com.bo/#/inicio
 * Brazil DJCTQ
-  * found out that this rating mixes both tv only and film only ratings systems.
-  * concluded that it could not be changed without messing up legacy systems
-  * leaving as is.
+  * Unchanged. Note that this rating mixes both TV-only and film-only ratings systems. However, it cannot not be changed without breaking legacy systems.
 * Brunei Film:
-  * added system
-  * from paramount database.  verified the system is currently used by cinema in brunei.
-  * https://www.mall-ticket.com/Browsing/General/Ratings
+  * New system
+  * Verified through cinema sites, including https://www.mall-ticket.com/Browsing/General/Ratings
 * Bulgaria NFRC:
   * updated contact info and text of rating explanations
   * "C" Rating corrected to indicate under-12 admission requires adult supervision
-  * tweaked ordinals and moved to version 2
+  * Adjusted ordinals accordingly
 * Canada AFC
-  * added reasons
+  * Added reasons
 * Canada CBSC
-  * Added Reasons
+  * Added reasons
 * Canada CBSC-F
-  * updated descriptions
+  * Updated descriptions
 * Canada CPBC-T
   * Deprecated A and added R rating
 * Canada CHVRS
-  * minor editing
-  * added french mostly
+  * Editing, incluiding inclusion of more French
 * Canada MFCB
   * Added in XXX, and AA ratings
 * Canada OFRB
   * Deprecated System.  Ontario now uses British Columbia version
 * Canada RCQ
-  * Added in reasons
+  * Added reasons
 * Colombia MOC
-  * added some descriptions
-  * paramount says T should be TP and X should be 18X and that banned should deprecated.  it's possible since the last known info comes from 2014, but not implementing without further proof
+  * Added additional descriptions
 * Costa Rica CCEP
-  * added system
+  * New system
   * from paramount database. verified.  put law in source materials
-  * added url.
-  * could not find a short hand for Todo Público menores de 12 acompañados de un adulto.  Theatres seem to just use 12.  Chose TP12 arbitrarily.
-  * Note: paramount says there's an over 14 and over 16, but could not find evidence of either rating.  maybe deprecated?
-* Cambodia MCFA-KH:
-  * added system
-  * from paramount database.  Partially verified from theater sites.
-  * PG-13 is not listed on the site, but was given to us as a rating
-  * https://legend.com.kh/ratings.aspx
-* Croatia HAVC:
-  * added system
+  * Note: Could not find offical abbreviation for Todo Público menores de 12 acompañados de un adulto. Theatres seem to just use 12. Chose TP12 for consistency
+* Cambodia MCFA-KH
+  * New system
+  * No authoritative sources. Verified through cinema websites. Only saw 15 and SU in movie listings
+* Croatia HAVC
+  * New system
   * from paramount database..
   * verified that a system is used in croatia through cinema websites
   * could not find out who determines ratings and only saw 15 and SU in movie listings
 * Czech Republic
-  * Added 15 rating.  Deprecated 14
-  * updated version
+  * Added 15 rating
+  * Deprecated 14
 * Denmark MCCYP
-  * updated contact info and text of rating explanations
-* Ecuador CNE:
-  * added system
-  * from paramount database.
-  * verified through cinema sites that ratings are regional, and match what we were given. I could not find any official verification for it.
-  * it also matches the system listed in the forum post below.
-  * https://getsatisfaction.com/imdb/topics/please-add-movie-tv-certifications-for-ecuador
+  * Updated contact info and text of rating explanations
+* Ecuador CNE
+  * New system
+  * Verified through cinema sites. No authoritative sites found
 * Egypt Film
-  * no Valid sources found except from paramount
-  * paramount database confirmed several new ratings.
-  * added 12+, 16 from paramount
-* El Salvador Film:
-  * added system
-  * from paramount database. Verified they have a ratings system with cinema websites, but couldn't find any official source for them or their names.
+  * Added 12+, 16
+  * Information added based on common usage, but no authoritative sources were found
+* El Salvador Film
+  * New system
+  * Verified via cinema websites, but no authoritative sites were found.
 * Estonia Film
-  * deprecated K-6 on paramount advice
-  * updated system
+  * Deprecated K-6
 * Finland MEKU
   * Description updates
 * France CNC
-  * changed url
+  * Updated URL
 * Germany FSF
-  * deprecated 12ab20uhr
+  * New System (TV)
+  * Note that FSK formerly incorrectly referenced TV.
 * Germany FSK
-  * deprecated Keine rating
-  * Usage was incorrectly indicated to include TV broadcast. TV ratings, however, are handled by the FSF, rather than FSK, rating system.The FSF rating system has been added and the FSK usage has been corrected.
+  * Deprecated Keine rating
+  * Usage incorrectly indicated that this includes TV broadcast. TV ratings, however, are handled by the FSF, rather than FSK. The FSF rating system has been added as the relevant TV rating system, and the FSK usage has been corrected. to remove TV
 * Great Britain BBFC
-  * updated graphics and edited descriptions
-  * needs review
+  * Updated graphics and edited descriptions
 * Greece Film
-  * no Changes found since 2000
   * 2000 law referenced as authoritative in 2017 book on Greek Media Law.
-  * added Cyprus to rating
-  * deprecated E
-  * added K-15 rating
-  * added greek definitions
-* Honduras Film:
-  * added system
-  * from paramount database.  Verified they have a ratings system with cinema websites, but couldn't find any official source for them or their names.
+  * Added Cyprus to rating
+  * Deprecated E
+  * Added K-15 rating
+  * Added greek definitions
+* Honduras Film
+  * New system
 * Hong Kong FCO
-  * changed url link.  Classification info located at cedb site.  Actual agency OFNAA
-  * added chinese definitions
+  * Changed URL. Classification information is located at cedb site. Cognizant agency is OFNAA
+  * Added Chinese definitions
 * Hungary RCNOF
-  * deprecated VI on paramount advice
-  * updated version
+  * Deprecated VI 
 * Iceland Frisk
-  * added ratings system. It is the current system.
-  * needs to be reviewed
+  * New system
+  * It is the current system for Iceland
+  * Based on Kijkwijzer, but not identical. Note that it was listed as a Region for Kijkwijzer, but has been removed.
 * Iceland SMAIS
-  * deprecated System.  No Updates made
-  * changed version because of deprecation.  Not sure do that needs to be done
+  * Deprecated System. No other changes made
 * Ireland IFCO and IFCOF
-  * updated contact info
+  * Updated contact info
 * Ireland RTE
-  * found several references to this system on rte sight, but they seem to be burying it.  Hasn't changed though.
-  * removed broken url.
+  * Removed broken URL
 * Israel Film
-  * changed language to hebrew in several ratings
+  * Changed language to hebrew in several ratings
 * Italy AGCOM
   * Added VM6 Rating
 * Italy MBACT
-  * added VM16
-  * updated version
+  * Added VM16
 * Japan EIRIN
-  * Added Japanese Description and note that the site is geo blocked
-* Jordan MC-JO:
-  * added system
-  * from paramount database.
-  * ratings run by Jordan Media Commission.  Could not find an online presence, but verified ratings through cinema websites.
-  * Found reference to it on french gov website
-  * http://www.rirm.org/en/mc-media-commission-2/#pll_switcher
+  * Added Japanese description and noted that the site is geo blocked
+* Jordan MC-JO
+  * New system
+  * Validated through cinema websites, including http://www.rirm.org/en/mc-media-commission-2/#pll_switcher
 * Kazakhstan KCB
-  * added system
-  * from paramount database.  Verified
-  * found relevant law and added to media sources
-  * changed ratings names to reflect law.
+  * New system
+  * Ratings reflect law
 * Kuwait KCB:
-  * added system
-  * from paramount database.  verified it exists but could not find official documentation on internet.  found 2 slightly different accounts on cinema website.  Neither account matches the paramount account.
-  * https://www.cinescape.com.kw/FAQs
-  * https://kwt.voxcinemas.com/faq  
+  * New system
+  * Based on usage, not official documentation. The following slightly different accounts on cinema websites 
+   * https://www.cinescape.com.kw/FAQs
+   * https://kwt.voxcinemas.com/faq  
 * Lebanon LCB:
-  * added system
-  * from paramount database.
-  * verified that ratings match system in cinema and confirmed that system is run by government censor board.  Could not find copy of law though.
-  * sources:
-  * http://www.medialawinternational.com/page148.html
-  * https://lb.boell.org/sites/default/files/2010._censorship_in_lebanon-_law_practice_en.pdf
+  * New system
+  * Sources: 
+   * http://www.medialawinternational.com/page148.html
+   * https://lb.boell.org/sites/default/files/2010._censorship_in_lebanon-_law_practice_en.pdf
+   * Note that we could not find an applicable law (if it exists)
 * Lithuania LKC:
-  * added system
-  * from paramount database. verified
-  * added law to source material
+  * New system
+  * Added law to source material
 * Malaysia FCBM
-  * updated url link
-* Mexico RTC:
-  * Corrected typo re label for 'B' rating
-  * updated contact info and text of rating explanations
-  * added clarifying note regarding use of color in labeling.
+  * Updated URL
+* Mexico RTC
+  * Corrected typo regarding label for 'B' rating
+  * Updated contact info and text of rating explanations
+  * Added clarifying note regarding use of color in labeling.
 * Netherlands Kijkwijzer
-  * removed Iceland from usage section.  Iceland uses a similar but different system.
-  * Not sure if this is correct procedure  
+  * Removed Iceland from usage section. Iceland uses a similar but different system.
   * Updated reasons, explanations, and icons
-  * Added 14 and 18 and images
+  * Added 14 and 18, with images
+  * Note that Common Metadata added abilty to add Ratings values to Reason
 * Peru Film
-  * Could only find references to system on wikipedia and several independent websites
-  * Could only match ratings here at a non authoritative website
-    * https://www.terramedia.co.uk/media/film/film_classification_schemes.htm
-  * according to wikipedia Peru ratings system was created in 2002 and then ignored
-  * most channels do not use ratings
-  * some channels use their own version of the the 2002 system.
-  * wiki article
-    * https://es.wikipedia.org/wiki/Clasificaci%C3%B3n_por_edades_(televisi%C3%B3n_peruana)
-  * decided to leave decision to ratings group since no one has requested the system
+  * Descriptions updated
 * Portugal CCE
-  * deprecated m/4 and added A, m/3, and m/18-P
-  * added updated documentation to source material
-  * used wikipedia id's for ratings because the source material didn't list the shorthand or have images.
-  * description directly from governement source material
-  * added Macao to usage
+  * Deprecated m/4 
+  * Added A, m/3, and m/18-P
+  * Added updated documentation to source material (from government source material)
+  * Added Macao to usage
 * Republic of Korea KMRB
-  * removed trailer usage
-* Republic of Korea KMRB-T
-  * Added seperate system for Trailers
-  * Older versions of the ratings may link Trailer ratings to KMRB
+  * Updated descriptions
 * Romania CNA
   * Updated descriptions
 * Russia MKRF
-  * added Armenia as a region
-  * added Belarus as a region
-  * added 14 rating
-  * updated version
+  * Added Armenia as a region
+  * Added Belarus as a region
+  * Added 14 rating
 * Saudi Arabia CIC-SA
-  * gov system
-  * added system
-  * from paramount database.
-  * verified
+  * New government system
   * http://www.gcam.gov.sa/ar/RulesAndConditions/AgeClassificationOfFilms/Pages/default.aspx
 * Singapore MDA
   * Version/URI change: NC16 and NC18 were incorrectly specified as 'guidance' rather than restrictions enforceable by law.
@@ -265,35 +218,29 @@
 * Singapore MDA-VG
   * New rating system added that is specific to video games.
 * Slovakia Film
-  * added 7 ratings
-  * added in new descriptions.  Some of them have different labels
+  * Added 7 ratings
+  * Added in new descriptions.  Some of them have different labels
 * South Africa FPB
   * Added in ratings specific reasons
-  * deprecated 10M, and XX
-  * updated version
+  * Deprecated 10M, and XX
 * Spain ICAA
-  * updated Url
-  * added spanish definitions
-* Switzerland Film
-  * Ratings ID should be SKJF according to paramount database. Cannot change Ratings ID without breaking older versions.
-  * The reviewer could not verify that these ratings exist.
-  * Needs to be reviewed in future version. Paramount Database has 4 ratings systems for Switzerland.
+  * Updated URL
+  * Added spanish definitions
 * Taiwan MOC-TW
   * PG rating has been deprecated
   * R-12 and R-15 ratings have been added
 * Taiwan MOC-TW-TV
-  * New rating system added.
+  * New system 
 * Thailand BFVC
-  * added thai descriptions
+  * Added Thai descriptions
 * Ukraine Ukraine
-  * added rating 12 on advice from paramount database.
-  * upgraded version
+  * Added rating 12 on advice from paramount database.
 * United Arab Emirates MOI
-  * added system
+  * New system
 * United Arab Emirates MOI-G
-  * added system
+  * New system
 * US ESRB
-  * deprecated C rating
+  * Deprecated C rating
 * Viet Nam MCST
   * Deprecated NYR, 0, 16+
 

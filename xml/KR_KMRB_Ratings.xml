@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T01:57:33" lastSave="2019-12-03T18:40:54">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T08:57:33" lastSave="2020-02-28T21:22:39">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>KR</md:country>
@@ -12,6 +12,7 @@
     <mdcr:RegionName>KOREA, REP</mdcr:RegionName>
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
       <mdcr:Media>DVD</mdcr:Media>
       <mdcr:Media>TV</mdcr:Media>
       <mdcr:Environment>Home</mdcr:Environment>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T21:56:55">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-28T20:45:52">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>SK</md:country>
@@ -18,22 +18,10 @@
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/SK/Film/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="-t.b.d.-">
-    <md:DisplayName>-t.b.d.-</md:DisplayName>
+  <mdcr:RatingsOrg>
+    <md:DisplayName />
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SK/Film/1/7</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="SK">
-      <mdcr:Label>7</mdcr:Label>
-      <mdcr:Definition>Nevhodné pre vekovu skupinu maloletych do 7</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/SK/Film/1/G</mdcr:URI>
@@ -48,6 +36,18 @@
     <mdcr:Descriptor language="SK">
       <mdcr:Label>U</mdcr:Label>
       <mdcr:Definition>Vhodný pre všetky skupiny maloletých</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SK/Film/1/7</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="SK">
+      <mdcr:Label>7</mdcr:Label>
+      <mdcr:Definition>Nevhodné pre vekovu skupinu maloletych do 7</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

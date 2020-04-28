@@ -1,5 +1,6 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-06T04:46:46" lastSave="2013-12-16T16:30:10">
-  <mdcr:RatingSystemID version="2">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-06T12:46:46" lastSave="2020-04-28T21:17:03">
+  <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>US</md:country>
       <mdcr:RegionName>UNITED STATES</mdcr:RegionName>
@@ -18,35 +19,20 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Film Advisory Board">
     <md:DisplayName>Film Advisory Board</md:DisplayName>
-    <mdcr:ContactString>anet Stokes
-Film Advisory Board, Inc.
-263 West Olive Avenue, #377
-Burbank, CA 91502
+    <mdcr:ContactString>Film Advisory Board, Inc.
+2600 W. Olive Ave, 5th Floor
+Burbank, CA 91505
 Phone:(323) 461-6541
 Fax:(323) 469-8541</mdcr:ContactString>
     <mdcr:URL>http://www.filmadvisoryboard.com/ratings/</mdcr:URL>
     <mdcr:OrgType>Consumer</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">F</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/F</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/US_FAB_Family.gif</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>FAMILY</mdcr:Label>
-      <mdcr:Definition>All Ages</mdcr:Definition>
-      <mdcr:Explanation>In some cases, as in historical pieces, may state 'violence in battle scenes' or 'frightening for younger children'. Is equivalent to MPAA 'G' rating</mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">C</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/C</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/C</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_FAB_Children.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -58,8 +44,24 @@ Fax:(323) 469-8541</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">F</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/F</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_Family.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>FAMILY</mdcr:Label>
+      <mdcr:Definition>All Ages</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In some cases, as in historical pieces, may state 'violence in battle scenes' or 'frightening for younger children'. Is equivalent to MPAA 'G' rating</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="3">PD</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/PD</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/PD</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_FAB_ParentalDiscretion.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -68,12 +70,14 @@ Fax:(323) 469-8541</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>PARENTAL DESCRETION</mdcr:Label>
       <mdcr:Definition>Content Description Implies Age Suitablility</mdcr:Definition>
-      <mdcr:Explanation>May state 'sexual innuendos / mild language / violence / substance abuse / some intense scenes'.  Is equivalent to MPAA 'PG' rating</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">May state 'sexual innuendos / mild language / violence / substance abuse / some intense scenes'.  Is equivalent to MPAA 'PG' rating</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">PD-M</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/1/PD-M</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/PD-M</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_FAB_ParentalDiscretion_Mature.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -82,13 +86,15 @@ Fax:(323) 469-8541</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>PARENTAL DESCRETION MATURE</mdcr:Label>
       <mdcr:Definition>Ages 13 and Over</mdcr:Definition>
-      <mdcr:Explanation>May state 'brief nudity / sexual situations / strong language / violence'. PD-M replaces VM = Very Mature.
-Is equivalent to MPAA 'PG-13' rating.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">May state 'brief nudity / sexual situations / strong language / violence'. PD-M replaces VM = Very Mature.
+Is equivalent to MPAA 'PG-13' rating.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">M</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/1/M</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/M</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -97,12 +103,14 @@ Is equivalent to MPAA 'PG-13' rating.</mdcr:Explanation>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>MATURE</mdcr:Label>
       <mdcr:Definition>Replaced by 'PD'</mdcr:Definition>
-      <mdcr:Explanation>May state 'sexual innuendos / mild language / violence / substance abuse / some intense scenes'.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">May state 'sexual innuendos / mild language / violence / substance abuse / some intense scenes'.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">VM</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/1/VM</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/VM</mdcr:URI>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -111,12 +119,14 @@ Is equivalent to MPAA 'PG-13' rating.</mdcr:Explanation>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>VERY MATURE</mdcr:Label>
       <mdcr:Definition>Replaced by PD-M</mdcr:Definition>
-      <mdcr:Explanation>May state 'brief nudity / sexual situations / strong language / violence'.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">May state 'brief nudity / sexual situations / strong language / violence'.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">EM</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/EM</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/EM</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_FAB_ExtremelyMature.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -125,12 +135,14 @@ Is equivalent to MPAA 'PG-13' rating.</mdcr:Explanation>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>EXTREMELY MATURE</mdcr:Label>
       <mdcr:Definition>Ages 17 and Over</mdcr:Definition>
-      <mdcr:Explanation>May state 'frontal nudity / sex / strong language / violence'. This is equivalent to MPAA ratings R or NC-17 depending upon content description.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">May state 'frontal nudity / sex / strong language / violence'. This is equivalent to MPAA ratings R or NC-17 depending upon content description.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">AO</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/2/AO</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/AO</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_FAB_AdultsOnly.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -139,8 +151,10 @@ Is equivalent to MPAA 'PG-13' rating.</mdcr:Explanation>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>ADULTS ONLY</mdcr:Label>
       <mdcr:Definition>Ages 18 and Over</mdcr:Definition>
-      <mdcr:Explanation>May state 'explicit sex and language / erotica / extreme nudity'.
-Equivalent to the 'X' rating for pornography. Content description may read 'male and female frontal nudity, explicit sex acts with penetration'.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">May state 'explicit sex and language / erotica / extreme nudity'.
+Equivalent to the 'X' rating for pornography. Content description may read 'male and female frontal nudity, explicit sex acts with penetration'.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="L-M">

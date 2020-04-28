@@ -1,7 +1,16 @@
  
 # Change Log
 
-### V2.4.X
+### V2.4.1
+* This is a fix for errors spotted in Brazil DJCTQ
+* Brazil DJCTQ
+  * added description for reason LI
+  * added reason PM
+  * incremented version to 4
+* US FAB
+  * changed address and removed name from contact information
+
+### V2.4
 * There are a number of new ratings systems this release.  Paramount gave us a long list of systems that were missing, but many could not be confirmed.  Everything that could be verified are in the new release.  The rest need to be reviewed or have contradictory information
 * Jamaica CA-JM:
   * added system

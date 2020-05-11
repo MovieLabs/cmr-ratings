@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-06T12:46:46" lastSave="2020-04-28T21:17:03">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-06T20:46:46" lastSave="2020-04-28T23:18:12">
   <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>US</md:country>
@@ -27,22 +27,9 @@
 Burbank, CA 91505
 Phone:(323) 461-6541
 Fax:(323) 469-8541</mdcr:ContactString>
-    <mdcr:URL>http://www.filmadvisoryboard.com/ratings/</mdcr:URL>
+    <mdcr:URL>http://www.filmadvisoryboard.org</mdcr:URL>
     <mdcr:OrgType>Consumer</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">C</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/C</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/US_FAB_Children.gif</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>CHILDREN</mdcr:Label>
-      <mdcr:Definition>Ages 10 and Under</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">F</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/F</mdcr:URI>
@@ -57,6 +44,19 @@ Fax:(323) 469-8541</mdcr:ContactString>
       <mdcr:Explanation>
         <div class="userHtml">In some cases, as in historical pieces, may state 'violence in battle scenes' or 'frightening for younger children'. Is equivalent to MPAA 'G' rating</div>
       </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/FAB/3/C</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/US_FAB_Children.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>CHILDREN</mdcr:Label>
+      <mdcr:Definition>Ages 10 and Under</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

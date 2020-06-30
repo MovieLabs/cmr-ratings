@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-06-24T20:14:05">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>CH</md:country>
+      <mdcr:RegionName>SWITZERLAND</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>FA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>CH</md:country>
+    <mdcr:RegionName>SWITZERLAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Switzerland has a rating system specific to each official language. They are extremely similar but are all legally required to be displayed.</div>
+  </mdcr:Notes>
+  <mdcr:RatingsOrg organizationID="FA">
+    <md:DisplayName>FA</md:DisplayName>
+    <mdcr:ContactString>Commission nationale du film et de la protection des mineurs
+Boîte postale 399
+3000 Berne 14
+Tél. 031.387.37.05
+info@filmrating.ch
+Heures d’ouverture: lundi – vendredi, 9:00-11:30  et 14:00-16:30 heures
+
+Marc Flückiger, Präsident
+Fabrice Wulliamoz, Vizepräsident
+Rolf Zellweger, Vizepräsident
+praesidium@filmrating.ch</mdcr:ContactString>
+    <mdcr:URL>http://filmrating.ch/fr/jugendschutz/willkommen.html</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">ALL</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/ALL</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal sans limite d’âge (c.-à-d. dès 0 an)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="7">7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/7</mdcr:URI>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>7 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="10">10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/10</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>10</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>8</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 10 ans (cinéma)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/12</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 12 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="14">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/14</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 14 ans (cinéma)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/16</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 16 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/18</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 18 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/6</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>6</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>4</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 6 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">8</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/CH-FA/0/8</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>8</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 8 ans (cinéma)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

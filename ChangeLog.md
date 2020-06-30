@@ -1,7 +1,8 @@
  
 # Change Log
 
-### V2.4.X
+
+### V2.5.X
 * There are a number of new ratings systems this release.  Paramount gave us a long list of systems that were missing, but many could not be confirmed.  Everything that could be verified are in the new release.  The rest need to be reviewed or have contradictory information
 * Jamaica CA-JM:
   * added system
@@ -12,6 +13,7 @@
   * http://www.jamaicaobserver.com/columns/rating-a-film---jamaican-style_11012748
   * 2014
   * http://jamaica-gleaner.com/gleaner/20140519/letters/letters2.html
+  * contacted jamaican governement via email for clarification on 6/29/2020. No response as of yet.
 * Moldova CGA:
   * added system
   * from paramount database.
@@ -37,21 +39,35 @@
 * Sri Lanka Film
   * added system
   * from paramount database.  unverified
-* Switzerland CH-FA
+* Switzerland FA
   * switzerland is a very complicated system and will be very difficult to unravel
   * french ratings
   * added from paramount database.  Unverified
+  * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 * Switzerland MKB
   * switzerland is a very complicated system and will be very difficult to unravel
   * German
   * added from paramount database.  Unverified
+  * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 * Switzerland TFC
   * switzerland is a very complicated system and will be very difficult to unravel
   * Italy
   * added from paramount database.  Unverified
+  * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
+
+### V2.4.2
+* Switzerland Film
+  * Added new contact infomation
+  * Added new ratings
+  * Added French descriptions
+  * Updated German descriptions
+  * Incremented Version
+  * Contacted Swiss film commission for clarification on alternate ratings systems. They replied that filmratings.ch should be considered the standard going forward.
 * Uruguay INAU
   * added system
-  * added from paramount database.  Unverified
+  * added from paramount database.
+  * added contact information.
+  * Verified system from online site.
 
 ### V2.4.1
 * This is a fix for errors spotted in Brazil DJCTQ

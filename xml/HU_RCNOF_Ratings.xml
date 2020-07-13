@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-01T23:42:17" lastSave="2017-09-28T20:23:44">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-02T13:42:17" lastSave="2020-01-17T00:45:00">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>HU</md:country>
       <mdcr:RegionName>HUNGARY</mdcr:RegionName>
@@ -17,8 +17,8 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2017-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1</mdcr:URI>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY">
     <md:DisplayName>NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY</md:DisplayName>
     <mdcr:ContactString>1015 Budapest, Ostrom u. 23-25; email: info@nmhh.hu; tel: (06 1) 457 7100</mdcr:ContactString>
@@ -27,7 +27,7 @@
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">I</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/I</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/2/I</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_I.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -40,7 +40,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">II</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/II</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/2/II</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_II.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -53,7 +53,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">III</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/III</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/2/III</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_III.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -66,7 +66,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">IV</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/IV</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/2/IV</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_IV.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -78,8 +78,8 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="12">V</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/V</mdcr:URI>
+    <mdcr:Value ordinal="80">V</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/2/V</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_V.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -92,11 +92,12 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">VI</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/1/VI</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/HU/RCNOF/2/VI</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/HU_Cat_VI.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="HU">
       <mdcr:Label>VI</mdcr:Label>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T11:57:33" lastSave="2016-12-20T21:08:59">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T08:57:33" lastSave="2020-02-28T21:22:39">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>KR</md:country>
@@ -34,6 +34,7 @@ Tel +82-2-3153-4300</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_G.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -75,6 +76,7 @@ Tel +82-2-3153-4300</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">12+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/12+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -117,6 +119,7 @@ Tel +82-2-3153-4300</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">15+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/15+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_15.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -159,6 +162,7 @@ Tel +82-2-3153-4300</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/18+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -198,9 +202,10 @@ Tel +82-2-3153-4300</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">LIM</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/LIM</mdcr:URI>
-    <mdcr:MinRecAge>19</mdcr:MinRecAge>
-    <mdcr:MinAge>19</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>19</mdcr:MinAgeSupervised>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_LIM.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="KO">
       <mdcr:Label>제한관람가</mdcr:Label>

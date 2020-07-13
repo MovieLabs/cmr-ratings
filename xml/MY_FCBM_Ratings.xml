@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T07:52:06" lastSave="2014-12-22T20:10:43">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T14:52:06" lastSave="2019-11-11T23:21:37">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>MY</md:country>
@@ -18,7 +18,7 @@
   <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Film Censorship Board of Malaysia">
     <md:DisplayName>Film Censorship Board of Malaysia</md:DisplayName>
-    <mdcr:URL>http://www.moha.gov.my/index.php/en/lpf-klasifikasi-filem</mdcr:URL>
+    <mdcr:URL>http://lpf.moha.gov.my/lpf/index.php/ms/perkhidmatan2/klasifikasi-filem</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

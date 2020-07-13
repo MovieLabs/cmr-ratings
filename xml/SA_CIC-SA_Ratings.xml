@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-06-30T17:00:28">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>SA</md:country>
+      <mdcr:RegionName>SAUDI ARABIA</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>CIC-SA</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>SA</md:country>
+    <mdcr:RegionName>SAUDI ARABIA</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="GCAM">
+    <md:DisplayName>General Commission For Audiovisual Media</md:DisplayName>
+    <mdcr:ContactString>E - mail Authority: Info@gcam.gov.sa</mdcr:ContactString>
+    <mdcr:URL>http://www.gcam.gov.sa/ar/RulesAndConditions/AgeClassificationOfFilms/Pages/default.aspx</mdcr:URL>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/G</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA_GCOM_G.PNG</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>The film is for the general public. It is suitable for all ages of viewers, and the content is within a positive framework and free from the effects of violence and intimidation</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/PG</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA_GCOM_PG.PNG</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Definition>is recommended that adults be present with children under 12 years of age, and the content in general is safe for those under 12 years old, but some scenes may not be suitable for them, so adults should evaluate whether the film is suitable for them or not</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="7">PG12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/PG12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA_GCOM_PG12.PNG</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG12</mdcr:Label>
+      <mdcr:Definition>Required the presence of adults with less than 12 years of age, where topics include imaging mature, treated conservatively and suitable for those who are at the age of 12 and above.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">R12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/R12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA_GCOM_R12.PNG</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>R12</mdcr:Label>
+      <mdcr:Definition>Viewers under the age of 12 are prohibited from entering, as the film includes mature topics, which are preserved in a manner that is appropriate and appropriate for those of this age and over.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">R15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/R15</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA_GCOM_R15.PNG</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>R15</mdcr:Label>
+      <mdcr:Definition>Viewers under the age of 15 are not allowed in, as the film includes mature topics, which are preserved in a manner that is appropriate and appropriate for those of this age and over.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="15">R18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SA/GCAM/0/R18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/SA_GCOM_R18.PNG</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>R18</mdcr:Label>
+      <mdcr:Definition>Viewers under the age of 18 are not allowed in. The film contains relatively mature topics, usually including scenes of terror or violence.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

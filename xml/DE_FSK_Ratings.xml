@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-11T21:56:48" lastSave="2019-06-11T15:16:25">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T04:56:48" lastSave="2019-12-17T22:22:56">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>DE</md:country>
@@ -136,11 +136,28 @@ Sensibilität geprüft.</div>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSK_1132.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>FSK ab 18/Keine Jugendfreigabe</mdcr:Label>
+      <mdcr:Definition>as Kennzeichen "FSK ab 18" entspricht dem bisherigen Kennzeichen "Keine Jugendfreigabe".</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Dieses Kennzeichen wird vergeben, wenn keine einfache bzw. schwere Jugendgefährdung vorliegt. Nach § 14 Abs. 3 u. 4 des Jugendschutzgesetzes erfolgt für DVDs und Blu-ray Discs die Vergabe des Kennzeichnens "FSK ab 18", wenn keine einfache Jugendgefährdung vorliegt, für die öffentliche Filmvorführung, wenn der Film nicht schwer jugendgefährdend ist. Gekennzeichnete Filme, DVDs und Blu-ray Discs werden von der Bundesprüfstelle für jugendgefährdende Medien (BPjM) nicht indiziert.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="80">Keine</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/1/Keine</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="DE">
       <mdcr:Label>Keine Kennzeichnung</mdcr:Label>
@@ -156,22 +173,6 @@ Die gesetzlichen Bestimmungen zum Jugendschutz sind hier eindeutig und bindend f
 "Keine Kennzeichnung" stellt aber kein Aufführungsverbot dar. Kinos können auf eigenes rechtliches Risiko den Film vorführen - allerdings nur vor Erwachsenen. Kommt ein Gericht – beispielsweise nach 
 einer Anzeige - zur Auffassung, dass es sich um einen "schwer jugendgefährdenden Film" handelt, sind unter anderem Werbung und Ankündigung gesetzlich verboten und daher strafbar 
 (Jugendschutzgesetz, § 15 Abs. 1). Über den Jugendschutz hinaus möglicherweise zu berücksichtigende strafrechtliche Bestände fallen ebenfalls in den Aufgabenbereich der Justiz - und nicht der FSK.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="80">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSK/1/18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DE_FSK_1132.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="DE">
-      <mdcr:Label>FSK ab 18/Keine Jugendfreigabe</mdcr:Label>
-      <mdcr:Definition>as Kennzeichen "FSK ab 18" entspricht dem bisherigen Kennzeichen "Keine Jugendfreigabe".</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Dieses Kennzeichen wird vergeben, wenn keine einfache bzw. schwere Jugendgefährdung vorliegt. Nach § 14 Abs. 3 u. 4 des Jugendschutzgesetzes erfolgt für DVDs und Blu-ray Discs die Vergabe des Kennzeichnens "FSK ab 18", wenn keine einfache Jugendgefährdung vorliegt, für die öffentliche Filmvorführung, wenn der Film nicht schwer jugendgefährdend ist. Gekennzeichnete Filme, DVDs und Blu-ray Discs werden von der Bundesprüfstelle für jugendgefährdende Medien (BPjM) nicht indiziert.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

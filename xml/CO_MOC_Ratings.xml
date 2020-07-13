@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T06:48:36" lastSave="2013-12-12T19:24:24">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T03:48:36" lastSave="2020-01-17T00:07:33">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>CO</md:country>
@@ -27,7 +28,7 @@
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
-      <mdcr:Label>Exepmt</mdcr:Label>
+      <mdcr:Label>Exempt</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
@@ -42,6 +43,10 @@
       <mdcr:Label>T</mdcr:Label>
       <mdcr:Definition>for general audiences</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>T</mdcr:Label>
+      <mdcr:Definition>Para todo público</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">7</mdcr:Value>
@@ -54,10 +59,14 @@
       <mdcr:Label>7</mdcr:Label>
       <mdcr:Definition>suitable for children aged 7 and above.</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>7</mdcr:Label>
+      <mdcr:Definition>Apta para mayores de siete (7) años (clasificación de carácter informativo).</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CO/MOC/0/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CO/MOC/1/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -66,10 +75,14 @@
       <mdcr:Label>12</mdcr:Label>
       <mdcr:Definition>suitable for children aged 12 and above.</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Apta para mayores de 12 años (clasificación de carácter informativo).</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CO/MOC/0/15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CO/MOC/1/15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -77,6 +90,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>15</mdcr:Label>
       <mdcr:Definition>suitable for children aged 15and above.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>Apta para mayores de 15 años (clasificación de carácter restrictivo).</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -90,6 +107,10 @@
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>suitable for children aged 18 and above.</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Apta para mayores de 18 años (clasificación de carácter restrictivo).</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">X</mdcr:Value>
@@ -102,6 +123,10 @@
       <mdcr:Label>X</mdcr:Label>
       <mdcr:Definition>for pornography.</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>X</mdcr:Label>
+      <mdcr:Definition>Películas para mayores de 18 años (de exhibición condicionada por contenido pornográfico, X).</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="100">Banned</mdcr:Value>
@@ -109,11 +134,11 @@
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Banned</mdcr:Label>
-      <mdcr:Definition>for movies "containing elements inciting to crime or making a concrete endorsement of it.</mdcr:Definition>
-      <mdcr:Explanation>"</mdcr:Explanation>
+      <mdcr:Definition>for movies "containing elements inciting to crime or making a concrete endorsement of it."</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

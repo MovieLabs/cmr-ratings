@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-02T04:17:40" lastSave="2018-02-05T21:52:50">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-03T22:17:40" lastSave="2020-06-30T17:03:44">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CH</md:country>
       <mdcr:RegionName>SWITZERLAND</mdcr:RegionName>
@@ -20,88 +20,152 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/1</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="t.b.d.">
-    <md:DisplayName>t.b.d.</md:DisplayName>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2</mdcr:URI>
+  <mdcr:RatingsOrg>
+    <md:DisplayName />
+    <mdcr:ContactString>Schweizerische Kommission Jugendschutz im Film
+Postfach 399
+3000 Bern 14
+Tel. 031.387.37.05
+info@filmrating.ch
+Öffnungszeiten: Montag bis Freitag, 9.00-11.30  und 14.00-16.30 Uhr
+
+Marc Flückiger, Präsident
+Fabrice Wulliamoz, Vizepräsident
+Rolf Zellweger, Vizepräsident
+praesidium@filmrating.ch</mdcr:ContactString>
+    <mdcr:URL>http://www.filmrating.ch/de/jugendschutz/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">0</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/1/0</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/0</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="DE">
-      <mdcr:Label>ab 0 freigegeben/Freigegeben ohne Altersbeschränkung</mdcr:Label>
+      <mdcr:Label>Freigegeben ohne Altersbeschränkung (d.h. ab 0 Jahren)</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Ages 0 / Exempt</mdcr:Label>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal sans limite d’âge (c.-à-d. dès 0 an)</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="25">6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/1/6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/6</mdcr:URI>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>6</mdcr:MinAge>
     <mdcr:MinAgeSupervised>4</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="DE">
-      <mdcr:Label>ab 6 freigegeben</mdcr:Label>
+      <mdcr:Label>Freigegeben ab 6 Jahren</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Suitable for ages 6</mdcr:Label>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 6 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="30">8</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/8</mdcr:URI>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>8</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 8 ans (cinéma)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigegeben ab 8 Jahren (Kino)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="40">10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/10</mdcr:URI>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>10</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>8</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigegeben ab 10 Jahren (Kino)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 10 ans (cinéma)</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="45">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/1/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="DE">
-      <mdcr:Label>ab 12 freigegeben</mdcr:Label>
+      <mdcr:Label>Freigegeben ab 12 Jahren</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Suitable for ages 12</mdcr:Label>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 12 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 12 ans</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="50">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="DE">
+      <mdcr:Label>Freigegeben ab 14 Jahren (Kino)</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 14 ans (cinéma)</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="65">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/1/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="DE">
-      <mdcr:Label>ab 16 freigegeben</mdcr:Label>
+      <mdcr:Label>Freigegeben ab 16 Jahren</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Suitable for ages 16</mdcr:Label>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 16 ans</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/1/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="DE">
-      <mdcr:Label>ab 18/Keine Jugendfreigabe</mdcr:Label>
+      <mdcr:Label>Freigegeben ab 18 Jahren</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Rated 18</mdcr:Label>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Accès légal dès 18 ans</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>

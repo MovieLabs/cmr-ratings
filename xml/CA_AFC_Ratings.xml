@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T07:49:20" lastSave="2018-02-05T21:49:20">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T21:49:20" lastSave="2019-12-18T19:22:10">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -114,4 +114,67 @@ The Hangover Part II (2011), and Project X (2012). Most horror movies that inclu
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="CL">
+    <mdcr:Label />
+    <mdcr:Definition>Coarse Language</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Contains profanity, expletives, vulgar expressions, threats, slurs, sexual references or sexual innuendo.
+
+Common to PG, 14A, and 18A</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="OL">
+    <mdcr:Label />
+    <mdcr:Definition>Language May Offend</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Contains language that may be offensive to some groups. It may include sacrilegious language, slurs or vulgar expressions.
+
+Common to PG, and 14A</div>
+    </mdcr:Explanation>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="H">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="BV">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="G">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="SV">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="N">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="SS">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="S">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="XS">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="C">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="D">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="NYC">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="NC">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="M">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="DC">
+    <mdcr:Label />
+  </mdcr:Reason>
 </mdcr:RatingSystem>

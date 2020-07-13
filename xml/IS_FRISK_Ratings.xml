@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T20:27:39">
+  <mdcr:RatingSystemID version="0">
+    <mdcr:Region>
+      <md:country>IS</md:country>
+      <mdcr:RegionName>ICELAND</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>FRISK</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>IS</md:country>
+    <mdcr:RegionName>ICELAND</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Media>Trailer</mdcr:Media>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="Frisk">
+    <md:DisplayName>Félag rétthafa í sjónvarps- og kvikmyndaiðnaði</md:DisplayName>
+    <mdcr:ContactString>kvikmyndaskodun@fsk.is</mdcr:ContactString>
+    <mdcr:URL>http://www.kvikmyndaskodun.is/</mdcr:URL>
+    <mdcr:OrgType>Trade</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">L</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0/L</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/IS_FRISK_L.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>L</mdcr:Label>
+      <mdcr:Definition>Mynd Þessi er leyfð öllum aldurshópum</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>L</mdcr:Label>
+      <mdcr:Definition>Picture This is allowed for all age groups</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0/6</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/IS_FRISK_6.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>6</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 6 ára</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>6</mdcr:Label>
+      <mdcr:Definition>This photo is not suitable under 6 years</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">9</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0/9</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/IS_FRISK_9.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>9</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>9</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 9 ára</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>9</mdcr:Label>
+      <mdcr:Definition>This photo is not suitable under 9 years</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0/12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/IS_FRISK_12.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 12 ára</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>This picture is not suitable under 12 years</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0/16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/IS_FRISK_16.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 16 ára</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>This photo is not suitable under 16 years</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="80">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IS/FRISK/0/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/IS_FRISK_18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IS">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Mynd þessi er ekki við hæfi yngri en 18 ára</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>This photo is not suitable under 18 years</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="F">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="B">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="O">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="E">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="K">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="H">
+    <mdcr:Label />
+  </mdcr:Reason>
+</mdcr:RatingSystem>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2017-01-02T21:18:26">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T22:15:23">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>VN</md:country>
       <mdcr:RegionName>VIET NAM</mdcr:RegionName>
@@ -18,14 +18,31 @@
       <mdcr:Environment>Retail</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1</mdcr:URI>
+  <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Ministry of Culture, Sports and Tourism of Viet Nam">
     <md:DisplayName>Ministry of Culture, Sports and Tourism of Viet Nam</md:DisplayName>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">P</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2/P</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>P</mdcr:Label>
+      <mdcr:Definition>Film is suitable for general viewing</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="VI">
+      <mdcr:Label>P</mdcr:Label>
+      <mdcr:Definition>Phù hợp cho mọi đối tượng khán giả</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="0">0</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1/0</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2/0</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -37,20 +54,8 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">P</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1/P</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>P</mdcr:Label>
-      <mdcr:Definition>Film is suitable for general viewing</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="13">C13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1/C13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2/C13</mdcr:URI>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
@@ -59,10 +64,14 @@
       <mdcr:Label>C13</mdcr:Label>
       <mdcr:Definition>Restricted from audiences under 13</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="VI">
+      <mdcr:Label>C13</mdcr:Label>
+      <mdcr:Definition>Chỉ dành cho khán giả từ 13 tuổi trở lên</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="16">C16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1/C16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2/C16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -71,10 +80,14 @@
       <mdcr:Label>C16</mdcr:Label>
       <mdcr:Definition>Restricted from audiences under 16</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="VI">
+      <mdcr:Label>C16</mdcr:Label>
+      <mdcr:Definition>Chỉ dành cho khán giả từ 16 tuổi trở lên</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="16">16+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1/16+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2/16+</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -87,7 +100,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">C18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1/C18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2/C18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -96,13 +109,18 @@
       <mdcr:Label>C18</mdcr:Label>
       <mdcr:Definition>Restricted from audiences under 18</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="VI">
+      <mdcr:Label>C18</mdcr:Label>
+      <mdcr:Definition>Chỉ dành cho khán giả từ 18 tuổi trở lên</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="100">NYR</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/1/NYR</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/VN/MCST/2/NYR</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>NYR</mdcr:Label>

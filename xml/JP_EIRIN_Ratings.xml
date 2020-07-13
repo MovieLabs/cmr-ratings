@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T11:41:02" lastSave="2017-10-17T20:08:49">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-15T08:41:02" lastSave="2020-02-05T18:18:20">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>JP</md:country>
@@ -35,6 +35,10 @@
       <mdcr:Label>General</mdcr:Label>
       <mdcr:Definition>Suitable for all ages</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="JA">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>年齢にかかわらず誰でも観覧できる</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG12</mdcr:Value>
@@ -47,6 +51,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Parental guidance - 12 and Above</mdcr:Label>
       <mdcr:Definition>Parental guidance requested for young people under 12 years</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="JA">
+      <mdcr:Label>PG12</mdcr:Label>
+      <mdcr:Definition>12 歳未満の年少者の観覧には、親又は保護者の助言・指導が必要</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -61,6 +69,10 @@
       <mdcr:Label>15 and above only</mdcr:Label>
       <mdcr:Definition>for persons aged 15 and above only (No one under 15 admitted).</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="JA">
+      <mdcr:Label>R15+</mdcr:Label>
+      <mdcr:Definition>15 歳以上</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R18+</mdcr:Value>
@@ -73,6 +85,10 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18 and above only</mdcr:Label>
       <mdcr:Definition>for persons aged 18 and above only (No one under 18 admitted).</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="JA">
+      <mdcr:Label>R18+</mdcr:Label>
+      <mdcr:Definition>18 歳以上</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

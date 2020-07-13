@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-24T23:11:47" lastSave="2013-12-11T16:25:18">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T06:11:47" lastSave="2020-01-11T00:39:44">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>RO</md:country>
@@ -17,7 +18,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/RO/CNA/1</mdcr:URI><mdcr:RatingsOrg organizationID="CONSILIUL NATIONAL AL AUDIOVIZUALULUI - CNA">
+  <mdcr:URI>http://www.movielabs.com/md/ratings/RO/CNA/1</mdcr:URI>
+  <mdcr:RatingsOrg organizationID="CONSILIUL NATIONAL AL AUDIOVIZUALULUI - CNA">
     <md:DisplayName>CONSILIUL NATIONAL AL AUDIOVIZUALULUI - CNA</md:DisplayName>
     <mdcr:ContactString>CONSILIUL NATIONAL AL AUDIOVIZUALULUI - CNA  
 Bd. Libertatii nr.14, sector 5, cod 050706, Bucuresti, ROMÂNIA 
@@ -36,14 +38,18 @@ Fax: +40 (0)21 305 5354/56</mdcr:ContactString>
     <mdcr:Descriptor language="RO">
       <mdcr:Label>AP</mdcr:Label>
       <mdcr:Definition>Acordul părinţilor</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Programe care pot fi vizionate de minorii în vârstă de până la 12 ani numai cu acordul părinţilor sau împreună cu familia</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>AP</mdcr:Label>
       <mdcr:Definition>Parental guidance.</mdcr:Definition>
-      <mdcr:Explanation>These are programmes that may be viewed by minors aged under 12 only with the parents’ permission or together with the family</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">These are programmes that may be viewed by minors aged under 12 only with the parents’ permission or together with the family</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
-  
   <mdcr:Rating>
     <mdcr:Value ordinal="12">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/RO/CNA/1/12</mdcr:URI>
@@ -106,7 +112,21 @@ Fax: +40 (0)21 305 5354/56</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18+</mdcr:Label>
       <mdcr:Definition>Pornographic films or programmes whose main aim is to present in detail sexual intercourse or the means to satisfy sexual needs, or programmes presenting real-life sexual activity, irrespective of the shooting manner Films rated 18+ are forbidden for broadcasting to audiovisual media services providers under Romania’s jurisdiction.</mdcr:Definition>
-      <mdcr:Explanation>Video on demand services that contains 18 + must provide access restrictionmeasures.</mdcr:Explanation>
+      <mdcr:Explanation>
+        <div class="userHtml">Video on demand services that contains 18 + must provide access restrictionmeasures.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">G</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/RO/CNA/1/G</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RO">
+      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Definition>Programe accesibile tuturor categoriilor de public</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

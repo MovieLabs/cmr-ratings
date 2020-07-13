@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T22:19:22" lastSave="2018-02-05T21:50:28">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T02:19:22" lastSave="2020-01-09T18:19:15">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -8,7 +8,8 @@
     <mdcr:System>CBSC-F</mdcr:System>
   </mdcr:RatingSystemID>
   <mdcr:AdoptiveRegion>
-    <md:country>CA</md:country>
+    <md:countryRegion>CA-QC</md:countryRegion>
+    <mdcr:SubRegion>Quebec</mdcr:SubRegion>
     <mdcr:RegionName>CANADA</mdcr:RegionName>
     <mdcr:Usage>
       <mdcr:Media>Film</mdcr:Media>
@@ -19,13 +20,10 @@
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0</mdcr:URI>
   <mdcr:Notes>
-    <div class="userHtml">
-      <p>Canadian French-language broadcasters use the classification system of the 
+    <div class="userHtml">Canadian French-language broadcasters use the classification system of the 
 Regie du cinema du Quebec (RCU), but they added one additional  category (8+).
 Broadcaster must still  evaluate the programs themselves and cannot necessarily use the RCU 
-classification of a particular film  or program. Even if a Canadian channel is airing a foreign-produced 
- program, it must put a Canadian rating on it.</p>
-    </div>
+classification of a particular film  or program. Even if a Canadian channel is airing a foreign-produced program, it must put a Canadian rating on it.</div>
   </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="CBSC">
     <md:DisplayName>Canadian Broadcast Standards Council</md:DisplayName>
@@ -36,6 +34,27 @@ K1P 6H8</mdcr:ContactString>
     <mdcr:URL>http://www.cbsc.ca/english/agvot/frenchsystem.php</mdcr:URL>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">EC</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/EC</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_exempt.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition>Sont dispensés du classement, les films suivants:</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">1°  le film produit à des fins de promotion industrielle ou commerciale à l’exception d’un film annonce portant sur un film non dispensé du classement et d’un vidéoclip;
+2°  le film produit à des fins éducatives ou pédagogiques, à la condition qu’il soit utilisé dans un établissement d’enseignement, de santé, de services sociaux ou de recherche scientifique, dans une bibliothèque publique ou un musée;
+3°  le film produit à des fins de formation professionnelle, à la condition qu’il soit utilisé à l’occasion d’un cours, d’une conférence ou autre activité de même nature;
+4°  le film sur l’apprentissage d’une langue, d’un sport, d’une méthode de conditionnement physique ou sur une technique de même nature, à la condition qu’il ne présente pas de scènes de violence ou d’activité sexuelle explicite;
+5°  le film sur un événement sportif;
+6°  le film présenté lors d’une manifestation diplomatique, d’un festival de films ou de tout autre événement analogue reconnu par le directeur.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/G</mdcr:URI>
@@ -62,7 +81,7 @@ K1P 6H8</mdcr:ContactString>
   <mdcr:Rating>
     <mdcr:Value ordinal="2">8+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/8+</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_clip_image003.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_8.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>8</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

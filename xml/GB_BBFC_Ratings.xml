@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-18T11:29:17" lastSave="2017-10-17T20:44:45">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-19T08:29:17" lastSave="2019-11-05T23:05:50">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>GB</md:country>
@@ -32,14 +32,17 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="1">U</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/U</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_U-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_U_RGB.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>4</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Universal</mdcr:Label>
-      <mdcr:Definition>A U film should be suitable for audiences aged four years and over. However, it is impossible to predict what might upset a particular child, especially at this lower end of the category range.</mdcr:Definition>
+      <mdcr:Definition>Suitable for all</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A U film should be suitable for audiences aged four years and over, although it is impossible to predict what might upset any particular child. U films should be set within a positive framework and should offer reassuring counterbalances to any violence, threat or horror.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:ApplicableReason id="Drugs" />
     <mdcr:ApplicableReason id="Discrimination" />
@@ -54,16 +57,49 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/PG</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_PG-150px_1.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_PG_RGB.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Parental Guidance</mdcr:Label>
-      <mdcr:Definition>Film is suitable for general viewing, but some scenes may be unsuitable for younger children. A PG film should not disturb a child aged around eight or older.</mdcr:Definition>
+      <mdcr:Definition>General viewing, but some scenes may be unsuitable for young children</mdcr:Definition>
       <mdcr:Explanation>
-        <div class="userHtml">Parents should consider whether the content might upset younger or more sensitive children. Some films are given a PG certificate but have not been made with a young audience in mind. However, the certificate means that any issues in the work are appropriate for the majority of this age group and nothing should upset a child of eight or over.</div>
+        <div class="userHtml">A PG film should not unsettle a child aged around eight or older. Unaccompanied children of any age may watch, but parents  are advised to consider whether the content may upset younger  or more sensitive children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Drugs" />
+    <mdcr:ApplicableReason id="Discrimination" />
+    <mdcr:ApplicableReason id="Horror" />
+    <mdcr:ApplicableReason id="Behaviour" />
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Nudity" />
+    <mdcr:ApplicableReason id="Theme" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12A</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12A_RGB.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>GB</md:country>
+      <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Media>Film</mdcr:Media>
+        <mdcr:Environment>Theater</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Accompanied under 12</mdcr:Label>
+      <mdcr:Definition>Suitable for 12 years and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films classified 12A and video works classified 12 contain material that is not generally suitable for children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult. Adults planning to take a child under 12 to view a 12A film should consider whether the film is suitable for that child.  To help them decide, we recommend that they check the ratings info for that film in advance.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:ApplicableReason id="Drugs" />
@@ -79,7 +115,7 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="6">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12_RGB.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -99,38 +135,8 @@
       <mdcr:Label>12 and Older</mdcr:Label>
       <mdcr:Definition>Suitable for 12 years and over</mdcr:Definition>
       <mdcr:Explanation>
-        <div class="userHtml">The 12 certificate is just for videos, DVDs and Blu-rays. 12A is for films at the cinema only.</div>
+        <div class="userHtml">Films classified 12A and video works classified 12 contain material that is not generally suitable for children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult. Adults planning to take a child under 12 to view a 12A film should consider whether the film is suitable for that child.  To help them decide, we recommend that they check the ratings info for that film in advance.No one younger than 12 may rent or buy a 12 rated video work.</div>
       </mdcr:Explanation>
-    </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="Drugs" />
-    <mdcr:ApplicableReason id="Discrimination" />
-    <mdcr:ApplicableReason id="Horror" />
-    <mdcr:ApplicableReason id="Behaviour" />
-    <mdcr:ApplicableReason id="Language" />
-    <mdcr:ApplicableReason id="Violence" />
-    <mdcr:ApplicableReason id="Sex" />
-    <mdcr:ApplicableReason id="Nudity" />
-    <mdcr:ApplicableReason id="Theme" />
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="6">12A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12A</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12A-150px.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
-    <mdcr:MinAge>12</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:Override>
-      <md:country>GB</md:country>
-      <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
-      <mdcr:Usage>
-        <mdcr:Media>Film</mdcr:Media>
-        <mdcr:Environment>Theater</mdcr:Environment>
-      </mdcr:Usage>
-    </mdcr:Override>
-    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Accompanied under 12</mdcr:Label>
-      <mdcr:Definition>Children younger than 12 may see the film if they are accompanied by an adult (eg someone over the age of 18), who must watch the film with them.</mdcr:Definition>
     </mdcr:Descriptor>
     <mdcr:ApplicableReason id="Drugs" />
     <mdcr:ApplicableReason id="Discrimination" />
@@ -145,14 +151,17 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="9">15</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/15</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_15-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_15_RGB.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>15 and Older</mdcr:Label>
-      <mdcr:Definition>15 rated works are not suitable for children under 15 years of age. No theme is prohibited, provided the treatment is appropriate for 15 year olds.</mdcr:Definition>
+      <mdcr:Definition>Suitable only for 15 years and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">No one younger than 15 may see a 15 film in a cinema. No one younger than 15 may rent or buy a 15 rated video work</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:ApplicableReason id="Drugs" />
     <mdcr:ApplicableReason id="Discrimination" />
@@ -167,91 +176,97 @@
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_18-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_18_RGB.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18 and Older</mdcr:Label>
-      <mdcr:Definition>No-one under 18 is allowed to see an 18 film at the cinema or buy/rent an 18 rated DVD. No 18 rated works are suitable for children.</mdcr:Definition>
+      <mdcr:Definition>Suitable only for adults</mdcr:Definition>
       <mdcr:Explanation>
-        <div class="userHtml">No theme is prohibited at 18. Adults are free to pick their own entertainment within the law, so it is possible some themes tackled at 18 
-may be offensive even to some adult viewers. There can be strong and detailed portrayals of sex at 18, including full nudity. 
-There are no constraints on nudity in a non-sexual or educational context. An 18 film or DVD might also contain depictions of real sex if 
-it is justified by context, as long as the film or DVD is not a sex work. 
-Sex works are works whose primary purpose is sexual arousal or stimulation. Sex works containing only material which may be 
-simulated are generally passed 18. Those containing clear images of real sex, strong fetish material, sexually explicit animated 
-images, or other very strong sexual images will be confined to the R18 category. Material which is unacceptable in a sex work at
- R18 is also unacceptable in a sex work at 18.</div>
+        <div class="userHtml">No one younger than 18 may see an 18 film in a cinema.
+No one younger than 18 may rent or buy an 18 rated video work
+Adults should be free to choose their own entertainment. Exceptions are most likely in the following areas:
+Where the material is in breach of the criminal law, or has been created through the commission of a criminal offence
+Where material or treatment appears to us to risk harm to individuals or, through their behaviour, to society. For example, the detailed portrayal of violent or dangerous acts, or of illegal drug use, which may cause harm to public health or morals. This may include portrayals of sadistic violence, rape or other non-consensual sexually violent behaviour which make this violence look appealing; reinforce the suggestion that victims enjoy rape or other non-consensual sexually violent behaviour; or which invite viewer complicity in rape, other non-consensual sexually violent behaviour or other harmful violent activities
+Where there are more explicit images of sexual activity in the context of a sex work (see right)In the case of video works, which may be more accessible to younger viewers, intervention may be more frequent than for cinema films.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Sex works at 18" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">R18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/R18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_R18-150px.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_R18_RGB.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>RESTRICTED 18 and Older</mdcr:Label>
-      <mdcr:Definition>Classification primarily for explicit works of consenting sex or strong fetish material involving adults. Films may only be shown to adults in specially licensed cinemas, and video works may be supplied to adults only in licensed sex shops.</mdcr:Definition>
+      <mdcr:Definition>To be shown only in specially licensed cinemas, or supplied only in licensed sex shops, and to adults only</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">The R18 category is a special and legally-restricted classification primarily for explicit works of consenting sex or strong fetish material involving adults. Films may only be shown to adults in specially licensed cinemas, and video works may be supplied to adults only in licensed sex shops. R18 video works may not be supplied by mail order.
+The following content is not acceptable:
+Material which is in breach of the criminal law, including material judged to be obscene under the current interpretation of the Obscene Publications Act 1959 (see Annexe – legal considerations)
+Material (including dialogue) likely to encourage an interest in sexually abusive activity which may include adults role-playing as non-adults
+The portrayal of sexual activity which involves real or apparent lack of consent. Any form  of physical restraint which prevents participants from indicating a withdrawal of consent
+The infliction of pain or acts which are likely to cause serious physical harm, whether real or (in a sexual context) simulated. Some allowance may be made for non-abusive, consensual activity
+Penetration by any object likely to cause physical harm
+Sexual threats, humiliation or abuse which do not form part of a clearly consenting  role-playing game</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="Discrimination">
     <mdcr:Label />
     <mdcr:Criteria ratingID="U">
-      <mdcr:Definition>No discriminatory language or behaviour unless clearly disapproved of.</mdcr:Definition>
+      <mdcr:Definition>Potentially dangerous or anti-social behaviour which young children may copy must be clearly disapproved of or be presented unrealistically. No emphasis on realistic  or easily accessible weapons.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="PG">
-      <mdcr:Definition>Discriminatory language or behaviour is unlikely to be acceptable unless clearly disapproved of or in an educational or historical context. Discrimination by a character with which children can readily identify is unlikely to be acceptable.</mdcr:Definition>
-    </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Discriminatory language or behaviour must not be endorsed by the work as a whole. Aggressive discriminatory language or behaviour is unlikely to be acceptable unless clearly condemned.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml" />
-      </mdcr:Explanation>
+      <mdcr:Definition>Discriminatory language or behaviour is unlikely to be acceptable unless clearly disapproved of, or in an educational or historical context, or in a particularly dated work with no likely appeal to children. Discrimination by a character with whom children can readily identify is unlikely to be acceptable.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>Discriminatory language or behaviour must not be endorsed by the work as a whole. Aggressive discriminatory language or behaviour is unlikely to be acceptable unless clearly condemned.</mdcr:Definition>
     </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Discriminatory language or behaviour must not be endorsed by the work as a whole. Aggressive discriminatory language or behaviour is unlikely to be acceptable unless clearly condemned.</mdcr:Definition>
+    </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
-      <mdcr:Definition>The work as a whole must not endorse discriminatory language or behaviour.</mdcr:Definition>
+      <mdcr:Definition>The work as a whole must not endorse discriminatory language or behaviour, although there may be racist, homophobic or other discriminatory themes and language.</mdcr:Definition>
     </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Drugs">
     <mdcr:Label />
     <mdcr:Criteria ratingID="U">
-      <mdcr:Definition>No references to illegal drugs or drug misuse unless they are infrequent and innocuous, or there is a clear educational purpose or anti-drug message suitable for young children.</mdcr:Definition>
+      <mdcr:Definition>References to illegal drugs or drug misuse must be infrequent and innocuous, or have a clear educational purpose or anti-drug message suitable for young children.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>References to illegal drugs or drug misuse must be innocuous or carry a suitable anti-drug message.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Any misuse of drugs must be infrequent and should not be glamorised or give instructional detail.</mdcr:Definition>
-    </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
-      <mdcr:Definition>Any misuse of drugs must be infrequent and should not be glamorised or give instructional detail.</mdcr:Definition>
+      <mdcr:Definition>Misuse of drugs must be infrequent and should not be glamorised or give detailed instruction.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Misuse of drugs must be infrequent and should not be glamorised or give detailed instruction.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
-      <mdcr:Definition>Drug taking may be shown but the film as a whole must not promote or encourage drug misuse. The misuse of easily accessible and highly dangerous substances (for example, aerosols or solvents) is unlikely to be acceptable.</mdcr:Definition>
+      <mdcr:Definition>Drug taking may be shown but the work as a whole must not promote or encourage drug misuse (for example, through detailed instruction). The misuse of easily accessible and highly dangerous substances (for example, aerosols or solvents) is unlikely to be acceptable.</mdcr:Definition>
     </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Horror">
     <mdcr:Label />
     <mdcr:Criteria ratingID="U">
-      <mdcr:Definition>Scary sequences should be mild, brief and unlikely to cause undue anxiety to young children. The outcome should be reassuring.</mdcr:Definition>
+      <mdcr:Definition>Scary or potentially unsettling sequences should be mild, brief and unlikely to cause undue anxiety to young children. The outcome should be reassuring.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="PG">
-      <mdcr:Definition>Frightening sequences should not be prolonged or intense. Fantasy settings may be a mitigating factor.</mdcr:Definition>
-    </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Moderate physical and psychological threat may be permitted, provided disturbing sequences are not frequent or sustained.</mdcr:Definition>
+      <mdcr:Definition>Frightening sequences or situations where characters are in danger should not be prolonged or intense. Fantasy settings and comedy may be mitigating factors.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
-      <mdcr:Definition>Moderate physical and psychological threat may be permitted, provided disturbing sequences are not frequent or sustained.</mdcr:Definition>
+      <mdcr:Definition>There may be moderate physical and psychological threat and horror sequences. Although some scenes may be disturbing, the overall tone should not be. Horror sequences should not be frequent or sustained.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>There may be moderate physical and psychological threat and horror sequences. Although some scenes may be disturbing, the overall tone should not be. Horror sequences should not be frequent or sustained.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
       <mdcr:Definition>Strong threat and menace are permitted unless sadistic or sexualised.</mdcr:Definition>
@@ -260,19 +275,19 @@ images, or other very strong sexual images will be confined to the R18 category.
   <mdcr:Reason language="en" reasonID="Behaviour">
     <mdcr:Label />
     <mdcr:Criteria ratingID="U">
-      <mdcr:Definition>No potentially dangerous behaviour which young children are likely to copy. No emphasis on realistic or easily accessible weapons.</mdcr:Definition>
+      <mdcr:Definition>Potentially dangerous or anti-social behaviour which young children may copy must be clearly disapproved of or be presented unrealistically. No emphasis on realistic  or easily accessible weapons.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="PG">
-      <mdcr:Definition>No detail of potentially dangerous behaviour which young children are likely to copy. No glamorisation of realistic or easily accessible weapons.</mdcr:Definition>
-    </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Dangerous behaviour (for example, hanging, suicide and self-harming) should not dwell on detail which could be copied, or appear pain or harm free. Easily accessible weapons should not be glamorised.</mdcr:Definition>
+      <mdcr:Definition>No detail of potentially dangerous behaviour which young children are likely to copy, if that behaviour is presented as safe or fun. No glamorisation of realistic or easily accessible weapons such as knives. No focus on anti-social behaviour which young children are likely to copy</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
-      <mdcr:Definition>Dangerous behaviour (for example, hanging, suicide and self-harming) should not dwell on detail which could be copied, or appear pain or harm free. Easily accessible weapons should not be glamorised.</mdcr:Definition>
+      <mdcr:Definition>No promotion of potentially dangerous behaviour which children are likely to copy. No glamorisation of realistic or easily accessible weapons such as knives. No endorsement of anti-social behaviour.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>No promotion of potentially dangerous behaviour which children are likely to copy. No glamorisation of realistic or easily accessible weapons such as knives. No endorsement of anti-social behaviour.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
-      <mdcr:Definition>Dangerous behaviour (for example, hanging, suicide and self-harming) should not dwell on detail which could be copied. Easily accessible weapons should not be glamorised.</mdcr:Definition>
+      <mdcr:Definition>Dangerous behaviour (for example, suicide, self-harming and asphyxiation) should not dwell on detail which could be copied. Whether the depiction of easily accessible weapons is acceptable will depend on factors such as realism, context and setting.</mdcr:Definition>
     </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Language">
@@ -281,16 +296,16 @@ images, or other very strong sexual images will be confined to the R18 category.
       <mdcr:Definition>Infrequent use only of very mild bad language.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="PG">
-      <mdcr:Definition>Mild bad language only.</mdcr:Definition>
-    </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Moderate language is allowed. The use of strong language (for example, ‘fuck’) must be infrequent.</mdcr:Definition>
+      <mdcr:Definition>Mild bad language only. Aggressive or very frequent use of mild bad language may result in a work being passed at a higher category.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
-      <mdcr:Definition>Moderate language is allowed. The use of strong language (for example, ‘fuck’) must be infrequent.</mdcr:Definition>
+      <mdcr:Definition>There may be moderate bad language. Strong language may be permitted, depending on the manner in which it is used, who is using the language, its frequency within the work as a whole and any special contextual justification.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>There may be moderate bad language. Strong language may be permitted, depending on the manner in which it is used, who is using the language, its frequency within the work as a whole and any special contextual justification.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
-      <mdcr:Definition>There may be frequent use of strong language (for example, ‘fuck’). The strongest terms (for example, ‘cunt’) may be acceptable if justified by the context. Aggressive or repeated use of the strongest language is unlikely to be acceptable.</mdcr:Definition>
+      <mdcr:Definition>There may be strong language. Very strong language may be permitted, depending on the manner in which it is used, who is using the language, its frequency within the work as a whole and any special contextual justification.</mdcr:Definition>
     </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Nudity">
@@ -301,14 +316,14 @@ images, or other very strong sexual images will be confined to the R18 category.
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Natural nudity, with no sexual context.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Nudity is allowed, but in a sexual context must be brief and discreet.</mdcr:Definition>
-    </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
-      <mdcr:Definition>Nudity is allowed, but in a sexual context must be brief and discreet.</mdcr:Definition>
+      <mdcr:Definition>There may be nudity, but in a sexual context it must be brief and discreet.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>There may be nudity, but in a sexual context it must be brief and discreet.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
-      <mdcr:Definition>Nudity may be allowed in a sexual context but without strong detail. There are no constraints on nudity in a non-sexual or educational context.</mdcr:Definition>
+      <mdcr:Definition>There are no constraints on nudity in a non-sexual or educational context. Sexual nudity may be permitted but strong detail is likely to be brief or presented in a comic context.</mdcr:Definition>
     </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Sex">
@@ -319,27 +334,14 @@ images, or other very strong sexual images will be confined to the R18 category.
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Sexual activity may be implied, but should be discreet and infrequent. Mild sex references and innuendo only.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Sexual activity may be briefly and discreetly portrayed.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Sex references should not go beyond what is suitable for
-young teenagers. Frequent crude references are unlikely
-to be acceptable.</div>
-      </mdcr:Explanation>
-    </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
-      <mdcr:Definition>Sexual activity may be briefly and discreetly portrayed.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Sex references should not go beyond what is suitable for
-young teenagers. Frequent crude references are unlikely
-to be acceptable.</div>
-      </mdcr:Explanation>
+      <mdcr:Definition>Sexual activity may be briefly and discreetly portrayed. Moderate sex references are permitted, but frequent crude references are unlikely to be acceptable.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Sexual activity may be briefly and discreetly portrayed. Moderate sex references are permitted, but frequent crude references are unlikely to be acceptable.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
-      <mdcr:Definition>Sexual activity may be portrayed without strong detail.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">There may be strong verbal references to sexual behaviour, but the strongest references are unlikely to be acceptable unless justified by context. Works whose primary purpose is sexual arousal or stimulation are unlikely to be acceptable.</div>
-      </mdcr:Explanation>
+      <mdcr:Definition>Sexual activity may be portrayed, but usually without strong detail. There may be strong verbal references to sexual behaviour. Repeated very strong references, particularly those using pornographic language, are unlikely to be acceptable. Works whose primary purpose is sexual arousal are unacceptable.</mdcr:Definition>
     </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Theme">
@@ -350,10 +352,10 @@ to be acceptable.</div>
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Where more serious issues are featured (for example, domestic violence) nothing in their treatment should condone unacceptable behaviour.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>Mature themes are acceptable, but their treatment must be suitable for young teenagers.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>Mature themes are acceptable, but their treatment must be suitable for young teenagers.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -362,47 +364,26 @@ to be acceptable.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Violence">
     <mdcr:Label />
-    <mdcr:Explanation>
-      <div class="userHtml" />
-    </mdcr:Explanation>
     <mdcr:Criteria ratingID="U">
       <mdcr:Definition>Mild violence only. Occasional mild threat or menace only.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="PG">
-      <mdcr:Definition>Moderate violence, without detail, may be allowed, if justified by its context (for example, history, comedy or fantasy).</mdcr:Definition>
-    </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
-      <mdcr:Definition>Moderate violence is allowed but should not dwell on detail.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">There should be no emphasis on injuries or blood,
-but occasional gory moments may be permitted if
-justified by the context.
-Sexual violence may only be implied or briefly and
-discreetly indicated, and must have a strong contextual
-justification.</div>
-      </mdcr:Explanation>
+      <mdcr:Definition>Violence will usually be mild. However, there may be moderate violence, without detail,  if justified by its context (for example, history, comedy or fantasy).</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="12A">
-      <mdcr:Definition>Moderate violence is allowed but should not dwell on detail.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">There should be no emphasis on injuries or blood,
-but occasional gory moments may be permitted if
-justified by the context.
-Sexual violence may only be implied or briefly and
-discreetly indicated, and must have a strong contextual
-justification.</div>
-      </mdcr:Explanation>
+      <mdcr:Definition>There may be moderate violence but it should not dwell on detail. There should be no emphasis on injuries or blood, but occasional gory moments may be permitted if justified by the context.</mdcr:Definition>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>There may be moderate violence but it should not dwell on detail. There should be no emphasis on injuries or blood, but occasional gory moments may be permitted if justified by the context.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
-      <mdcr:Definition>Violence may be strong but should not dwell on the infliction of pain or injury.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">The strongest gory images are unlikely to
-be acceptable. Strong sadistic or sexualised violence is also
-unlikely to be acceptable.
-There may be detailed verbal references to sexual violence
-but any portrayal of sexual violence must be discreet and
-have a strong contextual justification.</div>
-      </mdcr:Explanation>
+      <mdcr:Definition>Violence may be strong but should not dwell on the infliction of pain or injury. The strongest gory images are unlikely to be acceptable. Strong sadistic violence is also unlikely to be acceptable.</mdcr:Definition>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Sex works at 18">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>Sex works are works whose primary purpose is sexual arousal or stimulation. Sex works containing only material which may be simulated are generally passed 18. Sex works containing clear images of real sex, strong fetish material, sexually explicit animated images, or other very strong sexual images will be confined to the R18 category. Material which is unacceptable in a sex work at R18 is also unacceptable in a sex work at 18.</mdcr:Definition>
     </mdcr:Criteria>
   </mdcr:Reason>
 </mdcr:RatingSystem>

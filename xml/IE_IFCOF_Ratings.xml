@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T03:34:06" lastSave="2019-06-18T16:09:10">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-14T10:34:06" lastSave="2020-01-10T00:30:10">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>IE</md:country>
@@ -50,7 +50,7 @@ Email:  info@ifco.gov.ie</mdcr:ContactString>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
-      <mdcr:Label>G</mdcr:Label>
+      <mdcr:Label>General Audiences</mdcr:Label>
       <mdcr:Definition>suitable for children of a school going age</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">A film classified as ‘General’ should be suitable for children of a school going age. However, as not every child will respond in the same way to particular themes, scenes and images, it is strongly recommended that parents/guardians - who know their own children best - consult the consumer advice available on this website before deciding what is appropriate.
@@ -73,7 +73,7 @@ While a General certificate does not necessarily signify a ‘children’s pictu
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
-      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Label>Parental Guidance</mdcr:Label>
       <mdcr:Definition>suitable for children aged eight and over</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Generally, a film classified as ‘PG’ will be suitable for children aged eight and over. However, as some elements within the film might be unsettling for some viewers, it is strongly recommended that parents/guardians - who know their own children best - consult the consumer advice available on this website before deciding on what is appropriate.
@@ -97,7 +97,7 @@ A Parental Guidance certificate does not necessarily signify a ‘children’s p
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>12A</mdcr:Label>
-      <mdcr:Definition>appropriate for viewers of twelve and over</mdcr:Definition>
+      <mdcr:Definition>Suitable for children 12 years and over or younger children accompanied by an adult</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Films classified 12A have been deemed appropriate for viewers of twelve and over. However, they can also be seen by younger children - provided they are accompanied by an adult who has deemed the film appropriate viewing for that child. In such cases, IFCO strongly recommends that parents/guardians make informed decisions by accessing the consumer advice available on this website.</div>
       </mdcr:Explanation>

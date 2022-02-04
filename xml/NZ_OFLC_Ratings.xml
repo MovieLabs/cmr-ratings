@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T03:50:46" lastSave="2017-08-07T14:25:35">
-  <mdcr:RatingSystemID version="2">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T10:50:46" lastSave="2022-01-28T17:24:59">
+  <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>NZ</md:country>
       <mdcr:RegionName>NEW ZEALAND</mdcr:RegionName>
@@ -21,16 +21,18 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2017-07-27</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Office of FIlm and Literature Classification">
     <md:DisplayName>Office of FIlm and Literature Classification</md:DisplayName>
-    <mdcr:ContactString>PO Box 1999, Wellington 6140, New Zealand</mdcr:ContactString>
+    <mdcr:ContactString>PO Box 1999, Wellington 6140, New Zealand
+info@classificationoffice.govt.nz
++64 4 471 6770</mdcr:ContactString>
     <mdcr:URL>https://www.classificationoffice.govt.nz/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_g.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -44,7 +46,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_pg.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -58,7 +60,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">RP13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/RP13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/RP13</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp13.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -73,7 +75,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">R13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/R13</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r13.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
@@ -89,7 +91,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">R15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/R15</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r15.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
@@ -105,7 +107,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">M</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/M</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/M</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_m.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -120,7 +122,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">RP16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/RP16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/RP16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp16.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -135,7 +137,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="21">R16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/R16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
@@ -151,7 +153,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="79">RP18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/RP18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/RP18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -167,7 +169,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">R18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/R18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -183,7 +185,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="95">R</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/2/R</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/R</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r.gif</mdcr:LinkToLogo>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -193,6 +195,42 @@
       <mdcr:Explanation>
         <div class="userHtml">Refer to the words on the right of the label for the full conditions.</div>
       </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/13</mdcr:URI>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unsuitable for Audiences under 13 years of age.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unsuitable for Audiences under 16 years of age.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unsuitable for Audiences under 18 years of age.</mdcr:Label>
+      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

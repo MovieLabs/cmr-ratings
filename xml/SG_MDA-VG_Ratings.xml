@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-06-18T18:34:41">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2021-01-13T17:57:22">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>SG</md:country>
       <mdcr:RegionName>SINGAPORE</mdcr:RegionName>
@@ -16,7 +16,7 @@
       <mdcr:Environment>Retail</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/1</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
       See Annex B of IMDA Video Game Classification Guidlines for exemption criteria
@@ -42,7 +42,7 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="16">Adv16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/0/Adv16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/1/Adv16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA-VG_ADV16.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -54,12 +54,13 @@ Fax: 6577 3888</mdcr:ContactString>
     </mdcr:Descriptor>
     <mdcr:ApplicableReason id="S" />
     <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="H" />
     <mdcr:ApplicableReason id="L" />
     <mdcr:ApplicableReason id="N" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">M18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/0/M18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SG/MDA-VG/1/M18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/SG_IMDA_M18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -69,12 +70,23 @@ Fax: 6577 3888</mdcr:ContactString>
       <mdcr:Label>Mature 18</mdcr:Label>
       <mdcr:Definition>Restricted to individuals who are at least 18 years old</mdcr:Definition>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
+    <mdcr:ApplicableReason id="T" />
+    <mdcr:ApplicableReason id="V" />
+    <mdcr:ApplicableReason id="L" />
+    <mdcr:ApplicableReason id="N" />
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="T">
     <mdcr:Label />
-    <mdcr:Explanation>
-      <div class="userHtml">Classification must take into account the treatment of theme(s) and message(s) in a film. For the advisory ratings, theme(s) and message(s) should be presented and treated sensitively due to the potential impact on the young. Films that center on mature theme(s) or content would generally be classified NC16, M18 or R21. Films that contain distorted or misrepresented discussions or depictions of a subject matter (including historical events), may be classified at a higher rating or refused classification.</div>
-    </mdcr:Explanation>
+    <mdcr:Criteria ratingID="M18">
+      <mdcr:Explanation>
+        <div class="userHtml">Treatment and exploration of mature themes appropriate to persons aged
+18 and above.
+Content that requires the player to engage in illegal activities or play the
+role of a criminal, but without detailed instructions for committing crimes.
+Some homosexual content, if discreet in treatment and not gratuitous.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
@@ -82,6 +94,12 @@ Fax: 6577 3888</mdcr:ContactString>
       <mdcr:Explanation>
         <div class="userHtml">Moderate level of violence. This refers to realistic but not excessively
 graphic violence with depiction of blood</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="M18">
+      <mdcr:Explanation>
+        <div class="userHtml">Depictions of realistic violence, such as killing, maiming or causing other
+serious injury to humanoid characters.</div>
       </mdcr:Explanation>
     </mdcr:Criteria>
   </mdcr:Reason>
@@ -111,6 +129,15 @@ women in bikinis or lingerie.</li>
         </div>
       </mdcr:Explanation>
     </mdcr:Criteria>
+    <mdcr:Criteria ratingID="M18">
+      <mdcr:Explanation>
+        <div class="userHtml">Depiction of topless nudity or occasional full frontal nudity. Nudity should
+not titillate or be the main feature of the game.
+Still or moving images which may be sexually titillating (but does not contain
+nudity), e.g. scantily-clad women shown in a manner that is sexually
+suggestive, but not excessive or gratuitous.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
@@ -137,14 +164,24 @@ refused classification.</p>
         <div class="userHtml">Portrayal of implied sexual activity.</div>
       </mdcr:Explanation>
     </mdcr:Criteria>
+    <mdcr:Criteria ratingID="M18">
+      <mdcr:Explanation>
+        <div class="userHtml">Portrayal of non-detailed sexual activity with some frontal nudity.
+Depictions of same-sex kissing and hugging.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="L">
     <mdcr:Label />
+    <mdcr:Explanation>
+      <div class="userHtml">Frequent use of strong coarse language</div>
+    </mdcr:Explanation>
     <mdcr:Criteria ratingID="Adv16">
       <mdcr:Explanation>
         <div class="userHtml">Coarse language such as the use of the expletive “fuck”.</div>
       </mdcr:Explanation>
     </mdcr:Criteria>
+    <mdcr:Criteria ratingID="M18" />
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
@@ -162,5 +199,11 @@ substance abuse will be refused classification.</div>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
+    <mdcr:Criteria ratingID="Adv16">
+      <mdcr:Explanation>
+        <div class="userHtml">Depiction of frightening and disturbing sequences, or any abhorrent
+phenomena, whether natural or pertaining to the supernatural.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
   </mdcr:Reason>
 </mdcr:RatingSystem>

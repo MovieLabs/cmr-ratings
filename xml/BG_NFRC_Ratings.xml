@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-08T18:28:46" lastSave="2020-01-16T23:14:28">
-  <mdcr:RatingSystemID version="2">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-09T01:28:46" lastSave="2021-01-12T22:13:55">
+  <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>BG</md:country>
       <mdcr:RegionName>BULGARIA</mdcr:RegionName>
@@ -21,7 +21,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2020-01-16</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/2</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">Rating system defined by the FIlm Industry Act as ammeded 2008</div>
   </mdcr:Notes>
@@ -35,23 +35,8 @@ email: nfc@nfc.bg</mdcr:ContactString>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="3">B</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/2/B</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="BG">
-      <mdcr:Label>B</mdcr:Label>
-      <mdcr:Definition>Без възрастови ограничения</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">когато филмът утвърждава идеалите на хуманизма, популяризира националната и световната култура или по никакъв начин не противоречи на общоприетите морални норми в страната и няма ограничителни препоръки от комисията</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/2/A</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/A</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -66,11 +51,36 @@ email: nfc@nfc.bg</mdcr:ContactString>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>A</mdcr:Label>
       <mdcr:Definition>Recommended for children</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Rating A , when the film confirms the ideals of humanism or popularizes the national and world cultures or contributes to upbringing children;</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="3">B</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/B</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>B</mdcr:Label>
+      <mdcr:Definition>Без възрастови ограничения</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">когато филмът утвърждава идеалите на хуманизма, популяризира националната и световната култура или по никакъв начин не противоречи на общоприетите морални норми в страната и няма ограничителни препоръки от комисията</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>B</mdcr:Label>
+      <mdcr:Definition>No age Restrictions</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Rating B, when the film is in no way contrary to the universal rules of morality in this country, has no restrictive recommendations from the Committee and does not fall in rating A;</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">C</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/2/C</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/C</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -82,10 +92,17 @@ email: nfc@nfc.bg</mdcr:ContactString>
         <div class="userHtml">когато филмът съдържа отделни кадри с еротично съдържание или с употреба на алкохол, стимуланти, наркотици или отделни кадри с насилие в тях</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>C</mdcr:Label>
+      <mdcr:Definition>Not recommended to children under the age of 12</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Rating C, when the film contains certain erotic scenes or scenes with drinking, taking drugs or stimulants or a few scenes of violence;</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">D</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/2/D</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/D</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -97,10 +114,17 @@ email: nfc@nfc.bg</mdcr:ContactString>
         <div class="userHtml">когато филмът съдържа значителен брой кадри с еротично съдържание или с употреба на алкохол, стимуланти, наркотици или значителен брой кадри с насилие в тях</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>D</mdcr:Label>
+      <mdcr:Definition>No persons under the age of 16 are admitted.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Rating D when the film contains quite a number of erotic scenes or scenes with drinking, taking drugs or stimulants or a considerable number of scenes showing violence;</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">X</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/2/X</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/X</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -110,6 +134,13 @@ email: nfc@nfc.bg</mdcr:ContactString>
       <mdcr:Definition>Забранен за лица под 18-годишна възраст</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">когато филмът е натуралистично-еротичен.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>X</mdcr:Label>
+      <mdcr:Definition>No persons under the age of 18 are admitted.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Rating X, when the film is naturalistically erotic or shows violence in an ostentatious manner.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

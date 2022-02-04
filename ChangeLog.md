@@ -55,6 +55,67 @@
   * added from paramount database.  Unverified
   * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 
+### V2.4.8
+* New Zealand OLFC
+  * Added 3 new ratings
+  * Updated Contact Information
+* India CBFC
+  * Added 3 new ratings
+
+### V2.4.7
+* Turkey AI
+  * Added new ratings system
+
+### V2.4.6
+* Brazil DJCTQ
+  * Added 2 new reasons
+  * Added notes to indicate deprecated reasons
+  * Updated contact information
+  * Added note to inform users of Brazils current submission rules concerning reasons
+
+### V2.4.5
+* Korea KR_KMRB
+  * Updated images
+  * Added reasons
+* Korea KR_KCC
+  * Added
+
+### V2.4.4
+* Austria AT_BMUKK
+  * Updated website and contact info
+  * incremented version
+* Belgium BE_CICF
+  * Deprecated.  Belgium uses NL_Kijkwijzer as of 1-8-20
+* Bulgaria BG_NFRC
+  * added english ratings
+  * incremented version
+* Canada CA_CBSC-F
+  * deprecated 8 rating
+  * incremented version
+* Hungary HU_RCNOF
+  * National Film Bureau currently in state of flux and it is
+	unclear what is happening or how to contact them.
+* Netherlands NL_Kijkwijzer
+  * added Belgium to regions
+* Norway NO_Medietilsynet
+  * added english ratings
+  * incremented version
+* Republic of Korea KR_KMRB
+  * added english reasons
+  * updated contact information
+  * incremented version
+* Singapore SG_MDA-VG
+  * added reasons
+  * incremented version
+* Ukraine UA_Ukraine
+  * Deprecated 14 and X21
+  * Incremented version
+
+### V2.4.3
+* Singapore
+  * Added 40+ new reasons.
+  * Update Version
+
 ### V2.4.2
 * Switzerland Film
   * Added new contact infomation

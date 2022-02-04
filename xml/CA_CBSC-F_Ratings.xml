@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T02:19:22" lastSave="2020-01-09T18:19:15">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T09:19:22" lastSave="2021-01-14T19:03:01">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>CA</md:country>
       <mdcr:RegionName>CANADA</mdcr:RegionName>
@@ -18,7 +18,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">Canadian French-language broadcasters use the classification system of the 
 Regie du cinema du Quebec (RCU), but they added one additional  category (8+).
@@ -35,29 +35,8 @@ K1P 6H8</mdcr:ContactString>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">EC</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/EC</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_exempt.gif</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="FR">
-      <mdcr:Label>Exempt</mdcr:Label>
-      <mdcr:Definition>Sont dispensés du classement, les films suivants:</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">1°  le film produit à des fins de promotion industrielle ou commerciale à l’exception d’un film annonce portant sur un film non dispensé du classement et d’un vidéoclip;
-2°  le film produit à des fins éducatives ou pédagogiques, à la condition qu’il soit utilisé dans un établissement d’enseignement, de santé, de services sociaux ou de recherche scientifique, dans une bibliothèque publique ou un musée;
-3°  le film produit à des fins de formation professionnelle, à la condition qu’il soit utilisé à l’occasion d’un cours, d’une conférence ou autre activité de même nature;
-4°  le film sur l’apprentissage d’une langue, d’un sport, d’une méthode de conditionnement physique ou sur une technique de même nature, à la condition qu’il ne présente pas de scènes de violence ou d’activité sexuelle explicite;
-5°  le film sur un événement sportif;
-6°  le film présenté lors d’une manifestation diplomatique, d’un festival de films ou de tout autre événement analogue reconnu par le directeur.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_general.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -79,12 +58,34 @@ K1P 6H8</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">EC</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/EC</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_exempt.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition>Sont dispensés du classement, les films suivants:</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">1°  le film produit à des fins de promotion industrielle ou commerciale à l’exception d’un film annonce portant sur un film non dispensé du classement et d’un vidéoclip;
+2°  le film produit à des fins éducatives ou pédagogiques, à la condition qu’il soit utilisé dans un établissement d’enseignement, de santé, de services sociaux ou de recherche scientifique, dans une bibliothèque publique ou un musée;
+3°  le film produit à des fins de formation professionnelle, à la condition qu’il soit utilisé à l’occasion d’un cours, d’une conférence ou autre activité de même nature;
+4°  le film sur l’apprentissage d’une langue, d’un sport, d’une méthode de conditionnement physique ou sur une technique de même nature, à la condition qu’il ne présente pas de scènes de violence ou d’activité sexuelle explicite;
+5°  le film sur un événement sportif;
+6°  le film présenté lors d’une manifestation diplomatique, d’un festival de films ou de tout autre événement analogue reconnu par le directeur.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="2">8+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/8+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/8+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_8.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>8</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>8 years and over</mdcr:Label>
@@ -96,7 +97,7 @@ K1P 6H8</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">13+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/13+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/13+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c13.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
@@ -119,7 +120,7 @@ K1P 6H8</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">16+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/16+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/16+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c16.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
@@ -142,7 +143,7 @@ K1P 6H8</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">18+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/18+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/18+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_c18.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -166,7 +167,7 @@ scenes of hyperrealistic cruelty, torture and horror.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="100">RC</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/0/RC</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/RC</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

@@ -55,6 +55,10 @@
   * added from paramount database.  Unverified
   * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 
+### V2.4.9x
+* Brazil DJCTQ
+  * Added Reason Descriptions back in. Removed by editor bug 
+
 ### V2.4.8
 * New Zealand OLFC
   * Added 3 new ratings

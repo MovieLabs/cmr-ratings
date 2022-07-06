@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T02:37:15" lastSave="2019-06-19T13:24:01">
-  <mdcr:RatingSystemID version="2">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T09:37:15" lastSave="2021-01-13T17:43:09">
+  <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>NO</md:country>
       <mdcr:RegionName>NORWAY</mdcr:RegionName>
@@ -22,7 +22,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2019-06-18</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
       References:
@@ -41,13 +41,18 @@
     <mdcr:ContactString>Media Authority 
 Nygata 4-1607 Fredrikstad 
 Tel: (+47) 69 30 12 00 - Fax: (+47) 69 30 12 01
-E-mail: post@medietilsynet.no</mdcr:ContactString>
+E-mail: post@medietilsynet.no
+
+Press contact:
+Kristine Meek, Director of Communications, Advice and Analysis
+kristine.meek@medietilsynet.no
+(+47) 918 85 405</mdcr:ContactString>
     <mdcr:URL>http://www.medietilsynet.no/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/A</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/A</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_a_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -60,10 +65,76 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
         <div class="userHtml">Filmer som er tillatt for alle skal ha et rolig, lett og hyggelig uttrykk. Det kan være kortvarige "bø-effekter" eller litt spennende elementer i en trygg ramme.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>A</mdcr:Label>
+      <mdcr:Definition>All Ages</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films and programmes 
+classified as All ages
+must use audio and
+effects moderately
+and cannot contain
+any alarming or dramatic portrayals.
+Some moderately scary elements
+are permitted if they are very
+brief and take place within a safe
+framework that is facilitated for
+children under the age of six.
+(see text box under section 2.2
+«The good scare»). This relates to
+films such as Bamse og tyvenes
+by (Bamse and the City of Thieves)
+(2014) and the animated series Det
+lille spøkelse Laban (Laban The
+Little Ghost). The same applies to
+portrayals with modestly dramatic
+effects if they are brief and take
+place within a clearly humorous
+framework, such as in early silent
+films and in the cartoons about
+Tom and Jerry or the animated film
+Despicable Me 2 (2012). More recent
+examples include the animated films
+Elias og Storegaps hemmelighet
+(2017) with short dark scenes, as
+well as Ferdinand (2017) which has
+several dramatic parts that are short
+and humorous.
+Many factual, reality and
+documentary programmes can be
+permitted for all ages if they have
+a mild/cautious expression, or do
+not have disturbing themes or
+portrayals. This applies for example
+to the documentary series Datoen
+(NRK), talkshows such as Skavlan
+og Lindmo (NRK) and reality shows
+such as Gift ved første blikk,
+Mesternes mester, Farmen og
+71 grader nord.
+Examples of other films and
+programmes within the “all ages”
+category include the Karsten og
+Petra films (2012, 2013 and 2014)
+children’s programmes such as
+Postmann Pat and Fireman Sam,
+and family programmes such as
+Beat for beat, Idol, and Skal vi
+danse? Many comedies, “sitcoms”,
+films and different programme
+series intended for young adults
+and/or adults will normally also
+be given the “all ages” limit. This
+applies to most episodes in series
+such as Modern Family, The Big
+Bang Theory, and the TV series
+Side om Side</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/6</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_6_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -76,10 +147,57 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
         <div class="userHtml">En film med 6-årsgrense kan inneholde enkelte mørke, dramatiske eller noe truende scener. Den kan også inneholde korte innslag med kraftige lyd og bildeeffekter.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>6</mdcr:Label>
+      <mdcr:Definition>Age 6</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films and
+programmes
+classified as Age
+6 may contain
+individual scenes
+or portrayals that are moderately
+dark or threatening. The same
+applies if there are scenes with
+dramatic sounds and/or heavy
+use of effects. Brief, scary
+elements are permitted within the
+framework of “good scares” (see
+text box under section 2.2) and
+violent portrayals are permitted
+if they are clearly humorous and
+over-the-top (“slapstick”), such as
+the Home Alone films.
+Themes that generally seem
+difficult and painful can be
+permitted with an Age 6 limit
+if they have a toned down
+expression and are adapted
+for children.
+This applies to animated films
+such as Løvetannbarn (2017 – 6
+years) which is about a little boy
+who loses his mother and is sent
+to an orphanage.
+Examples of other films and
+programmes classified as Age
+6 are animated films and series
+with moderately dramatic effects
+such as the Lego movies. More
+realistic films and programmes
+with brief dramatic or threatening
+portrayals can also be classified
+Age 6. Examples of this include the
+competition programme Labyrint
+(NRK Super), America’s Funniest
+Home Videos and soap operas
+such as Home and Away.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/7</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/7</mdcr:URI>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -95,7 +213,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="4">9</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/9</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/9</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_9_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>9</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -108,10 +226,58 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
         <div class="userHtml">En film med 9-årsgrense kan ha partier med mørk, intens eller utrygg stemning. Dette kan for eksempel være noe dramatiske bilder av ulykker eller barn som har det vanskelig (inkludert mobbing). Kortvarige og lite nærgående voldsinnslag kan også få 9-årsgrense.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>9</mdcr:Label>
+      <mdcr:Definition>Age 9</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films and
+programmes
+classified as Age 9
+may contain short but
+not explicit violence
+or war images such as in the movies
+Pitch Perfect 3 (2017 – violence in a
+humorous setting) and Darkest Hour
+(2017 – some war images), longer
+scenes with intense or dramatic
+moods such as in the animated
+television series The Amazing
+Spiderman, or have individual
+scenes with a dark and unsafe
+mood combined with depictions
+of moderately scary figures and/
+or dangerous situations such as
+the fantasy series M.I. High; the
+three first Harry Potter movies (The
+Philosopher’s Stone, The Chamber
+of Secrets and The Prisoner of
+Azkaban), Jumanji: Welcome to the
+jungle (2016) and the ”scary movie”
+Goosebumps (2015).
+Actual incidents or depictions
+of accidents, operations or
+non-dramatic deaths may be
+unsettling to children under the
+age of nine. The same applies
+to depictions of unsafe family
+relations, bullying situations and
+humans and animals that are
+suffering. Programmes with such
+themes shall generally be given
+an Age 9 limit or higher. Examples
+include the docudrama series
+Bondi Rescue and Oslo Brenner
+which contain dramatic portrayals
+of accidents, fires, etc.
+For Fortnite videos showing
+fighting scenes, 9 years would the
+right age limit.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">11</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/11</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/11</mdcr:URI>
     <mdcr:MinRecAge>11</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -127,7 +293,7 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="8">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_12_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -140,10 +306,102 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
         <div class="userHtml">I filmer med 12-årsgrense kan det være gjennomgående mørk stemning - og mye frykt både i karakterer, scener og musikk. Det kan også forekomme kortvarige skrekkeffekter og lite nærgående skildringer av seksualitet.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Age 12</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films classified as
+Age 12 may contain
+some unsettling
+themes related to
+the “adult realm”,
+such as depictions or portrayals
+of relationship conflicts, sexual
+acts or strong emotional outbursts.
+Examples of such themes
+may occur in factual or reality
+programmes such as certain
+episodes of Trekant or Paradise
+Hotel.
+Other themes that may be
+difficult for children to handle
+(see examples mentioned in fact
+box in Chapter 2.3) should be
+classified as Age 12 or higher if the
+theme in and of itself, regardless
+of how it is presented, can be
+alarming to children or young
+people. This applies for example
+to a theme such as kidnapping/
+child abduction in a documentary
+series such as De bortførte barna.
+The same applies if the portrayals
+in the programme are not explicitly
+depicted and the mood is not
+sombre throughout.
+Examples of this include the
+documentary series Stemmene
+i hodet (NRK) which is about
+psychological distress and a
+movie like Røverdatter (2018)
+which contains authentic close-up
+depictions of drug abuse and an
+unstable grown-up character.
+Violent acts or brief depictions with
+“scary elements” in an unrealistic
+context is normally acceptable
+in films and programmes for
+young people from age 12. This
+particularly applies if the content
+is based on well-known stories,
+books, cartoons or similar, or
+where the plot in another way
+revolves around a clear fantasy
+universe or within a comical
+framework. Examples include films
+such as The Hobbit – The Battle of
+the Five Armies (2014), Star Wars:
+The Last Jedi (2017), the five last
+films in the Harry Potter universe
+(The Goblet of Fire, The Order of
+the Phoenix, The Half Blood Prince
+and the Deathly Hallows part 1 and
+2) and Game Night (2018).
+More realistic depictions of
+violence or frightening elements
+can also be permitted if they are
+brief and portrayed in a calm
+manner, such as in series about
+supernatural phenomenon in
+Åndenes makt and crime shows
+such as Law and Order: Special
+Victims Unit and Castle.
+Films and programmes must also
+be classified as Age 12 if they
+contain non-explicit sexual acts
+(Call me by your name, 2017) or
+sexual descriptions within the
+premises of children and young
+people (Få meg på, for faen, 2011).
+The same applies if the programme
+has a constant crude dialogue that
+could be disturbing or offensive to
+children under this age. Examples
+of this include the US comedies
+Ted 1 and 2 (2012 and 2015) and
+Sausage Party (2016).
+For video games that contain battle
+scenes with graphic images of
+blood, for example Gameplay from
+Player’s Unknown Battlegrounds
+(PUBG) a 12-year age limit will often
+be fitting.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/15</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_15_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -156,10 +414,67 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
         <div class="userHtml">En film med 15-årsgrense kan ha angstskapende stemning, og inneholde realistiske innslag av katastrofer, krig, omsorgssvikt eller overgrep. Skrekkfilmer, filmer med drap eller detaljerte seksuelle skildringer får normalt 15-årsgrense.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>Age 15</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films and
+programmes
+classified as Age 15
+may contain realistic,
+authentic or intense
+depictions or scenes of war,
+catastrophes, or terrorism acts.
+Examples include the documentary
+film Cries from Syria (2017) which
+contains authentic and detailed
+descriptions of war crimes, torture
+and victims, and the film Utøya 22.
+juli which is close to reality and
+provokes feelings of anxiety and
+panic.
+Depictions of serious neglect and
+abuse will also qualify for a 15 year
+age limit. The same applies to films
+and programmes with close sexual
+portrayals (such as Pornopung
+from 2013), as well as depictions of
+abuse and murder.
+Films and series with extensive
+action violence or explicit, cynical
+and/or detailed violence shall be
+classified as Age 15. This applies
+for example to several episodes of
+Game of Thrones, crime shows
+such as Homeland and Broen and a
+movie like American Assassin (2017).
+Other examples are films and series
+with an unsettling mood and horror
+effects such as certain episodes of
+The Walking Dead and the Annabelle
+movies.
+Other content that usually comes
+under the Age 15 category, is
+films and programmes that have a
+consistent sexualised expression
+and/or contain acts that can appear
+offensive and/or disturbing to
+children and young people under
+this age limit. This applies to the
+Fifty Shades of Grey movies and
+Kjøp meg (episode in season 1 of the
+docuseries Innafor). In addition, this
+applies to movies such as Spring
+Breakers (2012) which is consistently
+sexualised in its expression and
+depicts the use of drugs and
+violence in a glorified way.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/2/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NO/Medietilsynet/3/18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NO_Medietilsynet_18_stor-ny.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -170,6 +485,46 @@ E-mail: post@medietilsynet.no</mdcr:ContactString>
       <mdcr:Definition>18-årsgrense</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">En film med 18-årsgrense kan ha særlig angstskapende stemning, og inneholde store mengder brutale og detaljerte voldshandlinger, særlig i kombinasjon med et angstskapende uttrykk. Skildringer av grov seksualisert vold gir normalt også 18-årsgrense. Filmer som Medietilsynet ikke har vurdert må vises med en 18-årsgrense på kino.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Age 18</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In some cases, films
+and programmes
+must be classified
+with an Age 18 limit.
+This mainly applies
+to films with particularly violent
+content and/or expression, and
+that contain a lot of gross, cynical
+and/or detailed violent acts, often
+in a combination with an unsettling
+expression. Individual depictions
+of more untraditional forms of
+sex, depictions of a combination
+of violence and non-consensual
+sex will normally also qualify for
+an Age 18 limit. The same applies
+to films that contain extensive,
+explicit sexual portrayals (so-called
+“hardcore porn”, see Appendix 2).
+Examples of films with an Age
+18 limit include the horror movie
+The Belko Experiment (2017) and
+the gangster movie The Villainess
+(2017), which both contain large
+amounts of brutal, cynical and
+bloody violence and/or murder
+scenes. Other examples include
+the thriller The Neon Demon (2016)
+which has pervasive anxious mood
+and depicts an extreme sexual act,
+and Raw (2017) which has a very
+disturbing theme and contains
+several detailed depictions related
+to cannibalism.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

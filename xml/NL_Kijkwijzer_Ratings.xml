@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-12T16:01:40" lastSave="2020-01-17T18:18:48">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-11-13T00:01:40" lastSave="2021-01-14T19:53:59">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>NL</md:country>
@@ -17,6 +17,14 @@
       <mdcr:Environment>Home</mdcr:Environment>
       <mdcr:Environment>Theater</mdcr:Environment>
       <mdcr:Environment>Broadcast</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:AdoptiveRegion>
+    <md:country>BE</md:country>
+    <mdcr:RegionName>BELGIUM</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>Film</mdcr:Media>
+      <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
@@ -194,6 +202,32 @@ plaatsen.</p>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="11">14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/14</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_14.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>14 jaar</mdcr:Label>
+      <mdcr:Definition>Mogelijk schadelijk tot 14 jaar</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vanaf een jaar of 12 gebruiken kinderen films en televisieprogramma’s steeds vaker om sociale lessen te leren. Als beelden risicovol gedrag tonen, kan dit een probleem zijn. Bepaalde media krijgen bij Kijkwijzer daarom een 14 jaar classificatie.
+
+Wat hoort bij deze leeftijdsfase?
+•	Sterke identificatie met realistische acteurs, sporthelden, muziekidolen of andere bekende mediafiguren waar zij enige gelijkenis in zien. 
+•	Nog moeite hebben om uit zichzelf kritisch te zijn over maatschappelijke normen. En daar ook een eigen standpunt over in te nemen. 
+•	Zich meer en meer onttrekken aan het ouderlijk gezag. 
+•	Zich het meest aangetrokken voelen tot het risicovolle gedrag, waarbij het voldoen aan een groepsnorm een belangrijke rol speelt.
+•	Films en televisie gebruiken om sociale lessen te leren. 
+Welke media kunnen daarom schadelijk zijn?
+•	Invloedrijke mediafiguren die gedrag vertonen dat risico’s met zich meebrengt, of uitspraken doen en een houding aannemen die op gespannen voet staat met algemeen geldende sociale normen.
+•	Met name mediaproducties die zowel seks als alcohol of drugs tonen en weinig aandacht geven aan de risicovolle, negatieve consequenties van de combinatie daarvan. Het risico is dat jongeren de combinatie als geaccepteerd gedrag gaan zien en hun verwachtingen ten aanzien hiervan laten beïnvloeden.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="12">16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_16.png</mdcr:LinkToLogo>
@@ -249,32 +283,6 @@ helden in de media, hebben we in Kijkwijzer bepaalde typen geweld verbonden met
 de leeftijdsindicatie van 16 jaar. Het is bekend dat angst voor geweld en 
 horrorfilms juist in de adolescentietijd vaak voorkom</p>
         </div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="11">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NL/Kijkwijzer/2/14</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/NL_Kijkwijzer_14.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>14</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="NL">
-      <mdcr:Label>14 jaar</mdcr:Label>
-      <mdcr:Definition>Mogelijk schadelijk tot 14 jaar</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Vanaf een jaar of 12 gebruiken kinderen films en televisieprogramma’s steeds vaker om sociale lessen te leren. Als beelden risicovol gedrag tonen, kan dit een probleem zijn. Bepaalde media krijgen bij Kijkwijzer daarom een 14 jaar classificatie.
-
-Wat hoort bij deze leeftijdsfase?
-•	Sterke identificatie met realistische acteurs, sporthelden, muziekidolen of andere bekende mediafiguren waar zij enige gelijkenis in zien. 
-•	Nog moeite hebben om uit zichzelf kritisch te zijn over maatschappelijke normen. En daar ook een eigen standpunt over in te nemen. 
-•	Zich meer en meer onttrekken aan het ouderlijk gezag. 
-•	Zich het meest aangetrokken voelen tot het risicovolle gedrag, waarbij het voldoen aan een groepsnorm een belangrijke rol speelt.
-•	Films en televisie gebruiken om sociale lessen te leren. 
-Welke media kunnen daarom schadelijk zijn?
-•	Invloedrijke mediafiguren die gedrag vertonen dat risico’s met zich meebrengt, of uitspraken doen en een houding aannemen die op gespannen voet staat met algemeen geldende sociale normen.
-•	Met name mediaproducties die zowel seks als alcohol of drugs tonen en weinig aandacht geven aan de risicovolle, negatieve consequenties van de combinatie daarvan. Het risico is dat jongeren de combinatie als geaccepteerd gedrag gaan zien en hun verwachtingen ten aanzien hiervan laten beïnvloeden.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T08:57:33" lastSave="2020-02-28T21:22:39">
-  <mdcr:RatingSystemID version="2">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-19T02:57:33" lastSave="2021-04-05T20:06:26">
+  <mdcr:RatingSystemID version="4">
     <mdcr:Region>
       <md:country>KR</md:country>
       <mdcr:RegionName>KOREA, REP</mdcr:RegionName>
@@ -21,19 +21,19 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2016-12-20</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Korea Media Rating Board">
     <md:DisplayName>Korea Media Rating Board</md:DisplayName>
-    <mdcr:ContactString>Korea Media Ratting Board(121-904) 400,
- World Cup buk-ro, Mapo, 
-Seoul, Korea 
-Tel +82-2-3153-4300</mdcr:ContactString>
-    <mdcr:URL>http://kmros.kmrb.or.kr/html/data/classstandards.do</mdcr:URL>
+    <mdcr:ContactString>KOREA MEDIA RATING BOARD 
+3rd Floor, Korea Visual Industry Center, Centum seo-ro 39, 
+Haeundae-gu, Busan 48058, Republic of Korea 
+Tel : +82-51-990-7200</mdcr:ContactString>
+    <mdcr:URL>https://www.kmrb.or.kr/eng/CMS/Contents/Contents.do?mCode=MN023</mdcr:URL>
     <mdcr:OrgType>other</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_G.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -72,10 +72,14 @@ Tel +82-2-3153-4300</mdcr:ContactString>
 8. 그 밖에 특정한 사상ㆍ종교ㆍ풍속ㆍ인종ㆍ민족 등과 관련하여 모든 연령에 해당하는 사람이 시청하기에 부정적 영향을 미치는 표현이 없는 것</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>All</mdcr:Label>
+      <mdcr:Definition>Film suitable for all ages</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">12+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/12+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/12+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
@@ -115,10 +119,18 @@ Tel +82-2-3153-4300</mdcr:ContactString>
 8. 그 밖에 특정한 사상ㆍ종교ㆍ풍속ㆍ인종ㆍ민족 등과 관련하여 12세미만에 해당하는 사람에게 부정적 영향을 미치는 표현이 있는 것</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Film intended for audiences 12 and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Film intended for audiences 12 and over
+Underage audiences accompanied with a parent or guardian is allowed.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">15+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/15+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/15+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_15.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
@@ -158,10 +170,17 @@ Tel +82-2-3153-4300</mdcr:ContactString>
 8. 그 밖에 특정한 사상ㆍ종교ㆍ풍속ㆍ인종ㆍ민족 등과 관련하여 15세미만에 해당하는 사람에게 부정적 영향을 미치는 표현이 있는 것</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>Film intended for audiences 15 and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Underage audiences accompanied with a parent or guardian is allowed.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/18+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/18+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -198,10 +217,14 @@ Tel +82-2-3153-4300</mdcr:ContactString>
 8. 그 밖에 특정한 사상.종교.풍속.인종.민족 등에 대한 묘사가 청소년이 관람하기에 부적절한 것</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>No one under 18 is allowed to watch this Film</mdcr:Definition>
+    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">LIM</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/2/LIM</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/LIM</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_LIM.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -225,5 +248,68 @@ Tel +82-2-3153-4300</mdcr:ContactString>
 ② 제1항의 규정에 의하여 등급분류를 함에 있어 국가의 정체성 및 국익, 미풍양속과 사회질서 등에 끼칠 영향을 충분히</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>LIM</mdcr:Label>
+      <mdcr:Definition>Film needs a certain restriction in screening or advertisement as it is considered a highly bad influence</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Film needs a certain restriction in screening or advertisement as it is considered a highly bad influence to universal human dignity, social value, good customs or national emotion due to excessive expression of nudity, violence, social behavior, etc. (based on Article 29, the Act of Promotion of Film and Video)</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
   </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="T">
+    <mdcr:Label />
+    <mdcr:Definition>Topic</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">The effect on the formation emotions, values of group of age as well as the ability to understand and accept the theme.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_theme.png</mdcr:LinkToLogo>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="S">
+    <mdcr:Label />
+    <mdcr:Definition>Sexuality</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Level of exposure of human body as well as caress, sexual intercourse and other sexual activitiesother sexual.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_sex.png</mdcr:LinkToLogo>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="V">
+    <mdcr:Label />
+    <mdcr:Definition>Violence</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Level of damage to human body and oppression through torture and blood battles, pain, indignity and sexual violence.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_violence.png</mdcr:LinkToLogo>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="DL">
+    <mdcr:Label />
+    <mdcr:Definition>Dialogue</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Level and frequency of vulgar language and slangs.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_language.png</mdcr:LinkToLogo>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="H">
+    <mdcr:Label />
+    <mdcr:Definition>Horror</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Level of psychological shock resulting from tension, stimuli and threat.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_horror.png</mdcr:LinkToLogo>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="DR">
+    <mdcr:Label />
+    <mdcr:Definition>Drug</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Level of drugs use and promotion or glamorization of such activities.</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_drug.png</mdcr:LinkToLogo>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="IR">
+    <mdcr:Label />
+    <mdcr:Definition>Imitation Risk</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Level of imitation, encouragement and stimulus to perform the expressed act of murder, drug, suicide, school violence and out casting and use of weapons</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_behavior.png</mdcr:LinkToLogo>
+  </mdcr:Reason>
 </mdcr:RatingSystem>

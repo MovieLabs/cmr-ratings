@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T22:12:23">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2021-01-14T20:20:51">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>UA</md:country>
       <mdcr:RegionName>UKRAINE</mdcr:RegionName>
@@ -20,7 +20,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2020-01-17</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Ukrainian State Film Agency">
     <md:DisplayName>Ukrainian State Film Agency</md:DisplayName>
     <mdcr:ContactString>Поштова адреса:
@@ -38,8 +38,37 @@ Phone: (044) 280-27-18</mdcr:ContactString>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">Yes</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/Yes</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>ДА</mdcr:Label>
+      <mdcr:Definition>Дитяча аудиторія.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Фільми з індексом "ДА" спеціально створені для дітей і доступні за сюжетом для дитячого сприйняття. Повна відсутність у цих фільмах у 
+будьякій
+ формі грубості, насильства, жорстокості, непристойних виразів.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="UK">
+      <mdcr:Label>12</mdcr:Label>
+      <mdcr:Definition>Фільм, перегляд якого дозволяється дітям до 12 років тільки у супроводі батьків. Самостійний перегляд дітям до 12 років забороняється.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="0">For</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/For</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/For</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -57,28 +86,12 @@ Phone: (044) 280-27-18</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">Yes</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/Yes</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="UK">
-      <mdcr:Label>ДА</mdcr:Label>
-      <mdcr:Definition>Дитяча аудиторія.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Фільми з індексом "ДА" спеціально створені для дітей і доступні за сюжетом для дитячого сприйняття. Повна відсутність у цих фільмах у 
-будьякій
- формі грубості, насильства, жорстокості, непристойних виразів.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="1">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>14</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="UK">
       <mdcr:Label>14</mdcr:Label>
@@ -96,7 +109,7 @@ Phone: (044) 280-27-18</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="2">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -121,7 +134,7 @@ Phone: (044) 280-27-18</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -141,10 +154,11 @@ Phone: (044) 280-27-18</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">X21</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/X21</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/X21</mdcr:URI>
     <mdcr:MinRecAge>21</mdcr:MinRecAge>
     <mdcr:MinAge>21</mdcr:MinAge>
     <mdcr:MinAgeSupervised>21</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="UK">
       <mdcr:Label>Х21</mdcr:Label>
@@ -162,7 +176,7 @@ Phone: (044) 280-27-18</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="100">Denied</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/Denied</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/2/Denied</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -176,18 +190,6 @@ Phone: (044) 280-27-18</mdcr:ContactString>
 особистості, що пропагують невігластво, неповагу до батьків, а також наркоманію, токсикоманію, алкоголізм та інші шкідливі
 звички, i фільми порнографічного характеру відмовлени в державній реєстрації.</div>
       </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/UA/Ukraine/1/12</mdcr:URI>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
-    <mdcr:MinAge>12</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="UK">
-      <mdcr:Label>12</mdcr:Label>
-      <mdcr:Definition>Фільм, перегляд якого дозволяється дітям до 12 років тільки у супроводі батьків. Самостійний перегляд дітям до 12 років забороняється.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

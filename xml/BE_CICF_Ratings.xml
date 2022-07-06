@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T23:47:50" lastSave="2018-02-05T21:48:12">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T06:47:50" lastSave="2021-01-14T20:02:15">
+  <mdcr:RatingSystemID version="1" deprecated="true">
     <mdcr:Region>
       <md:country>BE</md:country>
       <mdcr:RegionName>BELGIUM</mdcr:RegionName>
@@ -26,22 +26,6 @@
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">KT/EA</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CICF/1/KT_EA</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="NL">
-      <mdcr:Label>Kinderen Toegelaten</mdcr:Label>
-      <mdcr:Definition />
-    </mdcr:Descriptor>
-    <mdcr:Descriptor language="FR">
-      <mdcr:Label>Enfants Admis</mdcr:Label>
-      <mdcr:Definition />
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">E</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CICF/1/E</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
@@ -54,6 +38,22 @@
     </mdcr:Descriptor>
     <mdcr:Descriptor language="FR">
       <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">KT/EA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/CICF/1/KT_EA</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="NL">
+      <mdcr:Label>Kinderen Toegelaten</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Enfants Admis</mdcr:Label>
       <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>

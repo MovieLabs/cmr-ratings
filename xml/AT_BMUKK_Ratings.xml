@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T13:30:03" lastSave="2019-06-18T15:43:40">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T20:30:03" lastSave="2021-01-12T22:50:01">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>AT</md:country>
       <mdcr:RegionName>AUSTRIA</mdcr:RegionName>
@@ -22,7 +22,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2019-06-18</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
       As defined in
@@ -31,17 +31,17 @@
   </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="JMK">
     <md:DisplayName>Jugendmedienkommission beim Bundesministerium für Bildung</md:DisplayName>
-    <mdcr:ContactString>Geschäftsführender Leiter 
-ADir . Michael Kluger 
-T +43 1 53120-4835 
-F +43 1 53120-814835 
-michael.kluger@bmb.gv.at</mdcr:ContactString>
-    <mdcr:URL>https://www.bmb.gv.at/schulen/service/jmk/</mdcr:URL>
+    <mdcr:ContactString>Geschäftsführender Leiter
+ADir. RgR Michael Kluger
+T +43 1 53120-4835
+F +43 1 53120-814835
+michael.kluger@bmbwf.gv.at</mdcr:ContactString>
+    <mdcr:URL>https://www.bmbwf.gv.at/Themen/schule/schulpraxis/ugbm/jmk.html</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">AA</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/AA</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2/AA</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -76,7 +76,7 @@ strange surrounding, situations that trigger fear or sadness or sudden frighteni
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2/6</mdcr:URI>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -116,7 +116,7 @@ and realistic movies that show violence and threatening situations can seriously
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">8</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/8</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2/8</mdcr:URI>
     <mdcr:MinRecAge>8</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -163,7 +163,7 @@ even for this age group. Children from 8 to 10 years are not yet in a position t
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">10</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/10</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2/10</mdcr:URI>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -209,7 +209,7 @@ etc.), they can face the story by drawing on ways to still their “lust for fea
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -278,7 +278,7 @@ see through ideologies, conceptions of the world and biases.</p>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2/14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -310,7 +310,7 @@ problematic when they restrict themselves to simple solutions, make light of vio
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/1/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AT/BMUKK/2/16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

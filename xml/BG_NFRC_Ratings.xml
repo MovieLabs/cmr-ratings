@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-09T01:28:46" lastSave="2021-01-12T22:13:55">
-  <mdcr:RatingSystemID version="3">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-09T15:28:46" lastSave="2022-07-06T22:39:55">
+  <mdcr:RatingSystemID version="4">
     <mdcr:Region>
       <md:country>BG</md:country>
       <mdcr:RegionName>BULGARIA</mdcr:RegionName>
@@ -21,7 +21,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2020-01-16</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">Rating system defined by the FIlm Industry Act as ammeded 2008</div>
   </mdcr:Notes>
@@ -36,7 +36,7 @@ email: nfc@nfc.bg</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/A</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4/A</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -58,7 +58,7 @@ email: nfc@nfc.bg</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">B</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/B</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4/B</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -80,7 +80,7 @@ email: nfc@nfc.bg</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">C</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/C</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4/C</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -101,8 +101,40 @@ email: nfc@nfc.bg</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="7">C+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4/C+</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>C+</mdcr:Label>
+      <mdcr:Definition>Not recommended for persons under 14 years of age</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>C+</mdcr:Label>
+      <mdcr:Definition>Не се препоръчва за лица под 14-годишна възраст</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="8">D+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4/D+</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>D+</mdcr:Label>
+      <mdcr:Definition>Not recommended for persons under 16 years of age</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="BG">
+      <mdcr:Label>D+</mdcr:Label>
+      <mdcr:Definition>Не се препоръчва за лица под 16-годишна възраст</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="9">D</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/D</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4/D</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -124,7 +156,7 @@ email: nfc@nfc.bg</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">X</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/3/X</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BG/NFRC/4/X</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-11T01:11:12" lastSave="2022-02-28T19:39:17">
-  <mdcr:RatingSystemID version="5">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-11T08:11:12" lastSave="2022-07-06T22:39:11">
+  <mdcr:RatingSystemID version="6">
     <mdcr:Region>
       <md:country>BR</md:country>
       <mdcr:RegionName>BRAZIL</mdcr:RegionName>
@@ -21,7 +21,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2021-10-19</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">Only 10 reasons are currently accepted in Brazil. All other reasons are considered invalid.  Please contact the Brazilian Government for an official mapping of historical reasons to current reasons.
 
@@ -41,7 +41,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">ER</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/ER</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/ER</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_-_ER.svg.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>9</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -54,21 +54,8 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="1">L-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/L-16</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-16-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>Conteúdo varia de Livre a 16 anos</mdcr:Label>
-      <mdcr:Definition>Livre a 16 anos</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="1">L-18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/L-18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/L-18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-18-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -81,7 +68,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">L-10</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/L-10</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/L-10</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-10-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -94,7 +81,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">L</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/L</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/L</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_-_L.svg.png</mdcr:LinkToLogo>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
@@ -111,7 +98,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">L-12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/L-12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/L-12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-12-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -124,7 +111,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">L-14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/L-14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/L-14</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-14-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -136,21 +123,21 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="6">10-12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/10-12</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-12-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:Value ordinal="1">L-16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/L-16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_L-16-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>10 a 12 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 10 a 12 anos</mdcr:Definition>
+      <mdcr:Label>Conteúdo varia de Livre a 16 anos</mdcr:Label>
+      <mdcr:Definition>Livre a 16 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">10</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/10</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/10</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_-_10.svg.png</mdcr:LinkToLogo>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
@@ -167,7 +154,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">10-18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/10-18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/10-18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-18-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -180,7 +167,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">10-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/10-16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/10-16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-16-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -193,7 +180,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">10-14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/10-14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/10-14</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-14-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -205,21 +192,21 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="9">12-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/12-16</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-16-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:Value ordinal="6">10-12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/10-12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-12-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>12 a 16 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 12 a 16 anos</mdcr:Definition>
+      <mdcr:Label>10 a 12 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 10 a 12 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">12-14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/12-14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/12-14</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-14-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -232,7 +219,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_-_12.svg.png</mdcr:LinkToLogo>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
@@ -251,7 +238,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">12-18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/12-18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/12-18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-18-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -263,21 +250,21 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="12">14-18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/14-18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_14-18-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:Value ordinal="9">12-16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/12-16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-16-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>14 a 18 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 14 a 18 anos</mdcr:Definition>
+      <mdcr:Label>12 a 16 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 12 a 16 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">14-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/14-16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/14-16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_14-16-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -290,7 +277,7 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/14</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_-_14.svg.png</mdcr:LinkToLogo>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_14-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
@@ -306,21 +293,21 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="15">16-18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/16-18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_16-18-s.png</mdcr:LinkToLogo>
+    <mdcr:Value ordinal="12">14-18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/14-18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_14-18-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>16 a 18 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 16 a 18 anos</mdcr:Definition>
+      <mdcr:Label>14 a 18 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 14 a 18 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_-_16.svg.png</mdcr:LinkToLogo>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_16-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
@@ -336,8 +323,21 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="15">16-18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/16-18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_16-18-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>16 a 18 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 16 a 18 anos</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="90">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/5/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_-_18.svg.png</mdcr:LinkToLogo>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_18-s.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
@@ -362,11 +362,9 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CS">
     <mdcr:Label />
-    <mdcr:Definition>Conteúdo Sexual</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="N">
     <mdcr:Label />
-    <mdcr:Definition>Nudez</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
@@ -374,7 +372,6 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SE">
     <mdcr:Label />
-    <mdcr:Definition>Sexo Explícito</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
@@ -382,11 +379,9 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DL">
     <mdcr:Label />
-    <mdcr:Definition>Drogas Lícitas</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DI">
     <mdcr:Label />
-    <mdcr:Definition>Drogas Ilícitas</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="LI">
     <mdcr:Label />
@@ -394,11 +389,9 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="AC">
     <mdcr:Label />
-    <mdcr:Definition>Atos Criminosos</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CI">
     <mdcr:Label />
-    <mdcr:Definition>Conteúdo Impactante</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="NR">
     <mdcr:Label />
@@ -406,30 +399,23 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="T">
     <mdcr:Label />
-    <mdcr:Definition>Tensão/Medo</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="TA">
     <mdcr:Label />
-    <mdcr:Definition>Temática adulta/Temas Sensíveis</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="VF">
     <mdcr:Label />
-    <mdcr:Definition>Violência Fantasiosa</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DE">
     <mdcr:Label />
-    <mdcr:Definition>Desvirtuamento de valores éticos</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="PM">
     <mdcr:Label />
-    <mdcr:Definition>Procedimentos Médicos</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="M">
     <mdcr:Label />
-    <mdcr:Definition>Medo</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="TS">
     <mdcr:Label />
-    <mdcr:Definition>Temas sensíveis</mdcr:Definition>
   </mdcr:Reason>
 </mdcr:RatingSystem>

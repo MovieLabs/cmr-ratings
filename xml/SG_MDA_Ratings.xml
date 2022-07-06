@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T17:42:40" lastSave="2020-10-29T19:57:38">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-13T00:42:40" lastSave="2022-07-06T23:15:54">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>SG</md:country>
@@ -33,10 +33,7 @@
       References:
       <ul>
         <li>
-          <a href="https://www2.imda.gov.sg/-/media/Imda/Files/Regulation-Licensing-and-Consultations/Codes-of-Practice-and-Guidelines/Acts-Codes/Managed-Linear-TV-Services-Content-Code-updated-29-April-2019.pdf">Content Code for Nationwide Managed Transmission Linear TV Services: Annex A</a>
-        </li>
-        <li>
-          <a href="https://www2.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/television-and-radio">Classification Overview: TV and Radio</a>
+          <a href="https://www.imda.gov.sg/regulations-and-licensing-listing/content-standards-and-classification/standards-and-classification/films">Classification Overview: Film</a>
         </li>
       </ul>
     </div>
@@ -135,287 +132,179 @@ Fax: 6577 3888</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="T">
     <mdcr:Label />
-    <mdcr:Definition>Theme and Message</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Classification must take into account the treatment of theme(s) and message(s)
-in a film. For the advisory ratings, theme(s) and message(s) should be
-presented and treated sensitively due to the potential impact on the young.
-Films that center on mature theme(s) or content would generally be classified
-NC16, M18 or R21. Films that contain distorted or misrepresented discussions
-or depictions of a subject matter (including historical events), may be classified
-at a higher rating or refused classification.</div>
-    </mdcr:Explanation>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
-    <mdcr:Definition>Violence</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">The degree and nature of violence in a film will impact the classification rating.
-Depictions of violence may frighten, unsettle or invite imitation, especially from
-children. Therefore, only mild depictions of violence may be allowed in films
-meant for children. For the higher ratings, stronger depictions of violence are
-permitted. However, films that contain detailed or gratuitous depictions of
-extreme violence or cruelty; detailed instructions on methods of crime or killings;
-or excessive or exploitative depictions of sexual violence will be refused
-classification.</div>
-    </mdcr:Explanation>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="N">
     <mdcr:Label />
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
-    <mdcr:Definition>Sex</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">
-        <p>Classification of depictions of sexual activity in films depends on its explicitness,
-frequency, and relevance to the storyline. Generally, there should be no
-depictions of sexual activity at the G and PG ratings.</p>
-        <p>Films that depict alternative sexualities, e.g. homosexuality, should be sensitive
-to community values. Films that centre on alternative sexualities may be
-classified at highest rating of R21. Non-explicit depictions of sexual activity
-between persons of the same gender may be featured at R21 rating.</p>
-        <p>Films containing depictions of sexual activities such as sadomasochism,
-bondage, orgies or sexual violence will be subject to strict review and may only
-be allowed at the higher ratings, depending on the treatment and context.</p>
-        <p>Films containing explicit depictions of deviant sexual activities (e.g. paedophilia,
-bestiality and necrophilia) or exploitative depictions of sexual activities will be
-refused classification.</p>
-      </div>
-    </mdcr:Explanation>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="L">
     <mdcr:Label />
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="D">
     <mdcr:Label />
-    <mdcr:Definition>Drug and Substance Abuse</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Films rated G should have no references to or depictions of drug and substance
-abuse. Films rated PG and PG13 may only feature infrequent or discreet
-references or depictions of drug and substance abuse, as these may have a
-negative influence on the young. Depictions of drug and substance abuse may
-be featured at NC16, M18 or R21, depending on the frequency and level of
-details. Films with content that promote drug or psychoactive substance abuse,
-or includes detailed and instructive depictions of drug or psychoactive
-substance abuse will be refused classification.</div>
-    </mdcr:Explanation>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
-    <mdcr:Definition>Horror</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">In classifying films containing horrific or disturbing content, the IMDA will take
-into consideration the impact of such depictions to ensure that young audiences
-are protected.</div>
-    </mdcr:Explanation>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Intimacy-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Scenes of Intimacy</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Intimacy">
     <mdcr:Label />
-    <mdcr:Definition>Scene(s) of Intimacy</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexualReference-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Sexual References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexualReference">
     <mdcr:Label />
-    <mdcr:Definition>Sexual References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexScene-Brief">
     <mdcr:Label />
-    <mdcr:Definition>Brief Sexual Scenes</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexScene-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Sexual Scenes</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexHumor">
     <mdcr:Label />
-    <mdcr:Definition>Sexual Humour</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="HomosexualReference-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Homosexual References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="HomosexualReference">
     <mdcr:Label />
-    <mdcr:Definition>Homosexual References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexualContent">
     <mdcr:Label />
-    <mdcr:Definition>Sexual Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexualContent-Crude">
     <mdcr:Label />
-    <mdcr:Definition>Crude Sexual Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexScene">
     <mdcr:Label />
-    <mdcr:Definition>Sexual Scenes</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="HomosexualContent-Some">
     <mdcr:Label />
-    <mdcr:Definition>HomosexualContent-Some</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="HomosexualContent">
     <mdcr:Label />
-    <mdcr:Definition>Homosexual Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CoarseLanguage-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Coarse Language</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CoarseLanguage">
     <mdcr:Label />
-    <mdcr:Definition>Coarse Language</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CoarseLanguage-Strong">
     <mdcr:Label />
-    <mdcr:Definition>Strong Coarse Language</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Violence-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Violence</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="BattleScenes">
     <mdcr:Label />
-    <mdcr:Definition>Battle Scenes</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Violence">
     <mdcr:Label />
-    <mdcr:Definition>Violence</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Violence-Sexual">
     <mdcr:Label />
-    <mdcr:Definition>Sexual Violence</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Gore">
     <mdcr:Label />
-    <mdcr:Definition>Gore</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Violence-Strong">
     <mdcr:Label />
-    <mdcr:Definition>Strong Violence</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Gore-Strong">
     <mdcr:Label />
-    <mdcr:Definition>Strong Gore</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Horror">
     <mdcr:Label />
-    <mdcr:Definition>Horror</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Frightening-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Frightening Scenes</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Frightening">
     <mdcr:Label />
-    <mdcr:Definition>Frightening Scenes</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Nudity-Brief">
     <mdcr:Label />
-    <mdcr:Definition>Brief Nudity</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Nudity-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Nudity</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Nudity">
     <mdcr:Label />
-    <mdcr:Definition>Nudity</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DrugRef-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Drug References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DrugUse-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Drug Use</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DrugUse">
     <mdcr:Label />
-    <mdcr:Definition>Drug Use</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DrugRef">
     <mdcr:Label />
-    <mdcr:Definition>Drug References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DrugContent">
     <mdcr:Label />
-    <mdcr:Definition>Drug Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="MatureTheme">
     <mdcr:Label />
-    <mdcr:Definition>Mature Theme(s)</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="HomosexualTheme">
     <mdcr:Label />
-    <mdcr:Definition>Homosexual Theme</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="MatureContent-Some ">
     <mdcr:Label />
-    <mdcr:Definition>Some Mature Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Gambling">
     <mdcr:Label />
-    <mdcr:Definition>Gambling Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="ReligeousContent">
     <mdcr:Label />
-    <mdcr:Definition>Religious Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="ReligeousReference-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Religious References\</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="ReligeousReference">
     <mdcr:Label />
-    <mdcr:Definition>Religious References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="RacialReference-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Racial References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DisturbingScene">
     <mdcr:Label />
-    <mdcr:Definition>Some Disturbing Scenes</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Supernatural">
     <mdcr:Label />
-    <mdcr:Definition>Supernatural Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="SexualityEducation">
     <mdcr:Label />
-    <mdcr:Definition>Sexuality Education</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="IntenseSequences-Some">
     <mdcr:Label />
-    <mdcr:Definition>Some Intense Sequences</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="RacialContent">
     <mdcr:Label />
-    <mdcr:Definition>Racial Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="RacialReferneces">
     <mdcr:Label />
-    <mdcr:Definition>Racial References</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="CrudeHumor">
     <mdcr:Label />
-    <mdcr:Definition>Crude Humour</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="MatureContent">
     <mdcr:Label />
-    <mdcr:Definition>Mature Content</mdcr:Definition>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DisturbingContent">
     <mdcr:Label />
-    <mdcr:Definition>Disturbing Scenes</mdcr:Definition>
   </mdcr:Reason>
 </mdcr:RatingSystem>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-28T21:35:34">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-06T22:40:36">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>DE</md:country>
       <mdcr:RegionName>GERMANY</mdcr:RegionName>
@@ -16,7 +16,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2019-06-11</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
       FSF age classifications are based on the
@@ -36,7 +36,7 @@ info@fsf.de</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">0</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/0</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2/0</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DE_FSF_0.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -85,10 +85,15 @@ Actionpassagen oder eine düstere Bildgestaltung können unter 6-Jährige bei de
 Wahrnehmung und Verarbeitung überfordern.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Desorientierung" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Angst" />
+    <mdcr:ApplicableReason id="Sprache" />
+    <mdcr:ApplicableReason id="Gewalt" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2/6</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DE_FSF_6.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>6</mdcr:MinAge>
@@ -154,11 +159,16 @@ gezeigten Verhalten eine Vorbildwirkung oder der Eindruck von Normalität
 entstehen oder ob Kindern verständliche Orientierungshilfen geboten werden.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Desorientierung" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Angst" />
+    <mdcr:ApplicableReason id="Sprache" />
+    <mdcr:ApplicableReason id="Gewalt" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/12</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DE_FSF_12.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2/12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_12ab20.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
@@ -194,17 +204,22 @@ für jüngere Kinder aber nicht unbedingt geeignet und sollten in Begleitung der
 Eltern angesehen werden.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Desorientierung" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Angst" />
+    <mdcr:ApplicableReason id="Sprache" />
+    <mdcr:ApplicableReason id="Gewalt" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="13">12ab20uhr</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/12ab20uhr</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DE_FSF_12ab20.jpg</mdcr:LinkToLogo>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2/12ab20uhr</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DE_FSF_12.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
-      <mdcr:Label />
+      <mdcr:Label>12ab20uhr</mdcr:Label>
       <mdcr:Definition>For viewers aged 12 and over and for transmission from 8 p.m. onwards (prime time)</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Children and adolescents aged 12 and over are generally aware of films in their 
@@ -237,7 +252,7 @@ overall message or in part.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:Descriptor language="DE">
-      <mdcr:Label />
+      <mdcr:Label>12ab20uhr</mdcr:Label>
       <mdcr:Definition>Frei ab 12 Jahren und Ausstrahlung ab 20.00 Uhr (Hauptabendprogramm)</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Kinder und Jugendliche ab 12 Jahren nehmen Filme in der Regel im 
@@ -268,7 +283,7 @@ propagiert.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="16">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2/16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DE_FSF_16.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
@@ -322,10 +337,15 @@ Wertehorizontes reflektiert werden, sofern das Angebot nicht in seiner
 Gesamttendenz grundgesetzlich geschützte Werte infrage stellt.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Desorientierung" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Angst" />
+    <mdcr:ApplicableReason id="Sprache" />
+    <mdcr:ApplicableReason id="Gewalt" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2/18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DE_FSF_18.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -375,10 +395,15 @@ den Abschnitt XIV 3 [offensichtlich schwere Jugendgefährdung] in den
 FSF-Richtlinien zur Anwendung der Prüfordnung).</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Desorientierung" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Angst" />
+    <mdcr:ApplicableReason id="Sprache" />
+    <mdcr:ApplicableReason id="Gewalt" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="100">X</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/1/X</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/DE/FSF/2/X</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DE_FSF_X.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -450,5 +475,205 @@ oder Selbstmord).</li>
         </div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Desorientierung" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Angst" />
+    <mdcr:ApplicableReason id="Sprache" />
+    <mdcr:ApplicableReason id="Gewalt" />
   </mdcr:Rating>
+  <mdcr:Reason language="en" reasonID="Angst">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="0">
+      <mdcr:Definition>Wie bedrohlich dürfen einzelne Szenen bzw. Sendungen wirken? Welche Bedrohungsszenarien sind für jegliche Altersklassen unbedenklich?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen, die für alle Altersklassen freigegeben werden, gibt es nur milde Formen von Bedrohung und Gefahr und kurze Schreckmomente. Beängstigende Szenen werden umgehend relativiert, z.B. durch humoristische oder fantastische Elemente. Die filmische Atmosphäre ist positiv geprägt, spannende und entspannende Szenen stehen in solidem Wechsel. Die Vertonung von Effekten und turbulenten Szenen ist zurückhaltend und heiter. Negative Figuren sollten visuell nicht zu bedrohlich wirken.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="6">
+      <mdcr:Definition>Wie bedrohlich dürfen einzelne Szenen bzw. Sendungen wirken? Welche Bedrohungsmomente können bei Kindern unter 12 Jahren eine übermäßige Angsterzeugung auslösen?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen mit der Altersfreigabe ab 6 Jahren können moderat gestaltete, deutlich fiktionale Bedrohungssituationen vorkommen. Spannungen und ängstigende Situationen werden durch kindgerechte Dramaturgien entlastet. Die Folgen von Gewalt werden nicht oder nur behutsam visualisiert.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Wie bedrohlich dürfen einzelne Szenen bzw. Sendungen wirken? Durch welche Inhalte werden bei ab 12-Jährigen überrmäßig Angst erzeugt?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen mit einer Altersfreigabe ab 12 Jahren können ängstigende Medieninhalte enthalten sein, sofern sie nicht zu drastisch oder zu eindringlich inszeniert sind. Erschreckende Bilder – z.B. blutige Verletzungen, Morde, entstellte Leichen – sind in jenen Programmen nicht übermäßig eindringlich in Szene gesetzt. Einzelne tragische Ereignisse – z.B. Sterben, Krankheit, Trauer – sind plausibel in den erzählerischen Kontext eingebettet und werden in verständlicher Weise aufgelöst.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Definition>Wie bedrohlich dürfen einzelne Szenen bzw. Sendungen wirken? Kann es bei der Altersgruppe der ab 16-Jährigen übermäßige Angsterzeugung geben?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Ängstigende Inhalte und drastische Bilder von Gewalt und Gewaltfolgen sind im Genrekontext eingebettet. Auch eindringliche Schilderungen von Gewalt und Horror- und Splatterelemente können in Sendungen mit einer Freigabe ab 16 Jahren enthalten sein, sofern die Fiktionalität und Realitätsferne der Szenarien deutlich erkennbar ist. Bei stark realistischen Bezügen, jugendaffinen Themen oder sehr expliziter Ausgestaltung der Gewaltbilder ist eine Freigabe für Erwachsene zu erwägen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>Kann ein Publikum ab 18 Jahren noch geängstigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Das Angstrisiko wird nicht allein ausschlaggebend sein für Freigaben ab 18 Jahren. Auch eindringliche Schilderungen von Gewalt und intensive Horror- und Splatterelemente sind für erwachsene Zuschauer zugänglich, sofern sie nicht z.B. wegen gewaltverherrlichender Tendenzen die Kriterien für eine Sendeunzulässigkeit berühren.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="X">
+      <mdcr:Definition>Wie bedrohlich dürfen einzelne Szenen bzw. Sendungen wirken? Welche Inhalte sind überrmäßig Angst erzeugend?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Im volljährigen Alter spielt das Wirkungsrisiko Angst keine Rolle mehr in der Freigabe von Fernsehprogrammen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Gewalt">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="0">
+      <mdcr:Definition>Gibt es Gewaltszenen, die für alle Altersgruppen unbedenklich sind – gar schon für die Kleinsten?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Sendungen, die für alle Altersstufen freigegeben werden, enthalten keine Gewaltdarstellungen, sofern sie nicht stark abstrahiert sind (z.B. in Märchen- oder Fantasykontexten) und sofort aufgelöst und relativiert werden. Die Atmosphäre solcher Programme ist eher heiter-turbulent als bedrohlich (z.B. folgenlose Slapstickgewalt wie im Tom und Jerry-Cartoon). Andeutungen realer Gewalt können dann zumutbar sein, wenn sie von Kleinkindern noch nicht verstanden werden können und auch atmosphärisch nicht belastend sind.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="6">
+      <mdcr:Definition>Wie viel Gewalt ist für ab 6-jährige Kinder zumutbar? Wie intensiv sind die Gewaltdarstellungen?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen mit der Altersfreigabe ab 6 Jahren sind Darstellungen von Gewalt zurückhaltend, irreal und ohne Details in Szene gesetzt. Kampf- oder Gewaltszenen finden in realitätsfernen Kontexten statt, z.B. in Märchen-, Abenteuer- oder Fantasywelten, und sind nicht mit der Alltagswirklichkeit von Grundschulkindern zu verwechseln.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Wie viel Gewalt ist für Zuschauer ab 12-Jahren verkraftbar? Wie intensiv sind die Gewaltdarstellungen? Wird Gewaltanwendung befürwortet?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen mit einer Altersfreigabe ab 12 Jahren können Darstellungen von Gewalt im relativierenden, kritischen Kontext gezeigt werden (z.B. im Krimi). Identifikations- und Sympathiefiguren distanzieren sich von Gewalt und beschränken sich auf Notwehr. Auch einzelne Gewaltszenen weisen keine Verhaltensmodelle auf, in denen die Gewalthandlung filmintern als positiv und erfolgreich bewertet wird. Kämpfe und Darstellungen von Gewalt im Actiongenre sind von ab 12-Jährigen deutlich als Fiktion erkennbar, setzen auf Technikfaszination, Kampfakrobatik und rasante Abläufe.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Definition>Wie viel Gewalt ist für ab 16-Jährige verkraftbar? Wie intensiv sind die Gewaltdarstellungen? Wird Gewaltanwendung befürwortet?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Programmen, die für ein Publikum ab 16 Jahren freigegeben werden, müssen drastische Darstellungen von Gewalt in einen narrativen Kontext eingebettet sein, damit sie distanziert wahrgenommen werden können. Der Gewalt befürwortende Charakter von Einzelszenen oder -figuren muss allerdings durch die Gesamtaussage des Formats relativiert werden. Obwohl die Protagonisten auch Regeln brechen, werden ihre Grenzüberschreitungen nachvollziehbar infrage gestellt. Ist die sozialethisch desorientierende bzw. Gewalt befürwortende Wirkung eines Angebots derart eindringlich und suggestiv, dass ältere Jugendliche diese Botschaft angesichts ihrer noch eingeschränkten sozialen Erfahrung und ihrer ethischen Einordnungsfähigkeit nicht relativieren können, ist eine Freigabe ab 18 Jahren zu erwägen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>Wie viel Gewalt ist für ein Publikum ab 18 Jahren verkraftbar? Wie intensiv sind die Gewaltdarstellungen? Wird Gewaltanwendung befürwortet?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Formate, in denen Gewalt detailliert geschildert wird, eine nahe liegende Identifikation mit gewaltorientierten Figuren stattfindet sowie der Eindruck entsteht, dass Gewalt inhaltlich bestimmend ist und als einziges Mittel erscheint, um Konflikte zu lösen, können ab 18 freigegeben werden, sofern eine Relativierung stattfindet (z.B. über die Fiktionalität des Dargestellten).</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="X">
+      <mdcr:Definition>Wie viel Gewalt ist nicht mehr verkraftbar? Wie intensiv sind die Gewaltdarstellungen? Wird Gewaltanwendung befürwortet?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Programme, die extreme Gewalt in ihren physischen, psychischen und sozialen Erscheinungsformen verherrlichen oder verharmlosen, sind unzulässig.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Desorientierung">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="0">
+      <mdcr:Definition>Werden Werte vermittelt, die gegen unsere gesellschaftliche Grundordnung verstoßen? Werden problematische Verhaltensvorbilder gezeigt? Was muss bei möglicherweise sozialethisch desorientierenden Inhalten für jede Altersstufe berücksichtigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen, die für alle Altersstufen freigegeben werden, gibt es keine desorientierenden Botschaften, keine problematischen Verhaltensvorbilder und keine selbstschädigenden Verhaltensweisen. Antisoziales Verhalten geht nicht von den sympathischen Figuren oder Helden aus und wird klar und für Kinder verständlich verurteilt. Potenziell desorientierende Inhalte sind jüngeren Kindern unverständlich und berühren ihre Lebenswelt nicht.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="6">
+      <mdcr:Definition>Werden Werte vermittelt, die gegen unsere gesellschaftliche Grundordnung verstoßen? Werden problematische Verhaltensvorbilder gezeigt? Was muss bei möglicherweise sozialethisch desorientierenden Inhalten für Kinder ab 6 Jahren berücksichtigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen mit einer Altersfreigabe ab 6 Jahren sind potenziell desorientierende Inhalte – z.B. antisoziales Verhalten (Mobbing, Bullying), selbstgefährdendes oder selbstverletzendes Verhalten – kindgerecht aufbereitet und entfalten keine Vorbildwirkung. Positive Figuren dominieren gegenüber Figuren mit antisozialen Verhaltensweisen. Darstellungen von Unfällen, Krankheiten oder Schicksalsschlägen sind nicht sensationsheischend oder voyeuristisch in Szene gesetzt.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Werden Werte vermittelt, die gegen unsere gesellschaftliche Grundordnung verstoßen? Werden problematische Verhaltensvorbilder gezeigt? Was muss bei möglicherweise sozialethisch desorientierenden Inhalten für Zuschauer ab 12 Jahren berücksichtigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">In Sendungen mit einer Altersfreigabe ab 12 Jahren werden potenziell desorientierende Inhalte – antisoziale Verhaltensweisen, Selbstgefährdung und -verletzung, Drogenkonsum – nicht einseitig positiv und als mit sozialem Statusgewinn verbunden dargestellt. Gibt es Inhalte in dem Format, in dem problematisches Verhalten vorkommt, sollte nicht den Eindruck von Normalität und gesellschaftlicher Akzeptanz dieser Handlungsweisen vermittelt werden. Mit sensiblen Themen wie Prostitution oder Drogenkonsum wird nicht voyeuristisch umgegangen. Darstellungen von Unfällen, Krankheiten oder Schicksalsschlägen zielen auf Empathie und sind nicht so inszeniert, dass sie gegenüber dem Leid anderer desensibilisieren. Ein Druck, optischen Schönheitsidealen nachzueifern (z.B. durch kosmetische Operationen), wird in Sendungen, die ab 12 Jahren freigegeben werden, nicht erzeugt. Darstellungen von Kriegsgeschehen sind nicht einseitig positiv, Soldatentum wird nicht heroisiert, Waffenbegeisterung wird gebrochen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Definition>Werden Werte vermittelt, die gegen unsere gesellschaftliche Grundordnung verstoßen? Werden problematische Verhaltensvorbilder gezeigt? Was muss bei möglicherweise sozialethisch desorientierenden Inhalten für ab 16-Jährige berücksichtigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Antisoziale Verhaltensweisen (Drogenkonsum, selbstschädigendes Verhalten) können von der Altersgruppe distanziert betrachtet werden, sofern sie nicht ungebrochen jugendaffin und attraktiv dargestellt bzw. entsprechende Akteure als Identifikationsfiguren aufgebaut werden. Sozial schädigende Botschaften dürfen nicht den Grundtenor ausmachen; eine Relativierung und Ansatzpunkte einer kritischen Einordnung müssen für ab 16-Jährige erkennbar sein.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>Werden Werte vermittelt, die gegen unsere gesellschaftliche Grundordnung verstoßen? Werden problematische Verhaltensvorbilder gezeigt? Was muss bei möglicherweise sozialethisch desorientierenden Inhalten für ein Publikum ab 18 Jahren berücksichtigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Filme mit sozial schädigenden Botschaften oder Aussagetendenzen sind zulässig, sofern eine Relativierung stattfindet (z.B. über die Fiktionalität des Dargestellten oder glaubwürdige Gegenpositionen).</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="X">
+      <mdcr:Definition>Werden Werte vermittelt, die gegen unsere gesellschaftliche Grundordnung verstoßen und somit zu keiner Freigabe des Programms führen? Werden problematische Verhaltensvorbilder gezeigt?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Unzulässig sind Angebote, die in ihrer Gesamttendenz den Werten des Grundgesetzes krass zuwiderlaufen, indem sie etwa die Menschenwürde missachten, gegen das Toleranzgebot oder den Gleichheitsgrundsatz verstoßen oder rassistische Vorurteile propagieren. Auch Inhalte, die dazu führen können, dass Minderjährige sich selbst schädigen, indem etwa der Konsum von Drogen oder Selbstmord verherrlicht wird, dürfen im Fernsehen nicht gezeigt werden.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Sex">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="0">
+      <mdcr:Definition>Welches Maß an sexuellen Darstellungen ist jegliches Alter verkraftbar? Wie deutlich können sexuelle Handlungen gezeigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Sexuelle Anspielungen und Darstellungen von Sexualität sind so gestaltet, dass sie jüngere Kinder nicht irritieren oder ängstigen können. Die gezeigten Beziehungsmodelle sind durch Gleichberechtigung, Partnerschaftlichkeit und Selbstbestimmung geprägt.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="6">
+      <mdcr:Definition>Welches Maß an sexuellen Darstellungen ist für Kinder ab 6 Jahren verkraftbar? Wie deutlich können sexuelle Handlungen gezeigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Nacktheit ist kein Tabu, doch Darstellungen von Sexualität, sexualthematische Inhalte, sexuelle Anspielungen oder Anzüglichkeiten bestimmen nicht den Gesamtcharakter des Beitrags. Die gezeigten Beziehungsmodelle sind durch Gleichberechtigung, Partnerschaftlichkeit und Selbstbestimmung geprägt. Bei potenziell irritierenden oder ängstigenden Darstellungen wird Kindern eine für sie verständliche, relativierende Orientierung geboten.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Welches Maß an sexuellen Darstellungen ist für ein Publikum ab 12 Jahren verkraftbar? Wie deutlich können sexuelle Handlungen gezeigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Bilder mit sexuellen Handlungen werden gezeigt, übersteigen aber nicht die Vorstellungswelt von ab 12-Jährigen, z.B. durch die Darstellung besonders bizarrer Sexpraktiken, die normal erscheinen und so Ängste in Bezug auf die eigene Sexualität auslösen können. Sexualität erscheint selbstbestimmt und geschieht in gegenseitiger Übereinkunft, Beziehungen sind von Freiwilligkeit, Toleranz und Partnerschaftlichkeit geprägt. Ein Druck hin zu möglichst frühen sexuellen Erfahrungen oder zu bestimmten Sexualpraktiken wird nicht erzeugt. Rückwärtsgewandte Rollenklischees oder auf Ungleichheit beruhende Geschlechterrollen werden im Kontext kritisch relativiert und erscheinen nicht vorbildhaft.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Definition>Welches Maß an sexuellen Darstellungen ist für ab 16-jährige Zuschauer verkraftbar? Wie deutlich können sexuelle Handlungen gezeigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Erotikfilme mit zurückhaltend gestalteten, den Akzent auf Zwischenmenschlichkeit und Zärtlichkeit legenden Sexszenen, die diese in eine tragfähige Spielhandlung einbetten und auch der emotionalen Ebene der Sexualität Raum geben, können im Einzelfall bereits ab 16 Jahren freigegeben werden. Bei der Thematisierung und Darstellung von Sexualität in Spielfilmen ist davon auszugehen, dass 16-Jährige bereits über erste eigene sexuelle Beziehungserfahrungen verfügen, die es ihnen erlauben, auch Ansatzpunkte sexualethischer Desorientierung, wie etwa stereotype Geschlechterrollen, eine Überbetonung des Sexuellen oder bizarre Praktiken, vor diesem Hintergrund zu relativieren und distanziert zu verarbeiten.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>Wie deutlich können sexuelle Handlungen gezeigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Sexfilme, deren Stimulierungsabsicht den Gesamteindruck bestimmen, die aber nicht pornografisch im Sinne des Gesetzes sind, können ab 18 Jahren freigegeben werden. Auch Sexdarstellungen mit desorientierenden Aussagetendenzen und Darstellungen, die Sex und Gewalt verschränken, können enthalten sein, sofern die sexuelle Selbstbestimmung als Grundwert im Gesamtkontext nicht in Zweifel gezogen wird.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="X">
+      <mdcr:Definition>Welches Maß an sexuellen Darstellungen darf nicht im Fernsehen gezeigt werden?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Pornografisch – und damit unzulässig – sind Filme, die eine unpersönliche Sexualität zeigen und sexuelle Handlungen aufdringlich in Szene setzen, indem etwa auf die Geschlechtsorgane beim Verkehr fokussiert wird. Ebenfalls unzulässig sind Inhalte, die Vergewaltigung als lustvoll für das Opfer erscheinen lassen, die Personen wegen ihrer sexuellen Orientierung degradieren sowie solche Darstellungen, die Kinder oder Jugendliche in unnatürlich geschlechtsbetonter Körperhaltung zeigen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="Sprache">
+    <mdcr:Label />
+    <mdcr:Criteria ratingID="0">
+      <mdcr:Definition>Wie derb darf der Sprachgebrauch für alle Altersgruppen sein? Welches Maß an vulgären Ausdrücken ist vertretbar?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Die Sendungen dürfen keinen derben, groben Sprachgebrauch enthalten. Alltagssprachliche Flüche und Schimpfwörter kommen vor, sofern sie dem Sprachschatz von Vorschulkindern entsprechen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="6">
+      <mdcr:Definition>Wie derb darf der Sprachgebrauch in Sendungen, die für Kinder ab 6 Jahren freigegeben werden, sein? Welches Maß an vulgären Ausdrücken ist vertretbar?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vulgäre Ausdrücke und sexualisierte Begrifflichkeiten können vorkommen, sind jedoch nicht diskriminierend, und aggressive Impulse bestimmen nicht den Gesamtkontext.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="12">
+      <mdcr:Definition>Wie derb darf der Sprachgebrauch für ein Publikum ab 12 Jahren sein? Welches Maß an vulgären Ausdrücken ist vertretbar?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vulgäre Sprache und diskriminierende Sprachbilder sind enthalten, haben aber eine deutlichen Genrebezug und erscheinen nicht normal und vorbildhaft. Sie dienen in der Regel der Charakterisierung von Filmfiguren, die nicht ungebrochen zur Identifikation einladen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="16">
+      <mdcr:Definition>Wie derb darf der Sprachgebrauch für Zuschauer ab 16 Jahren sein? Welches Maß an vulgären Ausdrücken ist vertretbar?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vulgäre Sprache wird nicht allein ausschlaggebend sein für Freigaben ab 16 Jahren. Sind diskriminierende Sprachbilder mit entsprechenden Einstellungen verschränkt, die im Gesamtkontext keinerlei Relativierung erfahren, kann eine Freigabe für Erwachsene in Betracht kommen.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="18">
+      <mdcr:Definition>Wie derb darf der Sprachgebrauch für ab 18-jährige Zuschauer sein?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vulgäre Sprache und diskriminierende Sprachbilder sind in jeder Spielart Erwachsenen zugänglich, sofern sie nicht mit diskriminierenden oder gewaltbefürwortenden Aussagetendenzen verbunden sind, die die Kriterien für eine Sendeunzulässigkeit berühren.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+    <mdcr:Criteria ratingID="X">
+      <mdcr:Definition>Welches Maß an vulgären Ausdrücken ist für ein erwachsenes Publikum nicht mehr vertretbar?</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Vulgäre Sprache und diskriminierende Sprachbilder, die mit diskriminierenden oder gewaltbefürwortenden Aussagetendenzen verbunden sind und die Kriterien für eine Sendeunzulässigkeit berühren, können dazu führen, dass die Freigabe des Programms abgelehnt wird.</div>
+      </mdcr:Explanation>
+    </mdcr:Criteria>
+  </mdcr:Reason>
 </mdcr:RatingSystem>

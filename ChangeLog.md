@@ -55,9 +55,53 @@
   * added from paramount database.  Unverified
   * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 
-### V2.4.9x
+### V2.4.9
+* Belgium PEGI
+  * Updated Website Link
+* Belarus MKRF
+  * Updated Website Link
+  * Couldn't find official description of system.
 * Brazil DJCTQ
-  * Added Reason Descriptions back in. Removed by editor bug 
+  * Added Reason Descriptions back in. Removed by editor bug
+  * Updated Version
+* Bulgaria NFRC
+  * Added new ratings C+ and D+
+  * Updated Version
+* Canada (Alberta) AFC
+  * Added Email
+* Chile CCC
+  * Deprecated 6 Rating
+  * Added 7 and 18X ratings
+* France CSA
+  * Changed to ARCOM. Trying to decide what to do.
+* Germany FSF
+  * Added Ratings Specific Reasons
+  * Updated Version
+* Hong Kong FCO
+  * Updated contact information
+* Italy MBACT
+  * Changed to MIC. Trying to decide what to do. Changes below are notes and won't be implemented until decision made.
+  * update contact info
+  * Deprecated VM16
+  * Added Reasons. Violence, Sex, Weapons, Language, Drugs, Hate Speech. Use names on images
+  * Added VM6 (Not sure what the VM is about, but sticking with
+  the current pattern.
+  * Added Pictures. SVG's, so make sure they work. If not convert
+  to png+
+  * https://cinema.cultura.gov.it/database-nuova-classificazione/
+* Poland NBC-PL
+  * Updated contact information
+* Singapore MDA
+  * Updated website links
+* Singapore MDA-VG
+  * Updated website links
+* Taiwan MOC-TW
+  * Updated website link
+* Taiwan MOC-TW-TV
+  * Updated website link
+* Venezuela RESORTE (all 4)
+  * Updated website links
+  
 
 ### V2.4.8
 * New Zealand OLFC

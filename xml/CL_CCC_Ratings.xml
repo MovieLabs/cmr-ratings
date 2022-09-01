@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-07T21:19:17">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-20T17:49:19">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CL</md:country>
       <mdcr:RegionName>CHILE</mdcr:RegionName>
@@ -18,7 +18,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2018-02-05</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/1</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="CCC">
     <md:DisplayName>Consejo de Calificación Cinematográfica</md:DisplayName>
     <mdcr:ContactString>Ministerio de Educación
@@ -28,8 +28,20 @@ Dirección Av. Libertador Bernardo O'Higgins 1371</mdcr:ContactString>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">18X</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/2/18X</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>18X</mdcr:Label>
+      <mdcr:Definition>MAYORES DE 18 AÑOS. CONTENIDO PORNOGRÁFICO</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="0">TE</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/1/TE</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/2/TE</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -45,7 +57,7 @@ Dirección Av. Libertador Bernardo O'Higgins 1371</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/1/6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/2/6</mdcr:URI>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -57,8 +69,20 @@ Dirección Av. Libertador Bernardo O'Higgins 1371</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="4">7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/2/7</mdcr:URI>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>7</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>7</mdcr:Label>
+      <mdcr:Definition>TE INCONVENIENTE PARA MENORES DE 7 AÑOS</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="6">14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/1/14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/2/14</mdcr:URI>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>14</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -70,7 +94,7 @@ Dirección Av. Libertador Bernardo O'Higgins 1371</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="70">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/1/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/2/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -83,30 +107,6 @@ Dirección Av. Libertador Bernardo O'Higgins 1371</mdcr:ContactString>
 "Contenido pornográfico" o
  "excesivamente violento"</div>
       </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="4">7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/1/7</mdcr:URI>
-    <mdcr:MinRecAge>7</mdcr:MinRecAge>
-    <mdcr:MinAge>7</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>7</mdcr:Label>
-      <mdcr:Definition>TE INCONVENIENTE PARA MENORES DE 7 AÑOS</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">18X</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CL/CCC/1/18X</mdcr:URI>
-    <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>18</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>18X</mdcr:Label>
-      <mdcr:Definition>MAYORES DE 18 AÑOS. CONTENIDO PORNOGRÁFICO</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

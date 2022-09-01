@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-04T23:40:02">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-20T23:21:06">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>KZ</md:country>
@@ -17,8 +17,22 @@
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2020-02-04</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/KZ/KCB/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Based on:
+Law of the Republic of Kazakhstan dated January 3, 2019 No. 212-VІ ZRK
+https://adilet.zan.kz/eng/docs/Z1900000212</div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="KCB">
     <md:DisplayName>KCB</md:DisplayName>
+    <mdcr:ContactString>+ 7 727 339 28 93
+info@kazakhcinema.kz
+Republic of Kazakhstan, Almaty,
+85 Kabanbai batyr street, hotel “Almaty”,
+2nd floor, conference hall “Almaty”, Office No. 202, 204
+
+Republic of Kazakhstan, Nur-Sultan,
+12/1 D. Kunaev str., Business Center “Water-Green Boulevard”, 12th floor</mdcr:ContactString>
+    <mdcr:URL>https://kazakhcinema.kz/en/home/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

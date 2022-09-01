@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-26T23:04:47" lastSave="2014-08-01T15:13:17">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-27T06:04:47" lastSave="2022-08-04T22:50:45">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>US</md:country>
@@ -25,12 +26,12 @@
 Post Office Box 14097
 Washington, DC 20004
 202-879-9364</mdcr:ContactString>
-    <mdcr:URL>http://tvguidelines.org/ratings.htm</mdcr:URL>
+    <mdcr:URL>http://tvguidelines.org/ratings.html</mdcr:URL>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">TV-Y</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2/TV-Y</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_TVPG_tvy.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -46,7 +47,7 @@ Washington, DC 20004
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="2">TV-G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2/TV-G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_TVPG_tvg.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -63,7 +64,7 @@ Washington, DC 20004
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">TV-Y7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y7</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2/TV-Y7</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_TVPG_tvy7.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -80,7 +81,7 @@ Washington, DC 20004
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="7">TV-Y7-FV</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-Y7-FV</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2/TV-Y7-FV</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_TVPG_tvy7fv.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -94,7 +95,7 @@ Washington, DC 20004
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="10">TV-PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-PG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2/TV-PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_TVPG_tvpg.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>10</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -107,14 +108,14 @@ Washington, DC 20004
         <div class="userHtml">Many parents may want to watch it with their younger children. The theme itself may call for parental guidance and/or the program may contain one or more of the following: some suggestive dialogue (D), infrequent coarse language (L), some sexual situations (S), or moderate violence (V).</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
     <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="V" />
-    <mdcr:ApplicableReason id="S" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="14">TV-14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-14</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2/TV-14</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_TVPG_tv14.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -127,14 +128,14 @@ Washington, DC 20004
         <div class="userHtml">Parents are strongly urged to exercise greater care in monitoring this program and are cautioned against letting children under the age of 14 watch unattended. This program may contain one or more of the following: intensely suggestive dialogue (D), strong coarse language (L), intense sexual situations (S), or intense violence (V).</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="S" />
     <mdcr:ApplicableReason id="D" />
     <mdcr:ApplicableReason id="V" />
-    <mdcr:ApplicableReason id="S" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">TV-MA</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/1/TV-MA</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/US/TVPG/2/TV-MA</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/US_TVPG_tvma.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -147,8 +148,8 @@ Washington, DC 20004
         <div class="userHtml">This program may contain one or more of the following: crude indecent language (L), explicit sexual activity (S), or graphic violence (V).</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="V" />
     <mdcr:ApplicableReason id="S" />
+    <mdcr:ApplicableReason id="V" />
     <mdcr:ApplicableReason id="L" />
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="D">

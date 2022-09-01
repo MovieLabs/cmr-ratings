@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2019-11-13T20:59:27">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-08-04T21:54:54">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>SK</md:country>
@@ -17,24 +17,16 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Based on:
+https://www.culture.gov.sk/wp-content/uploads/2020/02/decree_589_update-2.pdf</div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="Slovakia Ministry of Culture">
     <md:DisplayName>Slovakia Ministry of Culture</md:DisplayName>
     <mdcr:ContactString>Ministry of culture</mdcr:ContactString>
-    <mdcr:URL>http://www.culture.gov.sk/ministry-of-culture-1cd.html</mdcr:URL>
+    <mdcr:URL>https://www.culture.gov.sk/en/ministerstvo/legislation/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0/15</mdcr:URI>
-    <mdcr:MinRecAge>15</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>15</mdcr:Label>
-      <mdcr:Definition>Inappropriate for minors under the age of 15</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0/18</mdcr:URI>
@@ -141,6 +133,18 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>12</mdcr:Label>
       <mdcr:Definition>Inappropriate for minors under the age of 12</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">15</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0/15</mdcr:URI>
+    <mdcr:MinRecAge>15</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>15</mdcr:Label>
+      <mdcr:Definition>Inappropriate for minors under the age of 15</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

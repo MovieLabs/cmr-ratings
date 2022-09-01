@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-20T16:29:21">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-20T17:50:08">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>CR</md:country>
       <mdcr:RegionName>COSTA RICA</mdcr:RegionName>
@@ -16,7 +16,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2020-02-03</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="CCEP">
     <md:DisplayName>CCEP</md:DisplayName>
     <mdcr:ContactString>Central Offices Office Minister and Vice Ministry of Peace
@@ -26,23 +26,8 @@ info@mj.go.cr
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">TP</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/TP</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>TP</mdcr:Label>
-      <mdcr:Definition>Todo Publico</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Comprende aquél material de valor cultural, científico, deportivo, ecológico, educativo así como biografías, acontecimientos históricos o material de entretenimiento, que pueda ser apreciado por cualquier grupo de edad. Se trata de películas cuyo contenido permite reflexionar o promueve relaciones de tolerancia y respeto a la diversidad cultural, política, religiosa y al medio ambiente.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">I</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/I</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1/I</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -56,8 +41,38 @@ info@mj.go.cr
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">TP7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1/TP7</mdcr:URI>
+    <mdcr:MinRecAge>7</mdcr:MinRecAge>
+    <mdcr:MinAge>7</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>TP7</mdcr:Label>
+      <mdcr:Definition>Todo público, advertencia personas menores de 7 años acompañadas de una persona adulta</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Incluye películas que, por la naturaleza del tema tratado, la complejidad, el contenido de algunas escenas, es importante el acompañamiento y orientación de una persona adulta para el caso de personas menores de siete años.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">TP</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1/TP</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="ES">
+      <mdcr:Label>TP</mdcr:Label>
+      <mdcr:Definition>Todo Publico</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Comprende aquél material de valor cultural, científico, deportivo, ecológico, educativo así como biografías, acontecimientos históricos o material de entretenimiento, que pueda ser apreciado por cualquier grupo de edad. Se trata de películas cuyo contenido permite reflexionar o promueve relaciones de tolerancia y respeto a la diversidad cultural, política, religiosa y al medio ambiente.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="2">TP12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/TP12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1/TP12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -72,7 +87,7 @@ info@mj.go.cr
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1/12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
@@ -87,7 +102,7 @@ info@mj.go.cr
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1/15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
@@ -102,7 +117,7 @@ info@mj.go.cr
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/1/18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -112,21 +127,6 @@ info@mj.go.cr
       <mdcr:Definition>Mayores de 18 Años</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Comprende material cuyo contenido es exclusivamente para adultos. Puede contener tramas, historias complejas, consumo de drogas y escenas de violencia extrema y crueldad, dramatizadas y mostradas con realismo. Puede contener dramatizaciones y sexo explícito</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">TP7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CR/CCEP/0/TP7</mdcr:URI>
-    <mdcr:MinRecAge>7</mdcr:MinRecAge>
-    <mdcr:MinAge>7</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="ES">
-      <mdcr:Label>TP7</mdcr:Label>
-      <mdcr:Definition>Todo público, advertencia personas menores de 7 años acompañadas de una persona adulta</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Incluye películas que, por la naturaleza del tema tratado, la complejidad, el contenido de algunas escenas, es importante el acompañamiento y orientación de una persona adulta para el caso de personas menores de siete años.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

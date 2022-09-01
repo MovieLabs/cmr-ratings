@@ -2,7 +2,7 @@
 # Change Log
 
 
-### V2.5.X
+### Unverified Ratings
 * There are a number of new ratings systems this release.  Paramount gave us a long list of systems that were missing, but many could not be confirmed.  Everything that could be verified are in the new release.  The rest need to be reviewed or have contradictory information
 * Jamaica CA-JM:
   * added system
@@ -39,6 +39,8 @@
 * Sri Lanka Film
   * added system
   * from paramount database.  unverified
+  
+### Do Not Add
 * Switzerland FA
   * switzerland is a very complicated system and will be very difficult to unravel
   * french ratings
@@ -64,41 +66,104 @@
 * Brazil DJCTQ
   * Added Reason Descriptions back in. Removed by editor bug
   * Updated Version
+  * Added in AL, A10, A12, A14, A16, A18
+  * Deprecated Combination Entries in ratings (ie, L-10, 12-16, etc.)
+* Brunei Film
+  * FOund conflicting system on Brunei Cinimea site https://www.mall-ticket.com/Browsing/General/Ratings
+  * Please let me know if you know anything about Brunei Ratings. The current ones were given us by an industry expert, and was confirmed through a cinema site
 * Bulgaria NFRC
   * Added new ratings C+ and D+
+  * Updated Version
+* Cambodia MCFA-KH
+  * Found relevant goverment announcement. Added in links.
+  * Deprecated PG-13 does not appear to exist formally, and couldn't find evidence it is still used. But announcement is from 2015
+  * Changed Org type to Gov
   * Updated Version
 * Canada (Alberta) AFC
   * Added Email
 * Chile CCC
   * Deprecated 6 Rating
   * Added 7 and 18X ratings
+  * Updated Version
+* Costa Rica CCEP
+  * Added 7 Ratings
+  * Updated Version
 * France CSA
-  * Changed to ARCOM. Trying to decide what to do.
+  * Changed to ARCOM. Nothing else while trying to decide what to do.
 * Germany FSF
   * Added Ratings Specific Reasons
   * Updated Version
 * Hong Kong FCO
+  * Updated contact information
+* Hungary RCNOF
+  * Updated Url
+* Iceland FRISK
+  * Added 14 rating
+  * Updated Version
+* Indonesia LSF
+  * Something is odd.  Does anyone know anything about ratings in Indonesia?
+* Ireland RTE
   * Updated contact information
 * Italy MBACT
   * Changed to MIC. Trying to decide what to do. Changes below are notes and won't be implemented until decision made.
   * update contact info
   * Deprecated VM16
   * Added Reasons. Violence, Sex, Weapons, Language, Drugs, Hate Speech. Use names on images
-  * Added VM6 (Not sure what the VM is about, but sticking with
-  the current pattern.
-  * Added Pictures. SVG's, so make sure they work. If not convert
-  to png+
+  * Added VM6 (Not sure what the VM is about, but sticking with the current pattern.
+  * Added Pictures. SVG's, so make sure they work. If not convert to png+
   * https://cinema.cultura.gov.it/database-nuova-classificazione/
+* Kazakhstan KCB
+  * added reference to current law
+  * added contact information and weblink
+* Lithuania LKC
+  * updated website information
+* Malaysia FCBM
+  * updated website information
+* Peru Film
+  * Could not find any proof this system exists or has existed. Please let me know if you have official information about this system.
 * Poland NBC-PL
   * Updated contact information
+* Portugal CCE
+  * Created M/14 ratings.
+  * Undeprecated M/3, A, and M/18-P. Deprecated by mistake.
+  * Updated Version
 * Singapore MDA
   * Updated website links
 * Singapore MDA-VG
   * Updated website links
+* Saudi Arabia CIC-SA
+  * Updated website information
+* Slovakia Film
+  * Couldn't find any evidence this exists
+* Slovakia TV
+  * Added note with link to legislation
+  * Updated website link
 * Taiwan MOC-TW
   * Updated website link
 * Taiwan MOC-TW-TV
   * Updated website link
+* Thailand BVFC
+  * Fixed Typo
+* Turkey IBMCT
+  * Added 6, 6A, 10, 10A, 16 Ratings
+  * Deprecated 7, 7A, 15A, 15
+  * Updated Website link
+  * Updated Version
+* United Arab Emirates MOI
+  * Removed website Link.  Doesn't work and couldn't find a replacement.
+* United Arab Emirates MOI-G
+  * Removed website Link.  Doesn't work and couldn't find a replacement.
+* US ESRB
+  * Added RP17 rating
+  * Double check picture works. Make sure Min Reccomended Age should be 17
+* US FAB
+  * Updated website link
+* US MPAAT
+  * Updated Images
+* US TVPG
+  * Updated Website link
+* Uruguay INAU
+  * Can't find specific references to ratings on INAU site. Let me know if you can confirm system.
 * Venezuela RESORTE (all 4)
   * Updated website links
   

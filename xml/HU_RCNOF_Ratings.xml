@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-02T13:42:17" lastSave="2020-01-17T00:45:00">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-02T20:42:17" lastSave="2022-08-09T21:03:40">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>HU</md:country>
@@ -22,7 +22,7 @@
   <mdcr:RatingsOrg organizationID="NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY">
     <md:DisplayName>NATIONAL MEDIA AND COMMUNICATIONS AUTHORITY</md:DisplayName>
     <mdcr:ContactString>1015 Budapest, Ostrom u. 23-25; email: info@nmhh.hu; tel: (06 1) 457 7100</mdcr:ContactString>
-    <mdcr:URL>http://nmhh.hu/</mdcr:URL>
+    <mdcr:URL>https://nmhh.hu/cikk/187453/A_kiskoruak_vedelme__korhatarbesorolas</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

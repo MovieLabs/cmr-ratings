@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-11T00:37:43">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-08-04T21:32:58">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>PT</md:country>
       <mdcr:RegionName>PORTUGAL</mdcr:RegionName>
@@ -25,7 +25,7 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Comissão de Classificação de Espectáculos">
     <md:DisplayName>Comissão de Classificação de Espectáculos</md:DisplayName>
     <mdcr:URL>https://www.igac.gov.pt/emissao-de-licencas-de-distribuicao</mdcr:URL>
@@ -33,11 +33,10 @@
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/A</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/A</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
       <mdcr:Label>A</mdcr:Label>
@@ -52,11 +51,10 @@ duração</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">M/3</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_3</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_3</mdcr:URI>
+    <mdcr:MinRecAge>3</mdcr:MinRecAge>
+    <mdcr:MinAge>3</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
       <mdcr:Label>M/3</mdcr:Label>
@@ -72,7 +70,7 @@ qualquer outro tipo além do referido;v</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="1">M/4</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_4</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_4</mdcr:URI>
     <mdcr:MinRecAge>4</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -92,7 +90,7 @@ qualquer outro tipo além do referido;v</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">M/6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_6</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_6</mdcr:URI>
     <mdcr:MinRecAge>6</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -111,7 +109,7 @@ qualquer outro tipo além do referido;v</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">M/12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_12</mdcr:URI>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -130,7 +128,7 @@ qualquer outro tipo além do referido;v</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="9">M/16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -149,7 +147,7 @@ qualquer outro tipo além do referido;v</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">M/18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_18</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -163,16 +161,18 @@ qualquer outro tipo além do referido;v</div>
     </mdcr:Descriptor>
     <mdcr:Descriptor language="PT">
       <mdcr:Label>M/18</mdcr:Label>
-      <mdcr:Definition>Para maiores de 18 anos. A entrada de menores de 18 anos acompanhados por um adulto pode ser recusada pelo exibidor.</mdcr:Definition>
+      <mdcr:Definition>Para maiores de 18 anos.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A entrada de menores de 18 anos acompanhados por um adulto pode ser recusada pelo exibidor.</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">M/18-P</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/0/M_18-P</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_18-P</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
       <mdcr:Label>M/18-P</mdcr:Label>
@@ -180,6 +180,25 @@ qualquer outro tipo além do referido;v</div>
       <mdcr:Explanation>
         <div class="userHtml">Cenas com descrição ostensiva de atos sexuais
 simulados ou praticados com exibição explícita dos órgãos genitais.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="7">M/14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>M/14</mdcr:Label>
+      <mdcr:Definition>Para Maiores de 14 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Aceitável a inclusão mais frequente de situações de violência
+física ou a inclusão moderada de cenas de outro tipo de violência, desde que não cumulativas. A
+inclusão moderada de cenas, não patológicas, de nudez ou de sexo simulado, com eventual
+visualização de órgãos sexuais e a inclusão moderada de cenas explícitas de consumo de
+álcool ou de tabaco</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

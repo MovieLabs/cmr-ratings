@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T17:22:35">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-18T17:11:47">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>AE</md:country>
@@ -15,27 +15,14 @@
       <mdcr:Environment>Home</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/AE/MOI-G/0</mdcr:URI>
   <mdcr:RatingsOrg organizationID="MOI-G">
     <md:DisplayName>MOI-G</md:DisplayName>
-    <mdcr:URL>http://nmc.gov.ae/ar-ae/Pages/About-Age.aspx</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/7</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>7</mdcr:Label>
-      <mdcr:Definition>Suitable for 7 year olds</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/MOI-G/0/12</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -47,7 +34,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/MOI-G/0/18</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -59,7 +46,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">21</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/21</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/MOI-G/0/21</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -71,7 +58,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">3</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/3</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/MOI-G/0/3</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -83,7 +70,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/NMC-G/0/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/MOI-G/0/16</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -91,6 +78,18 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>16</mdcr:Label>
       <mdcr:Definition>Suitable for 16 year olds</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">7</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AE/MOI-G/0/7</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>7</mdcr:Label>
+      <mdcr:Definition>Suitable for 7 year olds</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

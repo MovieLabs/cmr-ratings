@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-09T18:05:58">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-07T20:57:09">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>BY</md:country>
@@ -19,20 +19,9 @@
   <mdcr:URI>http://www.movielabs.com/md/ratings/BY/IBC/0</mdcr:URI>
   <mdcr:RatingsOrg>
     <md:DisplayName>MKRF</md:DisplayName>
+    <mdcr:URL>https://culture.gov.ru/</mdcr:URL>
     <mdcr:OrgType>not_specified</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">16+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BY/IBC/0/16+</mdcr:URI>
-    <mdcr:MinRecAge>16</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>9</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="RU">
-      <mdcr:Label>16+</mdcr:Label>
-      <mdcr:Definition>Зрителям, достигшим 16 лет</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">18+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BY/IBC/0/18+</mdcr:URI>
@@ -79,6 +68,18 @@
     <mdcr:Descriptor language="RU">
       <mdcr:Label>12+</mdcr:Label>
       <mdcr:Definition>Детям до 12 лет просмотр фильма разрешен в сопровождении родителей</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">16+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BY/IBC/0/16+</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>9</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="RU">
+      <mdcr:Label>16+</mdcr:Label>
+      <mdcr:Definition>Зрителям, достигшим 16 лет</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

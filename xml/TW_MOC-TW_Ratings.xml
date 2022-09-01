@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T05:49:04" lastSave="2019-06-19T16:09:14">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-17T12:49:04" lastSave="2022-07-07T20:41:41">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>TW</md:country>
@@ -37,7 +37,7 @@ No. 439 Zhongping Road 13 Floor (South Building
 Xinzhuang District, New Taipei City, Taiwan (R.O.C.)
 Postal Code：24219
 Tel：+886-2-8512-6000</mdcr:ContactString>
-    <mdcr:URL>https://english.moc.gov.tw</mdcr:URL>
+    <mdcr:URL>https://www.moc.gov.tw/en/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

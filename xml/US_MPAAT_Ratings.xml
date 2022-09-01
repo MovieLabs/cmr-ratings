@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-24T02:01:14" lastSave="2013-10-28T19:44:10">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-24T09:01:14" lastSave="2022-09-01T16:17:45">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>US</md:country>
@@ -29,7 +30,8 @@ NW Washington, D.C. 20006
   <mdcr:Rating>
     <mdcr:Value ordinal="0">GB</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAAT/1/GB</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/MPAA-G-band.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA_G-theat-band.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA_G-online-band.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -42,7 +44,8 @@ NW Washington, D.C. 20006
   <mdcr:Rating>
     <mdcr:Value ordinal="3">RB</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/US/MPAAT/1/RB</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/MPAA-R-band.png</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA_R-theat-band.jpg</mdcr:LinkToLogo>
+    <mdcr:LinkToLogo>./imageCache/MPAA_R-online-band.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-11T00:51:42">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-08-04T22:02:41">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>TH</md:country>
@@ -22,8 +22,8 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/TH/BFVC/0</mdcr:URI>
-  <mdcr:RatingsOrg organizationID="Board of Filmand Video Censors">
-    <md:DisplayName>Board of Filmand Video Censors</md:DisplayName>
+  <mdcr:RatingsOrg organizationID="Board of Film and Video Censors">
+    <md:DisplayName>Board of Film and Video Censors</md:DisplayName>
     <mdcr:ContactString>n.a.</mdcr:ContactString>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>

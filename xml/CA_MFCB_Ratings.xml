@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-22T23:48:40" lastSave="2019-12-02T20:27:23">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-23T13:48:40" lastSave="2023-07-11T17:33:01">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -49,8 +49,15 @@
       <mdcr:Environment>Retail</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-11</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      Based on
+      <a href="https://www.mpa-canada.org/film-ratings/">CHVRS</a>
+      .
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg organizationID="MFCB">
     <md:DisplayName>Maritime Film Classification Board</md:DisplayName>
     <mdcr:ContactString>Nova Scotia Film Classification Division,
@@ -93,7 +100,7 @@ Dartmouth, N.S.</mdcr:ContactString>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/14A</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/CA_MFCB_14a.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
-    <mdcr:MinAge>15</mdcr:MinAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
@@ -102,6 +109,19 @@ Dartmouth, N.S.</mdcr:ContactString>
       <mdcr:Explanation>
         <div class="userHtml">Persons under 14 must be accompanied by an adult. May contain: violence, coarse language and/or sexually suggestive scenes.</div>
       </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">AA</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/AA</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Adult Accompaniment</mdcr:Label>
+      <mdcr:Definition>Suitable for viewing by persons 14 years of age and older.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -161,19 +181,6 @@ explicit violence, frequent coarse language, sexual activity and/or horror.</div
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Explicit Material</mdcr:Label>
       <mdcr:Definition>Film is not suitable for viewers under 18 years of age because the sole or primary premise for the film is the depiction of explicit sexual activity, graphic nudity, or graphic violence.</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="6">AA</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/MFCB/2/AA</mdcr:URI>
-    <mdcr:MinRecAge>14</mdcr:MinRecAge>
-    <mdcr:MinAge>14</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>14</mdcr:MinAgeSupervised>
-    <mdcr:Deprecated>true</mdcr:Deprecated>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Adult Accompaniment</mdcr:Label>
-      <mdcr:Definition>Suitable for viewing by persons 14 years of age and older.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

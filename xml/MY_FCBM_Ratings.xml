@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T21:52:06" lastSave="2022-08-04T21:12:11">
-  <mdcr:RatingSystemID version="1">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-30T04:52:06" lastSave="2023-07-10T19:18:14">
+  <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>MY</md:country>
       <mdcr:RegionName>MALAYSIA</mdcr:RegionName>
@@ -15,7 +15,8 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1</mdcr:URI>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Film Censorship Board of Malaysia">
     <md:DisplayName>Film Censorship Board of Malaysia</md:DisplayName>
     <mdcr:URL>https://www.moha.gov.my/index.php/en/maklumat-korporat22-4/122-maklumat-bahagian/lembaga-penapis-filem/188-film-classification</mdcr:URL>
@@ -23,7 +24,7 @@
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">U</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/U</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/U</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/MY_U.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -45,12 +46,29 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="2">P12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/P12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>12</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>P12</mdcr:Label>
+      <mdcr:Definition>Viewers under 12 years of age need parental/guardian supervision while viewing.</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="MS">
+      <mdcr:Label>P12</mdcr:Label>
+      <mdcr:Definition>Penonton berumur di bawah 12 tahun memerlukan pengawasan dan bimbingan ibu bapa atau penjaga ketika menonton.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="3">P13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/P13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/P13</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/MY_P13.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>P13</mdcr:Label>
@@ -68,8 +86,40 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="4">13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/13</mdcr:URI>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>13</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>13</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>13</mdcr:Label>
+      <mdcr:Definition>aged 13 and above</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="MS">
+      <mdcr:Label>13</mdcr:Label>
+      <mdcr:Definition>Kategori ini untuk penonton yang berumur 13 tahun dan ke atas.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>16</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>aged 16 and above</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="MS">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>Kategori ini untuk penonton yang berumur 16 tahun dan ke atas.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="80">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/MY_18.jpg</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
@@ -92,7 +142,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18SX</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18SX</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/18SX</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -105,7 +155,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18PA</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18PA</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/18PA</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -118,7 +168,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18SG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18SG</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/18SG</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
@@ -131,7 +181,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18PL</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/1/18PL</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MY/FCBM/2/18PL</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

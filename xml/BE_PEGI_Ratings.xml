@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-07-07T20:52:30">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2023-06-01T19:00:18">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>BE</md:country>
       <mdcr:RegionName>BELGIUM</mdcr:RegionName>
@@ -247,8 +247,8 @@
       <mdcr:Environment>Home</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2018-02-02</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0</mdcr:URI>
+  <mdcr:LastChecked>2023-06-01</mdcr:LastChecked>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="PEGI">
     <md:DisplayName>Pan European Game Information</md:DisplayName>
     <mdcr:ContactString>Pan European Game Information
@@ -261,7 +261,7 @@ Fax:(00) 32 2 612 17 78</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">PEGI-3</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-3</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/1/PEGI-3</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/BE_PEGI_320.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -280,7 +280,7 @@ scare or frighten young children. No bad language should be heard.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">PEGI-OK</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-OK</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/1/PEGI-OK</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/BE_PEGI_255.GIF</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -310,7 +310,7 @@ scary scenes</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="7">PEGI-7</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-7</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/1/PEGI-7</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/BE_PEGI_321.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>7</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -329,7 +329,7 @@ category.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">PEGI-12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-12</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/1/PEGI-12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/BE_PEGI_322.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -349,7 +349,7 @@ category.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="16">PEGI-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/1/PEGI-16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/BE_PEGI_323.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -370,7 +370,7 @@ category.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">PEGI-18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/0/PEGI-18</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BE/PEGI/1/PEGI-18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/BE_PEGI_324.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -643,6 +643,9 @@ include (but is not limited to):
     <mdcr:Criteria ratingID="PEGI-18" />
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="Online gameplay">
+    <mdcr:Label />
+  </mdcr:Reason>
+  <mdcr:Reason language="en" reasonID="In-Game Purchases">
     <mdcr:Label />
   </mdcr:Reason>
 </mdcr:RatingSystem>

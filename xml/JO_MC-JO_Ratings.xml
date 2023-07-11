@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-02-04T23:07:58">
-  <mdcr:RatingSystemID version="0">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2023-07-11T17:47:51">
+  <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>JO</md:country>
       <mdcr:RegionName>JORDAN</mdcr:RegionName>
@@ -15,26 +15,14 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/0</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="MC-JO">
     <md:DisplayName>MC-JO</md:DisplayName>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">PG</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/0/PG</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>PG</mdcr:Label>
-      <mdcr:Definition>Parental Guidance suggested</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/0/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/1/G</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -45,8 +33,20 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">PG</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/1/PG</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>PG</mdcr:Label>
+      <mdcr:Definition>Parental Guidance suggested</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="3">PG13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/0/PG13</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/1/PG13</mdcr:URI>
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -58,7 +58,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="6">PG15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/0/PG15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/1/PG15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
@@ -70,7 +70,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="8">15+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/0/15+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/1/15+</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
@@ -82,7 +82,7 @@
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="80">18+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/0/18+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/JO/MC-JO/1/18+</mdcr:URI>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>

@@ -61,15 +61,15 @@
 * Austria BMUKK
   * Updated website link
 * Belgium CICF
-  * Links to CSA site now. Will deprecate next year if continues.
+  * Links to CSA site now. Will deprecate next year if continues
 * Belgium CSA
   * Updated website link
-* Canada MFCB
-  * Updated Notes
 * Belgium PEGI
   * Added in icons for reasons
   * deprecated online gameplay reason
   * Incremented version
+* Canada MFCB
+  * Updated Notes
 * Denmark MCCYP
   * Changed Address
 * Hong Kong FCO
@@ -79,14 +79,14 @@
 * Ireland IFCOF
   *  Updated website links
 * Italy MBACT
-  * Changed Name to MIC, but contact info stayed the same, so leaving as is.
+  * Changed Name to MIC, but contact info stayed the same, so leaving as is
 * Japan EIRIN
   * Fixed website link
 * Malaysia FCBM
   * Deprecated P13
   * Added ratings P12, 13, and 16
   * Updated Version
-  * Note: Changes are not reflected on Malaysia Film Board Site, but were annouced by multiple news outlets.
+  * Note: Changes are not reflected on Malaysia Film Board Site, but were announced by multiple news outlets
 * Singapore MDA
   * Updated website links
 * Singapore MDA-VG

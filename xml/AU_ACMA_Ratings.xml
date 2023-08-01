@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-29T08:50:35" lastSave="2020-01-16T22:08:08">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-29T15:50:35" lastSave="2023-07-10T21:05:50">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>AU</md:country>
@@ -15,7 +15,7 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2020-01-16</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="ACMA">
     <md:DisplayName>Australian Communications and Media Authority</md:DisplayName>
@@ -26,6 +26,54 @@ Fax 02 9334 7799</mdcr:ContactString>
     <mdcr:URL>http://www.acma.gov.au/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">P</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/1/P</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AU_ACMA_P.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Preschool</mdcr:Label>
+      <mdcr:Definition>Intended for preschool children</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A program meets the criteria of suitability for a P program if it:
+(a) is made specifically for preschool children; and
+(b) is entertaining; and
+(c) is well produced using sufficient resources to ensure a high standard of
+script, cast, direction, editing, shooting, sound and other production
+elements; and
+(d) enhances the understanding and experience of preschool children; and
+(e) is appropriate for Australian preschool children.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="1">C</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/1/C</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/AU_ACMA_C.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Children</mdcr:Label>
+      <mdcr:Definition>Intended for children under 14</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">A program meets the criteria of suitability for a C program if it:
+(a) is made specifically for children, or groups of children, of school age;
+and
+(b) is entertaining; and
+(c) is well produced using sufficient resources to ensure a high standard of
+script, cast, direction, editing, shooting, sound and other production
+elements; and
+(d) enhances the understanding and experience of children of school age;
+and
+(e) is appropriate for Australian children of school age.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="3">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/1/G</mdcr:URI>
@@ -87,54 +135,6 @@ Fax 02 9334 7799</mdcr:ContactString>
           <br />
           Themes:    The  treatment  of  social  or  domestic  conflict  and  psychological  themes should be carefully handled. Supernatural or mild horror themes may be included.
         </div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="1">C</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/1/C</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/AU_ACMA_C.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Children</mdcr:Label>
-      <mdcr:Definition>Intended for children under 14</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">A program meets the criteria of suitability for a C program if it:
-(a) is made specifically for children, or groups of children, of school age;
-and
-(b) is entertaining; and
-(c) is well produced using sufficient resources to ensure a high standard of
-script, cast, direction, editing, shooting, sound and other production
-elements; and
-(d) enhances the understanding and experience of children of school age;
-and
-(e) is appropriate for Australian children of school age.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">P</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/AU/ACMA/1/P</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/AU_ACMA_P.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Preschool</mdcr:Label>
-      <mdcr:Definition>Intended for preschool children</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">A program meets the criteria of suitability for a P program if it:
-(a) is made specifically for preschool children; and
-(b) is entertaining; and
-(c) is well produced using sufficient resources to ensure a high standard of
-script, cast, direction, editing, shooting, sound and other production
-elements; and
-(d) enhances the understanding and experience of preschool children; and
-(e) is appropriate for Australian preschool children.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

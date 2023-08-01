@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-03T22:17:40" lastSave="2020-06-30T17:03:44">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-04T05:17:40" lastSave="2023-07-11T17:37:10">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CH</md:country>
@@ -19,8 +19,15 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-11</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CH/Film/2</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">
+      Based on
+      <a href="https://www.fsk.de/">German FSK system</a>
+      .
+    </div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg>
     <md:DisplayName />
     <mdcr:ContactString>Schweizerische Kommission Jugendschutz im Film
@@ -28,13 +35,8 @@ Postfach 399
 3000 Bern 14
 Tel. 031.387.37.05
 info@filmrating.ch
-Öffnungszeiten: Montag bis Freitag, 9.00-11.30  und 14.00-16.30 Uhr
-
-Marc Flückiger, Präsident
-Fabrice Wulliamoz, Vizepräsident
-Rolf Zellweger, Vizepräsident
-praesidium@filmrating.ch</mdcr:ContactString>
-    <mdcr:URL>http://www.filmrating.ch/de/jugendschutz/</mdcr:URL>
+Öffnungszeiten: Montag bis Freitag, 9.00-11.30  und 14.00-16.30 Uhr</mdcr:ContactString>
+    <mdcr:URL>https://www.filmrating.ch/de/vereinjim/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-29T15:50:25" lastSave="2020-01-16T23:18:33">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-29T22:50:25" lastSave="2023-07-10T21:09:03">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -19,7 +19,7 @@
       <mdcr:Environment>other</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2020-01-16</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
@@ -35,6 +35,21 @@ K1P 6H8</mdcr:ContactString>
     <mdcr:URL>http://www.cbsc.ca/</mdcr:URL>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">E</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/E</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition>does not require an on-screen classification icon and broadcasters are not required to encode a rating into the broadcast signal.</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Exempt programming includes  news, sports, documentaries and other information programming; talk shows, music videos, and variety programming</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">C</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/C</mdcr:URI>
@@ -55,21 +70,6 @@ Depictions of aggressive behaviour will be infrequent and limited to portrayals 
     <mdcr:ApplicableReason id="Language" />
     <mdcr:ApplicableReason id="Violence" />
     <mdcr:ApplicableReason id="Sex-Nudity" />
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">E</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC/2/E</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Exempt</mdcr:Label>
-      <mdcr:Definition>does not require an on-screen classification icon and broadcasters are not required to encode a rating into the broadcast signal.</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Exempt programming includes  news, sports, documentaries and other information programming; talk shows, music videos, and variety programming</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="2">C8</mdcr:Value>

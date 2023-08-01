@@ -1,4 +1,5 @@
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T00:06:28" lastSave="2013-10-28T19:19:32">
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-29T07:06:28" lastSave="2023-06-02T17:48:54">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>MT</md:country>
@@ -32,7 +33,6 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>Universal</mdcr:Label>
       <mdcr:Definition>suitable for all.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -45,7 +45,6 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>PG</mdcr:Label>
       <mdcr:Definition>parental guidance - general viewing, but some scenes may be unsuitable for young children.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -58,7 +57,6 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>12A</mdcr:Label>
       <mdcr:Definition>suitable for persons of 12 years and over provided that persons younger than 12 may attend only when accompanied by an adult.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -84,12 +82,11 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>14</mdcr:Label>
       <mdcr:Definition>suitable only for persons aged 14 years and over.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">15</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/0/15</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/15</mdcr:URI>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
     <mdcr:MinAgeSupervised>15</mdcr:MinAgeSupervised>
@@ -97,12 +94,11 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>15</mdcr:Label>
       <mdcr:Definition>suitable only for persons aged 15 years and over.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="18">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/0/16</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/MT/MCCAA/1/16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>16</mdcr:MinAgeSupervised>
@@ -111,7 +107,6 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>16</mdcr:Label>
       <mdcr:Definition>suitable only for persons aged 16 years and over.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -124,7 +119,6 @@
     <mdcr:Descriptor language="EN">
       <mdcr:Label>18</mdcr:Label>
       <mdcr:Definition>suitable only for persons aged 18 years and over.</mdcr:Definition>
-      <mdcr:Explanation />
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

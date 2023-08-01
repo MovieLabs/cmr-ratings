@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-08-04T21:32:58">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2023-07-10T19:22:15">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>PT</md:country>
@@ -25,6 +25,7 @@
       <mdcr:Environment>Theater</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Comissão de Classificação de Espectáculos">
     <md:DisplayName>Comissão de Classificação de Espectáculos</md:DisplayName>
@@ -127,6 +128,25 @@ qualquer outro tipo além do referido;v</div>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="7">M/14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_14</mdcr:URI>
+    <mdcr:MinRecAge>14</mdcr:MinRecAge>
+    <mdcr:MinAge>14</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>M/14</mdcr:Label>
+      <mdcr:Definition>Para Maiores de 14 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Aceitável a inclusão mais frequente de situações de violência
+física ou a inclusão moderada de cenas de outro tipo de violência, desde que não cumulativas. A
+inclusão moderada de cenas, não patológicas, de nudez ou de sexo simulado, com eventual
+visualização de órgãos sexuais e a inclusão moderada de cenas explícitas de consumo de
+álcool ou de tabaco</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="9">M/16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_16</mdcr:URI>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
@@ -180,25 +200,6 @@ qualquer outro tipo além do referido;v</div>
       <mdcr:Explanation>
         <div class="userHtml">Cenas com descrição ostensiva de atos sexuais
 simulados ou praticados com exibição explícita dos órgãos genitais.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="7">M/14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/PT/CCE/1/M_14</mdcr:URI>
-    <mdcr:MinRecAge>14</mdcr:MinRecAge>
-    <mdcr:MinAge>14</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>M/14</mdcr:Label>
-      <mdcr:Definition>Para Maiores de 14 anos</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Aceitável a inclusão mais frequente de situações de violência
-física ou a inclusão moderada de cenas de outro tipo de violência, desde que não cumulativas. A
-inclusão moderada de cenas, não patológicas, de nudez ou de sexo simulado, com eventual
-visualização de órgãos sexuais e a inclusão moderada de cenas explícitas de consumo de
-álcool ou de tabaco</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

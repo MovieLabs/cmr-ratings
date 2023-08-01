@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-08-04T21:54:54">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2023-07-10T19:22:54">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>SK</md:country>
@@ -16,6 +16,7 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">Based on:
@@ -27,18 +28,6 @@ https://www.culture.gov.sk/wp-content/uploads/2020/02/decree_589_update-2.pdf</d
     <mdcr:URL>https://www.culture.gov.sk/en/ministerstvo/legislation/</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0/18</mdcr:URI>
-    <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>18</mdcr:Label>
-      <mdcr:Definition>Inappropriate for minors under the age of 18</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0/G</mdcr:URI>
@@ -145,6 +134,18 @@ https://www.culture.gov.sk/wp-content/uploads/2020/02/decree_589_update-2.pdf</d
     <mdcr:Descriptor language="EN">
       <mdcr:Label>15</mdcr:Label>
       <mdcr:Definition>Inappropriate for minors under the age of 15</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/SK/SK_TV/0/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>18</mdcr:Label>
+      <mdcr:Definition>Inappropriate for minors under the age of 18</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

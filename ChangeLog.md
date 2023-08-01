@@ -3,7 +3,7 @@
 
 
 ### Unverified Ratings
-* There are a number of new ratings systems this release.  Paramount gave us a long list of systems that were missing, but many could not be confirmed.  Everything that could be verified are in the new release.  The rest need to be reviewed or have contradictory information
+* There are a number of new ratings systems from a previous release.  Paramount gave us a long list of systems that were missing, but many could not be confirmed.  Everything that could be verified are in the new release.  The rest need to be reviewed or have contradictory information
 * Jamaica CA-JM:
   * added system
   * from paramount database.  partially verified by several jamaican news articles
@@ -56,6 +56,61 @@
   * Italy
   * added from paramount database.  Unverified
   * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
+
+### V2.5
+* Austria BMUKK
+  * Updated website link
+* Belgium CICF
+  * Links to CSA site now. Will deprecate next year if continues
+* Belgium CSA
+  * Updated website link
+* Belgium PEGI
+  * Added in icons for reasons
+  * deprecated online gameplay reason
+  * Incremented version
+* Canada MFCB
+  * Updated Notes
+* Denmark MCCYP
+  * Changed Address
+* Hong Kong FCO
+  * Updated Website Links
+* Ireland IFCO
+  *  Updated website links
+* Ireland IFCOF
+  *  Updated website links
+* Italy MBACT
+  * Changed Name to MIC, but contact info stayed the same, so leaving as is
+* Japan EIRIN
+  * Fixed website link
+* Malaysia FCBM
+  * Deprecated P13
+  * Added ratings P12, 13, and 16
+  * Updated Version
+  * Note: Changes are not reflected on Malaysia Film Board Site, but were announced by multiple news outlets
+* Singapore MDA
+  * Updated website links
+* Singapore MDA-VG
+  * Updated website links
+* Sweden SM-SA
+  * Updated Website link
+* Switzerland Film
+  * Updated Links and contact info
+  * Added note that it's based on FSK system
+* Turkey IBMCT
+  * Updated website link
+* United Arab Emirates MOI
+  * Updated Website Link
+  * added 21+ rating
+* United Arab Emirates MOI-G
+  * Updated Website Link
+  * did not add 21+ rating because annoucement did not specify games.
+* Vietnam MCST
+  * Deprecated C13, C16, C18
+  * Added K, T13, T16, T18, C
+  * Updated link
+  * Incremented Version
+ 
+
 
 ### V2.4.9
 * Belgium PEGI

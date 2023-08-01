@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2022-08-04T22:36:44">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2023-07-10T20:35:12">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>TR</md:country>
@@ -20,7 +20,7 @@
   <mdcr:RatingsOrg organizationID="Inspection Board, Ministry of Culture and Tourism">
     <md:DisplayName>Inspection Board, Ministry of Culture and Tourism</md:DisplayName>
     <mdcr:ContactString>İsmet İnönü Bulvarı No:5 06100 Emek/Ankara, +90 (312) 2128300</mdcr:ContactString>
-    <mdcr:URL>http://teftis.kulturturizm.gov.tr/TR,14493/sinema-filmlerinin-degerlendirilmesi-ve-siniflandirilma-.html</mdcr:URL>
+    <mdcr:URL>https://teftis.ktb.gov.tr/TR-14493/sinema-filmlerinin-degerlendirilmesi-ve-siniflandirilmasina-iliskin-usul-ve-esaslar-hakkinda-yonetmelik.html</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
@@ -34,6 +34,32 @@
     <mdcr:Descriptor language="TR">
       <mdcr:Label>GA</mdcr:Label>
       <mdcr:Definition>Genel İzleyici Kitlesi</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="5">6A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/6A</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_6A.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>6</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TR">
+      <mdcr:Label>6A</mdcr:Label>
+      <mdcr:Definition>6 yaş altı  izleyici kitlesi aile eşliğinde izleyebilir</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">6</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/6</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_6.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>6</mdcr:MinRecAge>
+    <mdcr:MinAge>6</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TR">
+      <mdcr:Label>6+</mdcr:Label>
+      <mdcr:Definition>6 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -62,6 +88,32 @@
     <mdcr:Descriptor language="TR">
       <mdcr:Label>7+</mdcr:Label>
       <mdcr:Definition>7 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">10A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/10A</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_10A.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>10</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TR">
+      <mdcr:Label>10A</mdcr:Label>
+      <mdcr:Definition>10 yaş altı  izleyici kitlesi aile eşliğinde izleyebilir</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="10">10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/10</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_10.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>10</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TR">
+      <mdcr:Label>10+</mdcr:Label>
+      <mdcr:Definition>10 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -119,71 +171,6 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="18">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_18.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>18</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="TR">
-      <mdcr:Label>18+</mdcr:Label>
-      <mdcr:Definition>18 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="5">6A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/6A</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_6A.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>6</mdcr:MinRecAge>
-    <mdcr:MinAge>6</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="TR">
-      <mdcr:Label>6A</mdcr:Label>
-      <mdcr:Definition>6 yaş altı  izleyici kitlesi aile eşliğinde izleyebilir</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="6">6</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/6</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_6.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>6</mdcr:MinRecAge>
-    <mdcr:MinAge>6</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>6</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="TR">
-      <mdcr:Label>6+</mdcr:Label>
-      <mdcr:Definition>6 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="9">10A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/10A</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_10A.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>10</mdcr:MinRecAge>
-    <mdcr:MinAge>10</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="TR">
-      <mdcr:Label>10A</mdcr:Label>
-      <mdcr:Definition>10 yaş altı  izleyici kitlesi aile eşliğinde izleyebilir</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="10">10</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/10</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_10.jpg</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>10</mdcr:MinRecAge>
-    <mdcr:MinAge>10</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="TR">
-      <mdcr:Label>10+</mdcr:Label>
-      <mdcr:Definition>10 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="16">16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/TR_IBMCT_16.jpg</mdcr:LinkToLogo>
@@ -196,19 +183,26 @@
       <mdcr:Definition>16 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/TR/IBMCT/1/18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_18.jpg</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>18</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="TR">
+      <mdcr:Label>18+</mdcr:Label>
+      <mdcr:Definition>18 yaş ve üzeri izleyici kitlesi içindir.</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
-    <mdcr:Definition>Şiddet ve korku unsurları içerir</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_Violence.jpg</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="B">
     <mdcr:Label />
-    <mdcr:Definition>Olumsuz örnek oluşturabilecek davranışlar içerir.</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_Behavior.jpg</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
-    <mdcr:Definition>Cinsellik Unsurları içerir</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/TR_IBMCT_Sex.jpg</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

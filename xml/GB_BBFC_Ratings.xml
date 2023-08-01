@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-19T08:29:17" lastSave="2019-11-05T23:05:50">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-19T15:29:17" lastSave="2023-07-10T21:33:52">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>GB</md:country>
@@ -22,7 +22,7 @@
       <mdcr:Environment>other</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2017-10-17</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1</mdcr:URI>
   <mdcr:RatingsOrg organizationID="British Board of Film Classification">
     <md:DisplayName>British Board of Film Classification</md:DisplayName>
@@ -80,39 +80,6 @@
     <mdcr:ApplicableReason id="Theme" />
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="6">12A</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12A</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12A_RGB.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
-    <mdcr:MinAge>12</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:Override>
-      <md:country>GB</md:country>
-      <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
-      <mdcr:Usage>
-        <mdcr:Media>Film</mdcr:Media>
-        <mdcr:Environment>Theater</mdcr:Environment>
-      </mdcr:Usage>
-    </mdcr:Override>
-    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Accompanied under 12</mdcr:Label>
-      <mdcr:Definition>Suitable for 12 years and over</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Films classified 12A and video works classified 12 contain material that is not generally suitable for children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult. Adults planning to take a child under 12 to view a 12A film should consider whether the film is suitable for that child.  To help them decide, we recommend that they check the ratings info for that film in advance.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-    <mdcr:ApplicableReason id="Drugs" />
-    <mdcr:ApplicableReason id="Discrimination" />
-    <mdcr:ApplicableReason id="Horror" />
-    <mdcr:ApplicableReason id="Behaviour" />
-    <mdcr:ApplicableReason id="Language" />
-    <mdcr:ApplicableReason id="Violence" />
-    <mdcr:ApplicableReason id="Sex" />
-    <mdcr:ApplicableReason id="Nudity" />
-    <mdcr:ApplicableReason id="Theme" />
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="6">12</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/GB_BBFC_12_RGB.png</mdcr:LinkToLogo>
@@ -136,6 +103,39 @@
       <mdcr:Definition>Suitable for 12 years and over</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Films classified 12A and video works classified 12 contain material that is not generally suitable for children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult. Adults planning to take a child under 12 to view a 12A film should consider whether the film is suitable for that child.  To help them decide, we recommend that they check the ratings info for that film in advance.No one younger than 12 may rent or buy a 12 rated video work.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+    <mdcr:ApplicableReason id="Drugs" />
+    <mdcr:ApplicableReason id="Discrimination" />
+    <mdcr:ApplicableReason id="Horror" />
+    <mdcr:ApplicableReason id="Behaviour" />
+    <mdcr:ApplicableReason id="Language" />
+    <mdcr:ApplicableReason id="Violence" />
+    <mdcr:ApplicableReason id="Sex" />
+    <mdcr:ApplicableReason id="Nudity" />
+    <mdcr:ApplicableReason id="Theme" />
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">12A</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GB/BBFC/1/12A</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/GB_BBFC_12A_RGB.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>12</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Override>
+      <md:country>GB</md:country>
+      <mdcr:RegionName>UNITED KINGDOM</mdcr:RegionName>
+      <mdcr:Usage>
+        <mdcr:Media>Film</mdcr:Media>
+        <mdcr:Environment>Theater</mdcr:Environment>
+      </mdcr:Usage>
+    </mdcr:Override>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Accompanied under 12</mdcr:Label>
+      <mdcr:Definition>Suitable for 12 years and over</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Films classified 12A and video works classified 12 contain material that is not generally suitable for children aged under 12. No one younger than 12 may see a 12A film in a cinema unless accompanied by an adult. Adults planning to take a child under 12 to view a 12A film should consider whether the film is suitable for that child.  To help them decide, we recommend that they check the ratings info for that film in advance.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
     <mdcr:ApplicableReason id="Drugs" />
@@ -226,10 +226,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Discriminatory language or behaviour is unlikely to be acceptable unless clearly disapproved of, or in an educational or historical context, or in a particularly dated work with no likely appeal to children. Discrimination by a character with whom children can readily identify is unlikely to be acceptable.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>Discriminatory language or behaviour must not be endorsed by the work as a whole. Aggressive discriminatory language or behaviour is unlikely to be acceptable unless clearly condemned.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>Discriminatory language or behaviour must not be endorsed by the work as a whole. Aggressive discriminatory language or behaviour is unlikely to be acceptable unless clearly condemned.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -244,10 +244,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>References to illegal drugs or drug misuse must be innocuous or carry a suitable anti-drug message.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>Misuse of drugs must be infrequent and should not be glamorised or give detailed instruction.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>Misuse of drugs must be infrequent and should not be glamorised or give detailed instruction.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -262,10 +262,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Frightening sequences or situations where characters are in danger should not be prolonged or intense. Fantasy settings and comedy may be mitigating factors.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>There may be moderate physical and psychological threat and horror sequences. Although some scenes may be disturbing, the overall tone should not be. Horror sequences should not be frequent or sustained.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>There may be moderate physical and psychological threat and horror sequences. Although some scenes may be disturbing, the overall tone should not be. Horror sequences should not be frequent or sustained.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -280,10 +280,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>No detail of potentially dangerous behaviour which young children are likely to copy, if that behaviour is presented as safe or fun. No glamorisation of realistic or easily accessible weapons such as knives. No focus on anti-social behaviour which young children are likely to copy</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>No promotion of potentially dangerous behaviour which children are likely to copy. No glamorisation of realistic or easily accessible weapons such as knives. No endorsement of anti-social behaviour.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>No promotion of potentially dangerous behaviour which children are likely to copy. No glamorisation of realistic or easily accessible weapons such as knives. No endorsement of anti-social behaviour.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -298,10 +298,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Mild bad language only. Aggressive or very frequent use of mild bad language may result in a work being passed at a higher category.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>There may be moderate bad language. Strong language may be permitted, depending on the manner in which it is used, who is using the language, its frequency within the work as a whole and any special contextual justification.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>There may be moderate bad language. Strong language may be permitted, depending on the manner in which it is used, who is using the language, its frequency within the work as a whole and any special contextual justification.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -316,10 +316,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Natural nudity, with no sexual context.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>There may be nudity, but in a sexual context it must be brief and discreet.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>There may be nudity, but in a sexual context it must be brief and discreet.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -334,10 +334,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Sexual activity may be implied, but should be discreet and infrequent. Mild sex references and innuendo only.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>Sexual activity may be briefly and discreetly portrayed. Moderate sex references are permitted, but frequent crude references are unlikely to be acceptable.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>Sexual activity may be briefly and discreetly portrayed. Moderate sex references are permitted, but frequent crude references are unlikely to be acceptable.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -352,10 +352,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Where more serious issues are featured (for example, domestic violence) nothing in their treatment should condone unacceptable behaviour.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>Mature themes are acceptable, but their treatment must be suitable for young teenagers.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>Mature themes are acceptable, but their treatment must be suitable for young teenagers.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">
@@ -370,10 +370,10 @@ Sexual threats, humiliation or abuse which do not form part of a clearly consent
     <mdcr:Criteria ratingID="PG">
       <mdcr:Definition>Violence will usually be mild. However, there may be moderate violence, without detail,  if justified by its context (for example, history, comedy or fantasy).</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12A">
+    <mdcr:Criteria ratingID="12">
       <mdcr:Definition>There may be moderate violence but it should not dwell on detail. There should be no emphasis on injuries or blood, but occasional gory moments may be permitted if justified by the context.</mdcr:Definition>
     </mdcr:Criteria>
-    <mdcr:Criteria ratingID="12">
+    <mdcr:Criteria ratingID="12A">
       <mdcr:Definition>There may be moderate violence but it should not dwell on detail. There should be no emphasis on injuries or blood, but occasional gory moments may be permitted if justified by the context.</mdcr:Definition>
     </mdcr:Criteria>
     <mdcr:Criteria ratingID="15">

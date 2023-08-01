@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T09:19:22" lastSave="2021-01-14T19:03:01">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-25T16:19:22" lastSave="2023-07-10T21:09:29">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>CA</md:country>
@@ -17,7 +17,7 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2013-09-28</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">Canadian French-language broadcasters use the classification system of the 
@@ -34,6 +34,27 @@ K1P 6H8</mdcr:ContactString>
     <mdcr:URL>http://www.cbsc.ca/english/agvot/frenchsystem.php</mdcr:URL>
     <mdcr:OrgType>Trade</mdcr:OrgType>
   </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">EC</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/EC</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_exempt.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="FR">
+      <mdcr:Label>Exempt</mdcr:Label>
+      <mdcr:Definition>Sont dispensés du classement, les films suivants:</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">1°  le film produit à des fins de promotion industrielle ou commerciale à l’exception d’un film annonce portant sur un film non dispensé du classement et d’un vidéoclip;
+2°  le film produit à des fins éducatives ou pédagogiques, à la condition qu’il soit utilisé dans un établissement d’enseignement, de santé, de services sociaux ou de recherche scientifique, dans une bibliothèque publique ou un musée;
+3°  le film produit à des fins de formation professionnelle, à la condition qu’il soit utilisé à l’occasion d’un cours, d’une conférence ou autre activité de même nature;
+4°  le film sur l’apprentissage d’une langue, d’un sport, d’une méthode de conditionnement physique ou sur une technique de même nature, à la condition qu’il ne présente pas de scènes de violence ou d’activité sexuelle explicite;
+5°  le film sur un événement sportif;
+6°  le film présenté lors d’une manifestation diplomatique, d’un festival de films ou de tout autre événement analogue reconnu par le directeur.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/G</mdcr:URI>
@@ -54,27 +75,6 @@ K1P 6H8</mdcr:ContactString>
       <mdcr:Definition>La mention « Visa général » ne veut pas dire que le film présente nécessairement un intérêt pour les enfants.</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Elle signifie plutôt que son contenu n’est pas susceptible de les perturber. Si toutefois le film classé « G » est de nature à heurter la sensibilité des enfants de moins de huit ans, la Régie du cinéma ajoute au visa général l’indication « Déconseillé aux jeunes enfants ». Une œuvre classée « Visa général » peut tout de même comporter certaines scènes de violence. Ces dernières seront toutefois peu nombreuses, peu intenses ou présentées sans complaisance. Le ton et le genre du film sont des éléments de décision importants: ainsi, les scènes de violence contenues dans une comédie ou un film d’aventures centré sur un héros plus grand que nature n’ont pas le même impact sur les enfants que celles d’un film plus réaliste dans sa mise en scène. Si la nudité peut être présente, les scènes d’amour demeurent cependant assez discrètes. Selon le contexte, certains écarts de langage sont acceptés.</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">EC</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/CA/CBSC-F/1/EC</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/CA_CBSC-F_exempt.gif</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="FR">
-      <mdcr:Label>Exempt</mdcr:Label>
-      <mdcr:Definition>Sont dispensés du classement, les films suivants:</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">1°  le film produit à des fins de promotion industrielle ou commerciale à l’exception d’un film annonce portant sur un film non dispensé du classement et d’un vidéoclip;
-2°  le film produit à des fins éducatives ou pédagogiques, à la condition qu’il soit utilisé dans un établissement d’enseignement, de santé, de services sociaux ou de recherche scientifique, dans une bibliothèque publique ou un musée;
-3°  le film produit à des fins de formation professionnelle, à la condition qu’il soit utilisé à l’occasion d’un cours, d’une conférence ou autre activité de même nature;
-4°  le film sur l’apprentissage d’une langue, d’un sport, d’une méthode de conditionnement physique ou sur une technique de même nature, à la condition qu’il ne présente pas de scènes de violence ou d’activité sexuelle explicite;
-5°  le film sur un événement sportif;
-6°  le film présenté lors d’une manifestation diplomatique, d’un festival de films ou de tout autre événement analogue reconnu par le directeur.</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

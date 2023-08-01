@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T10:29:42" lastSave="2022-07-06T22:34:56">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-12T17:29:42" lastSave="2023-05-31T18:44:35">
   <mdcr:RatingSystemID version="1">
     <mdcr:Region>
       <md:country>HK</md:country>
@@ -16,7 +16,7 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2019-06-11</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-05-31</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/HK/FCO/1</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
@@ -24,8 +24,8 @@
 
 Reference:
       <ul>
-        <li>https://www.elegislation.gov.hk/hk/cap392!en@2012-04-01T00:00:00?xpid=ID_1438403142664_004</li>
-        <li>https://https://www.ofnaa.gov.hk/en/home/index.html</li>
+        <li>https://www.elegislation.gov.hk/hk/cap392!en</li>
+        <li>https://www.ofnaa.gov.hk/en/services/film_division/film_classification/index.html</li>
       </ul>
     </div>
   </mdcr:Notes>
@@ -38,7 +38,7 @@ Office for Film, Newspaper and Article Administration
 Wan Chai
 Hong Kong 
 (852) 2594 5787</mdcr:ContactString>
-    <mdcr:URL>https://www.ofnaa.gov.hk/eng/home/index.htm</mdcr:URL>
+    <mdcr:URL>https://www.ofnaa.gov.hk/en/services/film_division/film_classification/index.html</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

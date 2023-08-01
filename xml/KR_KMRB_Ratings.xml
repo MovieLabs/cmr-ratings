@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-19T02:57:33" lastSave="2021-04-05T20:06:26">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-19T09:57:33" lastSave="2023-07-10T21:45:44">
   <mdcr:RatingSystemID version="4">
     <mdcr:Region>
       <md:country>KR</md:country>
@@ -20,7 +20,7 @@
       <mdcr:Environment>Broadcast</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2016-12-20</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Korea Media Rating Board">
     <md:DisplayName>Korea Media Rating Board</md:DisplayName>
@@ -258,58 +258,23 @@ Underage audiences accompanied with a parent or guardian is allowed.</div>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="T">
     <mdcr:Label />
-    <mdcr:Definition>Topic</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">The effect on the formation emotions, values of group of age as well as the ability to understand and accept the theme.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/KR_KMRB_theme.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
-    <mdcr:Definition>Sexuality</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Level of exposure of human body as well as caress, sexual intercourse and other sexual activitiesother sexual.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/KR_KMRB_sex.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
-    <mdcr:Definition>Violence</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Level of damage to human body and oppression through torture and blood battles, pain, indignity and sexual violence.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/KR_KMRB_violence.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DL">
     <mdcr:Label />
-    <mdcr:Definition>Dialogue</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Level and frequency of vulgar language and slangs.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/KR_KMRB_language.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="H">
     <mdcr:Label />
-    <mdcr:Definition>Horror</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Level of psychological shock resulting from tension, stimuli and threat.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/KR_KMRB_horror.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DR">
     <mdcr:Label />
-    <mdcr:Definition>Drug</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Level of drugs use and promotion or glamorization of such activities.</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/KR_KMRB_drug.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="IR">
     <mdcr:Label />
-    <mdcr:Definition>Imitation Risk</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Level of imitation, encouragement and stimulus to perform the expressed act of murder, drug, suicide, school violence and out casting and use of weapons</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/KR_KMRB_behavior.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

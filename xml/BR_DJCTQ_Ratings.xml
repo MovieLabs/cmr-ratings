@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-12T12:11:12" lastSave="2022-08-11T00:57:24">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-12T19:11:12" lastSave="2023-06-01T18:09:15">
   <mdcr:RatingSystemID version="6">
     <mdcr:Region>
       <md:country>BR</md:country>
@@ -20,7 +20,7 @@
       <mdcr:Environment>App</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2021-10-19</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-06-01</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6</mdcr:URI>
   <mdcr:Notes>
     <div class="userHtml">
@@ -43,91 +43,6 @@ Email: classificacaoindicativa@mj.gov.br</mdcr:ContactString>
     <mdcr:URL>https://www.gov.br/mj/pt-br/assuntos/seus-direitos/classificacao-1</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="6">A10</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A10</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A10.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>A10</mdcr:Label>
-      <mdcr:Definition>Não recomendado para menores de 10 anos</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
-Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="9">A12</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A12</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A12.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>A12</mdcr:Label>
-      <mdcr:Definition>Não recomendado para menores de 12 anos</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
-Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="12">A14</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A14</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A14.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>A14</mdcr:Label>
-      <mdcr:Definition>Não recomendado para menores de 14 anos</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
-Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="15">A16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A16</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A16.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>A16</mdcr:Label>
-      <mdcr:Definition>Não recomendado para menores de 16 anos</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
-Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="90">A18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A18.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="PT">
-      <mdcr:Label>A18</mdcr:Label>
-      <mdcr:Definition>Não recomendado para menores de 18 anos</mdcr:Definition>
-      <mdcr:Explanation>
-        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
-Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
-      </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">AL</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/AL</mdcr:URI>
@@ -247,17 +162,20 @@ Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo p
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="6">10-16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/10-16</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-16-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:Value ordinal="6">A10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A10</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A10.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:Deprecated>true</mdcr:Deprecated>
-    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>10 a 16 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 10 a 16 anos</mdcr:Definition>
+      <mdcr:Label>A10</mdcr:Label>
+      <mdcr:Definition>Não recomendado para menores de 10 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
+Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -275,6 +193,20 @@ Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo p
       <mdcr:Explanation>
         <div class="userHtml">Nem sempre a ocorrência de cenas que remetem à violência, sexo e drogas são prejudiciais ao desenvolvimento psicológico da criança, portanto estes são sempre analisados e ponderados com os critérios de atenuantes e agravantes.</div>
       </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="6">10-16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/10-16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_10-16-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>10 a 16 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 10 a 16 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -320,17 +252,20 @@ Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo p
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="9">12-18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/12-18</mdcr:URI>
-    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-18-s.png</mdcr:LinkToLogo>
-    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:Value ordinal="9">A12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A12</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A12.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:Deprecated>true</mdcr:Deprecated>
-    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="PT">
-      <mdcr:Label>12 a 18 anos</mdcr:Label>
-      <mdcr:Definition>Conteúdo varia de 12 a 18 anos</mdcr:Definition>
+      <mdcr:Label>A12</mdcr:Label>
+      <mdcr:Definition>Não recomendado para menores de 12 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
+Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
+      </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -350,6 +285,20 @@ Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo p
           <p>Nem sempre a ocorrência de cenas que remetem à violência, sexo e drogas são prejudiciais ao desenvolvimento psicológico da criança, portanto estes são sempre analisados e ponderados com os critérios de atenuantes e agravantes.</p>
         </div>
       </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">12-18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/12-18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_12-18-s.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
+    <mdcr:HPCApplicable>false</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>12 a 18 anos</mdcr:Label>
+      <mdcr:Definition>Conteúdo varia de 12 a 18 anos</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
@@ -394,6 +343,23 @@ Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo p
       <mdcr:Definition>São admitidos para esta faixa etária conteúdos que apresentem os critérios abaixo.</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Nem sempre a ocorrência de cenas que remetem à violência, sexo e drogas são prejudiciais ao desenvolvimento psicológico da criança, portanto estes são sempre analisados e ponderados com os critérios de atenuantes e agravantes.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="12">A14</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A14</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A14.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>A14</mdcr:Label>
+      <mdcr:Definition>Não recomendado para menores de 14 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
+Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>
@@ -443,6 +409,23 @@ Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo p
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="15">A16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A16</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A16.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>A16</mdcr:Label>
+      <mdcr:Definition>Não recomendado para menores de 16 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
+Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="15">16-18</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/16-18</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/DJCTQ_CI_16-18-s.png</mdcr:LinkToLogo>
@@ -470,6 +453,23 @@ Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo p
       <mdcr:Definition>São admitidos para esta faixa etária conteúdos que apresentem os critérios abaixo.</mdcr:Definition>
       <mdcr:Explanation>
         <div class="userHtml">Nem sempre a ocorrência de cenas que remetem à violência, sexo e drogas são prejudiciais ao desenvolvimento psicológico da criança, portanto estes são sempre analisados e ponderados com os critérios de atenuantes e agravantes.</div>
+      </mdcr:Explanation>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="90">A18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/BR/DJCTQ/6/A18</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/DJCTQ_-_A18.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="PT">
+      <mdcr:Label>A18</mdcr:Label>
+      <mdcr:Definition>Não recomendado para menores de 18 anos</mdcr:Definition>
+      <mdcr:Explanation>
+        <div class="userHtml">Para as obras autoclassificadas, ainda não referendadas pelo Ministério da 
+Justiça e Segurança Pública, deverá ser feita a apresentação do símbolo provisório, conforme exibição abaixo:</div>
       </mdcr:Explanation>
     </mdcr:Descriptor>
   </mdcr:Rating>

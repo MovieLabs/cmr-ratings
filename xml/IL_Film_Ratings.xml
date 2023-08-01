@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T20:25:24">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2023-06-05T21:51:54">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>IL</md:country>
@@ -22,7 +22,6 @@
   <mdcr:RatingsOrg organizationID="Film Review Board">
     <md:DisplayName>Film Review Board</md:DisplayName>
     <mdcr:ContactString>Ms  Sonia David-Elmaleh soniael@most.gov.il, phone:03-7239003 Mobile:050-6283762</mdcr:ContactString>
-    <mdcr:URL>https://www.gov.il/he/Departments/Units/film_review_council</mdcr:URL>
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>

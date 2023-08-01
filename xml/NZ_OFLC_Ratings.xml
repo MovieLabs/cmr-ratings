@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T10:50:46" lastSave="2022-01-28T17:24:59">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2017-07-28T17:50:46" lastSave="2023-07-10T21:57:25">
   <mdcr:RatingSystemID version="3">
     <mdcr:Region>
       <md:country>NZ</md:country>
@@ -20,7 +20,7 @@
       <mdcr:Environment>other</mdcr:Environment>
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
-  <mdcr:LastChecked>2017-07-27</mdcr:LastChecked>
+  <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
   <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Office of FIlm and Literature Classification">
     <md:DisplayName>Office of FIlm and Literature Classification</md:DisplayName>
@@ -31,10 +31,48 @@ info@classificationoffice.govt.nz
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">13</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/13</mdcr:URI>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unsuitable for Audiences under 13 years of age.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unsuitable for Audiences under 16 years of age.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>Unsuitable for Audiences under 18 years of age.</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_g.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">
       <mdcr:Label>Suitable for general audiences</mdcr:Label>
@@ -48,7 +86,9 @@ info@classificationoffice.govt.nz
     <mdcr:Value ordinal="3">PG</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/PG</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_pg.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">
       <mdcr:Label>Parental guidance recommended for younger viewers</mdcr:Label>
@@ -62,6 +102,7 @@ info@classificationoffice.govt.nz
     <mdcr:Value ordinal="6">RP13</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/RP13</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp13.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>13</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -111,6 +152,7 @@ info@classificationoffice.govt.nz
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_m.gif</mdcr:LinkToLogo>
     <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">
       <mdcr:Label>Suitable for (but not restricted to) mature audiences 16 years and up</mdcr:Label>
@@ -124,6 +166,7 @@ info@classificationoffice.govt.nz
     <mdcr:Value ordinal="18">RP16</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/RP16</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_rp16.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
     <mdcr:MinAge>16</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
@@ -187,7 +230,9 @@ info@classificationoffice.govt.nz
     <mdcr:Value ordinal="95">R</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/R</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/NZ_OFLC_r.gif</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="en">
       <mdcr:Label>Restricted to a particular class of persons, or for particular purposes, or both, specified by the Office of Film and Literature Classification</mdcr:Label>
@@ -195,42 +240,6 @@ info@classificationoffice.govt.nz
       <mdcr:Explanation>
         <div class="userHtml">Refer to the words on the right of the label for the full conditions.</div>
       </mdcr:Explanation>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">13</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/13</mdcr:URI>
-    <mdcr:MinRecAge>13</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Unsuitable for Audiences under 13 years of age.</mdcr:Label>
-      <mdcr:Definition />
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/16</mdcr:URI>
-    <mdcr:MinRecAge>16</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Unsuitable for Audiences under 16 years of age.</mdcr:Label>
-      <mdcr:Definition />
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
-    <mdcr:Value ordinal="0">18</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/NZ/OFLC/3/18</mdcr:URI>
-    <mdcr:MinRecAge>18</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="EN">
-      <mdcr:Label>Unsuitable for Audiences under 18 years of age.</mdcr:Label>
-      <mdcr:Definition />
     </mdcr:Descriptor>
   </mdcr:Rating>
 </mdcr:RatingSystem>

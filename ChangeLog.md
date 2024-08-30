@@ -57,6 +57,12 @@
   * added from paramount database.  Unverified
   * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 
+
+### V2.5.1
+* Korea KMBR
+  * Deprecated 18+ rating
+  * Added 19+ rating
+
 ### V2.5
 * Austria BMUKK
   * Updated website link

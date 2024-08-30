@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-19T09:57:33" lastSave="2023-07-10T21:45:44">
-  <mdcr:RatingSystemID version="4">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-20T06:57:33" lastSave="2024-08-21T19:32:28">
+  <mdcr:RatingSystemID version="5">
     <mdcr:Region>
       <md:country>KR</md:country>
       <mdcr:RegionName>KOREA, REP</mdcr:RegionName>
@@ -21,7 +21,7 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:LastChecked>2023-07-10</mdcr:LastChecked>
-  <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4</mdcr:URI>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/5</mdcr:URI>
   <mdcr:RatingsOrg organizationID="Korea Media Rating Board">
     <md:DisplayName>Korea Media Rating Board</md:DisplayName>
     <mdcr:ContactString>KOREA MEDIA RATING BOARD 
@@ -33,7 +33,7 @@ Tel : +82-51-990-7200</mdcr:ContactString>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">G</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/G</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/5/G</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_G.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
@@ -79,7 +79,7 @@ Tel : +82-51-990-7200</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="12">12+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/12+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/5/12+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_12.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>12</mdcr:MinRecAge>
     <mdcr:MinAge>12</mdcr:MinAge>
@@ -130,7 +130,7 @@ Underage audiences accompanied with a parent or guardian is allowed.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="15">15+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/15+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/5/15+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_15.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>15</mdcr:MinRecAge>
     <mdcr:MinAge>15</mdcr:MinAge>
@@ -179,12 +179,30 @@ Underage audiences accompanied with a parent or guardian is allowed.</div>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="80">19+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/5/19+</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/KR_KMRB_19.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>19</mdcr:MinRecAge>
+    <mdcr:MinAge>19</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>19</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="EN">
+      <mdcr:Label>19</mdcr:Label>
+      <mdcr:Definition>No one under 19 is allowed to watch this Film</mdcr:Definition>
+    </mdcr:Descriptor>
+    <mdcr:Descriptor language="KO">
+      <mdcr:Label>관람등급</mdcr:Label>
+      <mdcr:Definition>내용정보 표시항목</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="80">18+</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/18+</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/5/18+</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_18.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>
     <mdcr:MinAgeSupervised>18</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="KO">
       <mdcr:Label>청소년 관람불가</mdcr:Label>
@@ -224,7 +242,7 @@ Underage audiences accompanied with a parent or guardian is allowed.</div>
   </mdcr:Rating>
   <mdcr:Rating>
     <mdcr:Value ordinal="90">LIM</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/4/LIM</mdcr:URI>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/KR/KMRB/5/LIM</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/KR_KMRB_LIM.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>18</mdcr:MinRecAge>
     <mdcr:MinAge>18</mdcr:MinAge>

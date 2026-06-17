@@ -58,6 +58,11 @@
   * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 
 
+### V2.5.2
+* Italy MBACT
+  * Added 10 Rating
+  * Lost reason descriptions because of bug
+
 ### V2.5.1
 * Korea KMBR
   * Deprecated 18+ rating

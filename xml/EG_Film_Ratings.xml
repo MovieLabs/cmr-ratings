@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-02T23:20:09" lastSave="2020-02-28T20:44:31">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-10-03T06:20:09" lastSave="2025-12-15T17:20:43">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>EG</md:country>
@@ -23,18 +23,6 @@
     <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
-    <mdcr:Value ordinal="0">16</mdcr:Value>
-    <mdcr:URI>http://www.movielabs.com/md/ratings/EG/Film/2/16</mdcr:URI>
-    <mdcr:MinRecAge>0</mdcr:MinRecAge>
-    <mdcr:MinAge>0</mdcr:MinAge>
-    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
-    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
-    <mdcr:Descriptor language="AR">
-      <mdcr:Label>16</mdcr:Label>
-      <mdcr:Definition>ﻏﻴﺮ ﻣﻨﺎﺳﺐ ﻟﻤﺎ ﺗﺤﺖ 16 ﺳﻨﺔ</mdcr:Definition>
-    </mdcr:Descriptor>
-  </mdcr:Rating>
-  <mdcr:Rating>
     <mdcr:Value ordinal="0">GN</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/EG/Film/2/GN</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
@@ -55,6 +43,18 @@
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
+    <mdcr:Value ordinal="0">8+</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EG/Film/2/8+</mdcr:URI>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="AR">
+      <mdcr:Label>8+</mdcr:Label>
+      <mdcr:Definition />
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
     <mdcr:Value ordinal="0">12+</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/EG/Film/2/12+</mdcr:URI>
     <mdcr:MinRecAge>0</mdcr:MinRecAge>
@@ -64,6 +64,18 @@
     <mdcr:Descriptor language="AR">
       <mdcr:Label>12+</mdcr:Label>
       <mdcr:Definition>ﻳﺤﺘﻮﻱ ﻋﻠﻰ ﻣﻮاﺩ ﻏﻴﺮ ﻣﻨﺎﺳﺒﺔ ﻟﻷﻃﻔﺎﻝ</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/EG/Film/2/16</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="AR">
+      <mdcr:Label>16</mdcr:Label>
+      <mdcr:Definition>ﻏﻴﺮ ﻣﻨﺎﺳﺐ ﻟﻤﺎ ﺗﺤﺖ 16 ﺳﻨﺔ</mdcr:Definition>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>

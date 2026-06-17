@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T11:14:59" lastSave="2022-07-20T17:44:59">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastValidated="2013-09-16T18:14:59" lastSave="2025-04-16T18:20:23">
   <mdcr:RatingSystemID version="2">
     <mdcr:Region>
       <md:country>IT</md:country>
@@ -56,7 +56,20 @@ Tel: 06 6723 3235 - 3400 - 3401</mdcr:ContactString>
     </mdcr:Descriptor>
   </mdcr:Rating>
   <mdcr:Rating>
-    <mdcr:Value ordinal="3">VM14</mdcr:Value>
+    <mdcr:Value ordinal="3">VM10</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/2/VM10</mdcr:URI>
+    <mdcr:LinkToLogo>./imageCache/IT_MBACT_IC-10.png</mdcr:LinkToLogo>
+    <mdcr:MinRecAge>10</mdcr:MinRecAge>
+    <mdcr:MinAge>10</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>10</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+    <mdcr:Descriptor language="IT">
+      <mdcr:Label>VM10</mdcr:Label>
+      <mdcr:Definition>10 anni</mdcr:Definition>
+    </mdcr:Descriptor>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="4">VM14</mdcr:Value>
     <mdcr:URI>http://www.movielabs.com/md/ratings/IT/MBACT/2/VM14</mdcr:URI>
     <mdcr:LinkToLogo>./imageCache/IT_MBACT_IC-14.png</mdcr:LinkToLogo>
     <mdcr:MinRecAge>14</mdcr:MinRecAge>
@@ -96,35 +109,20 @@ Tel: 06 6723 3235 - 3400 - 3401</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
-    <mdcr:Definition>Violenza</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IT_MBACT_Violenza.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="UA">
     <mdcr:Label />
-    <mdcr:Definition>Uso di armi</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IT_MBACT_UsoDiArmi.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="AD">
     <mdcr:Label />
-    <mdcr:Definition>Alcol o Droga</mdcr:Definition>
-    <mdcr:Explanation>
-      <div class="userHtml">Uso di sostanze stupefacenti o alcol</div>
-    </mdcr:Explanation>
-    <mdcr:LinkToLogo>./imageCache/IT_MBACT_UsoSostanzeStupefacentiOAlcol.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
-    <mdcr:Definition>Sesso</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IT_MBACT_Sesso.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="L">
     <mdcr:Label />
-    <mdcr:Definition>Linguaggio e turpiloquio</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IT_MBACT_LinguaggioETurpiloquio.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DO">
     <mdcr:Label />
-    <mdcr:Definition>Discriminazione e incitamento all'odio</mdcr:Definition>
-    <mdcr:LinkToLogo>./imageCache/IT_MBACT_DiscriminazioneEOdio.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2026-06-17T21:49:56">
+  <mdcr:RatingSystemID version="1">
+    <mdcr:Region>
+      <md:country>GR</md:country>
+      <mdcr:RegionName>GREECE</mdcr:RegionName>
+    </mdcr:Region>
+    <mdcr:System>ESR</mdcr:System>
+  </mdcr:RatingSystemID>
+  <mdcr:AdoptiveRegion>
+    <md:country>GR</md:country>
+    <mdcr:RegionName>GREECE</mdcr:RegionName>
+    <mdcr:Usage>
+      <mdcr:Media>TV</mdcr:Media>
+      <mdcr:Environment>Home</mdcr:Environment>
+      <mdcr:Environment>Theater</mdcr:Environment>
+      <mdcr:Environment>Broadcast</mdcr:Environment>
+      <mdcr:Environment>Retail</mdcr:Environment>
+      <mdcr:Environment>App</mdcr:Environment>
+      <mdcr:Environment>other</mdcr:Environment>
+    </mdcr:Usage>
+  </mdcr:AdoptiveRegion>
+  <mdcr:URI>http://www.movielabs.com/md/ratings/GR/ESR/1</mdcr:URI>
+  <mdcr:RatingsOrg>
+    <md:DisplayName>National Council for Radio and Television</md:DisplayName>
+    <mdcr:OrgType>not_specified</mdcr:OrgType>
+  </mdcr:RatingsOrg>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="0">K</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/ESR/1/K</mdcr:URI>
+    <mdcr:MinRecAge>0</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="4">K-8</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/ESR/1/K-8</mdcr:URI>
+    <mdcr:MinRecAge>8</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="9">K-12</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/ESR/1/K-12</mdcr:URI>
+    <mdcr:MinRecAge>12</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="16">K-16</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/ESR/1/K-16</mdcr:URI>
+    <mdcr:MinRecAge>16</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+  </mdcr:Rating>
+  <mdcr:Rating>
+    <mdcr:Value ordinal="18">K-18</mdcr:Value>
+    <mdcr:URI>http://www.movielabs.com/md/ratings/GR/ESR/1/K-18</mdcr:URI>
+    <mdcr:MinRecAge>18</mdcr:MinRecAge>
+    <mdcr:MinAge>0</mdcr:MinAge>
+    <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
+  </mdcr:Rating>
+</mdcr:RatingSystem>

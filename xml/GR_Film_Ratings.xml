@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2020-01-17T00:30:23">
+<mdcr:RatingSystem xmlns:mdcr="http://www.movielabs.com/schema/mdcr/v1.1" xmlns:md="http://www.movielabs.com/schema/md/v2.1/md" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.movielabs.com/schema/mdcr/v1.1 http://www.movielabs.com/schema/mdcr/v1.1/mdcr-v1.1.xsd" lastSave="2026-06-17T22:09:00">
   <mdcr:RatingSystemID version="0">
     <mdcr:Region>
       <md:country>GR</md:country>
@@ -30,9 +30,12 @@
     </mdcr:Usage>
   </mdcr:AdoptiveRegion>
   <mdcr:URI>http://www.movielabs.com/md/ratings/GR/Film/0</mdcr:URI>
+  <mdcr:Notes>
+    <div class="userHtml">Got information from https://www.lawspot.gr/nomothesia/n3905-2010/arthro-37-nomos-3905-2010/</div>
+  </mdcr:Notes>
   <mdcr:RatingsOrg>
-    <md:DisplayName />
-    <mdcr:OrgType>not_specified</mdcr:OrgType>
+    <md:DisplayName>Committee for the Classification of Cinematographic Works</md:DisplayName>
+    <mdcr:OrgType>Gov</mdcr:OrgType>
   </mdcr:RatingsOrg>
   <mdcr:Rating>
     <mdcr:Value ordinal="0">K</mdcr:Value>
@@ -88,6 +91,7 @@
     <mdcr:MinRecAge>13</mdcr:MinRecAge>
     <mdcr:MinAge>0</mdcr:MinAge>
     <mdcr:MinAgeSupervised>0</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>K-13</mdcr:Label>
@@ -119,6 +123,7 @@
     <mdcr:MinRecAge>17</mdcr:MinRecAge>
     <mdcr:MinAge>17</mdcr:MinAge>
     <mdcr:MinAgeSupervised>17</mdcr:MinAgeSupervised>
+    <mdcr:Deprecated>true</mdcr:Deprecated>
     <mdcr:HPCApplicable>true</mdcr:HPCApplicable>
     <mdcr:Descriptor language="EN">
       <mdcr:Label>K-17</mdcr:Label>

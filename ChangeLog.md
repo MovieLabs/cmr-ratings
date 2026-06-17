@@ -57,6 +57,17 @@
   * added from paramount database.  Unverified
   * Spoke with Swiss film commision. They believe CH_FILM should be the standard going forward. Decideded not to add this system to database.
 
+### V2.25.1
+* Brazil DJCTQ
+  * Added 6 rating
+* Korea KMRB 
+  * Added reason descriptions back in. they got stripped in 2.5
+* Italy MBACT
+  * Added reason descriptions back in. they got stripped in 2.5.2
+* Greece Film
+  * Deprecated K-13 and k-17.
+* Greece ESR
+  * Added system for tv ratings in Greece.  Based on information from 2017 book on Greek Media Law.
 
 ### V2.25
 * Egypt

@@ -109,20 +109,35 @@ Tel: 06 6723 3235 - 3400 - 3401</mdcr:ContactString>
   </mdcr:Rating>
   <mdcr:Reason language="en" reasonID="V">
     <mdcr:Label />
+    <mdcr:Definition>Violenza</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/IT_MBACT_Violenza.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="UA">
     <mdcr:Label />
+    <mdcr:Definition>Uso di armi</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/IT_MBACT_UsoDiArmi.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="AD">
     <mdcr:Label />
+    <mdcr:Definition>Alcol o Droga</mdcr:Definition>
+    <mdcr:Explanation>
+      <div class="userHtml">Uso di sostanze stupefacenti o alcol</div>
+    </mdcr:Explanation>
+    <mdcr:LinkToLogo>./imageCache/IT_MBACT_UsoSostanzeStupefacentiOAlcol.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="S">
     <mdcr:Label />
+    <mdcr:Definition>Sesso</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/IT_MBACT_Sesso.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="L">
     <mdcr:Label />
+    <mdcr:Definition>Linguaggio e turpiloquio</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/IT_MBACT_LinguaggioETurpiloquio.png</mdcr:LinkToLogo>
   </mdcr:Reason>
   <mdcr:Reason language="en" reasonID="DO">
     <mdcr:Label />
+    <mdcr:Definition>Discriminazione e incitamento all'odio</mdcr:Definition>
+    <mdcr:LinkToLogo>./imageCache/IT_MBACT_DiscriminazioneEOdio.png</mdcr:LinkToLogo>
   </mdcr:Reason>
 </mdcr:RatingSystem>
